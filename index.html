@@ -278,7 +278,7 @@
 
         /* Chart Section */
         .chart-section {
-            grid-column: span 4;
+            grid-column: span 6;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -465,10 +465,10 @@
 
             <div class="glass-card chart-section fade-in-up delay-3">
                 <div class="chart-header">
-                    <h2 class="chart-title">首次提及时市值分布</h2>
+                    <h2 class="chart-title">美股与非美股比例</h2>
                 </div>
                 <div class="chart-container">
-                    <canvas id="mcapChart"></canvas>
+                    <canvas id="exchangeChart"></canvas>
                 </div>
             </div>
 
@@ -503,7 +503,7 @@
     </main>
 
     <footer>
-        <p>© 2026 Ticker Intelligence. All rights reserved.</p>
+        <p>© 2026 CasualStudy 随意研究. All rights reserved.</p>
     </footer>
 
     <script>
@@ -542,46 +542,11 @@
             // Initialize Chart
             initChart();
             initExchangeChartAndTable();
-            initMcapChart();
         });
 
         function initChart() {
             const ctx = document.getElementById('tickerChart').getContext('2d');
             
-            // Custom plugin to draw text in center of doughnut
-            const centerTextPlugin = {
-                id: 'centerText',
-                beforeDraw: function(chart) {
-                    if (chart.config.type !== 'doughnut') return;
-                    
-                    const width = chart.width;
-                    const height = chart.height;
-                    const ctx = chart.ctx;
-                    
-                    ctx.restore();
-                    const fontSize = (height / 150).toFixed(2);
-                    ctx.font = '800 ' + fontSize + 'em Outfit, sans-serif';
-                    ctx.textBaseline = 'middle';
-                    ctx.fillStyle = '#FFFFFF';
-                    
-                    const text = '55.6%'; // related percentage
-                    const textX = Math.round((width - ctx.measureText(text).width) / 2);
-                    const textY = height / 2;
-                    
-                    ctx.fillText(text, textX, textY);
-                    
-                    // Draw subtext
-                    ctx.font = '500 ' + (fontSize * 0.4).toFixed(2) + 'em Inter, sans-serif';
-                    ctx.fillStyle = '#9CA3AF';
-                    const subtext = '相关度';
-                    const subtextX = Math.round((width - ctx.measureText(subtext).width) / 2);
-                    ctx.fillText(subtext, subtextX, textY + 30);
-                    
-                    ctx.save();
-                }
-            };
-
-            Chart.register(centerTextPlugin);
 
             // Gradient for Related
             const gradientRelated = ctx.createLinearGradient(0, 0, 0, 400);
@@ -779,96 +744,6 @@
                         animateRotate: true,
                         duration: 2000,
                         easing: 'easeOutQuart'
-                    }
-                }
-            });
-        }
-
-        function initMcapChart() {
-            if (typeof performanceData === 'undefined') return;
-            
-            const ctx = document.getElementById('mcapChart').getContext('2d');
-            
-            let mega = 0, large = 0, mid = 0, small = 0, micro = 0, unknown = 0;
-            
-            performanceData.forEach(d => {
-                const mcap = d.InitialMarketCap;
-                if (!mcap || mcap === "") {
-                    unknown++;
-                } else {
-                    const val = parseFloat(mcap);
-                    if (val >= 200e9) mega++;
-                    else if (val >= 10e9) large++;
-                    else if (val >= 2e9) mid++;
-                    else if (val >= 300e6) small++;
-                    else micro++;
-                }
-            });
-            
-            new Chart(ctx, {
-                type: 'pie',
-                data: {
-                    labels: [
-                        '超大盘 (>$200B)', 
-                        '大盘 ($10B-$200B)', 
-                        '中盘 ($2B-$10B)', 
-                        '小盘 ($300M-$2B)', 
-                        '微盘 (<$300M)', 
-                        '未知'
-                    ],
-                    datasets: [{
-                        data: [mega, large, mid, small, micro, unknown],
-                        backgroundColor: [
-                            'rgba(139, 92, 246, 0.8)',   // Purple
-                            'rgba(59, 130, 246, 0.8)',   // Blue
-                            'rgba(16, 185, 129, 0.8)',   // Emerald
-                            'rgba(245, 158, 11, 0.8)',   // Amber
-                            'rgba(236, 72, 153, 0.8)',   // Pink
-                            'rgba(107, 114, 128, 0.5)'   // Gray
-                        ],
-                        borderWidth: 1,
-                        borderColor: 'rgba(255,255,255,0.1)',
-                        hoverOffset: 4
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                            labels: {
-                                padding: 15,
-                                color: '#9CA3AF',
-                                font: {
-                                    family: "'Inter', sans-serif",
-                                    size: 11,
-                                    weight: '500'
-                                },
-                                usePointStyle: true,
-                                pointStyle: 'circle'
-                            }
-                        },
-                        tooltip: {
-                            backgroundColor: 'rgba(17, 24, 39, 0.9)',
-                            titleColor: '#fff',
-                            bodyColor: '#fff',
-                            borderColor: 'rgba(255,255,255,0.1)',
-                            borderWidth: 1,
-                            padding: 15,
-                            cornerRadius: 12,
-                            displayColors: true,
-                            callbacks: {
-                                label: function(context) {
-                                    let label = context.label || '';
-                                    if (label) label += ': ';
-                                    const count = context.parsed;
-                                    const total = context.dataset.data.reduce((a,b) => a + b, 0);
-                                    const pct = ((count / total) * 100).toFixed(1);
-                                    return label + count + ' 支 (' + pct + '%)';
-                                }
-                            }
-                        }
                     }
                 }
             });

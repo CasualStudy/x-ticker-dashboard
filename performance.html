@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- Performance Data -->
     <script src="ticker_performance_data.js"></script>
 
@@ -120,6 +122,14 @@
             <p style="color: var(--text-secondary);">从首次提及至今的股价追踪与回报率测算。请注意：此数据仅供分析，不构成投资建议。</p>
         </div>
 
+        <!-- Mcap Distribution Chart -->
+        <div class="glass-card" style="margin-bottom: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px;">
+            <h2 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">首次提及时市值分布</h2>
+            <div style="position: relative; width: 100%; max-width: 400px; height: 300px;">
+                <canvas id="mcapChart"></canvas>
+            </div>
+        </div>
+
         <!-- Performance Section -->
         <div class="glass-card">
             <!-- Summary Metrics -->
@@ -156,8 +166,13 @@
         </div>
     </div>
 
+    <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+        <p>© 2026 CasualStudy 随意研究. All rights reserved.</p>
+    </footer>
+
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            initMcapChart();
             initPerformanceTable();
         });
 
@@ -168,6 +183,96 @@
             if (val >= 1e9) return "$" + (val / 1e9).toFixed(2) + "B";
             if (val >= 1e6) return "$" + (val / 1e6).toFixed(2) + "M";
             return "$" + val.toLocaleString();
+        }
+
+        function initMcapChart() {
+            if (typeof performanceData === 'undefined') return;
+            
+            const ctx = document.getElementById('mcapChart').getContext('2d');
+            
+            let mega = 0, large = 0, mid = 0, small = 0, micro = 0, unknown = 0;
+            
+            performanceData.forEach(d => {
+                const mcap = d.InitialMarketCap;
+                if (!mcap || mcap === "") {
+                    unknown++;
+                } else {
+                    const val = parseFloat(mcap);
+                    if (val >= 200e9) mega++;
+                    else if (val >= 10e9) large++;
+                    else if (val >= 2e9) mid++;
+                    else if (val >= 300e6) small++;
+                    else micro++;
+                }
+            });
+            
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: [
+                        '超大盘 (>$200B)', 
+                        '大盘 ($10B-$200B)', 
+                        '中盘 ($2B-$10B)', 
+                        '小盘 ($300M-$2B)', 
+                        '微盘 (<$300M)', 
+                        '未知'
+                    ],
+                    datasets: [{
+                        data: [mega, large, mid, small, micro, unknown],
+                        backgroundColor: [
+                            'rgba(139, 92, 246, 0.8)',   // Purple
+                            'rgba(59, 130, 246, 0.8)',   // Blue
+                            'rgba(16, 185, 129, 0.8)',   // Emerald
+                            'rgba(245, 158, 11, 0.8)',   // Amber
+                            'rgba(236, 72, 153, 0.8)',   // Pink
+                            'rgba(107, 114, 128, 0.5)'   // Gray
+                        ],
+                        borderWidth: 1,
+                        borderColor: 'rgba(255,255,255,0.1)',
+                        hoverOffset: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 15,
+                                color: '#9CA3AF',
+                                font: {
+                                    family: "'Inter', sans-serif",
+                                    size: 11,
+                                    weight: '500'
+                                },
+                                usePointStyle: true,
+                                pointStyle: 'circle'
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(17, 24, 39, 0.9)',
+                            titleColor: '#fff',
+                            bodyColor: '#fff',
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1,
+                            padding: 15,
+                            cornerRadius: 12,
+                            displayColors: true,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    if (label) label += ': ';
+                                    const count = context.parsed;
+                                    const total = context.dataset.data.reduce((a,b) => a + b, 0);
+                                    const pct = ((count / total) * 100).toFixed(1);
+                                    return label + count + ' 支 (' + pct + '%)';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
         }
 
         function initPerformanceTable() {
