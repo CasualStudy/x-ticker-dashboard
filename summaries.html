@@ -194,9 +194,10 @@
 
         <div class="filter-container" id="filterContainer">
             <button class="filter-btn active" data-filter="all">全部 (${Object.keys(typeof summariesData !== 'undefined' ? summariesData : {}).length})</button>
-            <button class="filter-btn" data-filter="high">高频提及 (>10次)</button>
-            <button class="filter-btn" data-filter="medium">中频提及 (5-10次)</button>
-            <button class="filter-btn" data-filter="low">低频提及 (<5次)</button>
+            <button class="filter-btn" data-filter="ultra">极高频 (>100次)</button>
+            <button class="filter-btn" data-filter="high">高频 (20-100次)</button>
+            <button class="filter-btn" data-filter="medium">中频 (5-20次)</button>
+            <button class="filter-btn" data-filter="low">低频 (<5次)</button>
         </div>
 
         <div class="grid-container" id="summariesGrid">
@@ -220,15 +221,17 @@
             dataArray.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
 
             // Setup filter counts dynamically
-            const highCount = dataArray.filter(d => d.mention_count > 10).length;
-            const mediumCount = dataArray.filter(d => d.mention_count >= 5 && d.mention_count <= 10).length;
+            const ultraCount = dataArray.filter(d => d.mention_count > 100).length;
+            const highCount = dataArray.filter(d => d.mention_count > 20 && d.mention_count <= 100).length;
+            const mediumCount = dataArray.filter(d => d.mention_count >= 5 && d.mention_count <= 20).length;
             const lowCount = dataArray.filter(d => d.mention_count < 5).length;
 
             const btns = document.querySelectorAll('.filter-btn');
             btns[0].innerText = `全部 (${dataArray.length})`;
-            btns[1].innerText = `高频提及 >10次 (${highCount})`;
-            btns[2].innerText = `中频提及 5-10次 (${mediumCount})`;
-            btns[3].innerText = `低频提及 <5次 (${lowCount})`;
+            btns[1].innerText = `极高频 >100次 (${ultraCount})`;
+            btns[2].innerText = `高频 20-100次 (${highCount})`;
+            btns[3].innerText = `中频 5-20次 (${mediumCount})`;
+            btns[4].innerText = `低频 <5次 (${lowCount})`;
 
             const renderCards = (filterType) => {
                 const grid = document.getElementById('summariesGrid');
@@ -236,8 +239,9 @@
 
                 dataArray.forEach(d => {
                     const count = d.mention_count || 0;
-                    if (filterType === 'high' && count <= 10) return;
-                    if (filterType === 'medium' && (count < 5 || count > 10)) return;
+                    if (filterType === 'ultra' && count <= 100) return;
+                    if (filterType === 'high' && (count <= 20 || count > 100)) return;
+                    if (filterType === 'medium' && (count < 5 || count > 20)) return;
                     if (filterType === 'low' && count >= 5) return;
 
                     const summaryContent = d.summary_cn ? d.summary_cn.replace(/\n/g, '<br><br>') : '暂无中文总结';

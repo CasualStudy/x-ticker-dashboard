@@ -2,7 +2,7 @@ const summariesData = {
   "$SOI": {
     "ticker": "$SOI",
     "company_name": "Soitec",
-    "mention_count": 96,
+    "mention_count": 131,
     "date_range": "2026-03-11 ~ 2026-06-01",
     "summary_en": "The author presents a high-conviction investment thesis for $SOI, identifying it as a monopolistic controller of silicon photonics substrates essential for the AI buildout. Positioned as a key beneficiary of the Co-Packaged Optics (CPO) supercycle, $SOI is compared to $AXTI for its control over critical materials. The author argues that the optical Total Addressable Market (TAM) will expand dramatically from ~$15B to over $150B by 2028, driving exponential growth for substrate providers like $SOI.\n\nPerformance validation is central to the narrative, with the author citing $SOI's rally from approximately $45 to $170 as proof of the thesis. $SOI is listed among a basket of successful picks like $LITE and $AAOI that have returned 100-1000%+. The author emphasizes that $SOI controls the \"AI buildout with silicon photonics,\" making it an indispensable part of the supply chain alongside other \"chokepoint\" stocks like $SIVE.\n\nDespite the bullish outlook, the author highlights significant volatility as a primary risk, noting sharp selloffs in the sector. They criticize traditional analysts for relying on TTM revenue metrics, which fail to capture the upcoming volume ramp expected in 2027. The author asserts that the market is currently mispricing the architectural shift in photonics, creating an opportunity for investors who understand the nuances of the qualification cycles and capacity allocation.",
     "summary_cn": "作者对 $SOI 提出了高确信度的投资论点，将其定位为 AI 基础设施建设中不可或缺的硅光子衬底市场的垄断控制者。作为共封装光学 (CPO) 超级周期的核心受益者，$SOI 被比作 $AXTI，掌控着关键材料。作者认为，光学总潜在市场 (TAM) 将在 2028 年前从约 150 亿美元激增至超过 1500 亿美元，从而推动 $SOI 等衬底供应商的指数级增长。\n\n业绩验证是该叙事的核心，作者引用 $SOI 从约 45 美元飙升至 170 美元作为论点成立的证据。$SOI 与 $LITE 和 $AAOI 等成功选股一同被列出，回报率高达 100-1000%+。作者强调 $SOI 控制着“硅光子 AI 构建”，使其与 $SIVE 等其他“瓶颈”股一样成为供应链中不可或缺的一环。\n\n尽管前景看好，作者仍强调高波动性是主要风险，并指出该板块曾出现急剧抛售。作者批评传统分析师依赖过去十二个月 (TTM) 营收指标，认为这无法捕捉预计在 2027 年出现的量产爬坡。作者断言市场目前误判了光子学的架构转变，为理解资格认证周期和产能分配细微之处的投资者创造了机会。"
@@ -10,7 +10,7 @@ const summariesData = {
   "$MU": {
     "ticker": "$MU",
     "company_name": "Micron Technology",
-    "mention_count": 92,
+    "mention_count": 94,
     "date_range": "2025-10-07 ~ 2026-06-02",
     "summary_en": "The author presents a highly bullish investment thesis for $MU, characterizing it as the \"next $NVDA\" due to structural changes in memory demand driven by AI. They argue that AI has broken the traditional cyclical nature of the memory market, transforming $MU into a critical bottleneck asset alongside $SNDK and SK Hynix. The author attributes this view to the massive projected rise in AI capex, potentially reaching $3 to $4 trillion annually by 2030, which necessitates vast amounts of memory for AI hardware.\n\nKey events highlighted include $MU reaching a $1 trillion market cap, with the stock price surging from $80 to $887. The author points to specific industry data supporting this rally, such as DRAM and NAND flash contract prices climbing over 40% in the second quarter of 2026 and a deepening shortage of 2D NAND as rivals exit the market. These supply constraints and pricing power are cited as primary drivers for the stock's exponential growth, making it a top holding in the author's \"bottleneck longs\" portfolio.\n\nStrategically, the author advises investors to hold their positions and avoid FOMO-driven rotation into newer, unproven sectors. They emphasize that $MU benefits from both the AI buildout and the \"Made in America\" political tailwinds similar to $INTC. While the broader market may fluctuate, the author maintains that owning \"keys to the AI Kingdom\" like $MU is the most effective hedge against economic displacement caused by AI adoption.",
     "summary_cn": "作者对 $MU 提出了非常看涨的投资论点，将其描述为“下一个 $NVDA”，理由是 AI 驱动的内存需求发生了结构性变化。他们认为 AI 打破了内存市场的传统周期性，将 $MU 转变为与 $SNDK 和 SK Hynix 并列的关键瓶颈资产。作者将此观点归因于 AI 资本支出的巨大预期增长，预计到 2030 年将达到每年 3 至 4 万亿美元，这需要大量的内存来支持 AI 硬件。\n\n强调的关键事件包括 $MU 达到 1 万亿美元的市值，股价从 80 美元飙升至 887 美元。作者指出了支持这一反弹的具体行业数据，例如 2026 年第二季度 DRAM 和 NAND 闪存合约价格上涨超过 40%，以及随着竞争对手退出市场，2D NAND 短缺日益加剧。这些供应限制和定价权被列为该股指数级增长的主要驱动力，使其成为作者“瓶颈多头”投资组合中的首选。\n\n在策略上，作者建议投资者持有仓位，避免因 FOMO（错失恐惧）而轮动到新的、未经证实的板块。他们强调，$MU 既受益于 AI 建设，也受益于类似于 $INTC 的“美国制造”政治助力。虽然大盘可能会波动，但作者坚持认为，持有像 $MU 这样的“AI 王国钥匙”是对抗 AI 采用所导致的经济置换最有效的对冲手段。"
@@ -18,7 +18,7 @@ const summariesData = {
   "$SNDK": {
     "ticker": "$SNDK",
     "company_name": "SanDisk",
-    "mention_count": 87,
+    "mention_count": 106,
     "date_range": "2025-11-25 ~ 2026-06-02",
     "summary_en": "The author presents $SNDK as a core holding in the \"Memory Supercycle\" investment thesis, positioning it alongside $MU, Samsung, and SK Hynix as a critical AI infrastructure bottleneck. The core thesis centers on NAND flash supply constraints, where $SNDK is described as having significant pricing power despite Kioxia manufacturing much of the output, because Sandisk ultimately controls supply allocation. The author notes that contract prices for DRAM and NAND are expected to climb over 40% in Q2 2026, with Big Tech even offering to fund SK Hynix fabs due to severe memory bottlenecks.\n\nKey events include $SNDK delivering triple-digit returns in early 2026, with the author citing approximately 70% gains in May and including it among their top performers alongside photonics plays like $AXTI and $AAOI. The author frames $SNDK as a validated thesis, noting it as one of multiple names that 10x'd and held returns. Memory is positioned as a multi-year structural bottleneck in the AI supply chain, with $SNDK representing a key allocation play.\n\nPrimary risks include FOMO-driven rotation chasing new bottleneck narratives, as the author warns against constantly cycling through news-cycle themes like $NVDA GPUs to $MU Memory to $LITE EMLs. The author emphasizes patience with existing positions rather than chasing green candles. Additionally, the author suggests $AAOI could be \"the next $SNDK,\" indicating potential capital rotation as photonics volume ramps in 2027. The investment approach requires embracing volatility and holding through qualification cycles.",
     "summary_cn": "作者将 $SNDK 定位为\"内存超级周期\"投资主题的核心持仓，与 $MU、三星和 SK Hynix 并列为关键的 AI 基础设施瓶颈。核心论点围绕 NAND 闪存供应约束展开，作者指出尽管 Kioxia 制造了大部分产量，但 $SNDK 最终控制供应分配，因此拥有显著的定价权。作者指出，2026年第二季度 DRAM 和 NAND 合约价格预计将上涨超过 40%，大型科技公司甚至因内存严重短缺而主动提出资助 SK Hynix 建厂。\n\n关键事件包括 $SNDK 在 2026 年初实现三位数回报，作者提到 5 月份约 70% 的涨幅，并将其与 $AXTI 和 $AAOI 等光子学股票并列为顶级表现者。作者将 $SNDK 定位为经过验证的投资论点，指出它是多个 10 倍股之一，并保持了收益。内存被定位为 AI 供应链中多年的结构性瓶颈，$SNDK 代表着关键的配置机会。\n\n主要风险包括因 FOMO 驱动的轮动追逐新的瓶颈叙事，作者警告不要不断在新闻周期主题间轮换，如从 $NVDA GPU 到 $MU 内存再到 $LITE EML。作者强调对现有持仓保持耐心，而不是追逐上涨行情。此外，作者暗示 $AAOI 可能是\"下一个 $SNDK\"，表明随着 2027 年光子学产能爬升，可能出现资金轮动。该投资方法需要接受波动性并通过资格认证周期持有。"
@@ -26,7 +26,7 @@ const summariesData = {
   "$IQE": {
     "ticker": "$IQE",
     "company_name": "IQE",
-    "mention_count": 80,
+    "mention_count": 98,
     "date_range": "2026-01-19 ~ 2026-06-01",
     "summary_en": "The author identifies $IQE as a critical strategic bottleneck in the Western photonics and AI supply chains. As a leading manufacturer of epitaxial wafers, $IQE supplies essential materials to major optical players like $LITE. The core investment thesis is built on the \"Photonics Supercycle,\" where explosive AI data center demand creates severe shortages in epiwafers, validating $IQE's latent capacity and indispensable role in the ecosystem.\n\nA significant catalyst for the stock was the intervention by $MTSI, which paid off $IQE's debt to prevent their bankruptcy, signaling the company's vital importance to the downstream supply chain. The author argues that the raw book value and strategic necessity completely justify the valuation, noting that institutional investors like Point 72 have already begun accumulating the stock. The stock price reflected this validation, rallying from $12 to $47.\n\nDespite the strong structural thesis, risks include high volatility and complex financials. The author notes that $IQE often faces skepticism from retail investors who label it a \"pump and dump\" due to its lower market cap. However, the author views these selloffs as buying opportunities, maintaining high conviction that $IQE controls a key upstream chokepoint that will benefit from the trillions in projected AI capex alongside peers like $AXTI and $SIVE.",
     "summary_cn": "作者将 $IQE 视为西方光子和人工智能供应链中关键的战略瓶颈。作为领先的外延片制造商，$IQE 向 $LITE 等主要光学参与者供应关键材料。核心投资逻辑建立在“光子超级周期”之上，即AI数据中心的爆发性需求导致外延片严重短缺，从而验证了 $IQE 的潜在产能及其在生态系统中不可或缺的地位。\n\n该股票的一个重要催化剂是 $MTSI 的干预，其偿还了 $IQE 的债务以防止其破产，这标志着该公司对下游供应链的至关重要性。作者认为，其原始账面价值和战略必要性完全证明了其估值的合理性，并指出 Point 72 等机构投资者已开始建仓。股价也反映了这一验证，从 $12 反弹至 $47。\n\n尽管基本面结构逻辑强劲，但风险包括高波动性和复杂的财务状况。作者指出，$IQE 常面临散户投资者的质疑，因其市值较低而被贴上“拉高出货”的标签。然而，作者将这些抛售视为买入机会，坚信 $IQE 控制着关键的上游瓶颈，将受益于预计数万亿美元的AI资本支出，与 $AXTI 和 $SIVE 等同行一同成长。"
@@ -34,7 +34,7 @@ const summariesData = {
   "$AVGO": {
     "ticker": "$AVGO",
     "company_name": "Broadcom Inc.",
-    "mention_count": 79,
+    "mention_count": 88,
     "date_range": "2025-09-10 ~ 2026-06-02",
     "summary_en": "The core investment thesis for $AVGO centers on its critical role as a leading ASIC supplier for hyperscalers like $GOOGL and $AMZN. The author argues that major tech companies are increasingly seeking alternatives to $NVDA's \"GPU tax,\" driving robust demand for $AVGO's custom AI inference chips. This positions the company to capture significant upside from the massive capital expenditure cycles dedicated to AI infrastructure build-outs.\n\nBeyond ASICs, $AVGO is highlighted as a dominant player in the optical component market, specifically for EMLs and CW DFB lasers essential for 800G/1.6T transceivers. The analysis emphasizes the upcoming architectural shift toward Co-Packaged Optics (CPO) and Silicon Photonics (SiPh), viewing $AVGO as a key driver alongside $NVDA. The author suggests $AVGO will benefit materially from the transition to external laser sources (ELS) required for next-generation AI clusters.\n\nHowever, the tweets identify significant supply chain risks, particularly regarding the global supply of Indium Phosphide (InP) substrates required for $AVGO's lasers. The author warns that the concentration of substrate supply among a few players like $AXTI and $SMTOY creates a potential bottleneck that could cripple the AI industry's growth. Despite these risks, $AVGO is portrayed as a necessary hedge against AI-driven job displacement, representing a primary means of owning the \"means of compute.\"",
     "summary_cn": "$AVGO的核心投资逻辑在于其作为$GOOGL和$AMZN等超大规模云厂商关键ASIC供应商的地位。作者认为，大型科技公司正积极寻求替代$NVDA的“GPU税”，从而推动了对$AVGO定制AI推理芯片的强劲需求。这使该公司能够从致力于AI基础设施建设的巨额资本支出周期中获得显著收益。\n\n除了ASIC业务，$AVGO还被强调为光学组件市场的主导者，特别是在800G/1.6T光模块所需的EML和CW DFB激光器领域。分析强调了向共封装光学（CPO）和硅光技术的架构转型，视$AVGO与$NVGA同为关键推动者。作者指出，$AVGO将显著受益于下一代AI集群所需的外部激光源（ELS）转型。\n\n然而，推文指出了重大的供应链风险，特别是$AVGO激光器所需的磷化铟基底全球供应问题。作者警告称，基底供应高度集中在$AXTI和$SMTOY等少数供应商手中，构成了可能阻碍AI行业增长的潜在瓶颈。尽管存在这些风险，$AVGO被视为对抗AI导致失业的必要对冲手段，代表了拥有“算力生产资料”的主要方式。"
@@ -42,7 +42,7 @@ const summariesData = {
   "$HOOD": {
     "ticker": "$HOOD",
     "company_name": "Robinhood",
-    "mention_count": 74,
+    "mention_count": 41,
     "date_range": "2025-07-03 ~ 2026-05-17",
     "summary_en": "The author has a strong historical track record with $HOOD, previously identifying it as a high-conviction winner by buying in the $10s and riding it to over $100. The core long-term thesis centers on Robinhood's ability to capture the retail investor base and successfully scale new product offerings like banking services and the Gold Card, which the author describes as having 'wild' product innovation.\n\nHowever, the author's sentiment shifted to sharp criticism in early 2026 regarding $HOOD's strategic direction. They argue the company missed a critical opportunity by failing to enable international stock trading, a feature that drove significant growth for competitors like $IBKR. Instead, $HOOD focused on 'prediction markets,' 'raffles,' and meme coin listings, which the author views as detrimental to retail investors and a reason for the company's earnings miss.\n\nWhile the author notes $HOOD delivered strong returns (+19.14%) in a specific short-term basket trade, they highlight significant risks, including a 40%+ drop during broader market downturns. Ultimately, the author suggests investors switch to $IBKR for international exposure, reserving $HOOD only for those with small capital or limited experience.",
     "summary_cn": "作者对 $HOOD 拥有成功的投资历史，此前将其视为高确信度赢家，在10美元左右买入并持有至100美元以上。其核心长期论点在于 Robinhood 能够抓住散户投资者基础，并成功扩展银行服务和金卡等新产品，作者称其产品创新“极其疯狂”。\n\n然而，作者对 $HOOD 2026年初的战略方向提出了严厉批评。他们认为公司错失了开通国际股票交易的关键机会，而这一功能推动了竞争对手 $IBKR 的显著增长。相反，$HOOD 专注于“预测市场”、“抽奖”和模因币上市，作者认为这些举措对散户投资者不利，也是公司错失盈利预期的原因。\n\n尽管作者指出 $HOOD 在特定的短期篮子交易中带来了强劲回报（+19.14%），但他们强调了重大风险，包括在广泛市场低迷期间下跌超过40%。最终，作者建议投资者转向 $IBKR 以获取国际敞口，认为 $HOOD 仅适用于资金少或缺乏经验的投资者。"
@@ -50,7 +50,7 @@ const summariesData = {
   "$INTC": {
     "ticker": "$INTC",
     "company_name": "Intel Corporation",
-    "mention_count": 68,
+    "mention_count": 80,
     "date_range": "2025-09-24 ~ 2026-06-01",
     "summary_en": "The investment thesis for $INTC centers on its strategic role as \"America's hope for foundry\" and a critical asset for national security. The author highlights a major catalyst where $AAPL shifted semiconductor production to $INTC, validating the \"Made in America\" narrative and reducing reliance on $TSM. This positioning allows $INTC to capture significant foundry demand and benefit from domestic manufacturing incentives.\n\nFundamentally, the author notes a structural shift in AI hardware demand, citing the $INTC CEO's observation that AI inference has pushed CPU ratios from 1:8 to 1:1. This bottleneck creates a tailwind for $INTC alongside $AMD and $ARM. Additionally, the company is integral to the advanced packaging and Silicon Photonics supply chain, with $JBL leveraging $INTC's IP for programs like Meta's LRO.\n\nPerformance has been strong, with the author reporting a gain of nearly 98% for $INTC in a recent period, though it was labeled an \"underperformer\" relative to the author's other high-momentum picks like $AAOI. Despite short-term volatility, the long-term outlook remains bullish due to widespread adoption of glass substrates and sovereign data center requirements.",
     "summary_cn": "$INTC 的投资论点主要围绕其作为“美国代工希望”的战略地位及其作为国家安全关键资产的重要性。作者强调了 $AAPL 将半导体生产转移至 $INTC 这一重大催化剂，这验证了“美国制造”的逻辑并减少了对 $TSM 的依赖。这一定位使 $INTC 能够获得巨大的代工需求并受益于国内制造业激励政策。\n\n在基本面方面，作者指出 AI 硬件需求发生了结构性转变，引用 $INTC 首席执行官的观点称 AI 推理将 CPU 比例从 1:8 推高至 1:1。这一瓶颈为 $INTC 以及 $AMD 和 $ARM 带来了利好。此外，该公司是先进封装和硅光子供应链的核心，$JBL 正利用 $INTC 的知识产权开展如 Meta LRO 等项目。\n\n该股表现强劲，作者指出近期 $INTC 涨幅近 98%，尽管相对于 $AAOI 等其他高动能持仓被戏称为“表现不佳”。尽管存在短期波动，但由于玻璃基板的广泛采用和主权数据中心的需求，其长期前景依然看涨。"
@@ -58,7 +58,7 @@ const summariesData = {
   "$AMD": {
     "ticker": "$AMD",
     "company_name": "AMD",
-    "mention_count": 67,
+    "mention_count": 53,
     "date_range": "2025-09-12 ~ 2026-06-02",
     "summary_en": "The author presents a bullish long-term thesis for $AMD, driven by two main vectors: the resurgence of CPU demand due to AI inference bottlenecks and the critical transition to Co-Packaged Optics (CPO). Regarding CPUs, the author notes that AI inference is shifting compute ratios from 1:8 to 1:1, positioning $AMD alongside $INTC and $ARM to benefit from increased processor demand. However, the deeper analysis centers on $AMD's role in the photonics supercycle, identifying it as a key driver behind the demand for optical interconnects to solve data center bottlenecks.\n\nA core component of the investment thesis involves mapping $AMD's supply chain for next-generation architectures. The author highlights $AMD's partnership with $GFS for CPO development and identifies $SIVE as a critical laser supplier for $AMD’s programs, potentially via partners like Ayar and POET. The author argues that as $NVDA absorbs existing laser capacity from $COHR and $LITE, $AMD and other hyperscalers are scrambling to secure alternative upstream suppliers, creating asymmetric opportunities in smaller photonics names like $SIVE and $AAOI.\n\nThe author emphasizes that this transition is a multi-year structural shift rather than a short-term trade. While acknowledging market volatility and viral retail sentiment surrounding $AMD, the analysis focuses on technical depth, specifically how $AMD's adoption of CPO and glass substrates positions it to overcome interconnect limits. The author views $AMD as a standard-bearer in the AI hardware ecosystem, with its demand underpinning the growth of critical suppliers in the photonics and advanced packaging sectors.",
     "summary_cn": "作者对 $AMD 提出了看好的长期投资论点，主要基于两大驱动力：AI 推理瓶颈带来的 CPU 需求复苏，以及向共封装光学（CPO）的关键转型。关于 CPU，作者指出 AI 推理正在将计算比率从 1:8 推至 1:1，使 $AMD 与 $INTC 及 $ARM 一同受益于处理器需求的增长。然而，更深层的分析集中在 $AMD 在光子学超级周期中的角色，视其为解决数据中心瓶颈所需的光互连需求的关键驱动力。\n\n投资论点的核心涉及对 $AMD 下一代架构供应链的梳理。作者强调了 $AMD 与 $GFS 在 CPO 开发上的合作，并指出 $SIVE 是 $AMD 项目中的关键激光器供应商，可能通过 Ayar 和 POET 等合作伙伴进行。作者认为，随着 $NVDA 占用了 $COHR 和 $LITE 现有的激光产能，$AMD 和其他超大规模企业正急于确保上游替代供应商，从而在 $SIVE 和 $AAOI 等小市值光子学公司中创造了不对称的投资机会。\n\n作者强调这一转型是多年的结构性转变，而非短期交易。虽然承认市场波动和围绕 $AMD 的散户情绪，但分析侧重于技术深度，特别是 $AMD 采用 CPO 和玻璃基板如何助其突破互联限制。作者将 $AMD 视为 AI 硬件生态系统的标杆企业，其需求支撑了光子学和先进封装领域关键供应商的增长。"
@@ -66,7 +66,7 @@ const summariesData = {
   "$TSEM": {
     "ticker": "$TSEM",
     "company_name": "Tower Semiconductor",
-    "mention_count": 65,
+    "mention_count": 82,
     "date_range": "2026-02-11 ~ 2026-06-02",
     "summary_en": "The author identifies $TSEM as a foundational investment within the emerging silicon photonics and Co-Packaged Optics (CPO) supercycle. The core thesis posits that as AI infrastructure shifts towards light-based interconnects to overcome bottlenecks, specialized foundries like $TSEM become critical structural chokepoints in the supply chain, similar to other high-conviction picks like $AAOI and $LITE.\n\nPerformance validation is a central theme, with the author noting $TSEM achieved triple-digit returns year-to-date, significantly outperforming the broader market. Key catalysts include the projected 142% CAGR for the CPO market from 2026 to 2030 and the market's gradual recognition of $TSEM's strategic relationships with major players like $NVDA in silicon photonics manufacturing.\n\nAddressing skepticism, the author contrasts $TSEM with smaller speculative names, highlighting its $25B+ market capitalization and institutional ownership as evidence of fundamental strength rather than retail hype. The investment narrative is framed around early discovery of these structural AI supply chain bottlenecks before they become mainstream consensus.",
     "summary_cn": "作者将 $TSEM 视为新兴硅光子和共封装光学（CPO）超级周期中的基础性投资标的。核心论点认为，随着 AI 基础设施转向以光为基础的互连技术以突破瓶颈，像 $TSEM 这样的专业晶圆厂成为供应链中关键的结构性瓶颈，这与 $AAOI 和 $LITE 等其他高确信度选股逻辑相似。\n\n业绩验证是核心主题，作者指出 $TSEM 年初至今已实现三位数回报，显著跑赢大盘。关键催化剂包括预计 2026 年至 2030 年 CPO 市场将实现 142% 的复合年增长率，以及市场逐渐认识到 $TSEM 在硅光子制造方面与 $NVDA 等巨头的战略关系。\n\n针对质疑声音，作者将 $TSEM 与小型投机股进行对比，强调其超过 250 亿美元的市值和机构持股证明了其基本面实力，而非单纯的散户炒作。投资逻辑的核心在于市场达成共识之前，早期发现这些 AI 供应链中的结构性瓶颈。"
@@ -74,7 +74,7 @@ const summariesData = {
   "$RKLB": {
     "ticker": "$RKLB",
     "company_name": "Rocket Lab USA",
-    "mention_count": 63,
+    "mention_count": 34,
     "date_range": "2025-09-04 ~ 2026-05-30",
     "summary_en": "The author views $RKLB as a premier investment in the \"final frontier\" of the space industry, designating it a high-conviction long-term hold with multi-bagger potential. It is frequently cited as the primary publicly traded alternative to SpaceX, serving as a proxy for the burgeoning space sector. The author successfully front-ran the \"space rally,\" buying shares in the $10s and realizing triple-digit returns, contributing to a reported portfolio gain exceeding 5000% over two years.\n\nA significant near-term catalyst identified is the anticipated SpaceX IPO, expected to re-rate the sector. The author predicts $RKLB could see parabolic movement as investors seek exposure to SpaceX's \"next biggest competitor,\" especially given $RKLB's relatively small valuation (approx. 2.3%) compared to the private giant. Additionally, a recent $90M US Space Force contract reinforces the narrative of increasing US space infrastructure spending and government support.\n\nDespite the bullish long-term outlook, the author briefly flagged $RKLB as potentially \"overvalued\" in a January 2026 short-term trading update, suggesting a preference for waiting for a correction before adding new positions. The author also notes the volatility typical of high-beta space stocks, comparing it to other high-flyers like $PL (Planet Labs) and warning that retail investors often get \"shaken out\" by institutions before the next supercycle. The stock remains a core position in the author's \"extreme growth\" basket alongside names like $NBIS and $CRCL.",
     "summary_cn": "作者将 $RKLB 视为太空产业“最后疆域”的首选投资标的，认定其为具有多倍回报潜力的高信念长期持仓。该股常被视为 SpaceX 的主要上市替代品，是蓬勃发展的太空领域的代理指标。作者成功预判了“太空股涨势”，在股价10美元左右买入并实现了三位数的回报，这助推其投资组合在两年内获得了超过5000%的收益。\n\n预期的 SpaceX IPO 被视为一个重大的近期催化剂。作者预测，随着投资者寻找 SpaceX 的“第二大竞争对手”以获取敞口，$RKLB 可能会出现抛物线式的上涨，尤其是考虑到其估值仅为这家私营巨头的极小一部分（约2.3%）。此外，$RKLB 近期获得的一份价值9000万美元的美国太空军合同，进一步强化了美国太空基础设施建设支出增加的叙事逻辑。\n\n尽管长期前景看好，作者在2026年1月的短期交易更新中曾短暂指出 $RKLB 可能处于“估值过高”状态，建议等待回调后再入场。作者还指出了高贝塔太空股典型的波动性，将其与 $PL (Planet Labs) 等其他高飞股进行比较，并警告散户投资者往往会在下一个超级周期到来前被机构“洗盘”。尽管如此，该股仍是作者“极端增长”篮子中的核心持仓，与 $NBIS 和 $CRCL 等股票并列。"
@@ -82,7 +82,7 @@ const summariesData = {
   "$CIFR": {
     "ticker": "$CIFR",
     "company_name": "Cipher Mining Inc.",
-    "mention_count": 62,
+    "mention_count": 10,
     "date_range": "2025-09-03 ~ 2026-06-01",
     "summary_en": "The author maintains a strongly bullish stance on $CIFR, classifying it as a top-tier \"NeoCloud\" stock poised to benefit from the massive AI infrastructure buildout. The core investment thesis centers on $CIFR's colocation (colo) model, which secures major contracts with hyperscalers like $AMZN and $GOOGL (via Fluidstack). The author argues that as Mag7 companies face compute strain, trillions in capex will funnel into NeoClouds like $CIFR, potentially yielding 200-300% returns.\n\n$CIFR is frequently highlighted as a \"Strong Buy\" and a prime recovery play, particularly after selloffs driven by tax-loss harvesting or sector-wide fears regarding capital expenditures. The author notes securing funding at $16+ per share—well above distressed prices like $11—signals strong institutional confidence. Compared to peers like $IREN, which faces heavy dilution risks, $CIFR is presented as a superior investment offering better asymmetrical upside and execution safety.\n\nWhile the author is aggressively buying $CIFR on margin during dips, risks such as Bitcoin volatility affecting the balance sheet and general execution hurdles are acknowledged. The strategy involves riding the \"NeoCloud wave\" alongside picks like $NBIS and $WULF, treating $CIFR as a critical holding for capturing the next generation of AI infrastructure growth.",
     "summary_cn": "作者对 $CIFR 保持强烈看涨态度，将其归类为顶级的“NeoCloud”股票，有望从大规模的AI基础设施建设中受益。核心投资论点集中在 $CIFR 的托管模式上，该模式通过与 $AMZN 和 $GOOGL（通过 Fluidstack）等超大规模企业签订重要合同，确立了其地位。作者认为，随着科技巨头面临算力瓶颈，数万亿的资本支出将流入像 $CIFR 这样的NeoCloud公司，这可能带来200-300%的回报。\n\n$CIFR 经常被列为“强力买入”和主要的反弹标的，特别是在因税收亏损抛售或市场对资本支出的担忧导致下跌之后。作者指出，$CIFR 以高于当前价格（如 $11）的 $16+ 价格获得融资，表明机构信心强劲。与面临严重稀释风险的同行 $IREN 相比，$CIFR 被视为具有更优的不对称上涨空间和执行安全性的投资选择。\n\n虽然作者在下跌期间激进地使用保证金买入 $CIFR，但也承认了比特币波动影响资产负债表以及一般执行风险等隐患。其策略包括与 $NBIS 和 $WULF 等其他选股一起驾驭“NeoCloud浪潮”，将 $CIFR 视为捕捉下一代AI基础设施增长的关键持仓。"
@@ -90,7 +90,7 @@ const summariesData = {
   "$HIMS": {
     "ticker": "$HIMS",
     "company_name": "Hims & Hers Health",
-    "mention_count": 61,
+    "mention_count": 29,
     "date_range": "2025-07-07 ~ 2026-05-17",
     "summary_en": "The author presents a strongly bullish, contrarian investment thesis for $HIMS, viewing it as a compelling turnaround story following a significant price collapse from $70 to the low $20s. The core argument rests on a fundamental shift in the company's regulatory standing and global reach, transforming it from a target of short-seller skepticism into a robust Direct-to-Consumer (DTC) healthcare platform.\n\nA major catalyst identified is the resolution of legal conflicts with $NVO (Novo Nordisk), where a lawsuit was dropped in favor of a partnership to sell branded GLP-1 products. This event de-risked the company's future and surprised bearish investors holding nearly 40% of the float. Additionally, the author highlights strategic acquisitions, such as Eucalyptus and Zava, which have rapidly expanded $HIMS into a global distribution network across Canada, Australia, Japan, and Europe.\n\nFinancially, the author emphasizes the company's pivot toward high-margin compounded peptides (such as BPC-157 and GHK-Cu), projecting this \"grey market\" segment could generate over $360M in ARR. With manufacturing capabilities secured and short interest at unsustainable levels, the analysis suggests $HIMS is primed for a potential historic short squeeze or a steady fundamental re-rating.",
     "summary_cn": "作者对 $HIMS 提出了强烈的看涨反向投资论点，将其视为股价从70美元暴跌至20美元低位后的一个引人注目的反转故事。核心论点在于公司监管地位和全球影响力的根本性转变，使其从做空者怀疑的目标转变为强大的直接面向消费者（DTC）医疗保健平台。\n\n确定的一个主要催化剂是与 $NVO（诺和诺德）法律冲突的解决，诉讼被撤销并转为合作伙伴关系以销售品牌GLP-1产品。这一事件消除了公司的未来风险，并让持有近40%流通股的看空投资者感到意外。此外，作者强调了战略收购（如 Eucalyptus 和 Zava），这些收购迅速将 $HIMS 扩展为覆盖加拿大、澳大利亚、日本和欧洲的全球分销网络。\n\n在财务方面，作者强调公司向高毛利复合肽（如 BPC-157 和 GHK-Cu）的转型，预计这一“灰色市场”细分领域可产生超过3.6亿美元的年度经常性收入（ARR）。随着制造能力的落实和做空比例处于不可持续的高位，分析认为 $HIMS 已具备发生历史性逼空或稳步基本面估值修复的条件。"
@@ -98,7 +98,7 @@ const summariesData = {
   "$POET": {
     "ticker": "$POET",
     "company_name": "POET Technologies Inc.",
-    "mention_count": 60,
+    "mention_count": 69,
     "date_range": "2026-01-01 ~ 2026-06-02",
     "summary_en": "The author identifies $POET as a critical player in the emerging \"Photonics Supercycle,\" specifically within the Co-Packaged Optics (CPO) and optical interposer market. Positioned as a \"future gen\" architecture alongside $SIVE and $MRVL, $POET addresses the interconnect bottlenecks limiting AI data center performance. The investment thesis rests on the structural shift from traditional pluggables to CPO, where $POET’s optical interposers serve as a foundational technology for scaling AI computing power.\n\nA central pillar of the bullish outlook is $POET's deep integration into the Western photonics supply chain. The author notes that $POET utilizes $SIVE as its light source supplier and has confirmed supply relationships with major industry players like $MRVL. Speculative supply chain mapping suggests $POET is positioned to serve hyperscalers such as $AMZN, $MSFT, and $GOOGL, either directly or through NDA-protected partnerships, validating the company's technological relevance.\n\nKey near-term catalysts include a projected volume production ramp starting in the second half of 2026. The author highlights a significant order trajectory, citing a jump from $50m to $500m in orders, signaling a robust transition from development to commercialization. As the CPO market matures, $POET is presented as a high-upside opportunity comparable to early-stage positions in other photonics leaders like $LITE.",
     "summary_cn": "作者将 $POET 视为新兴“光子学超级周期”中的关键参与者，特别是在共封装光学（CPO）和光学转接板市场。作为与 $SIVE 和 $MRVL 并列的“未来一代”架构，$POET 旨在解决限制 AI 数据中心性能的互连瓶颈。投资逻辑基于从传统可插拔模块向 CPO 的结构性转变，在此过程中，$POET 的光学转接板成为扩展 AI 算力的基础技术。\n\n看涨前景的核心支柱在于 $POET 深度融入了西方光子学供应链。作者指出，$POET 使用 $SIVE 作为其光源供应商，并已确认与 $MRVL 等行业巨头的供应关系。推测性的供应链图谱显示，$POET 有望直接或通过 NDA 保护的合作伙伴关系，服务于 $AMZN、$MSFT 和 $GOOGL 等超大规模云厂商，这验证了其技术重要性。\n\n关键的近期催化剂包括预计于 2026 年下半年开始的量产爬坡。作者强调了显著的订单增长轨迹，引用了订单额从 5000 万美元跃升至 5 亿美元的案例，标志着从研发向商业化的强劲转型。随着 CPO 市场的成熟，$POET 被视为具有高上涨潜力的机会，可与 $LITE 等光子学领导者的早期阶段相媲美。"
@@ -106,7 +106,7 @@ const summariesData = {
   "$EWY": {
     "ticker": "$EWY",
     "company_name": "iShares MSCI South Korea ETF",
-    "mention_count": 55,
+    "mention_count": 68,
     "date_range": "2026-01-13 ~ 2026-06-01",
     "summary_en": "The author presents a strong bullish thesis for $EWY, driven by the extreme undervaluation of its major holdings, SK Hynix and Samsung Electronics. Citing forward P/E ratios of roughly 4.3x and 5.1x respectively, the author argues these stocks are significantly underpriced relative to the emerging AI-driven 'Memory Supercycle.' The investment case rests on capital rotating from US markets into Asian equities, specifically targeting structural bottlenecks in the AI supply chain where Korean firms dominate.\n\nBeyond simple equity appreciation, the author utilized a sophisticated options strategy involving 'IV expansion' and volatility pricing discrepancies in 2028 leaps. By mapping pass-through structures of $EWY relative to its underlying holdings, the author capitalized on mispriced volatility, effectively profiting from market inefficiencies. This approach yielded substantial returns, with the author reporting gains of over 428% on 2028 leap options within a three-month timeframe, validating the thesis that implied volatility would rise alongside underlying asset appreciation.\n\nThe author highlights $EWY as one of many successful high-conviction picks (alongside $AXTI, $AAOI, and $SNDK) that generated triple-digit returns. They emphasize the contrarian nature of the trade, noting that they established positions while the broader market was bearish, citing fears of a 'Kospi bubble' or geopolitical risks involving oil and LNG. The author views the subsequent price action as validation of their information synthesis and fundamental research, criticizing 'doomposters' who caused retail investors to sell early.",
     "summary_cn": "作者对 $EWY 提出了强烈的看涨论点，主要基于其重仓股 SK 海力士和三星电子的极度低估值。作者引用数据指出，两者的远期市盈率分别约为 4.3 倍和 5.1 倍，相对于 AI 驱动的“存储超级周期”而言被严重低估。该投资逻辑依赖于资本从美国市场轮动至亚洲股市，特别是瞄准韩国企业占主导地位的 AI 供应链结构性瓶颈。\n\n除了单纯的股票增值，作者还利用了涉及“IV 扩张”和 2028 年长期看涨期权波动率定价差异的复杂期权策略。通过分析 $EWY 与其底层资产的传导结构，作者利用波动率定价错误获利，有效地从市场低效中赚取利润。这一策略带来了可观的回报，作者声称在三个月内 2028 年长期期权的收益超过 428%，验证了隐含波动率将随底层资产升值而上升的论点。\n\n作者将 $EWY 列为众多成功的高确信度投资之一（与 $AXTI, $AAOI 和 $SNDK 并列），均实现了三位数的回报。他们强调了该交易的逆向性质，指出在更广泛的市场因“韩国股市泡沫”或石油和液化天然气等地缘政治风险而看跌时，他们建立了头寸。随后的价格走势被视为对其信息综合分析和基本面研究的验证，作者批评了那些导致散户投资者过早抛售的“悲观言论”。"
@@ -114,7 +114,7 @@ const summariesData = {
   "$AEHR": {
     "ticker": "$AEHR",
     "company_name": "Aehr Test Systems",
-    "mention_count": 54,
+    "mention_count": 60,
     "date_range": "2026-01-16 ~ 2026-05-24",
     "summary_en": "The investment thesis for $AEHR centers on its role as a critical supply chain bottleneck within the emerging photonics and memory supercycle, essential for AI hardware. The author identifies $AEHR alongside other semiconductor plays like $AAOI and $LITE as structural bottlenecks that the market has yet to fully price in, anticipating significant capital rotation into these names. The strategy involves identifying these constraints before institutional discovery, focusing on the long-term volume ramp potential rather than current revenue metrics.\n\nFrom a performance perspective, the author highlights $AEHR as a major success story, claiming it achieved \"2x+\" returns and contributed to a portfolio YTD return exceeding 1000%. The stock is cited as a prime example of thesis validation, where the price appreciation held despite initial market skepticism. The author notes that critics dismissed $AEHR due to \"negative revenue growth,\" failing to account for the specific qualification cycles inherent in semiconductor financial modeling.\n\nKey operational insights suggest that $AEHR is positioned for a volume ramp following qualification phases. The author argues that traditional metrics like TTM revenue are misleading during this stage, and the real value unlock occurs as production scales. This pick is part of a broader approach to discover alpha in under-the-radar semiconductor names that serve as chokepoints in the AI supply chain.",
     "summary_cn": "关于 $AEHR 的投资论点主要集中在其作为新兴光子和存储超级周期中关键供应链瓶颈的角色，这对AI硬件至关重要。作者将 $AEHR 与 $AAOI 和 $LITE 等其他半导体股票一起视为结构性瓶颈，认为市场尚未充分定价这些股票，并预期资金将大量轮动至这些标的。该策略旨在机构发现之前识别这些制约因素，关注长期的产量增长潜力而非当前的营收指标。\n\n从业绩表现来看，作者强调 $AEHR 是一个巨大的成功案例，声称其实现了“2倍以上”的回报，并为超过1000%的年初至今（YTD）投资组合回报做出了贡献。该股票被引用为论点验证的典型例子，尽管初期市场持怀疑态度，其价格上涨势头依然保持。作者指出，批评者曾因“营收负增长”而看空 $AEHR，却未能理解半导体财务建模中特有的认证周期。\n\n关键运营见解表明，$AEHR 正处于认证阶段后的产量爬坡节点。作者认为，在此阶段使用TTM（过去十二个月）营收等传统指标具有误导性，真正的价值释放随着生产规模的扩大而实现。这一选择是更广泛策略的一部分，旨在AI供应链的瓶颈中寻找被低估的半导体标的以获取超额收益。"
@@ -122,7 +122,7 @@ const summariesData = {
   "$RDDT": {
     "ticker": "$RDDT",
     "company_name": "Reddit",
-    "mention_count": 52,
+    "mention_count": 40,
     "date_range": "2025-09-14 ~ 2026-05-31",
     "summary_en": "The author maintains a strong bullish thesis on $RDDT, characterizing it as a unique non-AI growth compounder similar to the 'Robinhood of social media.' The investment case rests on exceptional fundamentals, highlighted by a 34.7% net profit margin, 54% forward year-over-year growth, and a resilient business model that faces zero disruption from AI. Despite trading at a compelling valuation around $138 ($26.5B market cap) in March 2026, the author expressed frustration that the market overlooked its profitability due to a lack of exposure to the AI infrastructure trade.\n\nHowever, the position has not been without risk; the author disclosed that $RDDT was their 'biggest loser YTD' as of March 2026, with a cost average of $148. This underperformance was attributed to market sentiment ignoring highly profitable software names in favor of AI capex plays. The author actively swing traded the ticker, viewing the dip as a buying opportunity, and predicted the platform would remain relevant for the next decade.\n\nBeyond the stock itself, the author frequently references the $RDDT platform as a critical hub for retail investors, citing viral stories of users generating generational wealth through tickers like $NVDA and $AMD. This dual perspective underscores the author's view that while the stock is currently mispriced by the market, the platform's utility and the company's financial 'money printer' status make it a compelling long-term hold.",
     "summary_cn": "作者对 $RDDT 保持强烈的看涨立场，将其形容为独特的非AI成长型复利标的，堪比“社交媒体界的Robinhood”。其投资逻辑建立在卓越的基本面上，亮点包括34.7%的净利润率、54%的预期同比增长，以及不受AI干扰的韧性商业模式。尽管在2026年3月该股估值颇具吸引力（价格约138美元，市值265亿美元），但作者对市场因该股未涉足AI基础设施领域而忽视其盈利能力表示了沮丧。\n\n然而，该持仓并非没有风险；作者透露，截至2026年3月，$RDDT 是其“年初至今最大的亏损股”，持仓成本为148美元。这种表现不佳归因于市场情绪忽视了高利润的软件股，转而追捧AI资本支出概念。作者积极波段操作该股，视下跌为买入机会，并预测该平台在未来十年仍将保持重要地位。\n\n除了股票本身，作者经常提到 $RDDT 平台是散户投资者的重要枢纽，并引用了用户通过 $NVDA 和 $AMD 等股票创造代际财富的病毒式传播案例。这种双重视角强调了作者的观点：尽管该股目前被市场错误定价，但平台的实用性和公司的财务“印钞机”属性使其成为引人注目的长期持仓。"
@@ -130,7 +130,7 @@ const summariesData = {
   "$CRCL": {
     "ticker": "$CRCL",
     "company_name": "Circle",
-    "mention_count": 50,
+    "mention_count": 39,
     "date_range": "2025-07-03 ~ 2026-05-24",
     "summary_en": "The author views $CRCL as a compelling stablecoin investment, believing stablecoins represent the future of both payments and holding assets, contingent on regulatory clarity from the 'clarity act.' This thesis was included among the author's 30 favored stocks and has proven successful, with $CRCL delivering 148% gains in a single month (March 2026) and ultimately achieving 2x+ returns, placing it among the author's 16+ stocks that returned 100-1000%+ YTD.\n\nDespite facing criticism from trolls who claimed 'TA says it's going down to $30,' the author's fundamental thesis was validated as $CRCL became one of the triple-digit winners. The position experienced temporary drawdowns in early 2026 when it was noted as 'not green' alongside other positions, but the author maintained conviction, emphasizing that having more concentration in winners than losers matters most.\n\nThe $CRCL thesis exemplifies the author's broader investment approach: identifying undiscovered opportunities before institutional discovery through information synthesis, then sharing these insights freely to help the retail community rather than behind expensive paywalls.",
     "summary_cn": "作者将 $CRCL 视为一项有前景的稳定币投资，认为稳定币代表着支付和持有资产的未来，这取决于'clarity act'带来的监管明确性。该论点被列入作者看好的30只股票之一，并已证明成功——$CRCL 在一个月内上涨148%（2026年3月），最终实现2倍以上回报，跻身作者年内回报100-1000%+的16只股票行列。\n\n尽管面临批评者的质疑（声称'技术分析显示会跌至30美元'），作者的基本面论点得到验证，$CRCL 成为三位数赢家之一。该仓位在2026年初曾暂时亏损，但作者保持信心，强调在盈利仓位上的集中度比亏损仓位更重要。\n\n$CRCL 的投资论点体现了作者更广泛的投资方法：通过信息整合在机构发现之前识别未被发掘的机会，然后免费分享这些见解以帮助散户社区，而非设置昂贵的付费墙。"
@@ -138,7 +138,7 @@ const summariesData = {
   "$JBL": {
     "ticker": "$JBL",
     "company_name": "Jabil Inc.",
-    "mention_count": 50,
+    "mention_count": 71,
     "date_range": "2026-03-19 ~ 2026-06-02",
     "summary_en": "The author identifies $JBL as a primary beneficiary of the current photonics supercycle, specifically positioning it as a \"transitional bridge\" play capitalizing on the shift to 1.6T pluggable optics. The acquisition of Intel's Silicon Photonics (SiPh) business is highlighted as a critical strategic move, providing $JBL with valuable IP that could allow it to mirror the success of industry leaders like Innolight. This vertical integration into optical assembly distinguishes $JBL from peers who rely solely on component manufacturing.\n\nA key catalyst discussed is the rapid ramp-up of $JBL's 1.6T Linear Receive Optics (LRO) transceivers, which is occurring faster than market expectations. The author notes that $JBL utilizes lasers from $SIVE, creating a significant competitive moat due to surging demand. Supply chain mapping suggests $JBL is deeply integrated with hyperscalers, specifically linking their LRO program to $META through the inherited Intel technology, with potential exposure to $NVDA.\n\nThe investment thesis centers on the 2027 volume ramp, where mass production for major clients like $AAPL and $MRVL is anticipated to drive growth. While the author focuses heavily on the laser supplier $SIVE, $JBL is presented as the essential assembly partner and volume leader in the 1.6T market segment. The risks are implicitly tied to the execution of this ramp and the eventual industry transition to Co-Packaged Optics (CPO), though $JBL's current positioning in the pluggable market is viewed as highly compelling.",
     "summary_cn": "作者将 $JBL 视为当前光子学超级周期的主要受益者，特别将其定位为利用向 1.6T 可插拔光模块转变的“过渡桥梁”型投资。收购英特尔的硅光子业务被视为一项关键战略举措，为 $JBL 提供了宝贵的知识产权，使其有望复制 Innolight 等行业领导者的成功。这种在光学组装领域的垂直整合使 $JBL 区别于单纯依赖组件制造的同行。\n\n讨论的一个关键催化剂是 $JBL 的 1.6T 线性接收光学（LRO）收发器的快速产能提升，其进展快于市场预期。作者指出，$JBL 使用来自 $SIVE 的激光器，因需求激增而建立了巨大的竞争护城河。供应链映射表明 $JBL 与超大规模厂商深度融合，特别是通过继承的英特尔技术将其 LRO 项目与 $META 联系起来，并可能涉及 $NVDA。\n\n投资论点集中在 2027 年的量产爬坡，预计届时 $AAPL 和 $MRVL 等主要客户的大规模生产将推动增长。虽然作者重点关注激光供应商 $SIVE，但 $JBL 被视为 1.6T 市场细分领域中必不可少的组装合作伙伴和量产领导者。风险隐性地与此次产能爬坡的执行情况以及行业最终向共封装光学（CPO）的过渡有关，尽管 $JBL 目前在可插拔市场的定位被认为极具吸引力。"
@@ -146,7 +146,7 @@ const summariesData = {
   "$TSLA": {
     "ticker": "$TSLA",
     "company_name": "Tesla, Inc.",
-    "mention_count": 46,
+    "mention_count": 34,
     "date_range": "2025-08-26 ~ 2026-05-26",
     "summary_en": "The author views $TSLA primarily as a transformative AI and robotics company rather than a traditional automaker. A pivotal event highlighted is the decision to halt Model S and X production to convert factories for Optimus production, signaling a strategic pivot toward humanoid robots. The author describes $TSLA and Unitree as the \"Battle Droids\" of the future, emphasizing that the robotics market could reach $25 trillion, making this transition critical for the company's future valuation.\n\nHowever, the investment thesis is tempered by significant geopolitical risks regarding the supply chain. The author repeatedly warns that $TSLA's reliance on Chinese suppliers for components like actuators and rare earths is a major vulnerability. There is a strong call for $TSLA and America to build sovereign supply chains to ensure the mass production of humanoids isn't held hostage by foreign powers. Additionally, the author notes $TSLA's development of AI chips as a factor benefiting partners like Samsung.\n\nFrom a portfolio perspective, the author occasionally seeks \"pure play\" exposure to the humanoid theme outside of $TSLA, looking for 10x potential in smaller caps like $RKLB. Furthermore, during a market reset in late 2025, $TSLA was rated a \"Hold\" while the author favored undervalued AI infrastructure stocks like $NBIS. The author also references $TSLA as a benchmark for potential short squeezes, comparing the $HIMS turnaround to a \"$TSLA-style squeeze.\"",
     "summary_cn": "作者将 $TSLA 主要视为一家正在转型的 AI 和机器人公司，而非传统汽车制造商。推文中强调的一个关键事件是 $TSLA 决定停止 Model S 和 X 的生产，并将工厂转型用于 Optimus 机器人的生产，这标志着其战略重心向人形机器人转移。作者将 $TSLA 和 Unitree 比作未来的“战斗机器人”，并强调机器人市场规模可能达到 25 万亿美元，这一转型对公司未来的估值至关重要。\n\n然而，投资逻辑受到供应链地缘政治风险的显著制约。作者多次警告 $TSLA 在执行器和稀土等组件上对中国供应商的依赖是一个主要弱点。作者强烈呼吁 $TSLA 和美国建立主权供应链，以确保人形机器人的大规模生产不受制于外国势力。此外，作者指出 $TSLA 自研 AI 芯片也是利好三星等合作伙伴的因素之一。\n\n从投资组合的角度来看，作者有时会寻找 $TSLA 之外的机器人概念“纯玩法”敞口，期望在 $RKLB 等小盘股中获得 10 倍回报潜力。此外，在 2025 年底的市场重置期间，作者将 $TSLA 评级为“持有”，而更看好 $NBIS 等被低估的 AI 基建股。作者还将 $TSLA 作为潜在逼空行情的基准，将 $HIMS 的反转行情比作“$TSLA 式的逼空”。"
@@ -154,7 +154,7 @@ const summariesData = {
   "$CRWV": {
     "ticker": "$CRWV",
     "company_name": "CoreWeave",
-    "mention_count": 45,
+    "mention_count": 14,
     "date_range": "2025-07-21 ~ 2026-04-06",
     "summary_en": "The investment thesis for $CRWV centers on its status as a leading \"Neocloud\" provider, backed by $NVDA and securing massive contracts with hyperscalers like $META (reported deals ranging from $14B to $27B). The author views the sector as a generational opportunity where AI compute demand funnels trillions in CapEx into specialized infrastructure providers. $CRWV is recognized for its operational excellence, hyperscaler clients, and rapid revenue scaling potential.\n\nHowever, the author expresses a strong bearish view on $CRWV's financial structure, specifically its massive debt load. With over $1.5 billion in yearly interest payments, the company's debt is described as \"eating it alive,\" severely limiting free cash flow. Compared to peers like $NBIS, $CRWV is seen as having inferior financing, making it the \"first to go\" if the sector faces distress due to its leverage.\n\nKey risks include heavy exposure to OpenAI; the author highlights that Elon Musk's lawsuit against OpenAI poses a contagion risk for $CRWV, potentially jeopardizing backlog revenue. This dependency creates third-order risks for partners like $APLD and $CORZ. Despite the bullish sector outlook, the author notes $CRWV has suffered significant drawdowns, reflecting market concerns over its debt servicing and OpenAI reliance.",
     "summary_cn": "关于 $CRWV 的投资论点主要集中在其作为“新云”领域主要供应商的地位，该股获得了 $NVDA 的支持，并与 $META 等超大规模企业签署了巨额合同（据报道交易额在140亿至270亿美元之间）。作者认为该行业是十年一遇的机会，数万亿的AI算力资本支出将流向专业的基础设施供应商。$CRWV 因其卓越的运营执行力、高端客户群和快速的收入增长潜力而受到认可。\n\n然而，作者对 $CRWV 的财务结构持强烈的看跌态度，特别是其巨额债务负担。该公司的年利息支出超过15亿美元，被形容为正在“吞噬 CoreWeave”，严重限制了自由现金流。与 $NBIS 等同行相比，$CRWV 的融资结构较差，高杠杆使其在行业面临压力时最容易出现问题。\n\n主要风险包括对 OpenAI 的严重依赖；作者强调埃隆·马斯克起诉 OpenAI 构成了传染风险，可能危及 $CRWV 的积压订单收入。这种依赖性给 $APLD 和 $CORZ 等合作伙伴带来了三级风险。尽管行业前景看好，但作者指出 $CRWV 股价已大幅下跌，反映了市场对其偿债能力和 OpenAI 风险敞口的担忧。"
@@ -162,7 +162,7 @@ const summariesData = {
   "$ORCL": {
     "ticker": "$ORCL",
     "company_name": "Oracle Corporation",
-    "mention_count": 44,
+    "mention_count": 24,
     "date_range": "2025-09-10 ~ 2026-04-21",
     "summary_en": "The author views $ORCL as a \"Buy\" and a recovery play following its correction from $330 to $190, citing that capex fears have been de-risked after OpenAI's funding. While noting short-term trading opportunities during dips, the analyst considers $ORCL a top-tier, de-risked cloud player comparable to $MSFT, despite acknowledging its layoffs as part of a broader AI-driven labor displacement trend.",
     "summary_cn": "作者将 $ORCL 评级为“买入”，认为其股价从 330 美元修正至 190 美元后是反弹良机，理由是 OpenAI 的融资消除了资本支出担忧。尽管作者提到 $ORCL 的裁员是 AI 取代劳动力趋势的一部分，但仍将其视为与 $MSFT 相当的一流且风险已释放的云服务商，并指出了在股价下跌时的短期交易机会。"
@@ -170,7 +170,7 @@ const summariesData = {
   "$ALAB": {
     "ticker": "$ALAB",
     "company_name": "Astera Labs",
-    "mention_count": 40,
+    "mention_count": 5,
     "date_range": "2025-07-21 ~ 2026-03-04",
     "summary_en": "The author identifies $ALAB as a high-conviction \"Connectivity\" play essential for the ongoing AI data center buildout, consistently grouping it with peers like $CRDO and $CLS. The investment thesis centers on $ALAB's extremely high margins and its status as a necessary component for hyperscaler infrastructure, leading to its inclusion in the author's \"high conviction basket\" for 2026. The stock is viewed as a core beneficiary of the broader AI and \"Neocloud\" expansion driven by major tech giants.\n\nIn terms of portfolio strategy, the author suggests allocating roughly 10% to $ALAB, positioning it as a key proxy for the connectivity sector alongside semiconductor and energy plays. The thesis relies on sustained capital expenditures from hyperscalers like $GOOGL, $MSFT, and $AMZN, who are aggressively expanding compute capacity. This positions $ALAB as a fundamental infrastructure play rather than a speculative trend.\n\nHowever, later tweets introduce a competitive risk regarding emerging technologies. The author notes that photonics plays like $AAOI are positioned to \"leapfrog\" $ALAB in growth potential, suggesting that $ALAB may be associated more with traditional copper-based connectivity solutions compared to the superior growth profile of photonics. While $ALAB remains a \"Strong Buy\" for its margins and hyperscaler customer base, investors are alerted to the shifting technological landscape that favors photonics over legacy connectivity solutions.",
     "summary_cn": "作者将 $ALAB 视为正在进行的人工智能数据中心建设必不可少的“连接性”高确信投资标的，常将其与 $CRDO 和 $CLS 等同行归为一类。投资论点集中在 $ALAB 极高的利润率及其作为超大规模企业基础设施必要组件的地位，这使其被纳入作者2026年的“高确信篮子”。该股被视为由大型科技巨头推动的更广泛的人工智能和“新云”扩张的核心受益者。\n\n在投资组合策略方面，作者建议将约10%的资金配置给 $ALAB，将其定位为连接领域的核心代表，与半导体和能源板块并列。该论点依赖于 $GOOGL、$MSFT 和 $AMZN 等超大规模企业持续扩大的计算能力资本支出。这确立了 $ALAB 作为基础基建标的而非投机趋势股的地位。\n\n然而，后续推文引入了关于新兴技术的竞争风险。作者指出，像 $AAOI 这样的光电子标的定位将超越 $ALAB 的增长潜力，暗示 $ALAB 可能更多与传统铜基连接解决方案相关，而光电子的增长前景更优。尽管 $ALAB 因其利润率和超大规模客户群仍是“强力买入”对象，但投资者需关注技术格局向光电子转变对传统连接方案的潜在影响。"
@@ -178,7 +178,7 @@ const summariesData = {
   "$MTSI": {
     "ticker": "$MTSI",
     "company_name": "MACOM Technology Solutions Holdings Inc.",
-    "mention_count": 36,
+    "mention_count": 45,
     "date_range": "2026-01-10 ~ 2026-05-28",
     "summary_en": "The author identifies $MTSI as a critical incumbent in the photonics and Co-Packaged Optics (CPO) supply chain, primarily serving as a key supplier of CW DFB lasers and analog/mixed-signal ICs. Within the broader investment thesis of an impending photonics supercycle driven by AI scaling, $MTSI represents the established \"Tier 1\" standard alongside giants like $LITE and $COHR. However, the author suggests that these established players are often \"fully allocated,\" creating opportunities for smaller competitors to capture new demand from hyperscalers like $NVDA and $AMD.\n\nA significant strategic event highlighted is $MTSI's decision to pay off $IQE's debt to prevent their bankruptcy. This action underscores $MTSI's reliance on $IQE for epi-wafers and highlights the critical nature of upstream supply chain stability. The author views this intervention as validation of the sector's interdependencies and the strategic value of upstream suppliers, noting that the broader optical industry cannot afford to lose core supply chain partners.\n\nDespite its strong market position and substantial market capitalization (~$29B), the tweets indicate a competitive risk where Ayar Labs removed $MTSI from its website, potentially favoring smaller rivals like $SIVE for next-generation CPO architectures. While $MTSI remains a core industry player, the author implies that the highest asymmetric returns may lie in these smaller \"chokepoints\" rather than the established giants.",
     "summary_cn": "作者将 $MTSI 视为光子学和共封装光学（CPO）供应链中的关键在位企业，主要作为CW DFB激光器和模拟/混合信号IC的核心供应商。在由AI扩展驱动的光子学超级周期的宏观投资主题下，$MTSI 与 $LITE 和 $COHR 等巨头一样，代表了成熟的“第一梯队”标准。然而，作者指出这些老牌企业的产能往往已被“完全分配”，这为较小的竞争对手从 $NVDA 和 $AMD 等超大规模企业那里捕捉新需求创造了机会。\n\n推文中提到的一个重要战略事件是 $MTSI 决定偿还 $IQE 的债务以防止其破产。这一行动凸显了 $MTSI 对 $IQE 外延晶圆的依赖，并强调了上游供应链稳定性的关键性质。作者认为这一干预措施验证了该行业的相互依赖性以及上游供应商的战略价值，指出更广泛的光学行业无法承受失去核心供应链伙伴的后果。\n\n尽管拥有强大的市场地位和可观的市值（约290亿美元），推文指出了一个竞争风险，即 Ayar Labs 将 $MTSI 从其网站上移除，这可能意味着在下一代CPO架构中，倾向于选择像 $SIVE 这样较小的竞争对手。虽然 $MTSI 仍然是核心行业参与者，但作者暗示，相比老牌巨头，最高的不对称回报可能存在于较小的“瓶颈”环节中。"
@@ -186,7 +186,7 @@ const summariesData = {
   "$WULF": {
     "ticker": "$WULF",
     "company_name": "TeraWulf",
-    "mention_count": 35,
+    "mention_count": 4,
     "date_range": "2025-09-04 ~ 2026-02-15",
     "summary_en": "The author rates $WULF as a \"Strong Buy,\" identifying it as a prime \"NeoCloud\" recovery play driven by a joint venture with $GOOGL and Fluidstack to meet surging AI compute demand. The core thesis suggests that hyperscalers funneling capital into these smaller firms offers an asymmetric upside of 200-300%, despite risks related to execution and GPU depreciation.",
     "summary_cn": "作者将 $WULF 评级为“强力买入”，认为其是“新云”板块主要的复苏标的，受益于与 $GOOGL 和 Fluidstack 的合资项目以满足激增的AI算力需求。核心投资逻辑认为超大规模企业向这些小公司注入资本提供了200-300%的非对称上涨空间，尽管存在执行和GPU折旧等风险。"
@@ -194,7 +194,7 @@ const summariesData = {
   "$RPI": {
     "ticker": "$RPI",
     "company_name": "Raspberry Pi",
-    "mention_count": 33,
+    "mention_count": 47,
     "date_range": "2026-02-16 ~ 2026-05-29",
     "summary_en": "The core investment thesis for $RPI centers on \"agentic AI hardware demand,\" specifically driven by the OpenClaw and Picoclaw trends. The author argues that while markets focused on $AAPL Mac Minis for AI agents, $RPI offers a cheaper, scalable alternative for running isolated agentic swarms locally. This demand creates a material revenue catalyst for the small-cap company, with the author projecting potential revenue growth acceleration from ~15% to ~50% due to hoarding by startups and developers.\n\nThe author highlights a highly successful track record, noting $RPI rallied from approximately $280 to $800, validating the thesis. $RPI is consistently listed among a basket of stocks, including $AXTI, $SIVE, and $AAOI, that achieved triple-digit returns YTD. The author attributes this success to information synthesis and supply chain mapping within the broader photonics and AI hardware supercycle, rather than short-term speculation.\n\nDespite facing criticism from European media labeling $RPI a \"meme stock,\" the author defends the position by pointing to institutional accumulation and the durability of the gains. Key risks identified include the company's foundation ownership structure, which might limit aggressive pricing, and exposure to memory component price hikes. The author maintains that the fundamental demand for $RPI units validates the investment, dismissing the negative media narratives as a lack of technical understanding.",
     "summary_cn": "关于 $RPI 的核心投资逻辑围绕“代理AI硬件需求”，特别是由 OpenClaw 和 Picoclaw 趋势驱动的需求。作者认为，当市场关注 $AAPL 的 Mac Mini 用于AI代理时，$RPI 提供了一种更便宜、可扩展的本地运行隔离代理群的替代方案。这种需求为这家小市值公司创造了实质性的营收催化剂，作者预测由于初创公司和开发者的囤货，营收增长可能从约15%加速至50%。\n\n作者强调了卓越的过往业绩，指出 $RPI 从约$280涨至$800，验证了其论点。$RPI 始终被列入今年实现三位数回报的股票名单中，与 $AXTI、$SIVE 和 $AAOI 等并列。作者将此成功归因于在更广泛的光子学和AI硬件超级周期中的信息综合与供应链映射，而非短期投机。\n\n尽管欧洲媒体批评 $RPI 是“Meme股”，作者通过机构增持和涨幅的持久性为该立场辩护。指出的主要风险包括公司的基金会持股结构可能限制激进的定价策略，以及内存组件价格上涨的风险。作者坚持认为 $RPI 设备的基本面需求验证了该投资，并驳斥媒体的负面叙事源于缺乏技术理解。"
@@ -202,7 +202,7 @@ const summariesData = {
   "$CRDO": {
     "ticker": "$CRDO",
     "company_name": "Credo Technology Group",
-    "mention_count": 32,
+    "mention_count": 12,
     "date_range": "2025-07-21 ~ 2026-03-04",
     "summary_en": "The author rates $CRDO as a 'Buy' due to its extremely high margins and critical necessity for datacenter connectivity, maintaining a 5% portfolio weighting. However, the stock is also utilized for swing trades during volatility events like 'wire color change fears,' even as the author notes that $AAOI may soon leapfrog $CRDO in growth.",
     "summary_cn": "作者因 $CRDO 极高的利润率及其在数据中心连接中的必要性将其评级为“买入”，并在投资组合中持有5%的仓位。作者也利用“线缆颜色变更担忧”等波动进行波段交易，但同时指出 $AAOI 可能在增长方面超越 $CRDO。"
@@ -210,7 +210,7 @@ const summariesData = {
   "$SMCI": {
     "ticker": "$SMCI",
     "company_name": "Super Micro Computer Inc.",
-    "mention_count": 32,
+    "mention_count": 11,
     "date_range": "2025-09-10 ~ 2026-05-17",
     "summary_en": "The author rates $SMCI as a 'Strong Buy' for 2026, viewing it as a compelling recovery play following tax-harvesting selloffs. The investment thesis centers on the stock being mispriced as distressed merely due to a one-quarter revenue delay related to new Blackwell specifications. Fundamentally, the company shows strong growth with forward revenue increasing 50% year-over-year and an attractive price-to-sales ratio near 0.5.\n\nThe author successfully swing-traded $SMCI early in 2026 as part of their tax-harvesting strategy, contributing to their 316.4% YTD performance. A key catalyst is the recognition of deferred revenue, similar to $TSSI, which should drive recovery once tax-harvesting pressures subside in January.\n\nHowever, investors should note that $SMCI operates as a commodity integrator with relatively thin margins (8-14%), unlike specialized players like $OSS in defense AI which command 45%+ margins. The author emphasizes not conflating $SMCI's business model with photonics IP companies, as it functions primarily as an integrator rather than an IP holder.",
     "summary_cn": "作者将 $SMCI 评为2026年的'强力买入'，认为其是税务抛售后具有吸引力的反弹标的。投资逻辑的核心在于该股因Blackwell新规格导致的一个季度收入延迟而被错误定价为困境公司。从基本面看，公司前景收入同比增长50%，市销率接近0.5，估值具有吸引力。\n\n作者在2026年初成功将 $SMCI 作为税务抛售策略的一部分进行波段交易，为其316.4%的年初至今收益做出贡献。关键催化剂是递延收入的确认，类似于 $TSSI，一旦1月份税务抛售压力消退，将推动股价回升。\n\n但投资者需注意，$SMCI 作为大宗商品集成商，利润率相对较低（8-14%），不同于国防AI领域如 $OSS 等专业公司45%以上的利润率。作者强调不应将 $SMCI 的商业模式与光子IP公司混淆，因为它主要作为集成商而非IP持有者运营。"
@@ -218,7 +218,7 @@ const summariesData = {
   "$LPK": {
     "ticker": "$LPK",
     "company_name": "LPKF Laser & Electronics AG",
-    "mention_count": 31,
+    "mention_count": 38,
     "date_range": "2026-04-03 ~ 2026-06-01",
     "summary_en": "The author presents a strong investment thesis for $LPK, identifying it as the \"purest exposure\" to the accelerating shift toward glass substrates in advanced packaging. Describing the company as the \"$ASML of this chokepoint,\" the author notes that $LPK holds a near-monopoly, supplying Through-Glass-Via (TGV) equipment to approximately 80% of global players, including major semiconductor firms like $INTC and Samsung. This dominant market position allows it to capture the upcoming volume ramp as the industry moves beyond traditional substrates.\n\nFinancially, the author argues that $LPK is significantly undervalued, citing a market cap of roughly $650 million against potential revenues of $100-200 million per customer during the volume ramp phase. The thesis emphasizes patience regarding qualification cycles, noting that while revenue is currently limited, the stock offers asymmetric upside similar to previous winners like $LITE and $SIVE. The author has already realized substantial returns (citing gains of ~300%), validating the initial thesis at $6-$13.\n\nBeyond financials, the investment carries a strategic geopolitical angle; the author highlights $LPK as a critical European chokepoint that must be protected from hostile takeovers by geopolitical rivals to secure Western supply chains. Risks include the cyclical nature of equipment suppliers and the waiting period for mass production timelines. However, with glass substrate timelines moving forward and increasing adoption, $LPK remains a core holding for the author in the photonics and advanced packaging sector.",
     "summary_cn": "作者提出了针对 $LPK 的强力投资论点，将其视为先进封装领域向玻璃基板转变趋势中的“最纯粹敞口”。作者将该公司的地位比作该瓶颈领域的“$ASML”，指出 $LPK 拥有近乎垄断的地位，为包括 $INTC 和三星在内的全球约80%的玩家提供玻璃通孔（TGV）设备。这种主导性的市场地位使其能够在行业超越传统基板之际，捕捉即将到来的量产爬坡红利。\n\n在财务方面，作者认为 $LPK 被严重低估，理由是其市值约6.5亿美元，而单客户在量产爬坡阶段的潜在收入可达1-2亿美元。该论点强调需要对资格认证周期保持耐心，指出虽然目前收入有限，但该股具有类似 $LITE 和 $SIVE 等先前赢家的不对称上涨空间。作者已实现可观回报（ cited gains of ~300%），验证了其在6-13美元时的初始论点。\n\n除了财务因素，该投资还具有地缘政治战略意义；作者强调 $LPK 是关键欧洲瓶颈企业，必须防止被地缘政治对手恶意收购，以保障西方供应链安全。风险包括设备供应商的周期性特征以及等待量产时间表的不确定性。然而，随着玻璃基板时间表提前且采用率增加，$LPK 仍是作者在光子和先进封装领域的核心持仓。"
@@ -226,7 +226,7 @@ const summariesData = {
   "$SNAP": {
     "ticker": "$SNAP",
     "company_name": "Snap Inc.",
-    "mention_count": 28,
+    "mention_count": 11,
     "date_range": "2025-08-23 ~ 2026-03-29",
     "summary_en": "While the author initially rated $SNAP as a \"Buy\" citing revenue catalysts like the Perplexity AI deal and potential free cash flow generation, the investment thesis is heavily tempered by concerns over \"criminal\" financial engineering. The author warns that excessive stock-based compensation ($1B+ annually) acts as a wealth transfer from shareholders to executives, diluting investor equity despite the company's operational potential for a re-rating.",
     "summary_cn": "虽然作者最初将 $SNAP 评级为“买入”，理由包括与 Perplexity AI 的交易及潜在的现金流生成能力，但投资逻辑受到“犯罪式”财务工程的严重制约。作者警告称，每年超10亿美元的巨额股权激励实为向高管转移财富，尽管公司基本面具备重估潜力，但这严重稀释了投资者权益。"
@@ -234,7 +234,7 @@ const summariesData = {
   "$AAPL": {
     "ticker": "$AAPL",
     "company_name": "Apple Inc.",
-    "mention_count": 25,
+    "mention_count": 32,
     "date_range": "2026-02-18 ~ 2026-06-01",
     "summary_en": "The investment thesis regarding $AAPL highlights a strategic pivot in manufacturing and significant upcoming product cycles. The author notes a major shift where $AAPL is reportedly partnering with $INTC for semiconductor production, moving away from $TSM to support \"Made in America\" initiatives. In the competitive landscape, while $MSFT is integrating $NVDA hardware to challenge $AAPL, the author believes $AAPL retains a strong moat due to its superior OS design.\n\nA key focus is the next-generation Apple Watch roadmap. The author maps the supply chain for noninvasive blood-glucose monitoring, identifying $SIVE as the likely supplier for specialized lasers. This contrasts with the H2 2026 blood pressure update (using TASC). The glucose monitoring feature is expected to drive a mass production ramp of roughly 50 million units annually starting in H2 2027 or 2028, representing a critical technological leap for $AAPL's wearables segment.",
     "summary_cn": "关于 $AAPL 的投资论点突显了制造领域的战略转变和即将到来的重大产品周期。作者指出 $AAPL 据报道正与 $INTC 合作进行半导体生产，这是一个重大转变，旨在摆脱对 $TSM 的依赖并支持“美国制造”计划。在竞争格局方面，尽管 $MSFT 正整合 $NVDA 硬件以挑战 $AAPL，但作者认为 $AAPL 凭借更优越的操作系统设计保持了强大的护城河。\n\n另一个关键焦点是下一代 Apple Watch 的路线图。作者梳理了无创血糖监测的供应链，确认 $SIVE 为专用激光的可能供应商。这与 2026 年下半年的血压更新（使用 TASC）形成对比。预计血糖监测功能将在 2027 年下半年或 2028 年推动约 5000 万台的年量产，这代表了 $AAPL 可穿戴设备领域的关键技术飞跃。"
@@ -242,7 +242,7 @@ const summariesData = {
   "$FLNC": {
     "ticker": "$FLNC",
     "company_name": "Fluence Energy",
-    "mention_count": 25,
+    "mention_count": 9,
     "date_range": "2025-10-04 ~ 2026-06-01",
     "summary_en": "The investment thesis for $FLNC centers on its compelling valuation following a significant sell-off, with the author highlighting a $3B market cap as an attractive entry point. The core driver is the company's $5.6B+ backlog, which de-risks growth, combined with the anticipation of two direct hyperscaler framework agreements likely converting to orders in Q3. These potential deals with major players like $MSFT and $GOOGL are viewed as major catalysts that could lead to a substantial re-rating, similar to volume ramps seen in semiconductor stocks.\n\nRecent events have caused volatility, including a partnership with $NVDA and Siemens for power architectures, which sent the stock up over 50% at one point. However, a subsequent 20M share transfer and the activation of a shelf registration for ~97M shares created an overhang, introducing short-term selling pressure. The author reduced their position size due to this change in float structure but maintains a holding for the anticipated hyperscaler catalysts.\n\nFinancially, the author projects a strong forward profile, estimating ~$288M net income on $6B revenue by 2027 through software segment expansion. Despite the share overhang risks, the combination of high short interest (27.69%) and the potential for a massive rally upon contract finalization presents an asymmetric opportunity. The stock is positioned as a high-beta energy play benefiting from AI data center buildout trends.",
     "summary_cn": "$FLNC 的投资论点主要集中在其大幅下跌后引人注目的估值上，作者认为 30 亿美元的市值是一个具有吸引力的切入点。核心驱动力是其 56 亿美元以上的积压订单，这降低了增长风险，加之预期两项直接超大规模企业（Hyperscaler）框架协议将在第三季度转化为订单。这些与 $MSFT 和 $GOOGL 等巨头达成的潜在交易被视为重大催化剂，可能引发类似半导体股票放量增长时的估值重估。\n\n近期事件引发了波动，包括与 $NVDA 和西门子合作开发电源架构，股价一度上涨超过 50%。然而，随后的 2000 万股股份转让及约 9700 万股的货架注册生效造成了抛压，带来了短期下行压力。作者因此改变了交易策略并降低了持仓集中度，但仍保留部分仓位以博弈预期的超大规模企业合同催化剂。\n\n在财务方面，作者预测通过软件业务扩张，2027 年营收可达 60 亿美元，净利润约 2.88 亿美元。尽管存在股票抛压风险，但高空头比例（27.69%）与合同敲定后可能出现的强劲上涨行情相结合，呈现了不对称的获利机会。该股票被视为受益于 AI 数据中心建设趋势的高贝塔能源股。"
@@ -250,7 +250,7 @@ const summariesData = {
   "$VPG": {
     "ticker": "$VPG",
     "company_name": "Vishay Precision Group",
-    "mention_count": 23,
+    "mention_count": 31,
     "date_range": "2026-01-21 ~ 2026-05-31",
     "summary_en": "The author’s investment thesis for $VPG centers on its role as a key supplier of sensors for the emerging humanoid robotics market. The author anticipates that humanoids will become a significant trend around 2027-2028, explicitly linking $VPG to the \"Optimus\" narrative. This positions the stock as a play on the \"physical AI\" supply chain, often mentioned alongside other robotics exposure names like Harmonic Drive and $MBLY.\n\nWithin the portfolio, $VPG is classified as a \"small cap moonshot,\" holding a smaller allocation (approximately 2.5%) compared to core positions in the AI supercycle. While the author noted in March that $VPG was underperforming relative to high-conviction picks like $TSEM, subsequent updates highlighted strong performance, with the stock eventually \"cooking\" and being cited as a name that achieved significant returns.\n\nThe author utilizes $VPG as a long-term bet on structural bottlenecks in robotics, though it carries higher volatility and lower conviction than primary AI infrastructure plays. Despite short-term fluctuations, the stock was included in the author’s \"Parabolic Growth ETF\" and crowdsourced lists, validating its potential for high returns in the context of the broader AI and robotics thematic rotation.",
     "summary_cn": "作者对 $VPG 的投资论点主要集中其作为新兴人形机器人市场关键传感器供应商的角色。作者预计人形机器人将在 2027-2028 年左右成为重要趋势，并明确将 $VPG 与“Optimus”叙事联系起来。这使该股票成为“物理人工智能”供应链的一环，经常与 Harmonic Drive 和 $MBLY 等其他机器人概念股一起被提及。\n\n在投资组合中，$VPG 被归类为“小盘股高风险高回报”，其配置比例（约 2.5%）低于 AI 超级周期中的核心持仓。虽然作者在 3 月份曾指出 $VPG 的表现不如 $TSEM 等高确信度标的，但随后的更新显示其表现强劲，最终被列为表现优异并实现显著回报的股票之一。\n\n作者将 $VPG 视为对机器人领域结构性瓶颈的长期押注，尽管其波动性高于主要的人工智能基础设施标的，且确信度相对较低。尽管存在短期波动，该股票仍被纳入作者的“抛物线增长 ETF”及众包名单中，验证了其在更广泛的 AI 和机器人主题轮动中的高回报潜力。"
@@ -258,7 +258,7 @@ const summariesData = {
   "$PLTR": {
     "ticker": "$PLTR",
     "company_name": "Palantir Technologies",
-    "mention_count": 23,
+    "mention_count": 14,
     "date_range": "2025-07-28 ~ 2026-04-11",
     "summary_en": "The author maintains a bearish outlook on $PLTR, rating it as \"Avoid\" and citing it as one of the most overvalued AI names. They highlight that the stock has caused losses for followers of Michael Burry and express skepticism regarding the President's endorsement of the company after a 16% price decline.",
     "summary_cn": "作者对 $PLTR 维持看跌观点，将其评级为“避免”，并称其为估值最高的AI股票之一。作者指出该股导致Michael Burry的追随者亏损，并对总统在股价下跌16%后对该公司的背书表示怀疑。"
@@ -266,7 +266,7 @@ const summariesData = {
   "$ETOR": {
     "ticker": "$ETOR",
     "company_name": "eToro",
-    "mention_count": 23,
+    "mention_count": 10,
     "date_range": "2025-08-23 ~ 2026-03-22",
     "summary_en": "The author assigns a 'Strong Buy' rating to $ETOR, identifying it as a prime recovery play due to its substantial cash reserves of $1.2B against a $2.8B market cap, double-digit growth, and a $150M buyback initiative. Allocating 5% of the portfolio to this fintech name, the thesis anticipates a rebound driven by the subsiding of tax-loss harvesting pressures and post-earnings sell-offs.",
     "summary_cn": "作者给予 $ETOR “强力买入”评级，视其为主要复苏型投资标的，理由是其拥有12亿美元现金（市值仅28亿美元）、双位数增长以及1.5亿美元的回购计划。该股在投资组合中占比5%，投资逻辑预期随着税务抛售压力的消退及财报后的下跌，股价将迎来反弹。"
@@ -274,7 +274,7 @@ const summariesData = {
   "$ARM": {
     "ticker": "$ARM",
     "company_name": "ARM Holdings",
-    "mention_count": 23,
+    "mention_count": 34,
     "date_range": "2026-03-25 ~ 2026-06-02",
     "summary_en": "The author's core investment thesis for $ARM centers on the semiconductor bottleneck shifting from GPUs back to CPUs, driven by the transition from AI training to inference. The author highlights $ARM's strategic pivot to designing its own \"AGI CPU\" for agentic AI workloads, projecting a massive revenue ramp to $15B-$25B annually (a 5x increase). Key customers like OpenAI and $META are leading the demand, while hyperscalers like $AMZN, $GOOGL, and $MSFT increasingly rely on ARM-based architectures (Graviton, Axion, Cobalt) for data center efficiency.\n\nThe author emphasizes changing GPU:CPU ratios (moving from 1:8 to 1:1) which necessitates \"astronomical\" amounts of traditional CPU compute. This structural shift supports the author's bullish stance, initiated at a price point around $134-$139. The author notes $ARM's exceptional performance, rising to the $350-$413 range within months, validating the thesis that \"cool name CPUs go brrr\" and marking it as one of their many high-performing picks alongside names like $MRVL and $INTC.\n\nWhile bullish, the author acknowledges that while $ARM solves shortages architecturally, the physical manufacturing bottleneck benefits foundries like $TSM. There is also mention of antitrust sentiments regarding potential acquisitions involving $ARM and $NVDA. Despite the rapid valuation expansion, the author maintains that the revenue projections justify the risk-reward profile, especially as AI models become more lightweight and move to the edge.",
     "summary_cn": "作者对 $ARM 的核心投资论点主要基于半导体瓶颈从 GPU 转回 CPU，这一趋势由 AI 训练向推理的过渡所驱动。作者强调了 $ARM 转向设计自主的“AGI CPU”以应对代理 AI 工作负载，预计年收入将大幅增长至 150 亿至 250 亿美元（增长 5 倍）。OpenAI 和 $META 是主要客户，而 $AMZN、$GOOGL 和 $MSFT 等超大规模企业也越来越依赖基于 ARM 的架构（如 Graviton、Axion、Cobalt）来提高数据中心效率。\n\n作者强调了 GPU:CPU 比例的变化（从 1:8 移动到 1:1），这使得对传统 CPU 计算的需求达到“天文数字”级别。这一结构性转变支持了作者的看涨立场，其建仓价格约为 134-139 美元。作者指出 $ARM 表现优异，在数月内升至 350-413 美元区间，验证了“CPU 狂飙”的论点，并使其成为继 $MRVL 和 $INTC 等名字之后，作者众多高收益投资之一。\n\n虽然看好，但作者承认虽然 $ARM 在架构上解决了短缺问题，但物理制造瓶颈仍利好 $TSM 等代工厂。文中还提到了涉及 $ARM 和 $NVDA 潜在收购的反垄断情绪。尽管估值快速扩张，作者坚持认为收入预测证明了风险回报比的合理性，特别是在 AI 模型变得更轻量化并向边缘端转移的情况下。"
@@ -282,7 +282,7 @@ const summariesData = {
   "$FN": {
     "ticker": "$FN",
     "company_name": "Fabrinet",
-    "mention_count": 21,
+    "mention_count": 26,
     "date_range": "2026-02-25 ~ 2026-05-20",
     "summary_en": "$FN is positioned as a critical node in the optical supply chain, specifically specializing in optical packaging and assembly. The author categorizes $FN alongside peers like Innolight and Eoptolink, noting its role as a volume manufacturer in Asia (China, Thailand, Malaysia). It serves as a key assembly partner for major industry players; for instance, $LITE utilizes $FN in Thailand for volume production.\n\nFrom a financial perspective, the author notes $FN's significant scale with a market capitalization around $20B-$25B and projected 2026 revenues of approximately $4.4B. However, the investment thesis highlights a comparative weakness: $FN operates with lower gross margins (~12.4%) relative to \"Made in America\" competitors like $AAOI. The author suggests that while $FN is a volume leader, it lacks the geopolitical insulation and potential valuation premium associated with U.S.-based supply chains.\n\nDespite the preference for domestic plays, $FN remains a core holding in the author's broader photonics ecosystem strategy. It is included in \"stocks I like\" lists and benefits from the general optical supercycle driven by AI demand. The author views production ramp-ups and strong test yields from companies like $VIAV and $FORM as leading indicators for $FN, confirming its status as a fundamental beneficiary of the ongoing shift toward CPO and silicon photonics architectures.",
     "summary_cn": "$FN 被定位为光学供应链中的关键环节，专门从事光学封装与组装。作者将 $FN 与 Innolight 和 Eoptolink 等同行并列，指出其作为亚洲（中国、泰国、马来西亚）量产制造商的角色。它是行业巨头的重要组装合作伙伴，例如 $LITE 利用 $FN 在泰国进行量产。\n\n从财务角度看，作者指出 $FN 规模巨大，市值约为 200 亿至 250 亿美元，2026 年预计收入约为 44 亿美元。然而，投资论点强调了一个相对劣势：与 $AAOI 等“美国制造”的竞争对手相比，$FN 的毛利率较低（约 12.4%）。作者认为，虽然 $FN 是量产领导者，但它缺乏美国本土供应链所具有的地缘政治避险属性及潜在的估值溢价。\n\n尽管作者更偏好本土企业，$FN 仍是其更广泛的光子学生态系统策略中的核心持仓。它被列入“看好股票”名单，并受益于 AI 需求推动的整体光学超级周期。作者将 $VIAV 和 $FORM 等公司的产量提升和强劲的测试良率视为 $FN 的先行指标，确认了其作为 CPO 和硅光子架构转型中基础受益者的地位。"
@@ -290,7 +290,7 @@ const summariesData = {
   "$ALRIB": {
     "ticker": "$ALRIB",
     "company_name": "Riber",
-    "mention_count": 21,
+    "mention_count": 26,
     "date_range": "2026-04-09 ~ 2026-06-01",
     "summary_en": "The author presents a compelling bullish thesis for $ALRIB, identifying it as a profitable European small-cap operating as a effective duopoly with $VECO in the Molecular Beam Epitaxy (MBE) equipment market. The core investment case rests on \"information discovery\" that links $ALRIB to $MSFT as a critical supplier for Microsoft's Quantum program. The author argues that a sub-$1B market cap company supplying hyperscalers for frontier technologies like quantum computing and silicon photonics is significantly undervalued.\n\nPerformance validation has been strong, with the author noting the stock moved from $5 to $15, achieving triple-digit returns year-to-date. The thesis suggests that $ALRIB captures upside from the CapEx and R&D cycles of quantum buyers and photonics foundries like $IQE and QD Laser earlier than downstream producers. The author emphasizes that accelerating order books and a breakthrough in silicon photonics machines further de-risk the investment.\n\nBeyond fundamentals, the author highlights a geopolitical angle, arguing that spotlighting critical European supply chain \"chokepoints\" like $ALRIB helps prevent hostile takeovers by geopolitical rivals. While acknowledging risks typical of early-stage industries, the author maintains that the combination of profitability, dividends, and exposure to the $MSFT quantum supply chain makes $ALRIB a high-conviction holding.",
     "summary_cn": "作者对 $ALRIB 提出了强烈的看涨论点，将其认定为一家盈利的欧洲小盘股，与 $VECO 在分子束外延（MBE）设备市场形成有效的双寡头垄断。核心投资逻辑基于“信息发现”，将 $ALRIB 与 $MSFT 联系起来，认定其为微软量子项目的关键供应商。作者认为，一家市值低于 10 亿美元、为量子计算和硅光子等前沿技术提供服务的超大规模企业供应商，其价值被严重低估。\n\n业绩验证表现强劲，作者指出该股从 5 美元涨至 15 美元，年初至今实现了三位数的回报。该论点认为，$ALRIB 比下游生产商更早从量子买家和 $IQE、QD Laser 等光子代工厂的资本支出和研发周期中获益。作者强调，加速的订单簿和硅光子技术的突破进一步降低了投资风险。\n\n除了基本面，作者还强调了地缘政治角度，认为关注像 $ALRIB 这样的欧洲关键供应链“瓶颈”有助于防止地缘政治对手进行恶意收购。尽管承认早期行业存在典型风险，作者坚持认为，盈利能力、股息以及与 $MSFT 量子供应链的关联相结合，使 $ALRIB 成为一个高确信度的持仓。"
@@ -298,7 +298,7 @@ const summariesData = {
   "$GFS": {
     "ticker": "$GFS",
     "company_name": "GlobalFoundries",
-    "mention_count": 20,
+    "mention_count": 27,
     "date_range": "2026-01-20 ~ 2026-06-02",
     "summary_en": "The author identifies $GFS as a critical foundry partner in the upcoming Co-Packaged Optics (CPO) and Silicon Photonics (SiPh) supercycle, expected to inflect in H2 2026. The core investment thesis posits that $GFS is successfully capturing the architectural shift from traditional pluggables to CPO, securing its position as a primary manufacturing hub for next-generation AI hardware.\n\nA major catalyst driving this thesis is the announced partnership between $AMD and $GFS for CPO development. The author highlights that $GFS's ecosystem validation—specifically listing $SIVE and $LITE as its two public laser suppliers—signals a robust supply chain. This partnership suggests $GFS will be central to $AMD's CPO roadmap, potentially feeding into major hyperscalers like $AMZN, $MSFT, and $GOOGL.\n\nWhile the author focuses heavily on the component suppliers like $SIVE, $GFS is consistently framed as the essential 'SiPh foundry' infrastructure. The risk/reward profile is tied to the mass deployment of CPO technology; if the forecasted $81B CPO TAM materializes, $GFS stands to benefit as a foundational layer in the optical stack, distinct from legacy foundries yet to pivot to photonics.",
     "summary_cn": "作者将 $GFS 确定为即将在 2026 年下半年爆发的共封装光学（CPO）和硅光子超级周期中的关键代工合作伙伴。核心投资论点认为，$GFS 正成功抓住从传统可插拔模块向 CPO 的架构转变，确立了其作为下一代 AI 硬件主要制造中心的地位。\n\n推动这一论点的关键催化剂是 $AMD 与 $GFS 在 CPO 开发方面宣布的合作关系。作者强调，$GFS 的生态系统验证——特别是将 $SIVE 和 $LITE 列为其两家上市激光供应商——表明了稳健的供应链。这种合作关系暗示 $GFS 将成为 $AMD CPO 路线图的核心，并可能服务于 $AMZN、$MSFT 和 $GOOGL 等主要超大规模厂商。\n\n虽然作者重点关注 $SIVE 等组件供应商，但 $GFS 始终被定位为必要的“硅光代工”基础设施。其风险回报概况与 CPO 技术的大规模部署紧密相关；如果预测的 810 亿美元 CPO 总潜在市场得以实现，$GFS 将作为光堆栈中的基础层受益，从而区别于尚未转向光子学的传统代工厂。"
@@ -306,7 +306,7 @@ const summariesData = {
   "$NVO": {
     "ticker": "$NVO",
     "company_name": "Novo Nordisk",
-    "mention_count": 20,
+    "mention_count": 13,
     "date_range": "2025-08-23 ~ 2026-05-09",
     "summary_en": "The author highlights a pivotal shift in the narrative surrounding $NVO, specifically regarding its relationship with $HIMS. Previously viewed as an existential threat to $HIMS through pending lawsuits, $NVO unexpectedly dropped legal action and entered a strategic partnership to sell branded GLP-1 products through $HIMS' distribution network. This event is cited as a major bullish catalyst for $HIMS, effectively de-risking the company and invalidating the bearish thesis that relied on regulatory obstruction from $NVO.\n\nThis partnership transforms $NVO from a legal adversary into a key ally for $HIMS, enabling the latter to capture significant market share in the weight loss sector. The author argues that this development caught short sellers off guard, given that a significant portion of $HIMS float was sold short based on expectations of regulatory failure. The collaboration allows $HIMS to leverage its global direct-to-consumer network to distribute $NVO products, creating a high-margin revenue stream.\n\nFrom a broader market perspective, the author notes that traditional value and dividend plays like $NVO have seen investor interest wane in favor of high-growth sectors like semiconductors. While $NVO was previously rated as a 'Hold', the strategic pivot to partner with $HIMS suggests an effort to leverage modern DTC distribution channels. However, the primary focus of the tweets remains on how this partnership benefits $HIMS, turning regulatory uncertainty into a fundamental growth driver.",
     "summary_cn": "作者强调了围绕 $NVO 的叙事发生了关键转变，特别是其与 $HIMS 的关系。此前 $NVO 通过未决诉讼被视为 $HIMS 的生存威胁，但出人意料地撤销了诉讼，并与 $HIMS 建立战略合作伙伴关系，通过 $HIMS 的分销网络销售品牌 GLP-1 产品。这一事件被视为 $HIMS 的重大利好催化剂，有效地消除了风险，并推翻了空头依赖 $NVO 监管阻力的看跌论点。\n\n这种合作将 $NVO 从法律对手转变为 $HIMS 的关键盟友，使后者能够在减肥市场占据重要份额。作者认为，这一进展让空头措手不及，因为此前 $HIMS 相当一部分流通股被做空，正是基于监管失败的预期。此次合作使 $HIMS 能够利用其全球直接面向消费者（DTC）的网络分销 $NVO 产品，从而创造高利润的收入来源。\n\n从更广泛的市场角度来看，作者指出，像 $NVO 这样的传统价值和股息投资标的似乎已不如半导体等高增长板块受投资者青睐。虽然 $NVO 此前被评级为“持有”，但与 $HIMS 的战略合作表明其正努力利用现代 DTC 分销渠道。然而，推文的主要焦点仍然在于该合作如何通过将监管不确定性转化为基本增长动力，从而使 $HIMS 受益。"
@@ -314,7 +314,7 @@ const summariesData = {
   "$AMKR": {
     "ticker": "$AMKR",
     "company_name": "Amkor Technology, Inc.",
-    "mention_count": 19,
+    "mention_count": 17,
     "date_range": "2025-10-20 ~ 2026-04-24",
     "summary_en": "The author identifies $AMKR as a core holding within the \"advanced packaging\" and \"Made in America\" investment themes. It is consistently categorized as a critical \"bottleneck long\" in the AI supply chain, essential for resolving yield and capacity constraints for major semiconductor players. The investment thesis centers on structural tailwinds from hyperscaler capex and the onshoring of chip production, with new \"super facilities\" expected to come online in late 2027-2028.\n\nFinancially, the author highlights $AMKR as a significant beneficiary of the ongoing memory supercycle, specifically supporting HBM production for giants like $MU, Samsung, and SK Hynix. The stock has delivered strong performance within the author's \"Bottleneck ETF\" framework, recording gains of over 28% in a single week and 32% over two weeks in early 2026. It is frequently grouped with other packaging equipment plays like $ONTO, $CAMT, and $KLIC as a way to trade active supply chain constraints.\n\nWhile the author views the name as a long-term play on domestic supply chains, often pairing it with $INTC, they also trade it actively based on capital rotation trends. The primary risk factors implied involve the timing of facility ramps and the broader macro environment for high-beta semiconductor stocks, though the author remains bullish on the advanced packaging supercycle.",
     "summary_cn": "作者将 $AMKR 视为“先进封装”和“美国制造”投资主题中的核心持仓。它被持续归类为AI供应链中关键的“瓶颈长线标的”，对于解决主要半导体玩家的良率和产能限制至关重要。投资逻辑围绕超大规模厂商的资本支出结构性顺风以及芯片生产的回流，预计新的“超级工厂”将于2027年底至2028年上线。\n\n在财务方面，作者强调 $AMKR 是当前内存超级周期的主要受益者，特别是为 $MU、三星和 SK Hynix 等巨头的 HBM 生产提供支持。该股在作者的“瓶颈ETF”框架下表现强劲，在2026年初的一周内涨幅超过28%，两周内涨幅达32%。它常与 $ONTO、$CAMT 和 $KLIC 等其他封装设备股归为一类，作为交易活跃供应链限制的一种方式。\n\n虽然作者将该股视为国内供应链的长期投资（常与 $INTC 搭配），但也根据资本轮动趋势进行主动交易。隐含的主要风险因素涉及工厂投产的时间安排以及高贝塔半导体股票的宏观环境，尽管作者对先进封装超级周期仍持看涨态度。"
@@ -330,7 +330,7 @@ const summariesData = {
   "$OSS": {
     "ticker": "$OSS",
     "company_name": "OSS",
-    "mention_count": 19,
+    "mention_count": 17,
     "date_range": "2025-11-05 ~ 2026-05-24",
     "summary_en": "The author classifies $OSS as a high-upside \"Small Cap Moonshot,\" assigning it a 1% portfolio weighting and a \"Buy\" rating. The core investment thesis revolves around speculation that $OSS is a supplier for Anduril, combined with the expectation that edge computing will be a hot sector in 2026. The author also initiated a position in $OSS following an invasion event, citing a \"follow the leader\" catalyst within the defense sector.\n\nPerformance-wise, $OSS proved to be a successful pick for the author, achieving returns of over 100% (2x+) year-to-date in 2026. It was listed among roughly 15 other names that delivered triple-digit returns, validating the author's thesis. The stock's relatively small market capitalization of approximately $180 million was viewed as a key factor for attractive upside potential.\n\nDespite the strong returns, the author notes facing criticism and accusations of \"stealing ideas\" regarding the $OSS thesis. The author defended their analysis as novel, specifically highlighting their synthesis around the Venezuela situation. This highlights the volatile nature of small-cap plays, which the author manages by allocating a smaller percentage of capital compared to core holdings in memory and datacenter stocks.",
     "summary_cn": "作者将 $OSS 归类为具有高上涨潜力的“小盘股投机”，给予其1%的投资组合权重和“买入”评级。核心投资逻辑围绕 $OSS 是 Anduril 供应商的推测，并结合了2026年边缘计算领域将火爆的预期。作者还在战争入侵事件后建仓 $OSS，理由是国防板块的“跟随领头羊”催化剂效应。\n\n在业绩表现方面，$OSS 证明是作者的一次成功操作，2026年年初至今回报率超过100%（翻倍）。它被列入大约15只实现三位数回报的股票名单中，验证了作者的投资逻辑。该股约1.8亿美元的较小市值被视为具有吸引力上行潜力的关键因素。\n\n尽管回报强劲，作者提到面临批评和关于 $OSS 投资逻辑“剽窃创意”的指控。作者为自己的分析进行了辩护，称其具有独创性，特别是针对委内瑞拉局势的综合分析。这凸显了小盘股操作的波动性，因此作者分配的资金比例低于内存和数据中心等核心持仓。"
@@ -338,7 +338,7 @@ const summariesData = {
   "$IBIT": {
     "ticker": "$IBIT",
     "company_name": "iShares Bitcoin Trust",
-    "mention_count": 19,
+    "mention_count": 8,
     "date_range": "2025-07-03 ~ 2026-04-24",
     "summary_en": "$IBIT is a Bitcoin ETF that the author allocates 10% of their portfolio to as part of their digital asset exposure strategy. The investment thesis centers around the Bitcoin halving expected in 2028, which historically has been a bullish catalyst for Bitcoin prices. The author categorizes $IBIT as a \"Buy\" in their ratings and includes it as part of a barbell strategy away from hyperscaler capex. In their 30-stock portfolio, $IBIT showed a +7.68% return over a two-week period, demonstrating solid performance alongside other investments.",
     "summary_cn": "$IBIT是一个比特币ETF，作者将其作为数字资产敞口策略的一部分，在投资组合中分配了10%的仓位。投资论点围绕2028年预期的比特币减半，这在历史上一直是比特币价格的看涨催化剂。作者在评级中将$IBIT列为\"买入\"，并将其作为远离超大规模资本支出的杠铃策略的一部分。在他们的30只股票投资组合中，$IBIT在两周内显示+7.68%的回报，与其他投资一起展示了稳健的表现。"
@@ -346,7 +346,7 @@ const summariesData = {
   "$BMNR": {
     "ticker": "$BMNR",
     "company_name": "BMNR",
-    "mention_count": 18,
+    "mention_count": 8,
     "date_range": "2025-09-15 ~ 2026-02-17",
     "summary_en": "The author maintains a strongly bearish stance on $BMNR, consistently rating it as 'Avoid' across multiple monthly ratings. The primary investment thesis against $BMNR centers on its characterization as an 'endless dilution machine' that raises capital through continuous share issuance. The author specifically criticizes the company's capital allocation decisions, notably a $200 million investment into Mr. Beast's company, which is described as a 'silly project' with poor liquidity characteristics.\n\nThe author recommends a pairs trade strategy of going long ETH staking ETFs while shorting $BMNR, expecting the premium to decline. The criticism extends to the company's fundamental business model, with the author noting that ETH burn rates are minimal (single to low double digits daily), which undermines any bullish thesis. Compared to other stocks in the 'Avoid' category like $PLTR, $WMT, and quantum computing names ($IONQ, $RGTI, $QBTS), $BMNR is singled out for its particularly problematic combination of dilution risk and questionable management decisions.\n\nKey risks highlighted include ongoing shareholder dilution, poor capital allocation into illiquid ventures, and lack of meaningful revenue catalysts. The author's perspective is that $BMNR represents a classic value trap where retail investors may be attracted to the ticker without understanding the structural issues with the company's financing and investment strategy.",
     "summary_cn": "作者对 $BMNR 保持强烈看空立场，在多个月的评级中持续将其标记为'避免'。反对 $BMNR 的核心投资逻辑主要集中在其被定性为'无休止的稀释机器'，通过不断发行股票来筹集资金。作者特别批评了该公司的资本配置决策，尤其是向 Mr. Beast 公司投资的 2 亿美元，被描述为一个'愚蠢的项目'，且流动性特征不佳。\n\n作者建议采用做多 ETH 质押 ETF 同时做空 $BMNR 的配对交易策略，预期溢价将下降。批评还延伸至公司的基本面业务模式，作者指出 ETH 销毁率微乎其微（每日仅个位数至低两位数），这削弱了任何看涨逻辑。与同属'避免'类别的其他股票如 $PLTR、$WMT 和量子计算概念股（$IONQ、$RGTI、$QBTS）相比，$BMNR 因其稀释风险与 questionable 管理决策的特别组合而被单独点名。\n\n重点强调的风险包括持续的股东稀释、向低流动性项目的糟糕资本配置，以及缺乏有意义的收入催化剂。作者的观点是，$BMNR 代表了一个典型的价值陷阱，散户投资者可能被该股票吸引，却不了解公司融资和投资策略的结构性问题。"
@@ -354,7 +354,7 @@ const summariesData = {
   "$ONDS": {
     "ticker": "$ONDS",
     "company_name": "Ondas Holdings Inc.",
-    "mention_count": 18,
+    "mention_count": 14,
     "date_range": "2025-09-18 ~ 2026-02-21",
     "summary_en": "The author assigns a \"Buy\" rating to $ONDS, citing explosive revenue growth, recent $10 million contracts, and a substantial cash balance for R&D, while accepting its high 25-30x P/S ratio as a premium typical for speculative leaders like $RKLB. The investment thesis is reinforced by the company's role in the defense supply chain, where its Iron Drone Raider and Optimus systems utilize specialized thermal technology from suppliers like $LPTH.",
     "summary_cn": "作者给予 $ONDS “买入”评级，理由是其爆炸性的收入增长、近期获得的1000万美元合同以及用于研发的雄厚现金余额，同时认为其25-30倍的高市销率作为类似 $RKLB 等投机性龙头的溢价是合理的。其投资论点还得到了公司在国防供应链中地位的支持，其 Iron Drone Raider 和 Optimus 系统使用了来自 $LPTH 等供应商的专用热成像技术。"
@@ -362,7 +362,7 @@ const summariesData = {
   "$KRKNF": {
     "ticker": "$KRKNF",
     "company_name": "Kraken Robotics",
-    "mention_count": 17,
+    "mention_count": 9,
     "date_range": "2025-10-29 ~ 2026-03-14",
     "summary_en": "The author maintains a \"Buy\" rating for $KRKNF, driven by its strategic partnership with Anduril, anticipated uplisting in 2026, and broader defense spending tailwinds. Additionally, the stock is positioned to benefit from immediate geopolitical risks in the Strait of Hormuz, where its KATFISH towed underwater vehicles are actively deployed by NATO navies for minehunting operations.",
     "summary_cn": "作者维持对 $KRKNF 的“买入”评级，主要基于其与 Anduril 的战略合作伙伴关系、2026 年预期的转板上市以及广泛的国防支出利好。此外，该股票有望从霍尔木兹海峡紧迫的地缘政治风险中受益，其 KATFISH 拖曳式水下航行器正被北约海军积极部署用于猎雷行动。"
@@ -378,7 +378,7 @@ const summariesData = {
   "$IBKR": {
     "ticker": "$IBKR",
     "company_name": "Interactive Brokers",
-    "mention_count": 17,
+    "mention_count": 16,
     "date_range": "2025-09-17 ~ 2026-05-17",
     "summary_en": "The author presents a strong bullish thesis for $IBKR, positioning it as the superior brokerage for retail investors seeking international equity exposure. Unlike $HOOD, which is criticized for focusing on 'prediction markets' and 'crapcoins,' $IBKR has successfully captured inflows by enabling access to high-growth markets in Korea, Japan, Taiwan, and Europe. The launch of Korean stock trading is highlighted as a pivotal feature that allowed the author and others to execute long ideas previously unavailable on other platforms.\n\nThere is a clear narrative of market share shift from $HOOD to $IBKR. The author notes that $HOOD missed earnings and faces revenue deceleration due to a lack of innovation in international equities. Conversely, $IBKR is experiencing all-time high account growth, driven partly by the author's influence ('Serenity Accounts') and the broader retail trend of frontrunning institutions in foreign stocks like $SIVE. $IBKR is cited as a major holder of $SIVE, representing significant US retail ownership.\n\nDespite the positive sentiment, the author identifies specific operational risks. A notable complaint involves $IBKR applying 100% maintenance margin requirements to foreign stocks within Portfolio Margin accounts, treating them as toxic assets despite their legitimacy. Additionally, in a late 2025 rating, $IBKR was listed as a 'Hold,' though the author's sentiment appeared to shift bullish leading into 2026 earnings due to the influx of new accounts.",
     "summary_cn": "作者对 $IBKR 提出了强烈的看涨论点，将其定位为寻求国际股票敞口的散户投资者的首选券商。与 $HOOD 不同，$IBKR 因专注于“预测市场”和“垃圾币”而受到批评，而 $IBKR 通过提供韩国、日本、台湾和欧洲等高增长市场的准入，成功吸引了资金流入。韩国股票交易的推出被视为一个关键功能，使作者和其他人能够执行以前在其他平台上无法实现的多头策略。\n\n市场份额明显从 $HOOD 转向 $IBKR。作者指出，由于缺乏国际股票创新，$HOOD 错失了收益并面临收入减速。相反，$IBKR 的账户增长创下历史新高，这部分归功于作者的影响力（“Serenity Accounts”）以及散户在 $SIVE 等外国股票上抢占机构先机的更广泛趋势。$IBKR 被列为 $SIVE 的主要持有者，代表了大量的美国散户持股。\n\n尽管情绪积极，但作者指出了具体的运营风险。一个值得注意的抱怨是，$IBKR 对投资组合保证金账户中的外国股票施加 100% 的维持保证金要求，尽管这些资产合法，却被视为有毒资产。此外，在 2025 年底的一次评级中，$IBKR 被列为“持有”，但随着新账户的大量涌入，作者的情绪在 2026 年收益发布前似乎转为看涨。"
@@ -386,7 +386,7 @@ const summariesData = {
   "$LPTH": {
     "ticker": "$LPTH",
     "company_name": "LightPath Technologies, Inc.",
-    "mention_count": 17,
+    "mention_count": 22,
     "date_range": "2026-01-15 ~ 2026-04-24",
     "summary_en": "The core investment thesis for $LPTH revolves around its critical role as a national security asset and the only US alternative for Germanium glass, a material essential for modern thermal weapons and drones. With China controlling 70% of the global Germanium supply, export controls have created a structural bottleneck, forcing US defense contractors to pivot to $LPTH's \"Black Diamond\" engineered alternatives. The author identifies the company as a vital supplier to major defense players like Lockheed Martin, L3Harris, RTX, and Anduril, providing components for missile seekers and infrared camera systems.\n\nFinancially, the author highlights a robust balance sheet with $75-80 million in cash and no debt, alongside improving fundamentals. The company is described as \"sold out\" with a growing backlog increasing from $40 million to over $90 million, while gross margins are projected to expand from 27.2% to 35-40%. The stock is positioned as a \"small cap moonshot\" within the portfolio, driven by the urgent need to decouple defense supply chains from China.\n\nFrom a trading perspective, the author initiated a position following geopolitical conflict and invasion news, categorizing $LPTH as a defense play. While it initially underperformed in March alongside other misc picks, it subsequently rallied 20.23% over a two-week period in April. The author remains confident that US-made alternatives will remain important indefinitely due to persistent export controls.",
     "summary_cn": "$LPTH 的核心投资逻辑在于其作为国家安全资产的关键地位，它是美国唯一的锗玻璃替代供应商，而锗玻璃是现代热武器和无人机不可或缺的材料。鉴于中国控制着全球70%的锗供应，出口管制造成了结构性瓶颈，迫使美国国防承包商转向使用 $LPTH 的“黑钻”工程替代品。作者认为该公司是洛克希德·马丁、L3Harris、RTX 和 Anduril 等主要国防企业的重要供应商，为其提供导弹导引头和红外相机系统组件。\n\n在财务方面，作者强调了其稳健的资产负债表，拥有约7500万至8000万美元现金且无债务，基本面不断改善。该公司产品供不应求，积压订单从4000万美元增长至超过9000万美元，毛利率预计将从27.2%扩大至35-40%。该股被定位为投资组合中的“小盘潜力股”，其驱动力源于国防供应链急需与中国脱钩的迫切需求。\n\n从交易角度来看，作者在地缘政治冲突和入侵新闻爆发后建立了仓位，将 $LPTH 归类为国防股。虽然3月份它曾与其他杂项持仓一起表现不佳，但在4月的两周内强劲反弹了20.23%。作者坚信，由于持续的出口管制，美国制造的替代品将永远具有重要意义。"
@@ -402,7 +402,7 @@ const summariesData = {
   "$RGTI": {
     "ticker": "$RGTI",
     "company_name": "Rigetti Computing",
-    "mention_count": 16,
+    "mention_count": 6,
     "date_range": "2025-10-04 ~ 2026-04-17",
     "summary_en": "The author maintains a consistently bearish outlook on $RGTI, rating it as a 'Strong Sell' or 'Avoid' due to a severe disconnect between its $5.27 billion market capitalization and underlying fundamentals, specifically citing the lack of near-term free cash flow. Despite acknowledging the company's importance to U.S. national security and its receipt of $11.28 million in government funding, the analyst argues that this support does not justify the valuation, using $RGTI as a prime example of an overvalued quantum stock alongside $IONQ and $QBTS.",
     "summary_cn": "作者对 $RGTI 维持一贯的看跌观点，将其评级为“强烈卖出”或“避免”，认为其52.7亿美元的市值与基本面严重脱节，特别是缺乏近期的自由现金流。尽管承认该公司对美国国家安全的重要性以及获得了1128万美元的政府资助，但分析师认为这并不足以支撑其估值，并将 $RGTI 视为与 $IONQ 和 $QBTS 并列的量子股估值过高典型。"
@@ -410,7 +410,7 @@ const summariesData = {
   "$WYFI": {
     "ticker": "$WYFI",
     "company_name": "WYFI",
-    "mention_count": 16,
+    "mention_count": 1,
     "date_range": "2025-09-10 ~ 2025-11-22",
     "summary_en": "The author categorizes $WYFI as a speculative \"NeoCloud\" play, placing it in the [D] Tier due to a lack of long-term revenue visibility and an inability to secure major hyperscaler contracts compared to sector leaders like $NBIS. Despite these fundamental weaknesses, the stock was rated a \"Buy\" during the November reset because its price returned to IPO levels, offering a decent entry point for a recovery trade.",
     "summary_cn": "作者将 $WYFI 归类为投机性的“新云”标的，因其缺乏长期收入能见度且未能像 $NBIS 等行业龙头那样获得主要超大规模企业合同，将其评级为 [D] 级。尽管存在这些基本面劣势，但在 11 月的市场重置期间，鉴于其股价回落至 IPO 水平，作者将其评级为“买入”，认为这是一个不错的反弹入场点。"
@@ -418,7 +418,7 @@ const summariesData = {
   "$MSTR": {
     "ticker": "$MSTR",
     "company_name": "MicroStrategy",
-    "mention_count": 16,
+    "mention_count": 6,
     "date_range": "2025-08-26 ~ 2026-04-03",
     "summary_en": "The author views $MSTR primarily as a proxy for Bitcoin, utilizing it to capture upside from $BTC price movements and specific macro events. A significant portion of the analysis focuses on the \"Venezuela Shadow Reserve,\" where the seizure of over 600,000 $BTC by the U.S. government is expected to create a massive supply shock. This lock-up of supply is seen as a fundamentally bullish catalyst for $MSTR, positioning it similarly to major holders like BlackRock.\n\nTrading strategies often revolve around the $MSTR Net Asset Value (NAV) premium. The author suggests buying $MSTR when the premium compresses (e.g., 1.4x-1.5x) while $BTC approaches all-time highs, anticipating a catch-up rally. Additionally, seasonal trends in October are cited as favorable entry points for $BTC and, by extension, $MSTR.\n\nHowever, the author highlights extreme volatility and downside risks. During a market crash in early 2026, $MSTR reportedly fell 70% from $450 to $105, triggering widespread liquidations. The author warns that $BTC could potentially drop below $MSTR's average cost basis ($75K), advising risk management regarding margin usage to survive these drawdowns.\n\nDespite the volatility, the author claims substantial success, citing over 5,000% returns by front-running trends like the Bitcoin halving. $MSTR remains a core holding in a high-conviction portfolio that includes other growth stocks like $NBIS and $RKLB, with the belief that institutions will buy the dip during liquidation events.",
     "summary_cn": "作者主要将 $MSTR 视为比特币的代理工具，利用其捕捉 $BTC 价格变动和特定宏观事件带来的收益。分析的重点之一是“委内瑞拉影子储备”，作者认为美国政府没收超过 60 万枚 $BTC 将造成巨大的供应冲击。这种供应锁定被视为 $MSTR 的根本性利好催化剂，使其地位类似于贝莱德等主要持有者。\n\n交易策略通常围绕 $MSTR 的净值（NAV）溢价展开。作者建议在溢价压缩（如 1.4 倍至 1.5 倍）且 $BTC 接近历史高点时买入 $MSTR，预期溢价会回升。此外，作者认为十月的季节性趋势是 $BTC 及 $MSTR 的有利入场时机。\n\n然而，作者也强调了极端的波动性和下行风险。在 2026 年初的市场崩盘中，$MSTR 从 450 美元暴跌至 105 美元，跌幅达 70%，引发了大规模的爆仓。作者警告称 $BTC 可能跌破 $MSTR 的平均成本基础（7.5 万美元），并建议注意保证金的使用，以在回撤中生存。\n\n尽管波动剧烈，作者声称通过提前布局比特币减半等趋势，获得了超过 5000% 的巨额回报。$MSTR 仍是其高信念投资组合中的核心持仓，该组合还包括 $NBIS 和 $RKLB 等其他成长股。作者坚信机构会在清算事件后逢低买入。"
@@ -426,7 +426,7 @@ const summariesData = {
   "$COIN": {
     "ticker": "$COIN",
     "company_name": "Coinbase Global, Inc.",
-    "mention_count": 15,
+    "mention_count": 9,
     "date_range": "2025-08-26 ~ 2026-05-02",
     "summary_en": "The author maintains a \"Buy\" rating on $COIN with a 5% portfolio weighting, citing attractive valuation after a correction and long-term value derived from USDC revenue sharing and institutional infrastructure support for ETFs like $IBIT. However, sentiment turned negative following the approval of $COIN's conditional banking charter, which the author criticized as a betrayal of the industry that leaves retail investors disadvantaged against traditional banks.",
     "summary_cn": "作者对 $COIN 维持“买入”评级并配置了5%的仓位，认为回调后的估值具有吸引力，且长期价值源于 USDC 收益分成及对 $IBIT 等ETF的机构基础设施支持。然而，在 $COIN 获得有条件银行牌照批准后，作者情绪转为负面，批评此举出卖了行业利益，导致零售投资者在面对传统银行时仍处于劣势。"
@@ -434,7 +434,7 @@ const summariesData = {
   "$FLY": {
     "ticker": "$FLY",
     "company_name": "FLY",
-    "mention_count": 14,
+    "mention_count": 4,
     "date_range": "2025-10-08 ~ 2026-04-12",
     "summary_en": "The author rates $FLY as a 'Buy,' citing its potential in the space sector driven by the SpaceX IPO hype and a strategic partnership with Northrop for medium lift payloads, which positions it to compete with $RKLB. The stock was also highlighted in a community-driven 'Parabolic Growth ETF,' delivering a 13.09% return in early April 2026.",
     "summary_cn": "作者将 $FLY 评级为“买入”，理由是SpaceX IPO引发的热潮及其与诺斯罗普合作的中型运载火箭项目，这使其具备与 $RKLB 竞争的潜力。该股还被纳入社区精选的“抛物线增长ETF”，并在2026年4月初实现了13.09%的涨幅。"
@@ -442,7 +442,7 @@ const summariesData = {
   "$BULL": {
     "ticker": "$BULL",
     "company_name": "Bull",
-    "mention_count": 14,
+    "mention_count": 4,
     "date_range": "2025-07-03 ~ 2026-05-15",
     "summary_en": "The author rates $BULL as a 'Buy,' viewing the recent selloff back to the $8 price level as an attractive entry point. The investment thesis draws a parallel to $HOOD, arguing that $BULL possesses a massive retail user base that offers significant upside potential through various monetization strategies once the company effectively capitalizes on its customer ownership.",
     "summary_cn": "作者将 $BULL 评级为“买入”，认为近期股价回落至8美元是一个具有吸引力的入场点。其核心投资逻辑将 $BULL 与 $HOOD 进行类比，认为 $BULL 拥有庞大的散户用户群，一旦公司有效利用其客户资源实现变现，将带来显著的上涨潜力。"
@@ -450,7 +450,7 @@ const summariesData = {
   "$ASTS": {
     "ticker": "$ASTS",
     "company_name": "AST SpaceMobile",
-    "mention_count": 14,
+    "mention_count": 5,
     "date_range": "2025-09-10 ~ 2026-04-20",
     "summary_en": "The investment thesis for $ASTS is anchored in the broader \"LEO Space Infrastructure\" evolution, positioning the company as a key player alongside $RKLB and SpaceX in commercializing space. The author anticipates that the upcoming SpaceX IPO, potentially valued at $1.75T, will serve as a massive catalyst, potentially driving parabolic gains across the sector as investors re-rate competitors.\n\nHowever, significant risks regarding launch logistics and revenue recognition are highlighted. The author notes that a major failure at Blue Origin has led to launch delays of 4-7 months, which critically impacts $ASTS since the company lacks satellites in space. This dependency on launch providers places the company in a precarious position, forcing it to rely on competitor SpaceX while potentially missing forward growth targets.\n\nDespite these operational hurdles, the author tracked $ASTS as a strong performer in their \"FinX 15\" portfolio, recording a +13.24% gain in early 2026. While the long-term thematic outlook remains positive, the immediate investment stance is tempered by the bottlenecks of getting assets into orbit and the risks associated with growth delays.",
     "summary_cn": "$ASTS 的投资论点立足于更广泛的“低地球轨道（LEO）太空基础设施”演进，将其定位为与 $RKLB 和 SpaceX 并列的太空商业化关键参与者。作者预计，估值可能达 1.75 万亿美元的 SpaceX IPO 将成为巨大的催化剂，随着投资者重新评估竞争对手，这可能推动该板块出现抛物线式上涨。\n\n然而，作者强调了关于发射物流和收入确认的重大风险。Blue Origin 的重大失败导致发射推迟了 4-7 个月，这对 $ASTS 造成了严重影响，因为该公司目前尚无在轨卫星。这种对发射提供商的依赖使公司处于危险境地，在可能错失未来增长目标的同时，被迫依赖竞争对手 SpaceX。\n\n尽管存在这些运营障碍，作者在其“FinX 15”投资组合中追踪到 $ASTS 表现强劲，2026 年初录得 +13.24% 的涨幅。虽然长期主题前景依然乐观，但当前的投资立场因将资产送入轨道的瓶颈以及增长延迟的风险而受到抑制。"
@@ -458,7 +458,7 @@ const summariesData = {
   "$XLU": {
     "ticker": "$XLU",
     "company_name": "Utilities Select Sector SPDR Fund",
-    "mention_count": 14,
+    "mention_count": 16,
     "date_range": "2026-02-20 ~ 2026-04-24",
     "summary_en": "The author presents a compelling macro thesis for $XLU as the premier vehicle to capitalize on the convergence of rate cuts and the AI infrastructure supercycle. They argue that 2026 represents a historic anomaly—the first time markets have experienced both falling interest rates and massive AI buildout simultaneously. The thesis rests on two pillars: (1) rate cuts without recession will trigger valuation multiple expansion (+15-20%) as institutional capital rotates into utility dividends, historically generating 25-47% returns during soft-landing cycles (1995, 2019); and (2) the $800B+ AI infrastructure capex cycle will drive compounding earnings growth (+18-20%), far exceeding the 2004-2007 grid modernization cycle.\n\nThe author's proprietary models project explosive growth in US data center power consumption: from 190 TWh (2024) to 980 TWh (2028), with AI consuming 21-23% of total US electricity by 2028. They highlight the 'desperation premium' where grid capacity shortages have driven PJM capacity prices from $28.92/MW-day (2024) to $329.17/MW-day (2026/2027). The ETF's weighting in independent power producers like $VST positions it to capture this premium. The author suggests $XLU OTM 2-year leaps could potentially deliver outsized returns, with a mapped upside target of ~40% on the underlying.\n\n$XLU is positioned as a core 'bottleneck long' alongside photonics ($LITE, $COHR, $AAOI), memory ($MU, $SNDK), and semiconductors ($NVDA, $TSM). The author has demonstrated conviction through active trading, reporting $XLU up 50%+ YTD as of March 2026. They view power/grid infrastructure as essential to the AI supply chain, quoting Elon Musk: 'Billions of dollars of the most advanced hardware. Sitting dark. Not because the chips won't work. Because there's not enough electricity to run on them.'\n\nKey risks include short-term volatility (the author noted a -2.29% decline over a 2-week period in April 2026) and dependency on the rate cut cycle materializing as expected. The thesis also relies on AI demand projections that may exceed current DOE/LBNL forecasts. The author acknowledges options magnify downside risk and emphasizes these are personal projections without certainty.",
     "summary_cn": "作者提出了一个引人注目的宏观论点，将 $XLU 视为利用降息与AI基础设施超级周期交汇点的首选工具。他们认为2026年是一个历史性异常——市场首次同时经历降息和大规模AI建设。该论点基于两大支柱：（1）无衰退的降息将触发估值倍数扩张（+15-20%），因为机构资金会轮动至公用事业股息，历史上软着陆周期（1995年、2019年）曾产生25-47%的回报；（2）超过8000亿美元的AI基础设施资本支出周期将推动复利盈利增长（+18-20%），远超2004-2007年的电网现代化周期。\n\n作者的专有模型预测美国数据中心电力消耗将呈爆发式增长：从2024年的190 TWh增至2028年的980 TWh，到2028年AI将消耗美国总电力的21-23%。他们强调了'恐慌溢价'，电网容量短缺已将PJM容量价格从2024年的28.92美元/兆瓦日推高至2026/2027年的329.17美元/兆瓦日。该ETF对独立发电商如 $VST 的权重配置使其能够捕获这一溢价。作者建议 $XLU 的两年期价外看涨期权可能带来超额回报，标的映射上涨目标约40%。\n\n$XLU 被定位为核心'瓶颈多头'，与光子学（$LITE、$COHR、$AAOI）、存储（$MU、$SNDK）和半导体（$NVDA、$TSM）并列。作者通过主动交易展示了信心，报告称截至2026年3月 $XLU 年内上涨超过50%。他们将电力/电网基础设施视为AI供应链的关键环节，引用埃隆·马斯克的话：'价值数十亿美元的最先进硬件。闲置着。不是因为芯片不能工作。而是因为没有足够的电力来运行它们。'\n\n主要风险包括短期波动性（作者指出2026年4月某两周内下跌2.29%）以及对降息周期如期实现的依赖。该论点还依赖于可能超出当前DOE/LBNL预测的AI需求预测。作者承认期权会放大下行风险，并强调这些是个人预测，并无确定性。"
@@ -466,7 +466,7 @@ const summariesData = {
   "$SLNH": {
     "ticker": "$SLNH",
     "company_name": "Soluna Holdings, Inc.",
-    "mention_count": 14,
+    "mention_count": 3,
     "date_range": "2025-09-28 ~ 2026-05-19",
     "summary_en": "Initially, the author viewed $SLNH as a speculative 'Buy' within the broader 'NeoCloud' thesis, suggesting that Mag7 hyperscalers would funnel AI capex into smaller infrastructure providers. With a market cap between $100M and $280M, $SLNH was considered a high-risk, high-reward play on the GPU arms race, intended to benefit from the demand for AI compute capacity.\n\nHowever, the author later drew a sharp distinction between full-stack providers like $NBIS and smaller miners like $SLNH. They argued that $SLNH lacks the in-house software orchestration required to achieve high gross margins, stating that expecting a small miner to build hyperscaler-grade orchestration was 'wishful thinking' compared to the execution capabilities of $NBIS.\n\nBy May 2026, the author's sentiment turned severely bearish, criticizing $SLNH for aggressive shareholder dilution. Highlighting a new $1 billion dilution and an ongoing $500 million ATM offering on a small market cap, the author grouped $SLNH with $BKKT and $IREN as stocks where retail capital is transferred to the company through toxic financing. The author ultimately warned investors to avoid the stock, characterizing it as a liquidity vehicle rather than a viable investment.",
     "summary_cn": "最初，作者将 $SLNH 视为更广泛的“NeoCloud”投资主题中的投机性“买入”标的，认为科技巨头会将AI资本支出引入小型基础设施提供商。鉴于其市值在1亿至2.8亿美元之间，$SLNH 被视为GPU军备竞赛中高风险、高回报的博弈。\n\n然而，作者随后严格区分了像 $NBIS 这样的全栈提供商与像 $SLNH 这样的小型矿商。作者认为 $SLNH 缺乏实现高毛利率所需的内部软件编排能力，并指出期望小型矿商从头构建超大规模级的编排系统是“一厢情愿”，无法与 $NBIS 的执行力抗衡。\n\n到了2026年5月，作者的态度转为极度看空，严厉批评 $SLNH 的大规模股权稀释。作者指出，在较小的市值基础上，该公司不仅有新的10亿美元稀释，还有正在进行的5亿美元ATM（市价发行），并将 $SLNH 与 $BKKT 和 $IREN 归为一类，认为这是通过有毒融资将散户资金转移给公司的财富转移工具。作者最终警告投资者远离该股，将其定性为提供流动性的工具而非可行的投资。"
@@ -474,7 +474,7 @@ const summariesData = {
   "$ETH": {
     "ticker": "$ETH",
     "company_name": "Ethereum",
-    "mention_count": 13,
+    "mention_count": 5,
     "date_range": "2025-09-14 ~ 2026-04-08",
     "summary_en": "The author maintains a predominantly bearish stance on $ETH, rating it 'Avoid' or 'Sell' in earlier periods due to perceived fundamental weaknesses. Specifically, the analyst criticized the token's daily burn rate as insignificant and expressed a strict reluctance to buy above the $3000 price threshold, warning of potential downside cascades. During a market-wide liquidation event in February 2026, $ETH served as a proxy for high-beta risk, experiencing a sharp flash crash to $2.1k, which highlighted the dangers of leverage in volatile conditions.\n\nHowever, the most recent analysis in April 2026 suggests a tactical shift, indicating that buying the dip on $ETH might be a viable strategy following macro-induced crashes. This potential recovery play is predicated on rising expectations for interest rate cuts. Despite this short-term trading opportunity, the core investment thesis remains cautious, emphasizing the asset's high volatility and the risks associated with liquidation events over its fundamental utility.",
     "summary_cn": "作者对 $ETH 总体持看跌态度，在早期将其评级为“避免”或“卖出”，主要基于对其基本面的担忧。具体而言，分析师批评该代币的每日销毁量微不足道，并明确表示不愿在 $3000 价格关口上方买入，同时警告了潜在的下行风险。在2026年2月的市场清算事件中，$ETH 被视为高 Beta 风险的代表，经历了跌至 $2.1k 的闪崩，凸显了在波动行情中使用杠杆的危险。\n\n然而，2026年4月的最新分析显示出策略上的转变，指出在宏观引发的崩盘后逢低买入 $ETH 可能是一个可行的策略。这一潜在的反弹交易主要基于降息预期的升温。尽管存在这一短期交易机会，但核心投资论点仍保持谨慎，强调该资产的高波动性以及清算事件带来的风险。"
@@ -482,7 +482,7 @@ const summariesData = {
   "$UNH": {
     "ticker": "$UNH",
     "company_name": "UnitedHealth Group",
-    "mention_count": 13,
+    "mention_count": 2,
     "date_range": "2025-08-23 ~ 2026-01-27",
     "summary_en": "The author initially recommended buying $UNH in October 2025, viewing it as a defensive play immune to Chinese tariffs and macro corrections, with expectations of institutional accumulation. However, following a severe 19.48% crash in January 2026, the author pivoted to a bearish stance, arguing that the single-day drop wiped out years of dividend yields and asserting that true safety is found in growth stocks like $NVDA, $META, or $TSM rather than stagnant dividend payers.",
     "summary_cn": "作者在2025年10月最初建议买入 $UNH，视其为不受关税和宏观调整影响的防御性资产，并预期机构会增持。然而，在2026年1月股价暴跌19.48%后，作者转为看跌，认为单日跌幅抵消了多年的股息收益，并主张真正的安全在于 $NVDA、$META 或 $TSM 等成长型股票，而非停滞的股息股。"
@@ -490,7 +490,7 @@ const summariesData = {
   "$GLXY": {
     "ticker": "$GLXY",
     "company_name": "Galaxy Digital Holdings Ltd.",
-    "mention_count": 13,
+    "mention_count": 4,
     "date_range": "2025-10-12 ~ 2026-02-21",
     "summary_en": "The author rates $GLXY as a \"Strong Buy,\" identifying it as a compelling recovery play within the sold-off datacenter and neocloud sector, especially as fears regarding hyperscaler capex cuts have been de-risked by significant funding rounds. It is primarily utilized as a swing trade opportunity—particularly around tax harvesting periods—rather than a core long-term holding, benefiting from the rebound in crypto assets and the broader sector rotation.",
     "summary_cn": "作者将 $GLXY 评级为“强力买入”，认为其是新云和数据中心板块中超卖的反弹标的，特别是随着大规模融资消除了关于超大规模企业资本支出的担忧风险。该股主要被用作波段交易机会（特别是围绕税务亏损收割期），而非核心长期持仓，并受益于加密资产的反弹及更广泛的板块轮动。"
@@ -514,7 +514,7 @@ const summariesData = {
   "$ASML": {
     "ticker": "$ASML",
     "company_name": "ASML Holding N.V.",
-    "mention_count": 12,
+    "mention_count": 10,
     "date_range": "2025-10-07 ~ 2026-05-17",
     "summary_en": "The author views $ASML as a fundamental beneficiary of the ongoing AI supercycle, driven by massive capital expenditures from foundries like $TSM. It is frequently cited as the industry benchmark for equipment monopolies, with the author using its business model to identify similar high-potential opportunities in adjacent sectors, such as $LPK in glass substrates and Towa in HBM packaging. The company is considered a core holding in the \"AI Displacement\" investment thesis, serving as a hedge against labor market disruption by owning the critical means of compute production.\n\nHowever, the investment thesis acknowledges significant cyclical risks. The author notes that $ASML is \"hyper-cyclical,\" meaning it scales impressively during capex upswings but performs poorly during downturns, often failing to capture the full volume ramp seen by downstream chipmakers. Consequently, the author suggests that $TSM may be a superior proxy for gauging actual semiconductor demand compared to relying solely on $ASML's fab cycle indicators.\n\nFrom an operational standpoint, $ASML is deeply integrated into the advanced packaging ecosystem, noted as a customer of MSSCorps for photoresist analysis. While the author maintains a bullish long-term outlook on the semiconductor sector—predicting that names like $ASML will be significantly higher in 3-4 years—investors are cautioned to understand the difference between a short-term trade and a long-term hold through volatile cycles.",
     "summary_cn": "作者将 $ASML 视为当前 AI 超级周期的核心受益者，这主要得益于 $TSM 等代工厂的大规模资本支出。它经常被视为设备垄断行业的标杆，作者以其商业模式为参考，去寻找相邻领域（如玻璃基板领域的 $LPK 和 HBM 封装领域的 Towa）的类似高潜力机会。该公司被认为是“AI 替代”投资论点的核心持仓，通过掌握关键算力生产资料，对冲劳动力市场被颠覆的风险。\n\n然而，该投资论点也承认了显著的周期性风险。作者指出 $ASML 具有“超强周期性”，意味着它在资本支出上升期规模扩张显著，但在低迷期表现不佳，且往往无法像下游芯片制造商那样完全捕捉到产能爬坡的红利。因此，作者认为，相较于单纯依赖 $ASML 的晶圆厂周期指标，$TSM 可能是衡量实际半导体需求的更佳代理指标。\n\n从运营角度来看，$ASML 深度融入了先进封装生态系统，并被提及为 MSSCorps 光刻胶分析业务的客户。尽管作者对半导体板块的长期前景保持看涨，预测 $ASML 等个股在 3-4 年内将显著上涨，但也提醒投资者需理解在剧烈波动周期中，短期交易与长期持有的区别。"
@@ -530,7 +530,7 @@ const summariesData = {
   "$XFAB": {
     "ticker": "$XFAB",
     "company_name": "X-FAB Silicon Foundries",
-    "mention_count": 12,
+    "mention_count": 32,
     "date_range": "2026-05-27 ~ 2026-06-02",
     "summary_en": "The author presents a compelling long thesis for $XFAB, viewing the foundry as undervalued at a ~1.28 Price-to-Book ratio, drawing parallels to past winners like $SOI. The investment case rests on the company's critical role in Western supply chains, highlighted by its status as the only high-volume SiC foundry in the US and a key player in silicon photonics. This strategic importance is backstopped by dual-continent government subsidies, including US and EU CHIPS Act funding, which effectively subsidize capital expenditures and de-risk the investment.\n\nFundamentally, $XFAB offers exposure to the $NVDA 800 VDC power semi push through partners like $NVTS and $POWI, with SiC revenue growing 152% Y/Y. Simultaneously, its \"photonixFAB\" division is under evaluation by $NVDA and $NOK for high-volume manufacturing, positioning the firm to benefit from the CPO and photonics boom expected in 2027-2028. The author argues the market is mispricing these high-growth verticals due to legacy automotive drag.\n\nWith the EU CHIPS Act 2 announcement as a near-term catalyst, the author anticipates a potential 2.5-4x re-rating. Despite recent volatility and media skepticism labeling the stock a \"meme,\" the author emphasizes that regulatory filings validate $XFAB as critical infrastructure. The risk/reward is seen as highly favorable, with downside protected by low replacement value and upside driven by structural AI hardware demand.",
     "summary_cn": "作者对 $XFAB 提出了看涨论点，认为该代工厂目前约 1.28 倍的市净率（P/B）被低估，并将其与之前的成功标的 $SOI 相提并论。投资逻辑基于该公司在西方供应链中的关键地位，它是美国唯一的高产量 SiC 代工厂，也是硅光子领域的重要参与者。这种战略重要性得到了欧美双重政府补贴的支持，包括美国和欧盟的《芯片法案》资金，这些资金有效补贴了资本支出并降低了投资风险。\n\n从基本面来看，$XFAB 通过 $NVTS 和 $POWI 等合作伙伴，受益于 $NVDA 推动的 800 VDC 功率半导体需求，其 SiC 收入同比增长 152%。同时，其 \"photonixFAB\" 部门正在接受 $NVDA 和 $NOK 的评估，有望在 2027-2028 年的 CPO 和光子学热潮中受益。作者认为，由于传统汽车业务的拖累，市场错误地低估了这些高增长板块的价值。\n\n随着欧盟《芯片法案 2》的发布成为近期催化剂，作者预计股价可能有 2.5 到 4 倍的重估空间。尽管近期波动剧烈且有媒体将其误称为“模因股”，但作者强调监管文件已证实 $XFAB 属于关键基础设施。该投资具有极佳的风险回报比，下行风险受低重置价值保护，而上行空间则由 AI 硬件的结构性需求驱动。"
@@ -538,7 +538,7 @@ const summariesData = {
   "$BKKT": {
     "ticker": "$BKKT",
     "company_name": "Bakkt Holdings, Inc.",
-    "mention_count": 12,
+    "mention_count": 10,
     "date_range": "2025-07-03 ~ 2026-05-19",
     "summary_en": "The author maintains a strongly bearish outlook on $BKKT, characterizing it as a prime example of a stock destroyed by toxic financing and excessive dilution. The core investment thesis is that $BKKT operates as an \"endless dilution machine,\" where management prioritizes raising capital through At-The-Market (ATM) offerings and stock-based compensation at the expense of retail shareholders. The author warns that this structure structurally wipes out equity appreciation, advising investors to avoid the stock entirely to prevent becoming exit liquidity.\n\nKey risks highlighted include a history of share price collapse, with $BKKT reportedly dropping 99% (from $40 to $8) due to aggressive dilution strategies. The author draws a direct parallel between $BKKT, $IREN, and $ASST, identifying a common denominator in the board of directors who are accused of repeatedly dumping shares onto retail investors. Specifically, the author points to a $300 million ATM dilution on a $550 million market cap as evidence of ongoing shareholder value destruction.\n\nThe author contrasts $BKKT with companies like $NBIS and $IQE, arguing that sophisticated investors should prioritize companies with actual financing and equity-appreciating structures. The tweets serve as a cautionary tale, asserting that while the underlying company operations may continue, the stock price is likely to underperform due to the mechanics of the ATM offerings, mirroring the fate of other heavily diluted tickers.",
     "summary_cn": "作者对 $BKKT 维持强烈的看跌观点，将其定性为因有毒融资和过度稀释而毁掉的典型股票案例。核心投资论点是 $BKKT 是一台“无休止的稀释机器”，管理层优先通过按市价发行（ATM）和基于股票的薪酬筹集资金，而牺牲散户股东的利益。作者警告称，这种结构在机制上抹杀了股权增值，建议投资者完全避开该股，以免成为退出流动性。\n\n重点强调的风险包括股价崩盘的历史，据报道 $BKKT 因激进的稀释策略暴跌了 99%（从 40 美元跌至 8 美元）。作者在 $BKKT、$IREN 和 $ASST 之间建立了直接联系，指出董事会中存在共同点，被指责反复向散户投资者抛售股票。具体而言，作者指出在 5.5 亿美元市值的情况下存在 3 亿美元的 ATM 稀释，这是股东价值持续被破坏的证据。\n\n作者将 $BKKT 与 $NBIS 和 $IQE 等公司进行对比，认为理性的投资者应优先选择具有实际融资和股权增值结构的公司。这些推文旨在作为警示，断言尽管公司基础业务可能继续运营，但由于 ATM 发行机制，股价可能会持续表现不佳，重蹈其他高稀释股票的覆辙。"
@@ -546,7 +546,7 @@ const summariesData = {
   "$NOK": {
     "ticker": "$NOK",
     "company_name": "Nokia",
-    "mention_count": 12,
+    "mention_count": 20,
     "date_range": "2026-03-14 ~ 2026-06-02",
     "summary_en": "The author identifies $NOK as a key incumbent in the Digital Coherent Optics (DCO) sector and a beneficiary of the broader shift toward Co-Packaged Optics (CPO) and silicon photonics. Positioned as a \"safer\" long compared to high-beta small-caps, $NOK offers investors exposure to the AI infrastructure supercycle, specifically the transition from compute/memory bottlenecks to optical interconnects. It is included in the author's \"Serenity Silicon Photonics / CPO ETF\" basket, having posted a +27.5% YTD return, validating its role in the current market rally.\n\nStrategically, $NOK is deeply involved in validating the future photonics supply chain. The tweets highlight that $NOK is a high-confidence customer for $SIVE, a emerging leader in CW lasers, suggesting a strong partnership in the upcoming CPO ramp. Additionally, $NOK is actively evaluating $XFAB's silicon photonics foundry capabilities alongside $NVDA, indicating serious preparation for volume production in the 2027-2028 timeframe. This involvement confirms $NOK's critical position in the ecosystem despite being a larger, more established player.\n\nWhile the author views $NOK as a solid investment, they suggest the highest upside potential lies in the smaller bottleneck suppliers like $SIVE or $TSEM. $NOK represents a more stable, lower-volatility vehicle for investors who want exposure to the photonics trend without the extreme risk associated with micro-cap names. The investment thesis rests on $NOK's ability to successfully integrate these new optical technologies and maintain its relevance as the architectural paradigm for AI shifts toward optical interconnects.",
     "summary_cn": "作者将 $NOK 视为数字相干光器件（DCO）领域的关键现有企业，也是向共封装光学（CPO）和硅光子技术更广泛转型的受益者。作为相比高贝塔值小盘股更“安全”的多头头寸，$NOK 为投资者提供了人工智能基础设施超级周期的敞口，特别是从计算/存储瓶颈向光学互连的过渡。它被纳入作者的“Serenity 硅光子/CPO ETF”篮子中，年初至今回报率为 +27.5%，证明了其在当前市场反弹中的地位。\n\n在战略上，$NOK 深度参与了未来光子学供应链的验证工作。推文强调 $NOK 是 $SIVE（CW 激光器领域的新兴领导者）的高置信度客户，暗示了在即将到来的 CPO 增长中的强大合作伙伴关系。此外，$NOK 正与 $NVDA 一道积极评估 $XFAB 的硅光子代工能力，这表明其为 2027-2028 年时间框架内的量产做了认真准备。尽管 $NOK 是一家规模更大、更成熟的企业，但这种参与确认了其在生态系统中的关键地位。\n\n虽然作者认为 $NOK 是一项稳健的投资，但他们暗示最高的上涨潜力在于 $SIVE 或 $TSEM 等较小的瓶颈供应商。$NOK 代表了一种更稳定、波动性更低的工具，适合希望获得光子学趋势敞口但又不想承担微型股极端风险的投资者。投资论点在于 $NOK 能够成功整合这些新的光学技术，并在 AI 架构范式向光学互连转变的过程中保持相关性。"
@@ -554,7 +554,7 @@ const summariesData = {
   "$LWLG": {
     "ticker": "$LWLG",
     "company_name": "Lumispot Tech Inc",
-    "mention_count": 12,
+    "mention_count": 15,
     "date_range": "2026-03-16 ~ 2026-04-30",
     "summary_en": "The author categorizes $LWLG as a speculative play within the \"Speculative Modulator Materials\" sector of the silicon photonics and CPO supercycle. While acknowledging the broader sector growth driven by $NVDA and hyperscalers, the author expresses a highly critical view of $LWLG's valuation, describing it as a \"pre-revenue science project\" with a market capitalization exceeding $1.8 billion. This valuation is contrasted unfavorably with revenue-generating peers like $SIVE and Shunsin, which the author argues have superior fundamentals and direct supply chain ties but trade at lower or comparable valuations.\n\nThe core investment thesis regarding $LWLG is that it represents irrational market pricing or \"dumb money\" momentum, likening it to $RGTI. The author repeatedly points out that $LWLG's price is driven by a single testing agreement with $TSEM, whereas companies manufacturing critical lasers ($SIVE) or handling packaging (Shunsin) for $MRVL and Foxconn are undervalued relative to $LWLG. Consequently, the author views $LWLG as a benchmark for overvaluation in the photonics sector, preferring peers with tangible revenue and clear bottlenecks in the CPO supply chain.",
     "summary_cn": "作者将 $LWLG 归类为硅光子和 CPO 超级周期中“投机性调制器材料”板块的投机性标的。尽管承认由 $NVDA 和超大规模企业推动的板块整体增长，但作者对 $LWLG 的估值持高度批评态度，将其描述为一个市值超过 18 亿美元的“尚未产生收入的科学项目”。这种估值与 $SIVE 和 Shunsin 等有收入来源的同行形成了不利对比，作者认为这些同行拥有更好的基本面和直接的供应链联系，但估值却更低或相当。\n\n关于 $LWLG 的核心投资论点是，它代表了非理性的市场定价或“盲目资金”的势头，作者将其比作 $RGTI。作者反复指出，$LWLG 的价格仅由与 $TSEM 的单一测试协议推动，而那些为 $MRVL 和富士康制造关键激光器（$SIVE）或处理封装的公司相对于 $LWLG 而言被低估了。因此，作者将 $LWLG 视为光子板块估值过高的基准，更倾向于那些在 CPO 供应链中具有实际收入和明确瓶颈的同行。"
@@ -562,7 +562,7 @@ const summariesData = {
   "$SIVEF": {
     "ticker": "$SIVEF",
     "company_name": "Sivers Semiconductors",
-    "mention_count": 12,
+    "mention_count": 15,
     "date_range": "2026-03-18 ~ 2026-05-07",
     "summary_en": "The author presents a compelling investment thesis for $SIVEF (Sivers Semiconductors), viewing it as severely undervalued at approximately $200-300M market cap. The company is positioned as a critical supplier of CW DFB lasers for the emerging Co-Packaged Optics (CPO) and silicon photonics market, supplying major players like Jabil ($JBL), Ayar Labs, and POET. The author compares $SIVEF to established players like $LITE and $COHR (valued at $45B+), suggesting significant upside potential as the photonics supercycle develops.\n\nKey validation points include $SIVEF being named as the laser source for Jabil's flagship 1.6T optical transceiver modules and potentially being an undisclosed supplier for Lightelligence. The company has adopted a fabless model with Win Semi for manufacturing, which the author believes de-risks scaling. The stock saw significant appreciation (165% in one week in March), though the author notes this is still early in the CPO supercycle before volume ramp.\n\nThe author acknowledges risks including market misunderstanding of the technology's importance, stock volatility (noting a 10.2% drop on May 7 following $LITE earnings), and limitations from its small-cap status and Swedish listing. Despite facing criticism for their recommendations, the author maintains conviction that $SIVEF represents one of the most undervalued opportunities in the photonics sector, with potential to become \"the next $LITE\" as the light source for future photonic architectures.",
     "summary_cn": "作者对$SIVEF（Sivers Semiconductors）提出了引人注目的投资论点，认为该公司市值约2-3亿美元被严重低估。该公司定位为新兴共封装光学（CPO）和硅光子市场的CW DFB激光器关键供应商，为Jabil（$JBL）、Ayar Labs和POET等主要参与者供货。作者将$SIVEF与$LITE和$COHR（估值超过450亿美元）等成熟企业进行比较，认为随着光子学超级周期的发展，该股具有巨大的上涨潜力。\n\n关键验证点包括$SIVEF被命名为Jabil旗舰1.6T光收发器模块的激光源，以及可能是Lightelligence的未公开供应商。该公司采用了与Win Semi合作的无晶圆厂制造模式，作者认为这降低了扩展风险。该股曾大幅上涨（3月一周内上涨165%），尽管作者指出这仍处于CPO超级周期的早期阶段，尚未进入量产阶段。\n\n作者承认存在风险，包括市场对其技术重要性的误解、股票波动性（指出5月7日在$LITE财报后下跌10.2%），以及其小盘股地位和瑞典上市带来的限制。尽管其推荐面临批评，作者仍坚信$SIVEF是光子学领域最具低估潜力的投资机会之一，有潜力成为未来光子架构光源领域的\"下一个$LITE\"。"
@@ -578,7 +578,7 @@ const summariesData = {
   "$IONQ": {
     "ticker": "$IONQ",
     "company_name": "IonQ",
-    "mention_count": 12,
+    "mention_count": 2,
     "date_range": "2025-08-26 ~ 2026-02-18",
     "summary_en": "The author initially viewed $IONQ as a beneficiary of the \"National Security\" theme in late 2025, citing potential Trump administration backing for quantum names like $IONQ and $RGTI. However, the investment stance shifted to \"Avoid\" by January 2026, with the author warning that quantum valuations had become very stretched despite the sector's thematic appeal.",
     "summary_cn": "作者在2025年底最初将 $IONQ 视为“国家安全”主题的受益者，并指出特朗普政府可能会支持 $IONQ 和 $RGTI 等量子概念股。然而，到了2026年1月，作者转而建议“避免”投资该股，理由是尽管题材具有吸引力，但量子领域的估值已变得非常过高。"
@@ -586,7 +586,7 @@ const summariesData = {
   "$CVX": {
     "ticker": "$CVX",
     "company_name": "Chevron",
-    "mention_count": 12,
+    "mention_count": 14,
     "date_range": "2026-01-04 ~ 2026-04-24",
     "summary_en": "The author’s primary investment thesis for $CVX centers on its strategic positioning as the sole US major capable of immediately capitalizing on the regime change in Venezuela, referred to as \"Nation Building.\" Following the toppling of the Maduro regime, $CVX is described as the \"last man standing\" with existing infrastructure, staff, and OFAC licenses, granting it privileged access to Venezuela's massive $17T+ oil reserves. The author anticipates that potential US government subsidies will further de-risk operations, making $CVX the most obvious beneficiary of this geopolitical shift compared to peers like $XOM or refiners like $VLO and $PSX.\n\nFrom a trading perspective, $CVX is viewed as a robust hedge against geopolitical instability and wartime inflation. The author actively traded $CVX call options, citing attractive risk-reward dynamics due to low implied volatility (18-30 IV). In a dedicated \"Nation Building\" portfolio, $CVX was assigned a significant 15% allocation, with the author expressing surprise that the stock was not repriced more aggressively given its effective control over Venezuelan assets.\n\nDespite acknowledging the risk that oil prices might crash after the war, the author maintains that major oil companies remain critical for national security and long-term value. While short-term performance reviews noted slight lagging behind tech stocks in certain periods, the overall sentiment remains bullish, framing $CVX as a low-IV, high-probability trade for 2026.",
     "summary_cn": "作者对 $CVX 的核心投资逻辑在于其战略地位，即唯一一家能立即从委内瑞拉政权更迭（被称为“国家重建”）中获益的美国石油巨头。在马杜罗政权倒台后，$CVX 被视为“最后的赢家”，因其拥有现成的基础设施、人员和OFAC许可证，从而获得了开发委内瑞拉超过17万亿美元石油储备的特权。作者预计美国政府潜在的补贴将进一步降低运营风险，使 $CVX 成为这一地缘政治变动中最明显的受益者，优于 $XOM 等同行或 $VLO 和 $PSX 等炼油商。\n\n从交易角度来看，$CVX 被视为对抗地缘政治不稳定和战争通胀的有力对冲工具。作者积极交易 $CVX 的看涨期权，理由是低隐含波动率（18-30 IV）提供了诱人的风险回报比。在一个专门的“国家重建”投资组合中，$CVX 获得了15%的重要仓位配置，作者甚至对其股价未能因掌控委内瑞拉资产而更大幅度地重估感到惊讶。\n\n尽管作者承认战后油价可能暴跌的风险，但坚持认为大型石油公司对国家安全和长期价值至关重要。虽然短期业绩回顾显示该股在某些时期略落后于科技股，但整体情绪依然看涨，作者将 $CVX 视为2026年低波动率、高胜率的交易标的。"
@@ -594,7 +594,7 @@ const summariesData = {
   "$TE": {
     "ticker": "$TE",
     "company_name": "TE",
-    "mention_count": 12,
+    "mention_count": 3,
     "date_range": "2025-10-20 ~ 2026-05-21",
     "summary_en": "The investment thesis for $TE centers on its role as a critical energy play within the broader AI infrastructure buildout. The author highlights that OpenAI explicitly warned the U.S. government that energy generation is the primary bottleneck for sustaining an AI advantage, citing that China is adding power capacity at a faster rate. Consequently, $TE is positioned alongside other energy stocks like $FLNC and $FSLR to benefit from the tailwind of necessary grid expansion and power delivery, categorized under the \"Invest in American Energy\" theme.\n\nFrom a trading perspective, the author rated $TE as a \"Buy\" during the November 2025 market reset, describing it simply as an \"energy play that got sold off.\" This valuation call proved effective, as $TE subsequently rallied to become a top performer in the author's \"FinX 15\" portfolio, recording a +22.62% gain by early January 2026. The stock is viewed as a key component in a basket of retail-favored stocks that are directionally correct on macro trends.\n\nRegarding risks and speculation, the author explicitly warns against shorting $TE, suggesting that the company could be a potential acquisition target for OpenAI given its strategic assets. While the author acknowledges that $TE is part of a \"crowded\" retail trade similar to $NBIS and $IREN, they argue that while short-term options traders may face volatility, the long-term directional bet on energy demand remains fundamentally sound.",
     "summary_cn": "关于 $TE 的投资论点主要集中其作为更广泛 AI 基础设施建设中的关键能源博弈角色。作者强调，OpenAI 明确警告美国政府，发电能力是维持 AI 优势的主要瓶颈，并指出中国正在以更快的速度增加电力产能。因此，$TE 与 $FLNC 和 $FSLR 等其他能源股一起，被定位为从电网扩张和电力输送的利好中获益，归类于“投资美国能源”的主题之下。\n\n从交易角度来看，作者在 2025 年 11 月的市场重置期间给予 $TE “买入”评级，将其描述为“遭遇抛售的能源博弈”。这一估值判断被证明是有效的，$TE 随后反弹，成为作者“FinX 15”投资组合中的表现最佳的股票之一，截至 2026 年 1 月初录得 +22.62% 的涨幅。该股被视为散户青睐的、在宏观趋势上方向正确的核心股票组合的一部分。\n\n在风险和投机方面，作者明确警告不要做空 $TE，暗示鉴于其战略资产，该公司可能成为 OpenAI 的潜在收购目标。虽然作者承认 $TE 与 $NBIS 和 $IREN 等股票一样属于“拥挤”的散户交易，但他们认为，虽然短期期权交易者可能面临波动，但基于能源需求的长期方向性押注在基本面上依然是正确的。"
@@ -602,7 +602,7 @@ const summariesData = {
   "$TSSI": {
     "ticker": "$TSSI",
     "company_name": "TSS, Inc.",
-    "mention_count": 12,
+    "mention_count": 1,
     "date_range": "2025-07-03 ~ 2026-01-02",
     "summary_en": "The author rates $TSSI as a \"Strong Buy,\" comparing it to $SMCI and Dell as a proxy for the datacenter buildout trend. They argue that recent price weakness is due to temporary factors like deferred revenue recognition and tax harvesting, predicting a strong recovery as revenue ramps up significantly by Q2 2026.",
     "summary_cn": "作者将 $TSSI 评级为“强力买入”，将其视为 $SMCI 和戴尔的代理指标，以此押注数据中心建设趋势。作者认为近期股价疲软源于递延收入确认和税收收割等暂时性因素，并预测随着2026年第二季度收入大幅增长，股价将迎来强劲反弹。"
@@ -610,7 +610,7 @@ const summariesData = {
   "$BTC": {
     "ticker": "$BTC",
     "company_name": "Bitcoin",
-    "mention_count": 12,
+    "mention_count": 3,
     "date_range": "2025-07-03 ~ 2026-02-02",
     "summary_en": "The author presents a strong bullish thesis for $BTC, arguing that the potential U.S. seizure of Venezuela's estimated 600,000 BTC 'shadow reserve' would act as a massive supply shock rather than a sell-off, benefiting holders like $MSTR. Additionally, the author views the current 'Extreme Fear' market conditions and the pro-crypto stance of incoming Fed leadership as optimal entry points for investors.",
     "summary_cn": "作者对 $BTC 提出了强烈的看涨论点，认为美国可能没收委内瑞拉估计达60万枚 BTC 的“影子储备”将引发巨大的供应冲击而非抛售，从而利好 $MSTR 等持有者。此外，作者认为当前的“极度恐惧”市场状况及新任美联储领导层对加密货币的支持立场，是投资者入场的最佳时机。"
@@ -618,7 +618,7 @@ const summariesData = {
   "$NVTS": {
     "ticker": "$NVTS",
     "company_name": "Navitas Semiconductor Corporation",
-    "mention_count": 11,
+    "mention_count": 19,
     "date_range": "2025-09-18 ~ 2026-06-01",
     "summary_en": "The core investment thesis for $NVTS centers on its strategic positioning as a key beneficiary of $NVDA's aggressive push toward 800V DC power infrastructure. The author highlights that $NVDA has initiated discussions with major power equipment companies to design DC infrastructure based on approximately 800V DC systems, with $NVTS explicitly named as a partner alongside Infineon, $TXN, $STM, and others. This positions $NVTS as a high-beta, potential 10x opportunity in the power semiconductor trade, particularly given its high exposure to SiC/GaN ICs for 800V DC applications.\n\nA significant catalyst is the US government's commitment to domestic supply chains and national security. $NVTS has received approximately $2.12B in CHIPS Act funding and is embedded as a partner in the SCMC Hub, signaling its critical importance to American infrastructure. The author frames investing in $NVTS as patriotic, supporting domestic energy capacity essential for AI development compared to China's state-subsidized approach. The author reports their $NVTS position has already doubled, demonstrating strong momentum.\n\nThe company operates with a foundry model, using $XFAB for manufacturing, which creates additional ecosystem leverage alongside other power semi players like $POWI and $WOLF. However, key risks include the author's explicit warning that government importance doesn't guarantee investment success, citing $WOLF as a cautionary example. The high-beta nature implies significant volatility, and China's capacity buildup could create pricing pressure by 2028. Competition exists from other power semi players like $VICR.",
     "summary_cn": "$NVTS 的核心投资逻辑在于其作为 $NVDA 积极推进800V直流电源基础设施的关键受益者的战略定位。作者强调 $NVDA 已开始与主要电力设备公司讨论设计约800V直流系统基础设施，$NVTS 被明确列为合作伙伴，与英飞凌、$TXN、$STM 等并列。这使 $NVTS 成为功率半导体领域的高贝塔、潜在10倍机会，特别是在800V直流应用的SiC/GaN IC方面具有高敞露。\n\n重要催化剂是美国政府对本土供应链和国家安全的承诺。$NVTS 已获得约21.2亿美元的《芯片法案》资金，并作为SCMC中心的嵌入式合作伙伴，表明其对美国基础设施的关键重要性。作者将投资 $NVTS 视为爱国行为，支持对AI发展至关重要的本土能源产能建设。作者报告其 $NVTS 持仓已翻倍，显示强劲势头。\n\n该公司采用代工模式，使用 $XFAB 进行制造，与 $POWI 和 $WOLF 等其他功率半导体参与者共同创造额外的生态系统杠杆。但主要风险包括作者明确警告政府重要性不保证投资成功，以 $WOLF 为警示案例。高贝塔特性意味着显著波动性，中国的产能扩张可能在2028年前造成价格压力。来自 $VICR 等其他功率半导体参与者的竞争也存在。"
@@ -626,7 +626,7 @@ const summariesData = {
   "$APLD": {
     "ticker": "$APLD",
     "company_name": "Applied Digital Corporation",
-    "mention_count": 11,
+    "mention_count": 2,
     "date_range": "2025-09-18 ~ 2026-01-18",
     "summary_en": "The author rates $APLD as a \"Hold\" and places it in the \"[C] Tier\" of the Neocloud sector, primarily due to its heavy reliance on $CRWV as a single tenant for its 400MW Polaris Forge campus funded by a $5B Macquarie facility. However, significant risks remain regarding execution delays and third-order contagion effects if OpenAI faces financial distress, which could negatively impact $CRWV and subsequently $APLD's revenue stability.",
     "summary_cn": "作者将 $APLD 评级为“持有”并将其列为 Neocloud 板块的“[C] 级”，主要原因是其严重依赖 $CRWV 作为其由 Macquarie 50亿美元融资设施资助的 Polaris Forge 园区的单一租户。然而，该股仍面临执行延误以及 OpenAI 财务困境可能带来的三阶传染效应风险，这可能冲击 $CRWV 并进而影响 $APLD 的营收稳定性。"
@@ -634,7 +634,7 @@ const summariesData = {
   "$GLW": {
     "ticker": "$GLW",
     "company_name": "Corning Inc.",
-    "mention_count": 11,
+    "mention_count": 12,
     "date_range": "2026-02-07 ~ 2026-05-10",
     "summary_en": "The author identifies $GLW as a primary beneficiary of the emerging \"Photonics Supercycle\" and the transition to advanced semiconductor packaging. Specifically, $GLW is highlighted as a leading player in glass materials for glass core substrates and a critical supplier of connectors and fibers for Co-Packaged Optics (CPO). The core investment thesis rests on the belief that photonics is the new architectural paradigm for scaling AI deployments, with 2027 projected as the inflection point for mass adoption.\n\nRecent performance validates this bullish outlook, with $GLW posting a +23.57% gain in a single week and a +46.77% YTD return according to the author's \"Bottleneck ETF\" and \"Serenity Silicon Photonics\" indices. The company is frequently cited in supply chain mapping frameworks as a critical chokepoint or necessary partner. Reports from Digitimes and Trendforce corroborate the author's view, noting $GLW leads in glass core substrate development against competitors like KCC and LX Glass.\n\nBeyond substrates, $GLW is integrated into the broader ecosystem, serving as a dual-source glass wafer supplier for $LITE and appearing in Global Foundries' photonics ecosystem list. While the author suggests that smaller upstream equipment players like $LPK may offer higher upside potential, $GLW is positioned as a foundational \"picks and shovels\" investment for the glass substrate supercycle. The acceleration of commercialization timelines serves as a key catalyst, reinforcing the author's long position in the sector.",
     "summary_cn": "作者将 $GLW 视为新兴“光子学超级周期”以及先进半导体封装转型的核心受益者。具体而言，$GLW 被强调为玻璃基板领域的玻璃材料领军企业，以及共封装光学（CPO）连接器和光纤的关键供应商。核心投资逻辑在于光子学是扩展AI部署的新架构范式，预计2027年将是大规模应用的拐点。\n\n近期的表现验证了这一看涨观点，根据作者的“瓶颈ETF”和“宁静硅光子学”指数，$GLW 在一周内上涨了23.57%，年初至今回报率达46.77%。该公司在供应链图谱中经常被视为关键的瓶颈或必要合作伙伴。Digitimes 和 Trendforce 的报告也证实了作者的观点，指出 $GLW 在玻璃基板开发方面领先于 KCC 和 LX Glass 等竞争对手。\n\n除了基板，$GLW 还融入了更广泛的生态系统，担任 $LITE 的双源玻璃晶圆供应商，并出现在格芯的光子学生态系统名单中。虽然作者指出像 $LPK 这样的小型上游设备商可能提供更高的上涨潜力，但 $GLW 被定位为玻璃基板超级周期中基础的“卖铲人”投资。商业化时间表的加速是关键催化剂，进一步巩固了作者对该板块的长期看涨立场。"
@@ -650,7 +650,7 @@ const summariesData = {
   "$ONTO": {
     "ticker": "$ONTO",
     "company_name": "Onto Innovation",
-    "mention_count": 11,
+    "mention_count": 12,
     "date_range": "2026-01-23 ~ 2026-05-10",
     "summary_en": "The investment thesis for $ONTO centers on its critical role as a bottleneck play in the AI semiconductor supply chain, specifically in advanced packaging, metrology, and inspection tools. The author identifies $ONTO as a key beneficiary of multiple secular trends including the Memory Supercycle (HBM4), Silicon Photonics/CPO deployment, and Glass Substrate adoption. The company is positioned alongside peers like $CAMT, $KLAC, and $FORM in the yield control and testing ecosystem, which serves as a leading indicator for broader semiconductor production ramps.\n\nKey catalysts include strong earnings from sector peers ($VIAV and $FORM) indicating robust demand for testing/inspection equipment, partnerships with companies like $LPK for glass core substrate mass production using LIDE technology, and the anticipated inflection point for CPO mass deployment in 2026-2027. The author's \"Bottleneck ETF\" framework showed $ONTO gaining +18.4% in a single week, with YTD returns of +26.28% as part of the photonics/CPO ecosystem.\n\nThe core strategy involves identifying supply chain chokepoints where pricing power and demand converge, then rotating capital into these bottleneck sectors. $ONTO fits squarely in the advanced packaging capex theme, benefiting from hyperscaler AI infrastructure buildouts. The author emphasizes following money flows into Asian supply chains while capturing rotation from current bottlenecks to next-generation architectural winners in the CPO/photonics transition.",
     "summary_cn": "$ONTO 的投资核心逻辑在于其作为 AI 半导体供应链中关键瓶颈环节的重要地位，专注于先进封装、计量和检测工具领域。作者将 $ONTO 定位为多重长期趋势的主要受益者，包括内存超级周期（HBM4）、硅光子/CPO 部署以及玻璃基板应用。公司与 $CAMT、$KLAC、$FORM 等同业共同构成良率控制和测试生态系统，这是半导体量产的重要领先指标。\n\n关键催化剂包括同行业公司 $VIAV 和 $FORM 的强劲业绩所显示的检测设备旺盛需求、与 $LPK 在玻璃核心基板量产方面的 LIDE 技术合作伙伴关系，以及 2026-2027 年 CPO 大规模部署的预期拐点。作者的\"瓶颈 ETF\"框架显示 $ONTO 单周上涨 18.4%，作为光子/CPO 生态系统的一部分，年初至今回报率达 26.28%。\n\n核心策略是识别定价权和需求汇聚的供应链瓶颈环节，然后将资本轮动至这些瓶颈领域。$ONTO 完全符合先进封装资本支出的主题，受益于超大规模 AI 基础设施建设。作者强调跟随资金流向亚洲供应链，同时捕捉从当前瓶颈向 CPO/光子转型中下一代架构赢家的轮动机会。"
@@ -658,7 +658,7 @@ const summariesData = {
   "$LASR": {
     "ticker": "$LASR",
     "company_name": "nLight",
-    "mention_count": 11,
+    "mention_count": 14,
     "date_range": "2026-01-24 ~ 2026-05-26",
     "summary_en": "The investment thesis for $LASR centers on its status as the only US publicly traded pure-play for directed energy weapons (DEW). The company supplies the laser engines for Rafael's Iron Beam system, which uses high-energy lasers to intercept drones, rockets, and hypersonic missiles. The author views this technology as the future of warfare, offering a cost-effective \"infinite magazine\" solution compared to expensive traditional interceptors.\n\nKey catalysts driving the bullish sentiment include the successful live deployment of the Iron Beam during the Israel-Iran conflict, validating the technology's operational capability. Future growth drivers include the US \"Golden Dome\" project and the HELSI initiative, which are expected to expand the total addressable market (TAM). Analyst firm Baird issued a strong endorsement, calling $LASR a \"One of One Company,\" reinforcing the author's conviction.\n\nDespite acknowledging weak fundamentals, specifically \"low 20% revenue growth,\" the author maintains a \"Strong Buy\" rating largely due to the \"cool factor\" of the technology and its critical role in defense. The stock saw significant appreciation, rising roughly 30% in early 2026 and trading around $60.70 by April. While large players like $RTX exist, $LASR remains the preferred vehicle for investors seeking direct exposure to the directed energy sector.",
     "summary_cn": "$LASR 的投资逻辑核心在于它是美国唯一一家上市交易的定向能武器 纯概念股。该公司为以色列“铁束” 防御系统提供激光引擎，利用高能激光拦截无人机、火箭弹及高超音速导弹。作者认为该技术代表了战争的未来，相比昂贵的传统拦截手段，它提供了一种具有成本效益的“无限弹药”解决方案。\n\n推动看涨情绪的关键催化剂包括“铁束”系统在以伊冲突中的成功实战部署，这验证了其技术可行性。未来的增长动力包括美国的“金穹” 项目和 HELSI 计划，预计将大幅扩展其潜在市场规模。Baird 分析师给予其“独一无二的公司”的高度评价，进一步强化了作者的信念。\n\n尽管作者承认其基本面存在弱点，特别是营收增长率仅为“20%左右”，但基于技术的“酷炫因素”及其在国防领域的关键作用，作者仍维持“强力买入”评级。该股在 2026 年初表现强劲，上涨约 30%，4 月份交易价格约为 60.70 美元。尽管市场上存在 $RTX 等大型参与者，但对于寻求直接投资定向能领域的投资者而言，$LASR 仍是首选标的。"
@@ -666,7 +666,7 @@ const summariesData = {
   "$VLN": {
     "ticker": "$VLN",
     "company_name": "Valens Semiconductor",
-    "mention_count": 11,
+    "mention_count": 12,
     "date_range": "2026-01-09 ~ 2026-04-12",
     "summary_en": "The author's core investment thesis for $VLN centers on a severe market mispricing caused by a data error. Analysts and algorithms confused Valens Semiconductor with Velan Inc., erroneously reporting $82M in inventory versus the actual ~$11M. This typo led algorithms to model $VLN as having a massive cash burn crisis, when in reality the company has a clean balance sheet with $93.5M cash, zero debt, and strong fundamentals. The author views this as a rare arbitrage opportunity where retail discovered the error before institutional systems corrected.\n\nKey catalysts include CES 2026 announcements showing $VLN successfully diversified from automotive (Mercedes, Mobileye) into higher-margin robotics and machine vision verticals through partnerships with RGo Robotics and CIS Corporation. The new segments offer 6-month sales cycles versus 5-year automotive cycles, with gross margins of ~69% compared to ~43% in automotive. The author projects $70M+ revenue with blended margins of 63-65%, suggesting significant upside from current distressed valuations of ~2.4x EV/Revenue versus peer comparables like $LSCC (19-23x) and $MTSI (13-16.5x).\n\nPrimary risks include heavy warrant dilution at $11.5 strike (10x+ from entry prices), geopolitical exposure as an Israeli company, and small-cap volatility. The author allocated 1.5% portfolio weighting in the \"Small Cap Moonshots\" category. $VLN gained 13.79% in the author's follower ETF experiment and was noted as up 60%+ in January, though later mentioned as one of the few red positions in the portfolio. The author also highlights $VLN as a potential beneficiary in a high interest rate environment due to its large cash position relative to market cap.",
     "summary_cn": "作者对 $VLN 的核心投资论点围绕着一个由数据错误导致的严重市场错误定价。分析师和算法将 Valens Semiconductor 与 Velan Inc. 混淆，错误报告了 $82M 的库存，而实际仅约 $11M。这一拼写错误导致算法将 $VLN 模拟为面临巨额现金消耗危机的公司，而实际上该公司拥有干净的资产负债表：$93.5M 现金、零债务和强劲的基本面。作者认为这是一个罕见的套利机会，散户在机构系统修正之前发现了这一错误。\n\n关键催化剂包括 CES 2026 公告，显示 $VLN 成功从汽车领域（奔驰、Mobileye）多元化扩展到更高利润的机器人和机器视觉垂直领域，通过与 RGo Robotics 和 CIS Corporation 的合作实现。新细分市场提供 6 个月的销售周期，而汽车领域需要 5 年，毛利率约 69%，而汽车领域仅约 43%。作者预计 $70M+ 的收入，混合毛利率 63-65%，相比当前约 2.4 倍 EV/收入的困境估值，与同行如 $LSCC（19-23 倍）和 $MTSI（13-16.5 倍）相比具有显著上行空间。\n\n主要风险包括 $11.5 行权价的重度认股权证稀释（较入场价高 10 倍以上）、作为以色列公司的地缘政治风险以及小盘股波动性。作者在\"小盘股投机\"类别中配置了 1.5% 的投资组合权重。$VLN 在作者的粉丝 ETF 实验中上涨 13.79%，1 月份曾上涨 60%+，但后来被提及为投资组合中少数亏损持仓之一。作者还强调 $VLN 可能受益于高利率环境，因为其相对于市值拥有大量现金头寸。"
@@ -682,7 +682,7 @@ const summariesData = {
   "$MP": {
     "ticker": "$MP",
     "company_name": "MP Materials Corp",
-    "mention_count": 11,
+    "mention_count": 8,
     "date_range": "2025-09-24 ~ 2026-04-24",
     "summary_en": "The investment thesis for $MP centers on its critical role in U.S. national security and supply chain independence, drawing a parallel to $INTC as a vital domestic asset. The author emphasizes that the American rare earths program is extremely important for mitigating geopolitical risks associated with China. $MP is specifically highlighted for extracting bastnäsite at Mountain Pass and its strategic move to vertically integrate into domestic NdFeB magnet manufacturing, positioning it as a key beneficiary of the \"Made in America\" trend and critical material export controls.\n\nBeyond defense, $MP is identified as an essential component of the robotics supply chain, providing NdPr magnets necessary for the anticipated production scale-up of humanoids and robots in 2026-2027. The author categorizes $MP as a \"Strong Buy\" and a core holding within the \"National Security\" sector, noting that political backing, such as Trump's interest in critical materials, serves as a significant catalyst. This outlook aligns $MP with other strategic plays like $RKLB and $KTOS.\n\nPerformance data validates this optimism, with $MP delivering a +17.48% return over a two-week period within a basket of 30 selected stocks. The author views the company as a proxy for the rare earths market, essential for both military applications and future technologies like robotics, making it a compelling long-term investment despite broader market volatility.",
     "summary_cn": "对 $MP 的投资论点集中在其美国国家安全和供应链独立中的关键作用，作者将其比作 $INTC，视为至关重要的国内战略资产。作者强调，美国稀土计划对于缓解与中国相关的地缘政治风险极其重要。$MP 因其在 Mountain Pass 提取氟碳铈矿以及垂直整合国内钕铁硼磁铁制造的战略举措而被特别看好，这使其成为“美国制造”趋势和关键材料出口管制下的主要受益者。\n\n除了国防领域，$MP 还被认定为机器人供应链的重要组成部分，提供 2026-2027 年人形机器人和机器人预期量产所需的钕镨磁铁。作者将 $MP 评级为“强力买入”，并将其列为“国家安全”板块的核心持仓，指出政治支持（如特朗普对关键材料的关注）是重要的催化剂。这一展望使 $MP 与 $RKLB 和 $KTOS 等其他战略投资具有相似属性。\n\n表现数据验证了这种乐观情绪，在选定的 30 只股票组合中，$MP 在两周内实现了 +17.48% 的回报率。作者认为该公司是稀土市场的代表，对于军事应用和机器人等未来技术都至关重要，尽管市场波动，但这使其成为一项引人注目的长期投资。"
@@ -698,7 +698,7 @@ const summariesData = {
   "$BITF": {
     "ticker": "$BITF",
     "company_name": "Bitfarms",
-    "mention_count": 10,
+    "mention_count": 1,
     "date_range": "2025-09-28 ~ 2025-11-22",
     "summary_en": "The author presents a comprehensive 'NeoCloud' investment thesis centered on companies providing AI compute infrastructure to hyperscalers (Mag7 companies). $BITF initially appeared as a promising 'with compute' play in this sector, delivering 77.6% returns over one month ($2.54 → $4.51). However, the author ultimately sold their $BITF position with 50-100%+ gains to consolidate into $NBIS, which they consider the superior Neocloud investment.\n\nThe core thesis is that Mag7 companies are AI compute-strained, and trillions in capex will funnel through Neoclouds. However, the author distinguishes between full-stack Neoclouds like $NBIS (which has hyperscaler contracts, high margins, and execution visibility) and miner pivots like $BITF. Key concerns about $BITF include: lack of contracted AI workloads at scale, revenue uncertainty with hyperscaler contracts, incomplete HPC pivot, and execution risk compared to established players.\n\nIn the author's final Neocloud Sector Tierlist, $BITF was placed in the 'Uncertain' tier alongside other pure miners ($MARA, $RIOT, $CLSK, $HIVE) that haven't fully pivoted to HPC and face contract uncertainty. The author warns that 'many of these HPC miner pivots will fail' and emphasizes that gross margins and execution matter significantly more than capacity buildout. The investment approach was to ride the narrative momentum trade, then rotate into higher-conviction winners.",
     "summary_cn": "作者提出了一个围绕为超大规模企业（Mag7公司）提供AI算力基础设施的'NeoCloud'投资主题。$BITF最初作为该领域中'拥有算力'的标的出现，在一个月内实现了77.6%的回报（$2.54 → $4.51）。然而，作者最终以50-100%以上的收益卖出了$BITF仓位，转而集中投资于他们认为更优质的$NBIS。\n\n核心论点是Mag7公司面临AI算力紧张，数万亿资本支出将通过Neoclouds进行。然而，作者区分了像$NBIS这样拥有超大规模企业合同、高利润率和执行可见性的全栈Neoclouds，与像$BITF这样的矿企转型公司。对$BITF的主要担忧包括：缺乏规模化AI工作负载合同、超大规模企业合同收入不确定性、HPC转型不完整，以及相比成熟玩家的执行风险。\n\n在作者最终的Neocloud行业评级中，$BITF被列入'不确定'层级，与$MARA、$RIOT、$CLSK、$HIVE等其他尚未完全转型HPC且面临合同不确定性的纯矿企并列。作者警告'许多HPC矿企转型将会失败'，并强调毛利率和执行能力远比产能建设重要。投资策略是先跟随叙事动量交易，然后转向更高确信度的赢家。"
@@ -706,7 +706,7 @@ const summariesData = {
   "$QBTS": {
     "ticker": "$QBTS",
     "company_name": "D-Wave Quantum Inc.",
-    "mention_count": 10,
+    "mention_count": 2,
     "date_range": "2025-09-30 ~ 2026-02-02",
     "summary_en": "The author maintains a consistently bearish stance on $QBTS across all three rating periods (September 2025 to January 2026), categorizing it as either \"Strong Sell\" or \"Avoid.\" The primary investment thesis against $QBTS centers on its lack of fundamental financial metrics—specifically, the author notes that quantum computing companies like $QBTS, $IONQ, and $RGTI have \"zero revenue\" and lack the fundamentals to justify their market capitalizations.\n\nThe author argues that quantum names remain overvalued and are unlikely to deliver free cash flow (FCF) in the coming years. During periods of high beta selloffs, $QBTS is expected to face longer recovery windows because it cannot rely on fundamental business performance to support its valuation. The author explicitly contrasts $QBTS with other speculative growth stocks that have tangible revenue streams or clear paths to profitability.\n\nOverall, the author's perspective is that $QBTS represents a speculative, fundamentally weak investment in the quantum computing space. Investors seeking exposure to growth sectors are advised to avoid quantum stocks and instead consider companies with demonstrable revenue growth, such as datacenter plays ($NBIS, $CIFR), AI infrastructure ($SMCI, $NVDA), or established tech names ($META, $AMZN).",
     "summary_cn": "作者在所有三个评级期间（2025年9月至2026年1月）对$QBTS保持一贯的看空立场，将其归类为\"强烈卖出\"或\"避免\"。反对$QBTS的核心投资逻辑主要基于其缺乏基本财务指标——作者明确指出，像$QBTS、$IONQ和$RGTI这样的量子计算公司\"零收入\"，缺乏支撑其市值的基本面。\n\n作者认为量子概念股仍然被高估，在未来几年内不太可能产生自由现金流（FCF）。在高贝塔市场抛售期间，$QBTS预计将面临更长的恢复窗口期，因为它无法依靠基本面业务表现来支撑其估值。作者明确将$QBTS与其他具有实际收入或清晰盈利路径的投机性成长股进行对比。\n\n总体而言，作者认为$QBTS是量子计算领域中一个投机性强、基本面疲弱的投资标的。建议寻求成长板块敞口的投资者避免量子股票，转而考虑具有明显收入增长的公司，如数据中心类股票（$NBIS、$CIFR）、AI基础设施（$SMCI、$NVDA）或成熟科技公司（$META、$AMZN）。"
@@ -714,7 +714,7 @@ const summariesData = {
   "$AEVA": {
     "ticker": "$AEVA",
     "company_name": "Aeva Technologies, Inc.",
-    "mention_count": 9,
+    "mention_count": 12,
     "date_range": "2026-02-10 ~ 2026-05-26",
     "summary_en": "The author views $AEVA as a primary investment vehicle for exposure to \"4D Physical AI\" and \"World Models,\" specifically targeting the humanoid robotics and autonomous vehicle sectors. The core investment thesis centers on $AEVA's FMCW 4D LiDAR technology, which the author identifies as a critical functional bottleneck and \"midstream\" exposure within the physical AI supply chain. The stock is frequently highlighted in crowdsourced lists of humanoid exposure alongside tickers like $OUST and $MBLY.\n\nA significant portion of the analysis focuses on the symbiotic relationship between $AEVA and $SIVE. The author maps a supply chain where $SIVE supplies the essential CW lasers for $AEVA's FMCW LiDAR systems. Key catalysts include the anticipated start of volume production in Q4 2026 and a strategic $50 million investment from $LG, which links $AEVA to Boston Dynamics and the broader humanoid market. Additionally, the author suggests potential integration with $NVDA self-driving architectures, positioning the company for growth in both robotics and data center applications.\n\nWhile the author expresses high conviction in the long-term sector potential, they acknowledge that $AEVA's fundamentals are currently \"shaky.\" Consequently, the position is treated as a speculative \"venture bet\" rather than a stable value play. The investment is characterized as high-beta and volatile, suitable for investors seeking early exposure to the convergence of photonics and robotics, with revenue ramps expected to materialize significantly by late 2026.",
     "summary_cn": "作者将 $AEVA 视为投资“4D物理AI”和“世界模型”的主要标的，旨在通过人形机器人和自动驾驶领域获利。核心投资论点在于 $AEVA 的 FMCW 4D 激光雷达技术，作者认为这是物理AI供应链中关键的功能性瓶颈和“中游”切入点。该股票经常与 $OUST 和 $MBLY 等股票一起被列入人形机器人概念股名单中。\n\n分析重点强调了 $AEVA 与 $SIVE 之间的共生关系。作者描绘了一条供应链路径：$SIVE 为 $AEVA 的 FMCW 4D 激光雷达系统提供关键的 CW 激光器。关键催化剂包括预计在2026年第四季度开始的量产，以及 $LG 的5000万美元战略投资，这将 $AEVA 与 Boston Dynamics 及更广泛的人形机器人市场联系起来。此外，作者还暗示其可能与 $NVDA 的自动驾驶架构整合，使其在机器人和数据中心应用领域均具备增长潜力。\n\n尽管作者对该行业的长期潜力表示高度确信，但也承认 $AEVA 的基本面目前“尚不稳定”。因此，该头寸被视为投机性的“风险投资”，而非稳健的价值投资。该投资具有高Beta值和波动性，适合寻求在光子学和机器人技术融合领域进行早期布局的投资者，预计营收将在2026年底显著增长。"
@@ -722,7 +722,7 @@ const summariesData = {
   "$VRT": {
     "ticker": "$VRT",
     "company_name": "Vertiv Holdings",
-    "mention_count": 9,
+    "mention_count": 10,
     "date_range": "2025-12-02 ~ 2026-05-31",
     "summary_en": "The author presents a compelling investment thesis for $VRT as a critical infrastructure play in the AI buildout. $VRT is positioned as a key beneficiary of accelerating AI infrastructure spending, specifically in thermal management and power delivery for data centers. The company supplies CDUs (coolant distribution units) that form the heart of liquid cooling systems for AI chips, including Google's TPU v7 Ironwood. As one of NVIDIA's key supply chain partners with a market cap of $121.26B, $VRT is also named among partners for NVIDIA's push toward 800V DC infrastructure.\n\nThe stock showed +47.42% YTD performance in the author's \"AI Displacement Equal Weighted\" portfolio concept. The core thesis centers on $VRT being part of the \"means of compute\"—companies that control bottlenecks in datacenter infrastructure, power delivery, and thermal management. OpenAI's warning to Congress that \"whoever generates the most power wins the AI race\" reinforces the tailwind for power delivery companies like $VRT.\n\nAs hyperscalers like $GOOGL and $META dramatically increase CapEx on AI infrastructure ($GOOGL raising spend to $175-185B from $120B), $VRT benefits from the buildout of data centers and critical cooling systems needed for high-performance AI chips. The author views investing in AI infrastructure as a hedge against AI-driven job displacement, with $VRT positioned alongside other power/grid sector plays like $NBIS, $XLU, and $BE.",
     "summary_cn": "作者提出了对 $VRT 的投资论点，将其定位为 AI 基础设施建设中的关键受益者。$VRT 专注于数据中心的热管理和电力输送，为 AI 芯片提供冷却液分配单元（CDU），包括谷歌的 TPU v7 Ironwood。作为 NVIDIA 的重要供应链合作伙伴，市值达 1212.6 亿美元，$VRT 还参与 NVIDIA 推进的 800V 直流基础设施项目。\n\n该股票在作者的\"AI 替代均衡权重\"投资组合概念中年初至今上涨 47.42%。核心投资逻辑在于 $VRT 属于\"算力掌控者\"——控制数据中心基础设施、电力输送和热管理瓶颈的公司。OpenAI 向国会发出警告称\"谁能产生最多的电力，谁就能赢得 AI 竞赛\"，这进一步强化了 $VRT 等电力输送公司的利好因素。\n\n随着 $GOOGL 和 $META 等超大规模企业大幅增加 AI 基础设施资本支出（$GOOGL 将支出从 1200 亿美元提高至 1750-1850 亿美元），$VRT 将从数据中心建设和高性能 AI 芯片所需的关键冷却系统中受益。作者认为投资 AI 基础设施是对抗 AI 驱动的就业替代的对冲手段，$VRT 与 $NBIS、$XLU 和 $BE 等其他电力/电网板块公司一起被看好。"
@@ -730,7 +730,7 @@ const summariesData = {
   "$RTX": {
     "ticker": "$RTX",
     "company_name": "RTX Corporation",
-    "mention_count": 9,
+    "mention_count": 10,
     "date_range": "2026-01-03 ~ 2026-05-05",
     "summary_en": "The author views $RTX as a core \"Defense Prime\" positioned to profit significantly from escalating geopolitical conflicts, specifically potential US interventions in Venezuela and Iran. In these scenarios, $RTX is highlighted for its critical military hardware, including Tomahawk missiles, MQ-9 Reaper sensors, and bunker bombs. The investment thesis suggests that $RTX offers specific exposure to naval warfare and precision strike capabilities essential for modern blockades and operations, making it a standard holding for \"Department of War\" stocks alongside $BA and $NOC.\n\nBeyond traditional warfare, $RTX is identified as a key integrator of emerging technologies within the US defense industrial base. The company is a strategic partner to smaller tech firms like $SIVE, utilizing their photonics and beamformer ICs for space and telecom applications under the CHIPS Act. Additionally, $RTX relies on advanced material suppliers such as $CPSH for aluminum silicon carbide (AlSiC) used in missile heat-shielding and radar systems, indicating a robust supply chain for high-stress environments.\n\nThe author also maps $RTX into the \"Golden Dome\" space defense architecture alongside $ERIC and Bae Systems. While $RTX is recognized as a major player in Directed Energy Weapons, the author notes that smaller pure-play stocks like $LASR may offer higher beta in specific sub-sectors. Overall, $RTX is portrayed as a reliable, large-cap vehicle for capturing upside from defense spending, technological modernization, and global instability.",
     "summary_cn": "作者将 $RTX 视为核心“国防巨头”，有望从委内瑞拉和伊朗等地缘政治冲突升级中显著获利。在这些情境下，$RTX 因其关键军事硬件而受到关注，包括战斧导弹、MQ-9“死神”无人机传感器及钻地炸弹。投资逻辑认为，$RTX 在海军作战和现代封锁行动所需的精确打击能力方面提供了独特的敞口，使其成为与 $BA 和 $NOC 并列的标准“战争概念股”。\n\n除了传统战争，$RTX 还被视为美国国防工业基础中新兴技术的关键整合者。该公司是 $SIVE 等小型科技公司的战略合作伙伴，利用其光子学和波束成形集成电路用于《芯片法案》下的太空和电信应用。此外，$RTX 依赖 $CPSH 等先进材料供应商提供铝碳化硅，用于导弹隔热罩和雷达系统，显示出其在极端环境下拥有稳健的供应链。\n\n作者还将 $RTX 与 $ERIC 和 BAE Systems 一起列为“金穹”太空防御架构的参与者。虽然 $RTX 被认为是定向能武器领域的主要参与者，但作者指出 $LASR 等小型纯概念股在特定细分领域可能提供更高的弹性。总体而言，$RTX 被描绘为一个稳健的大盘股工具，用于捕捉国防开支、技术现代化及全球动荡带来的上行收益。"
@@ -738,7 +738,7 @@ const summariesData = {
   "$TER": {
     "ticker": "$TER",
     "company_name": "Teradyne",
-    "mention_count": 9,
+    "mention_count": 11,
     "date_range": "2026-01-23 ~ 2026-04-15",
     "summary_en": "The author positions $TER as a key beneficiary in the semiconductor testing and yields sector, essential for ensuring AI chips function correctly during the massive AI infrastructure buildout. $TER is consistently mentioned alongside $AEHR and Advantest as the primary players addressing the critical bottleneck of chip testing and validation. With a market cap of approximately $51B, $TER represents the established, large-cap leader in this space, serving as a benchmark for the growth potential of smaller competitors.\n\nThe investment thesis centers on AI displacement and the structural shift in labor markets. The author argues that corporations are executing \"silent downsizings\" through AI and automation, transferring wealth from human wages to shareholder value. $TER is identified as both an automation play (displacing human work) and a critical infrastructure play (testing chips for AI applications). The stock has performed well, showing +37.99% YTD as part of the author's \"AI Displacement ETF\" concept.\n\n$TER's role extends across multiple AI supply chain layers, including silicon photonics wafer testing, NAND flash memory suppliers, and data center components. The author emphasizes that as AI scaling accelerates, the need for rigorous thermal and stress testing of chips becomes paramount, positioning $TER as a necessary hedge against AI-driven labor displacement. The company benefits from the enormous capex cycle similar to historical $ASML cycles, where customers order large quantities of testing equipment for production scale-up.",
     "summary_cn": "作者将 $TER 定位为半导体测试和良率领域的关键受益者，对于确保大规模AI基础设施建设期间AI芯片的正常运行至关重要。$TER 与 $AEHR 和 Advantest 一起被反复提及，是解决芯片测试和验证这一关键瓶颈的主要参与者。市值约510亿美元的 $TER 代表了该领域成熟的大盘股领导者，为较小竞争对手的增长潜力提供了基准。\n\n投资论点围绕AI替代和劳动力市场的结构性转变展开。作者认为，企业正在通过AI和自动化执行\"静默裁员\"，将财富从人力工资转移到股东价值。$TER 被认定为既是自动化标的（替代人类工作），也是关键基础设施标的（为AI应用测试芯片）。该股表现良好，作为作者\"AI替代ETF\"概念的一部分，年初至今上涨37.99%。\n\n$TER 的业务覆盖多个AI供应链层级，包括硅光子晶圆测试、NAND闪存供应商和数据中心组件。作者强调，随着AI规模化加速，对芯片进行严格的热应力和压力测试变得至关重要，使 $TER 成为应对AI驱动的劳动力替代的必要对冲工具。该公司受益于巨大的资本支出周期，类似于历史上的 $ASML 周期，客户会大量订购测试设备以扩大生产规模。"
@@ -746,7 +746,7 @@ const summariesData = {
   "$RIOT": {
     "ticker": "$RIOT",
     "company_name": "Riot Platforms",
-    "mention_count": 9,
+    "mention_count": 1,
     "date_range": "2025-09-03 ~ 2026-01-18",
     "summary_en": "The author classifies $RIOT as a Bitcoin miner pivoting toward High-Performance Computing (HPC), positioning it within the broader \"NeoCloud\" investment thesis. This thesis posits that trillion-dollar capital expenditures from hyperscalers (Mag7) will funnel into smaller infrastructure providers to handle AI compute loads. While not a pure-play NeoCloud like $NBIS or $CIFR, $RIOT is viewed favorably due to its strategic pivot away from pure crypto mining, making it a key player among miners adapting to AI infrastructure demands alongside $MARA and $CLSK.\n\nSentiment toward $RIOT evolved from a \"Buy\" in late September 2025 to a \"Hold\" in early October 2025. The initial bullishness was driven by the HPC pivot thesis, which suggests these miners offer asymmetric returns similar to the early GPU arms race. However, the rating was downgraded to \"Hold\" during market volatility triggered by macro factors like Chinese tariff fears and liquidation events, suggesting a wait-and-see approach amidst broader market corrections.\n\nA significant risk highlighted involves systemic contagion within the AI sector. The author notes that a potential lawsuit victory by Elon Musk against OpenAI could trigger a collapse in AI valuations. As an identified partner of $AMD, $RIOT faces third-order exposure to this risk; if OpenAI faces liquidity crises or bankruptcy, demand for AI infrastructure could lag, negatively impacting stocks leveraged to the AI buildout narrative.",
     "summary_cn": "作者将 $RIOT 归类为向高性能计算（HPC）转型的比特币矿企，并将其纳入更广泛的“新云”投资主题中。该主题认为，超大规模企业（Mag7）的万亿级资本支出将流向小型基础设施提供商以处理AI算力负载。虽然 $RIOT 不像 $NBIS 或 $CIFR 那样是纯粹的新云标的，但因其战略转型，被视为适应AI基础设施需求的关键矿企之一，与 $MARA 和 $CLSK 并列。\n\n对 $RIOT 的情绪从2025年9月下旬的“买入”转变为2025年10月初的“持有”。最初的看涨情绪源于HPC转型主题，认为这些矿企提供了类似早期GPU军备竞赛的非对称回报。然而，在市场因中国关税担忧和清算事件引发波动期间，评级下调至“持有”，暗示在市场回调期间应采取观望态度。\n\n文中强调的一个主要风险涉及AI领域的系统性蔓延。作者指出，如果埃隆·马斯克起诉OpenAI获胜，可能引发AI估值的崩盘。作为 $AMD 的合作伙伴，$RIOT 面临三阶风险敞口；如果OpenAI面临流动性危机或破产，AI基础设施需求可能滞后，从而对依赖AI建设叙事的股票产生负面影响。"
@@ -754,7 +754,7 @@ const summariesData = {
   "$SOFI": {
     "ticker": "$SOFI",
     "company_name": "SoFi Technologies",
-    "mention_count": 9,
+    "mention_count": 3,
     "date_range": "2025-09-30 ~ 2026-04-05",
     "summary_en": "The author initially rates $SOFI as a \"Hold\" but identifies it as a viable component within the Fintech/Commerce sector alongside $HOOD and $DLO for portfolio allocation. By 2026, the perspective shifts to utilizing $SOFI for day trading opportunities, specifically capitalizing on \"immaterial sellside downgrades\" that trigger temporary selloffs.",
     "summary_cn": "作者最初将 $SOFI 评级为“持有”，但认为其与 $HOOD 和 $DLO 一样，是金融科技/商业板块中可行的投资组合配置选项。到了2026年，作者的观点转变为利用 $SOFI 进行日内交易，特别是利用“无关紧要的卖方评级下调”所引发的暂时性抛售机会。"
@@ -762,7 +762,7 @@ const summariesData = {
   "$SPY": {
     "ticker": "$SPY",
     "company_name": "SPDR S&P 500 ETF Trust",
-    "mention_count": 9,
+    "mention_count": 7,
     "date_range": "2025-10-10 ~ 2026-04-08",
     "summary_en": "The author expresses a bearish outlook on the broader market, noting that $SPY is down approximately 5% YTD in early 2026 due to geopolitical instability and policy missteps. While the US market struggles, the author highlights that Asian markets like $EWY are experiencing severe drawdowns, whereas Israel's market is rallying. The primary beneficiaries of the current environment appear to be oil giants like $CVX and defense contractors such as $LMT, while tech and broader indices face headwinds from supply chain disruptions and AI capex concerns.\n\nSignificant risks are identified, including the potential for a ground invasion of Iran, which the author hedges against with a \"Serenity Doomsday ETF\" comprising $FAZ, $GUSH, $UVIX, and $NVDA puts. The author warns retail investors against gambling on 0DTE options on $SPY, citing a viral story of a trader losing millions, and instead advises following the long-term compounding strategies seen in stocks like $AVGO and $NVDA.\n\nDespite the grim macro view, the author remains selective on high-growth opportunities. A previous thesis favored the \"MINT\" portfolio ($META, $IBIT, $NBIS, $TSM) for asymmetrical returns, and recent posts highlight strong performance in $AAOI and $AEHR. The author suggests that active stock picking is superior to holding $SPY during this period of volatility and policy uncertainty.",
     "summary_cn": "作者对大盘持看跌观点，指出 $SPY 在2026年初至今已下跌约5%，归因于地缘政治动荡和政策失误。虽然美国市场表现挣扎，作者强调亚洲市场（如 $EWY）正遭遇严重崩盘，而以色列市场则在上涨。当前环境的主要受益者似乎是石油巨头（如 $CVX）和国防承包商（如 $LMT），而科技股和更广泛的指数则面临供应链中断和AI资本支出担忧的阻力。\n\n作者指出了重大风险，包括可能对伊朗发动地面进攻，并建议通过“宁静末日ETF”（包含 $FAZ、$GUSH、$UVIX 和 $NVDA 看跌期权）进行对冲。作者警告散户投资者不要在 $SPY 上赌博式交易0DTE期权，并引用了一个亏损数百万的病毒式故事，建议转而学习 $AVGO 和 $NVDA 等股票的长期复利策略。\n\n尽管宏观前景黯淡，作者仍看好特定的高增长机会。此前的论点倾向于“MINT”组合（$META、$IBIT、$NBIS、$TSM）以获取不对称回报，最近的帖子则强调了 $AAOI 和 $AEHR 的强劲表现。作者认为，在此类波动和政策不确定性时期，主动选股优于持有 $SPY。"
@@ -778,7 +778,7 @@ const summariesData = {
   "$WOLF": {
     "ticker": "$WOLF",
     "company_name": "Wolfspeed Inc.",
-    "mention_count": 8,
+    "mention_count": 14,
     "date_range": "2026-01-19 ~ 2026-05-28",
     "summary_en": "The investment thesis for $WOLF centers on its critical role in the power semiconductor supply chain, particularly as $NVDA pushes for 800 VDC architectures and future Rubin chips requiring 300mm Silicon Carbide (SiC) interposers. The author identifies $WOLF as a potential high-beta \"10x\" long, noting it is the only US company currently capable of producing 300mm single-crystal SiC wafers, effectively creating a technological monopoly and \"holy grail\" status for advanced AI hardware. This technological moat is further supported by significant US government backing, highlighted by a $750 million direct funding grant from the CHIPS Act, designating the company as critical national security infrastructure.\n\nHowever, the author presents a stark warning regarding the company's financial health, describing it as a classic \"Bear-Bull Paradox.\" Despite its technological leadership, $WOLF is flagged as a financial \"landmine\" due to a negative enterprise value trap, with $2.1 billion in debt against a market cap of roughly $465 million and $926 million in cash. Significant risks include dilution from convertible notes and selling pressure from former creditors who took equity during restructuring. Ultimately, while the company is vital to the Western supply chain alongside peers like $NVTS, the author cautions that being a national security asset does not automatically translate into a profitable investment given the precarious balance sheet.",
     "summary_cn": "$WOLF 的投资论点主要集中其在功率半导体供应链中的关键作用，特别是随着 $NVDA 推进 800 VDC 架构以及未来 Rubin 芯片对 300mm 碳化硅中介层的需求。作者认为 $WOLF 是一个潜在的高 Beta “10 倍”做多标的，指出它是目前唯一能够生产 300mm 单晶碳化硅晶圆的美国公司，在先进 AI 硬件领域建立了技术垄断地位，堪称“圣杯”。这一技术护城河得到了美国政府的大力支持，包括 7.5 亿美元的《芯片法案》直接资助，确立了其作为关键国家安全基础设施的地位。\n\n然而，作者对其财务健康状况发出了严厉警告，将其描述为典型的“多空悖论”。尽管拥有技术领导地位，$WOLF 在财务上被视为一颗“地雷”，存在负企业价值陷阱，即 21 亿美元债务对比约 4.65 亿美元市值和 9.26 亿美元现金。主要风险包括可转换票据带来的稀释风险，以及重组期间债权人转为股东后的抛压。归根结底，虽然该公司与 $NVTS 等同行一样是西方供应链中不可或缺的一环，但作者警告称，鉴于其岌岌可危的资产负债表，作为国家安全资产并不自动等同于良好的投资回报。"
@@ -786,7 +786,7 @@ const summariesData = {
   "$VIRT": {
     "ticker": "$VIRT",
     "company_name": "Virtu Financial",
-    "mention_count": 8,
+    "mention_count": 1,
     "date_range": "2025-09-29 ~ 2026-04-12",
     "summary_en": "The investment thesis for $VIRT centers on its attractive valuation and utility as a volatility hedge. The author highlights a low forward P/E ratio, cited between 6.3 and 6.6, as evidence the stock is undervalued. Demonstrating high conviction, the author purchased approximately $70,000 in call options in late September 2025, initially rating it an \"Extremely Strong Buy.\"\n\nA key component of the strategy is using $VIRT as an asymmetrical hedge against the VIX. The author argues that $VIRT provides exposure to market volatility with lower implied volatility (IV) compared to VIX options, while also benefiting from corporate buybacks. This perspective was reinforced during geopolitical events in April 2026, where the author noted that market makers like $VIRT profit significantly from increased volatility environments, such as those caused by military blockades.\n\nDespite the bullish outlook, the author acknowledged timing risks, noting in early October 2025 that positions were down roughly 35%. They recommended buying around the $32.50 price level to dollar-cost average. By mid-October 2025, during a broader market correction termed the \"Soybean/Seed Oil Crash,\" the rating was adjusted to \"Hold,\" reflecting a cautious short-term stance while maintaining exposure to the sector.",
     "summary_cn": "对 $VIRT 的投资论点集中在其具有吸引力的估值和作为波动性对冲工具的效用上。作者强调其远期市盈率（P/E）较低（ cited between 6.3 and 6.6），认为这证明该股被低估。为了展示高度信心，作者在2025年9月下旬购买了约7万美元的看涨期权，最初将其评级为“极强买入”。\n\n该策略的一个关键组成部分是将 $VIRT 用作 VIX 的不对称对冲。作者认为，与 VIX 期权相比，$VIRT 提供了市场波动性敞口，且隐含波动率（IV）较低，同时还能受益于公司股票回购。这一观点在2026年4月的地缘政治事件中得到加强，作者指出，像 $VIRT 这样的做市商在军事封锁等导致的波动性增加的环境中获利颇丰。\n\n尽管前景看好，作者也承认了择时风险，指出在2025年10月初头寸下跌约35%。他们建议在32.5美元左右买入以进行平均成本法操作。到了2025年10月中旬，在被称为“大豆/植物油崩盘”的更广泛市场调整期间，评级调整为“持有”，反映了谨慎的短期立场，同时保持了对该板块的敞口。"
@@ -794,7 +794,7 @@ const summariesData = {
   "$DUOL": {
     "ticker": "$DUOL",
     "company_name": "Duolingo",
-    "mention_count": 8,
+    "mention_count": 6,
     "date_range": "2025-08-23 ~ 2026-03-13",
     "summary_en": "The author initially adopted a bearish stance on $DUOL during August 2025, categorizing it as a high-beta, speculative asset that investors should avoid buying on dips at $334.5. By early 2026, the stock suffered a severe drawdown, falling over 70% to the $85 range. The author noted that this collapse resulted in significant losses for retail traders and margin liquidations, positioning $DUOL as a prime example of the market's risk-off purge.\n\nFollowing the selloff, the author reassessed the investment thesis, assigning $DUOL a 6/10 rating regarding AI disruption risk. While AI tools like Gemini offer competition in language learning, the author argues that $DUOL retains a competitive moat through brand recognition, convenience, and its utility as a motivational tool. At the depressed valuation, the author views the risk/reward as \"decent,\" though they remain skeptical of it as a top-tier turnaround play compared to profitable hyper-growth companies in Asia.\n\nStructural concerns persist, particularly regarding excessive Stock Based Compensation (SBC), which the author contrasts unfavorably with newly listed peers like $PAYP. Ultimately, the author groups $DUOL with other struggling \"contrarian turnaround plays\" like $PYPL, suggesting that while valuation has improved, there are easier investment opportunities in the current market climate.",
     "summary_cn": "作者在2025年8月对 $DUOL 持看空态度，将其归类为高风险的高Beta资产，建议投资者不要在$334.5的价位抄底。至2026年初，该股暴跌逾70%至约$85区间。作者指出，这次崩盘导致散户遭受巨额亏损并触发强制平仓，使 $DUOL 成为市场避险抛售潮中的典型案例。\n\n暴跌之后，作者重新评估了投资逻辑，给予 $DUOL 6/10的AI颠覆风险评分。尽管Gemini等AI工具在语言学习领域构成竞争，但作者认为 $DUOL 凭借品牌认知、便利性及作为激励工具的功能，仍具备竞争护城河。在低估值水平下，作者认为其风险回报比“尚可”，但相比于亚洲的高利润成长股，对其作为顶级反转博弈标的仍持保留态度。\n\n结构性隐忧依然存在，特别是过高的股权激励（SBC），作者将其与新上市的 $PAYP 等同行进行了不利对比。最终，作者将 $DUOL 与 $PYPL 等列为“困境反转”博弈，暗示尽管估值已改善，但在当前市场环境下仍有更轻松的投资机会可供选择。"
@@ -802,7 +802,7 @@ const summariesData = {
   "$TTD": {
     "ticker": "$TTD",
     "company_name": "The Trade Desk",
-    "mention_count": 8,
+    "mention_count": 5,
     "date_range": "2025-12-04 ~ 2026-04-21",
     "summary_en": "The author views $TTD as a compelling recovery play following a significant valuation reset, with the stock dropping approximately 67% in 2025 from highs near $139 to around $22. The selloff was compounded by year-end tax harvesting, creating an attractive entry point for recovery trades going into 2026. The author maintains a 5% portfolio allocation to $TTD within the Fintech/Advertising category.\n\nA key investment thesis centers on the underappreciated ChatGPT monetization angle, particularly as the company moves into advertising. The author has established short-term positions at $22 as a potential mean reversion play to the bottom, though they caveat that this is not a high-conviction trade.\n\nPrimary risks include the severity of the prior selloff suggesting fundamental concerns, and the author's explicit acknowledgment of low conviction on the short-term trade. The investment thesis relies heavily on mean reversion and recovery dynamics rather than strong fundamental catalysts.",
     "summary_cn": "作者将 $TTD 视为具有吸引力的复苏股，该股在2025年经历了重大估值重置，股价从约139美元的高点下跌约67%至22美元左右。此次抛售因年末税务收割而加剧，为2026年的复苏交易创造了有吸引力的入场点。作者在其投资组合中维持5%的 $TTD 仓位，归类于金融科技/广告类别。\n\n核心投资论点围绕被低估的ChatGPT变现角度，特别是该公司正进军广告领域。作者在22美元建立了短期头寸，作为潜在的均值回归交易，但明确表示这并非高确信度的交易。\n\n主要风险包括此前大幅下跌暗示基本面存在问题，以及作者明确承认对该短期交易确信度较低。投资论点很大程度上依赖于均值回归和复苏动力，而非强劲的基本面催化剂。"
@@ -810,7 +810,7 @@ const summariesData = {
   "$CLSK": {
     "ticker": "$CLSK",
     "company_name": "CleanSpark",
-    "mention_count": 8,
+    "mention_count": 1,
     "date_range": "2025-09-03 ~ 2025-11-22",
     "summary_en": "The author categorizes $CLSK as a Bitcoin miner pivoting to the \"NeoCloud\" sector, aiming to leverage the trend of converting mining infrastructure into AI high-performance computing capacity. Despite a strong 56% price rally in October 2025, the author assigns $CLSK a \"C-Tier\" or \"Uncertain\" ranking, citing a lack of visible hyperscaler contracts compared to sector leaders like $NBIS and $IREN. This absence of secured revenue deals places $CLSK in the \"speculative\" bucket, exposing it to risks of underperformance during sector consolidation.\n\nOn the positive side, $CLSK exhibits the strongest institutional ownership structure among its peers, receiving a 9.0/10 score for \"Highly Positive\" institutional flows. This indicates aggressive accumulation by long-term asset managers and active funds, suggesting low qualitative risk regarding ownership stability. However, the investment thesis remains contingent on the company's ability to secure firm contracts, as it currently faces revenue uncertainty that distinguishes it from top-tier AI infrastructure plays.",
     "summary_cn": "作者将 $CLSK 归类为向“新云（NeoCloud）”领域转型的比特币矿企，旨在利用将挖矿基础设施转化为AI高性能计算容量的趋势。尽管2025年10月股价强劲上涨56%，作者仍将 $CLSK 评为“C级”或“不确定”，指出其缺乏像 $NBIS 和 $IREN 等行业龙头那样可见的超大规模企业合同。这种收入确定性的缺失使 $CLSK 被归为“投机性”标的，面临行业整合期间表现不佳的风险。\n\n积极的一面是，$CLSK 展现了同行中最强的机构持仓结构，其机构资金流评分高达9.0/10（“高度正面”）。这表明长期资产管理公司和主动基金正在积极买入，暗示其所有权稳定性风险较低。然而，投资逻辑仍取决于公司能否确立明确的合同，目前其面临的不确定性使其区别于顶级的AI基础设施标的。"
@@ -818,7 +818,7 @@ const summariesData = {
   "$LULU": {
     "ticker": "$LULU",
     "company_name": "Lululemon Athletica Inc.",
-    "mention_count": 8,
+    "mention_count": 1,
     "date_range": "2025-09-10 ~ 2026-04-24",
     "summary_en": "The author's investment thesis for $LULU centers on seasonality and valuation. In late 2025, they identified the stock as a \"Buy\" and a top catalyst-driven pick, citing an \"extremely low P/E\" and the expected tailwinds from holiday shopping seasonality between October and January. The stock was viewed as oversold, with an ideal entry point below $165, offering a potential short-term bounce driven by consumer spending.\n\nHowever, the author also flagged $LULU as a victim of tax harvesting selling pressure in October 2025. They noted competitive headwinds from brands like Alo and Vuori. Consequently, the author trimmed their position to reallocate capital into higher-return plays, intending to buy back after the tax harvesting period ended in December.\n\nA significant shift in sentiment occurred by April 2026, where the author criticized the company's decision to hire a $NKE veteran for the brand revival. Drawing a negative parallel to PayPal's leadership choices, the author expressed skepticism about this strategic direction, indicating a concern that the company might be making poor leadership decisions similar to other struggling firms.",
     "summary_cn": "作者对 $LULU 的投资论点主要围绕季节性因素和估值展开。他们在2025年底将其评级为“买入”及首选催化剂驱动股票，理由是“极低的市盈率”以及10月至1月假日购物季带来的预期利好。该股被视为超卖，理想入场点在165美元以下，有望受消费支出推动实现短期反弹。\n\n然而，作者也指出 $LULU 在2025年10月受到税收收割抛售压力的影响。他们提到了来自 Alo 和 Vuori 等品牌的竞争逆风。因此，作者减持了仓位，将资金重新分配给回报率更高的标的，并计划在12月税收收割期结束后回购。\n\n到2026年4月，市场情绪发生了重大转变，作者批评了公司聘请 $NKE 资深人士来领导品牌复兴的决定。作者将其与 PayPal 的领导层决策进行负面类比，对此战略方向表示怀疑，并担忧公司可能正在犯下与其他陷入困境的公司类似的领导层决策错误。"
@@ -826,7 +826,7 @@ const summariesData = {
   "$HIMX": {
     "ticker": "$HIMX",
     "company_name": "Himax Technologies, Inc.",
-    "mention_count": 7,
+    "mention_count": 8,
     "date_range": "2026-03-14 ~ 2026-05-25",
     "summary_en": "The investment thesis for $HIMX centers on its role within the Silicon Photonics and Co-Packaged Optics (CPO) supply chain, specifically providing micro-lenses and fiber arrays for $TSM's COUPE advanced packaging. Initially, the author viewed the thesis as \"slightly compelling\" due to a perceived monopoly in micro-lenses for TSMC's platforms, positioning the stock to benefit from the projected massive growth in CPO TAM.\n\nHowever, the author later highlighted significant structural risks following a sharp 31.54% price decline. The core lesson learned was that supply chain \"chokepoints\" can be \"designed out\" and may not translate to material revenue. While the micro-lens monopoly was real, the market incorrectly treated it as an unbreakable moat; $HIMX faces a high risk of being vertically integrated by giants like TSMC's optical department (Visera) or replaced by competitors like $SIVE in the long term.\n\nDespite these risks, the author acknowledges a viable near-term opportunity over the next two to three years. Driven by record demand signals for CPO-related fiber arrays (FAU) and passive devices, $HIMX is expected to see a wave of profitability before potentially losing its position. Nevertheless, the author prefers \"safer\" monopolies like $SOI or $AXTI, or purer plays like FOCI, over $HIMX due to its vulnerability to being designed out in future cycles.",
     "summary_cn": "$HIMX 的投资逻辑主要围绕其在硅光子和 CPO 供应链中的角色，特别是为 $TSM 的 COUPE 先进封装提供微透镜和光纤阵列。最初，作者认为该论点“略有吸引力”，因为 $HIMX 在台积电平台中拥有微透镜垄断地位，有望从 CPO 市场的爆发式增长中获益。\n\n然而，作者随后在股价大跌 31.54% 后强调了重大结构性风险。核心教训在于供应链“瓶颈”可能被“踢出局”，且未必能转化为实质性收入。虽然微透镜垄断是真实的，但市场错误地将其视为不可逾越的护城河；$HIMX 面临被台积电光学部门（采钰 Visera）垂直整合或被 $SIVE 等竞争对手取代的高风险。\n\n尽管存在风险，作者承认未来两三年内仍存在短期机会。受 CPO 相关光纤阵列（FAU）和无源器件创纪录需求的推动，预计 $HIMX 在失去市场地位前仍有一波获利机遇。不过，作者更倾向于 $SOI 或 $AXTI 等“更安全”的垄断标的，或 FOCI 等更纯粹的标的，因为 $HIMX 在未来周期中极易被取代。"
@@ -842,7 +842,7 @@ const summariesData = {
   "$HUT": {
     "ticker": "$HUT",
     "company_name": "Hut 8 Corp.",
-    "mention_count": 7,
+    "mention_count": 2,
     "date_range": "2025-09-03 ~ 2026-01-02",
     "summary_en": "The author rates $HUT as a \"Strong Buy,\" classifying it as a mining company pivoting to High-Performance Computing (HPC) that stands to benefit from the broader \"NeoCloud\" trend. The investment thesis posits that $HUT represents a significant recovery play as hyperscaler capital expenditures funnel into alternative AI compute providers, de-risking previous fears about datacenter spending.",
     "summary_cn": "作者将 $HUT 评级为“强力买入”，将其归类为向高性能计算（HPC）转型的矿业公司，有望受益于“新云”趋势。该投资逻辑认为，随着超大规模企业的资本支出流向替代性 AI 计算提供商，$HUT 具备巨大的反弹潜力，且此前关于数据中心支出的担忧已有所缓解。"
@@ -866,7 +866,7 @@ const summariesData = {
   "$EOSE": {
     "ticker": "$EOSE",
     "company_name": "Eos Energy Enterprises",
-    "mention_count": 7,
+    "mention_count": 1,
     "date_range": "2025-10-04 ~ 2026-02-28",
     "summary_en": "The author identifies $EOSE as a strategic play in the energy sector, specifically positioned to benefit from the massive power demands of the AI and data center buildout. It is frequently categorized alongside other energy stocks like $FLNC, $SEI, and $TE, serving as a proxy for the infrastructure requirements of hyperscalers and the broader technology sector.\n\nIn terms of trading activity, the author initially held a positive outlook, noting they had trimmed their position in $EOSE during October 2025 after a period of strong performance to rotate profits into other opportunities like $TE. During this period, the stock was generally rated as a 'Hold' amidst a favorable macro environment driven by anticipated rate cuts and a 'risk-on' sentiment.\n\nHowever, significant volatility risks were highlighted in later updates. By December 2025, $EOSE was identified as a 'falling knife,' dropping nearly 10% in a single day as part of a broader market sell-off following earnings from tech giants like $ORCL and $AVGO. By February 2026, the author pointed to $EOSE as a prime example of the binary risk in US equities, noting it was 'crashing 5-10% a day,' contrasting sharply with the stability of Asian markets.",
     "summary_cn": "作者将 $EOSE 视为能源板块的战略性投资标的，认为其直接受益于AI和数据中心建设带来的巨大电力需求。该股常与 $FLNC、$SEI 和 $TE 等其他能源股并列，作为超大规模科技企业基础设施需求的代理指标。\n\n在交易操作方面，作者最初持乐观态度，并在2025年10月表现强劲后“减持”了部分 $EOSE 仓位，以将利润轮动到 $TE 等其他机会中。在此期间，受降息预期和“风险偏好上升”的宏观环境推动，该股总体被评级为“持有”。\n\n然而，后续更新凸显了该股极高的波动性风险。到2025年12月，$EOSE 被视为“接飞刀”对象，受 $ORCL 和 $AVGO 财报引发的广泛市场抛售影响，单日跌幅近10%。至2026年2月，作者以 $EOSE 为例指出美股存在二元对立的高风险特性，称其“每日暴跌5-10%”，这与亚洲市场的稳定表现形成鲜明对比。"
@@ -874,7 +874,7 @@ const summariesData = {
   "$DELL": {
     "ticker": "$DELL",
     "company_name": "Dell Technologies Inc.",
-    "mention_count": 7,
+    "mention_count": 3,
     "date_range": "2025-09-17 ~ 2026-05-29",
     "summary_en": "The author maintains a bullish stance on $DELL, rating it as a \"Buy\" primarily due to its role in the data center and \"Stargate\" AI infrastructure buildout, alongside positive catalysts such as Trump's endorsement and personal purchase of the stock. Following blowout earnings, the author suggests that while $DELL is a solid play, it operates with lower commodity-like margins (8-14%) compared to specialized peers like $OSS, and investors feeling late to the trade might consider upstream suppliers.",
     "summary_cn": "作者对 $DELL 维持“买入”评级，主要看好其在数据中心和“星际之门”AI 基础设施建设中的作用，并将特朗普的背书及个人购股视为积极催化剂。在强劲财报发布后，作者指出尽管 $DELL 是不错的标的，但其利润率（8-14%）低于 $OSS 等专业同行，更像是一种大众化商品，建议错过入场时机的投资者可关注其上游供应商。"
@@ -898,7 +898,7 @@ const summariesData = {
   "$SMTC": {
     "ticker": "$SMTC",
     "company_name": "Semtech Corporation",
-    "mention_count": 6,
+    "mention_count": 8,
     "date_range": "2026-01-23 ~ 2026-04-24",
     "summary_en": "The investment thesis for $SMTC centers on its strategic positioning within the critical LRO (Linear Receive Optics) and LPO (Linear Pluggable Optics) transition, which the author identifies as a key growth driver. The company is consistently listed among essential players in the Analog/Mixed-Signal ICs sector, supporting the broader Co-Packaged Optics (CPO) and Silicon Photonics (SiPh) supply chains necessary for scaling AI infrastructure.\n\nThe author classifies $SMTC as a \"compounder\" alongside $MRVL, poised to benefit from a projected expansion of the optical interconnect market to over $100B by 2030. Additionally, $SMTC is viewed as an indirect beneficiary of the ongoing HBM4 and memory supercycle, with the author suggesting that the market has not yet fully priced in these tailwinds. In a tracked portfolio of 30 stocks, $SMTC demonstrated strong performance with a +18.83% return over a two-week period, validating the author's bullish outlook on the photonics supercycle.",
     "summary_cn": "对 $SMTC 的投资论点主要集中其在关键的 LRO（线性接收光学）和 LPO（线性可插拔光学）过渡中的战略地位，作者认为这是主要的增长动力。该公司一直被列为模拟/混合信号 IC 领域的关键参与者，支持扩展 AI 基础设施所需的更广泛的 CPO（共封装光学）和硅光 供应链。\n\n作者将 $SMTC 归类为与 $MRVL 并列的“复利增长型”股票，有望从预计到 2030 年超过 1000 亿美元的光互连市场扩张中受益。此外，$SMTC 被视为当前 HBM4 和内存超级周期的间接受益者，作者认为市场尚未完全反映这些利好因素。在一个追踪的 30 只股票投资组合中，$SMTC 表现强劲，两周内回报率达 +18.83%，验证了作者对光子超级周期的看涨前景。"
@@ -906,7 +906,7 @@ const summariesData = {
   "$GDRZF": {
     "ticker": "$GDRZF",
     "company_name": "Gold Reserve Inc.",
-    "mention_count": 6,
+    "mention_count": 7,
     "date_range": "2026-01-04 ~ 2026-05-24",
     "summary_en": "The author’s core investment thesis for $GDRZF centers on a geopolitical 'Nation Building' theme, specifically anticipating a US invasion and regime change in Venezuela following the capture of Maduro. The author identified $GDRZF as the primary vehicle to capitalize on this event, citing a massive valuation gap where the company held approximately $8 billion in claims against a market capitalization of only $200 million at the time of the initial call in January 2026.\n\nFollowing the initial thesis post, $GDRZF surged nearly 96% within days, validating the catalyst. By May 2026, the author classified $GDRZF as one of many successful 'triple-digit return' picks, confirming the stock achieved over 100% returns. The author uses this performance to validate their investment approach, emphasizing that percentage returns matter more than dollar amounts and contrasting their free, high-conviction research with paid subscription models.\n\nDespite the strong returns, the author noted significant backlash and ethical criticism, such as being accused of 'profiting off the War in Venezuela.' The author refutes claims of 'pump and dump' by pointing to institutional accumulation by funds like Point72 and Apollo, arguing that the fundamental thesis regarding claim recovery and asset unlocking was sound despite the controversy.",
     "summary_cn": "作者对 $GDRZF 的核心投资逻辑基于“国家重建”的地缘政治主题，特别是预判在美国入侵委内瑞拉及马杜罗被捕后的政权更迭。作者将 $GDRZF 视为利用该事件获利的首选标的，理由是其拥有约80亿美元的索赔权，而2026年1月首次提及时的市值仅为2亿美元，存在巨大的估值差距。\n\n在发布初始观点后，$GDRZF 在几天内飙升近96%，验证了催化剂的有效性。至2026年5月，作者将 $GDRZF 列入成功的“三位数回报”股票名单，确认该股实现了超过100%的收益。作者利用这一表现验证了其投资方法，强调回报率比绝对金额更重要，并将其免费、高确信度的研究与付费订阅模式进行了对比。\n\n尽管回报丰厚，作者提到该投资面临巨大的舆论阻力和道德指责，例如被批评“利用委内瑞拉战争牟利”。作者通过指出 Point72 和 Apollo 等机构投资者的买入行为，反驳了“拉高出货”的指控，认为关于索赔回收和资产解锁的基本面逻辑是正确的。"
@@ -914,7 +914,7 @@ const summariesData = {
   "$PL": {
     "ticker": "$PL",
     "company_name": "Planet Labs",
-    "mention_count": 6,
+    "mention_count": 4,
     "date_range": "2025-10-12 ~ 2026-05-26",
     "summary_en": "The author's investment thesis on $PL evolved significantly from late 2025 into 2026. Initially, in October 2025, the author recommended selling $PL, citing concerns that its valuation was disconnected from fundamentals and that space stocks had rallied excessively without matching revenue. However, the narrative shifted dramatically in December 2025 following Google's unveiling of \"Project Suncatcher.\" The author identified $PL as a primary beneficiary of this $GOOGL initiative to build space-based data centers, projecting potential revenue scaling from $10-$40 million initially to over $1 billion for a full constellation, marking a major bullish catalyst.\n\nBy March 2026, the author expressed regret for missing $PL's nearly 1000% rally, noting they ignored family advice to buy at $3. The author acknowledges $PL as the trigger for a \"Space Satellite MegaCycle,\" lifting peers like $BKSY and $SATL. However, a distinction is drawn between the \"hype over applications\" driving space stocks and the more defensible revenue growth seen in the AI Photonics SuperCycle ($LITE, $COHR), suggesting some lingering caution regarding the sector's fundamental defensibility.\n\nUltimately, $PL is positioned as a core component of the future space infrastructure. By May 2026, the author thematically groups $PL with $RKLB and $SPCX as part of a metaphorical \"Death Star\" build, cementing its status as a key player in the sector's long-term growth narrative despite earlier valuation concerns.",
     "summary_cn": "作者对$PL的投资逻辑在2025年底至2026年间发生了重大转变。最初在2025年10月，作者建议卖出$PL，认为其估值与基本面脱节，太空股涨幅过大且缺乏营收支撑。然而，随着谷歌发布“Project Suncatcher”，作者在12月转变观点，将$PL视为$GOOGL太空数据中心计划的主要受益者，预计其营收潜力从初期的数千万美元可增长至全面星座部署后的10亿美元以上。\n\n到2026年3月，作者感叹错失了$PL近1000%的涨幅，后悔未听从家人建议在3美元时买入。作者承认$PL引发了“太空卫星大周期”，带动了$BKSY和$SATL等股票。但作者也指出，太空股的上涨更多源于应用层面的炒作，相比之下，以$LITE和$COHR为代表的AI光子周期的营收增长更具防御性。\n\n最终，$PL被定位为未来太空基础设施的核心组成部分。到2026年5月，作者将$PL与$RKLB及$SPCX并列为构建“死星”的核心资产，确立了其在该行业长期增长叙事中的关键地位。"
@@ -922,7 +922,7 @@ const summariesData = {
   "$AMC": {
     "ticker": "$AMC",
     "company_name": "AMC Entertainment Holdings",
-    "mention_count": 6,
+    "mention_count": 5,
     "date_range": "2025-09-10 ~ 2026-04-05",
     "summary_en": "The author utilizes $AMC primarily as a cautionary benchmark to illustrate the dangers of excessive share dilution and the consequences of irrational investor loyalty. Across the provided tweets, $AMC is consistently referenced as the archetype of a \"bagholder\" stock, where retail investors face significant equity destruction due to structural share issuances that management sells into the open market.\n\nThe investment perspective is strictly bearish, characterizing $AMC investors as individuals who are \"married to the stock\" and ignore fundamental red flags. The author argues that $AMC represents a territory where shareholders blindly trust management despite massive dilution that decreases the value of their positions over time, drawing a direct parallel to the current risks associated with $IREN.\n\nKey risks highlighted include the structural mechanics of massive \"At-The-Market\" (ATM) offerings which wipe out retail equity appreciation. The author contrasts $AMC with companies like $NBIS that deploy capital productively, noting that $AMC is often seen holding cash unproductively similar to $GME. Ultimately, $AMC is grouped with tickers like $SOFI and $BYND as examples of stocks favored by unsophisticated investors who fail to recognize when a thesis has materially changed.",
     "summary_cn": "作者主要将 $AMC 作为一个警示性基准，用来阐述过度股权稀释和非理性投资者忠诚度的危险。在提供的推文中，$AMC 始终被引用为“被套牢”股票的典型，即散户投资者因管理层在公开市场上抛售股票的结构性发行而面临重大权益损失。\n\n该投资观点呈现严格看空态度，将 $AMC 投资者描述为“与股票结婚”并忽视基本面危险信号的人群。作者认为，$AMC 代表了一种股东尽管面临大规模稀释（随时间推移降低其持仓价值）仍盲目信任管理层的境地，这与当前 $IREN 相关的风险形成了直接对比。\n\n强调的主要风险包括大规模“按市价发行”（ATM）机制的结构性运作，这会抹杀散户的权益增值。作者将 $AMC 与 $NBIS 等能有效配置资本的公司进行对比，指出 $AMC 常被视为像 $GME 一样非生产性地持有现金。最终，$AMC 被与 $SOFI 和 $BYND 等股票归为一类，作为缺乏经验且未能识别投资逻辑发生实质性变化的投资者的典型标的。"
@@ -930,7 +930,7 @@ const summariesData = {
   "$BE": {
     "ticker": "$BE",
     "company_name": "Bloom Energy Corporation",
-    "mention_count": 6,
+    "mention_count": 3,
     "date_range": "2025-10-04 ~ 2026-03-15",
     "summary_en": "The author positions $BE as a key player in the grid-energy and storage sector, benefiting from the massive energy demands driven by AI infrastructure buildout. In March 2026, $BE is highlighted alongside $NBIS, $XLU, and $VRT as part of the \"datacenter/power/grid sector\" essential for running AI compute. The stock demonstrated strong performance with +56.56% YTD gains, included in what the author terms an \"AI Displacement ETF\" – a basket of stocks positioned to benefit from AI scaling and compute expansion.\n\nThe core investment thesis centers on energy being a critical bottleneck for AI development. OpenAI's memo to Congress emphasized that \"whoever generates the most power wins the AI race,\" noting China added 429 GW of new power capacity in 2024 alone. $BE is categorized under \"Grid-Energy / Storage\" alongside $TSLA, $FLNC, and $NRGV, representing companies positioned to benefit from the radical expansion of the American power grid needed to sustain U.S. AI advantages.\n\nDespite the bullish sector outlook, the author personally rates $BE as \"Hold\" in their portfolio, suggesting they see better opportunities in other names like $NBIS, $ALAB, and $CRDO. The author explicitly states they don't personally own $BE, though they included it in their AI Displacement ETF basket. $BE earnings are cited as a proxy for energy sector performance, indicating its importance as a bellwether for AI-related energy investments.",
     "summary_cn": "作者将 $BE 定位为电网能源和储能领域的重要参与者，有望从AI基础设施建设带来的巨大能源需求中受益。2026年3月，$BE 与 $NBIS、$XLU 和 $VRT 一同被列为\"数据中心/电力/电网板块\"的重要组成部分，对运行AI计算至关重要。该股票表现强劲，年初至今上涨56.56%，被纳入作者所称的\"AI替代ETF\"——一篮子受益于AI规模扩张的股票。\n\n核心投资论点在于能源是AI发展的关键瓶颈。OpenAI向国会提交的备忘录强调\"谁能产生最多的电力，谁就能赢得AI竞赛\"，并指出中国在2024年就新增了429吉瓦的电力装机容量。$BE 被归类为\"电网能源/储能\"板块，与 $TSLA、$FLNC 和 $NRGV 并列，代表那些将从美国电网大规模扩张中受益的公司。\n\n尽管对该板块持看涨态度，作者在个人投资组合中将 $BE 评级为\"持有\"，表明他们认为 $NBIS、$ALAB 和 $CRDO 等其他股票有更好的机会。作者明确表示个人不持有 $BE，尽管将其纳入了AI替代ETF篮子。$BE 的财报被引用为能源板块表现的风向标，表明其作为AI相关能源投资的重要指标股地位。"
@@ -962,7 +962,7 @@ const summariesData = {
   "$VICR": {
     "ticker": "$VICR",
     "company_name": "Vicor Corporation",
-    "mention_count": 6,
+    "mention_count": 9,
     "date_range": "2026-01-16 ~ 2026-04-27",
     "summary_en": "$VICR emerges as a key beneficiary across multiple high-growth sectors, primarily positioned in power delivery solutions for AI data centers, grid infrastructure, and robotics. The company is highlighted as a critical player in AI infrastructure where power delivery has become a significant bottleneck. NVIDIA is actively pushing toward 800V DC systems, with $VICR mentioned as a potential exposure play alongside partners like Infineon, $TXN, and $STM.\n\nThe investment thesis strengthened significantly when the President invoked the \"Defense Production Act\" to address \"severe shortages\" in grid infrastructure, explicitly including power electronics. $VICR was identified as an implicit beneficiary for power delivery solutions, alongside companies like $AMSC, $PLPC, and $AEIS. The author anticipates potential DOE contracts in the next 3-6 months flowing from this executive action.\n\nBeyond AI infrastructure, $VICR is positioned in the robotics supply chain, specifically identified as the power supplier for Boston Dynamics' Atlas robot. The author describes $VICR as \"one of the most interesting ones\" in US robotics supply chains, alongside $AMBA. The company is also part of the author's \"Bottleneck ETF\" thesis, which showed strong performance (+9.6% in one week for $VICR), suggesting institutional interest in supply chain constraint plays. Key risks include competition in power delivery and dependency on AI/robotics growth trends.",
     "summary_cn": "$VICR作为多个高增长领域的关键受益者脱颖而出，主要定位于AI数据中心、电网基础设施和机器人领域的电源解决方案。该公司被强调为AI基础设施中的关键参与者，电源供应已成为重要瓶颈。NVIDIA正积极推动800V直流系统，$VICR与英飞凌、$TXN和$STM等合作伙伴一起被提及为潜在投资标的。\n\n当总统援引\"国防生产法\"以解决电网基础设施的\"严重短缺\"问题时，投资论点得到显著加强，该法案明确包括电力电子设备。$VICR被确定为电源解决方案的隐性受益者，与$AMSC、$PLPC和$AEIS等公司并列。作者预计未来3-6个月可能会有能源部合同由此行政行动产生。\n\n除AI基础设施外，$VICR还定位于机器人供应链，具体被确定为波士顿动力Atlas机器人的电源供应商。作者将$VICR描述为美国机器人供应链中\"最有趣的公司之一\"，与$AMBA并列。该公司也是作者\"瓶颈ETF\"理论的一部分，该理论显示强劲表现（$VICR一周内上涨9.6%），表明机构对供应链约束概念股的兴趣。主要风险包括电源领域的竞争以及对AI/机器人增长趋势的依赖。"
@@ -970,7 +970,7 @@ const summariesData = {
   "$CORZ": {
     "ticker": "$CORZ",
     "company_name": "Core Scientific Inc.",
-    "mention_count": 6,
+    "mention_count": 1,
     "date_range": "2025-11-05 ~ 2026-01-18",
     "summary_en": "The author rates $CORZ as a \"Buy\" and places it in the [B] Tier of the Neocloud sector, citing a $8.7 billion colocation deal with $CRWV that provides predictable cash flows and shareholder-friendly capex funding. However, the thesis is tempered by significant risks, as $CORZ's revenue dependence on $CRWV exposes it to potential contagion from $CRWV's high-interest debt and OpenAI-related instability.",
     "summary_cn": "作者将 $CORZ 评级为“买入”并列为 Neocloud 领域的 [B] 级，理由是其与 $CRWV 签订的 87 亿美元托管协议提供了可预测的现金流且资本支出模式对股东有利。然而，该投资论点受到重大风险的制约，因为 $CORZ 对 $CRWV 的收入依赖使其面临 $CRWV 高息债务及 OpenAI 相关不稳定性带来的潜在蔓延风险。"
@@ -986,7 +986,7 @@ const summariesData = {
   "$SOL": {
     "ticker": "$SOL",
     "company_name": "Solana",
-    "mention_count": 6,
+    "mention_count": 2,
     "date_range": "2025-09-14 ~ 2026-02-08",
     "summary_en": "The author views $SOL as a strategic crypto recovery play, allocating 2.5% of their portfolio to it as part of a broader 25% digital asset exposure alongside $IBIT, $COIN, $HOOD, and $CRCL. The investment thesis centers on buying $SOL during post-margin liquidation dips, when leverage traders get wiped out creating attractive entry points.\n\nKey price levels mentioned include $138 in November 2025 (described as a great recovery buy) and $114.8 in January 2026, where the author rotated positions into what they called a \"falling knife.\" The author notes $SOL has \"high usage but very centralized network riding stablecoin hype,\" acknowledging both the adoption strength and centralization risk.\n\nThe author also references $SOL as one of FTX's most successful investments, noting FTX held 41M+ tokens worth over $5.7B at $131.5/token, demonstrating the token's significant value appreciation potential over multi-year timeframes.\n\nRisks include the network's centralization concerns and volatility from leverage liquidations. However, the author consistently rates $SOL as \"Strong Buy\" during market corrections, advocating for buying dips rather than chasing rallies, especially when $SOL has already seen significant short-term gains (e.g., up 20%+ in 7 days).",
     "summary_cn": "作者将 $SOL 视为战略性加密货币反弹标的，在投资组合中配置2.5%，作为25%数字资产敞口的一部分，与 $IBIT、$COIN、$HOOD 和 $CRCL 并列。投资核心逻辑是在保证金清算后的下跌中买入 $SOL，当杠杆交易者被强制平仓时会创造有吸引力的入场点。\n\n提到的关键价格水平包括2025年11月的$138（被描述为绝佳的反弹买入点）和2026年1月的$114.8，作者在此价位将仓位轮动至所谓的\"下落的刀子\"。作者指出 $SOL \"使用率高但网络非常中心化，借助稳定币炒作\"，既认可其采用强度也承认中心化风险。\n\n作者还将 $SOL 列为FTX最成功的投资之一，指出FTX持有超过4100万枚代币，在$131.5/代币时价值超过$57亿，展示了该代币在多年时间框架内的巨大增值潜力。\n\n风险包括网络中心化问题和杠杆清算带来的波动性。然而，作者在市场回调期间始终将 $SOL 评为\"强力买入\"，主张逢低买入而非追涨，特别是当 $SOL 已在短期内大幅上涨（如7天内上涨20%以上）时。"
@@ -994,7 +994,7 @@ const summariesData = {
   "$QLCM": {
     "ticker": "$QLCM",
     "company_name": "Qualcomm",
-    "mention_count": 6,
+    "mention_count": 5,
     "date_range": "2025-10-11 ~ 2026-03-30",
     "summary_en": "The author positions $QLCM as a integral player within the semiconductor supply chain 'bottleneck' thesis, specifically categorized under 'N2 Volume' production alongside giants like $TSM, $AMD, and $NVDA. This classification suggests $QLCM is a key beneficiary of the advanced manufacturing capacity rush, with the stock previously demonstrating strong technical momentum by gaining over 6% in a week alongside other supply chain leaders like $LITE and $AMKR.\n\nStrategically, the investment thesis highlights $QLCM's proactive M&A approach, specifically citing its acquisition of Alphawave and the OpenLight ecosystem. The author views this as a smart move to control critical IP roadmaps, drawing parallels to potential defensive strategies competitors like $AVGO might use against $MRVL. This vertical integration suggests $QLCM is attempting to secure chokepoints in the photonics and connectivity supply chain.\n\nHowever, significant risks are flagged, including high geopolitical exposure due to material revenue dependence on China, which led to sharp sell-offs during tariff announcements alongside names like $MU and $NKE. Additionally, the author points to execution concerns in the robotics sector, noting a public demo failure where a $QLCM robot fell over, contrasting poorly with the rapid advancements seen in Chinese competitors and $NVDA.",
     "summary_cn": "作者将 $QLCM 视为半导体供应链“瓶颈”投资主题中的核心玩家，将其与 $TSM、$AMD 和 $NVDA 等巨头一同归类为“N2 Volume”产能环节。这表明 $QLCM 是先进制造产能需求的主要受益者，该股此前曾与 $LITE 和 $AMKR 等供应链领军企业一同上涨，一周内涨幅超过 6%，技术动能强劲。\n在战略层面，投资逻辑强调了 $QLCM 积极的并购策略，特别提到了其对 Alphawave 和 OpenLight 生态系统的收购。作者认为这是掌控关键 IP 路线图的明智之举，并将其与 $AVGO 可能针对 $MRVL 采取的防御性策略相提并论。这种垂直整合表明 $QLCM 正试图锁定光子和连接供应链中的关键节点。\n然而，该股也面临显著风险，包括因对中国市场营收依赖度过高而带来的地缘政治风险，这在关税政策引发的市场抛售中表现明显，受影响程度与 $MU 和 $NKE 等股票相似。此外，作者指出了其在机器人领域的执行风险，提到 $QLCM 的机器人在一次公开演示中摔倒，这与 $NVDA 及中国竞争对手的快速进步形成了鲜明对比。"
@@ -1002,7 +1002,7 @@ const summariesData = {
   "$ETN": {
     "ticker": "$ETN",
     "company_name": "Eaton Corporation plc",
-    "mention_count": 5,
+    "mention_count": 7,
     "date_range": "2026-02-07 ~ 2026-04-23",
     "summary_en": "The author identifies $ETN as a critical infrastructure play within the \"Power Delivery\" and \"Grid\" segments of the AI supply chain. It is characterized as a \"bottleneck\" stock, serving as a chokepoint that controls pricing for data center infrastructure, which is increasingly viewed as a hidden limiter to semiconductor revenue realization. This thesis is supported by strong performance in supply-chain-mapped baskets, where $ETN gained +9.1% in a single week alongside other power and semiconductor names.\n\nKey catalysts include $NVDA's active push for 800V direct current (DC) infrastructure, with $ETN named as a key partner in designing these systems. Furthermore, an OpenAI memo to Congress emphasized that power generation is the decisive factor in the AI race, explicitly listing $ETN among the power delivery companies set to benefit from the necessary expansion of the U.S. grid to compete with China's capacity growth.\n\nFrom a macro perspective, the author argues that investing in $ETN is a necessary hedge against structural economic shifts driven by automation. As corporations decouple revenue from human headcount and AI energy demands surge, capital is shifting toward infrastructure bottlenecks. Consequently, $ETN is viewed as perfectly positioned to capture the massive transfer of wealth from wages to corporate profits and AI infrastructure spending.",
     "summary_cn": "作者将 $ETN 视为人工智能供应链中“电力输送”和“电网”领域的关键基础设施投资标的。它被定性为一只“瓶颈”股，作为控制数据中心基础设施定价的关键节点，而数据中心基础设施正日益被视为半导体收入实现的隐形限制因素。这一论点得到了供应链映射篮子的强劲表现支持，其中 $ETN 与其他电力和半导体股票一起，在一周内上涨了 +9.1%。\n\n关键催化剂包括 $NVDA 积极推动 800V 直流（DC）基础设施，其中 $ETN 被列为设计这些系统的关键合作伙伴。此外，OpenAI 致国会的备忘录强调发电是人工智能竞赛的决定性因素，明确将 $ETN 列为将从美国电网必要扩张中受益的电力输送公司之一，以抗衡中国的产能增长。\n\n从宏观角度来看，作者认为投资 $ETN 是对冲自动化驱动的结构性经济转变的必要手段。随着企业将收入与人员数量脱钩，且人工智能能源需求激增，资本正转向基础设施瓶颈领域。因此，$ETN 被认为处于捕捉从工资向企业利润和人工智能基础设施支出大规模财富转移的最佳位置。"
@@ -1010,7 +1010,7 @@ const summariesData = {
   "$APH": {
     "ticker": "$APH",
     "company_name": "Amphenol Corporation",
-    "mention_count": 5,
+    "mention_count": 6,
     "date_range": "2026-02-07 ~ 2026-05-31",
     "summary_en": "$APH is consistently highlighted as a critical infrastructure component within the AI and semiconductor supply chain, specifically categorized under \"Rack\" solutions and \"Connectors and Fibers.\" The author positions the company as a key partner in the $NVDA ecosystem, noting its inclusion in a prominent list of supply chain companies toasted by Jensen Huang, which reinforces its strategic importance in enabling AI deployments.\n\nFrom a performance perspective, $APH demonstrated strong momentum as part of a \"Bottleneck ETF\" strategy, gaining +11.6% in a single week due to institutional buying. However, the tweets also reveal a comparative lag during specific rotations into Silicon Photonics and CPO plays; by mid-March, $APH recorded a -6.48% YTD return, underperforming high-flying peers like $LITE and $AAOI in that specific sector rotation.\n\nThe core investment thesis frames $APH as a foundational beneficiary of the multi-year \"Photonic Supercycle\" rather than a speculative alpha play. While it may not capture the explosive upside of smaller bottleneck suppliers, it serves as an essential \"pick and shovel\" investment for data center infrastructure and advanced packaging architectures.",
     "summary_cn": "$APH 一直被强调为 AI 和半导体供应链中的关键基础设施组件，具体归类于“机架”解决方案以及“连接器与光纤”领域。作者将该公司定位为 $NVDA 生态系统中的关键合作伙伴，并指出其被列入黄仁勋提及的供应链名单，这进一步巩固了其在推动 AI 部署中的战略重要性。\n\n从表现来看，作为“瓶颈ETF”策略的一部分，$APH 展现了强劲势头，受机构买入推动单周上涨 +11.6%。然而，推文也显示在资金具体轮动至硅光子和 CPO 概股时，其表现相对滞后；截至三月中旬，$APH 年初至今回报率为 -6.48%，跑输了 $LITE 和 $AAOI 等高飞的同业股票。\n\n核心投资逻辑将 $APH 定义为多年期“光子学超级周期”的基础受益者，而非投机性 Alpha 标的。虽然它可能无法捕捉小型瓶颈供应商那样的爆发性上涨空间，但它是数据中心基础设施和先进封装架构中必不可少的“铲子股”投资。"
@@ -1018,7 +1018,7 @@ const summariesData = {
   "$SLOIF": {
     "ticker": "$SLOIF",
     "company_name": "Soitec",
-    "mention_count": 5,
+    "mention_count": 11,
     "date_range": "2026-03-02 ~ 2026-03-18",
     "summary_en": "The investment thesis centers on $SLOIF (Soitec) as a functional monopoly in the substrate market for silicon photonics and Co-Packaged Optics (CPO). The author argues that $SLOIF, alongside $AXTI, forms a critical supply chain bottleneck for future 800G/1.6T data transmission, noting that even competitors like Shin-Etsu operate under Soitec's license.\n\nMotivated by depressed valuations at roughly 1x book value and 2x P/S, the author initiated a sizable position around 43 euros, targeting a 3x return. The strategy involves capturing the upside of the CPO inflection point expected in late 2027-2028 while buying near the bottom of the legacy smartphone cycle, with $NVDA GTC acting as a near-term catalyst.\n\nDespite risks of legacy business drag similar to $IQE and the possibility of being early by 6-12 months, the stock rallied over 45% shortly after the author's posts. The author views this performance as validation that retail investors are identifying key AI architectural shifts, such as the substrate monopoly, earlier than institutional algorithms.",
     "summary_cn": "投资逻辑的核心在于将 $SLOIF (Soitec) 视为硅光子和共封装光学 (CPO) 衬底市场的实质性垄断者。作者认为 $SLOIF 与 $AXTI 共同构成了未来800G/1.6T数据传输的关键供应链瓶颈，并指出即便是竞争对手信越化学 也是在其授权下运营。\n\n鉴于估值处于低位（约1倍市净率和2倍市销率），作者在约43欧元处建立了大量头寸，预期有3倍的回报空间。该策略旨在布局2027至2028年CPO爆发点的同时，抄底传统智能手机周期的低谷，并将 $NVDA GTC 视为近期的催化剂。\n\n尽管存在类似 $IQE 的旧业务拖累风险，且时间点可能早了6-12个月，但该股在作者发帖后上涨了45%以上。作者认为这证明了散户投资者能够先于机构发现AI架构变革中的关键供应节点。"
@@ -1034,7 +1034,7 @@ const summariesData = {
   "$RR": {
     "ticker": "$RR",
     "company_name": "Richtech Robotics",
-    "mention_count": 5,
+    "mention_count": 1,
     "date_range": "2025-10-04 ~ 2026-05-13",
     "summary_en": "The author identifies $RR as a key player in the robotics sector, categorizing it as a potential \"next frontier\" investment following the current AI infrastructure boom. While the stock was consistently rated \"Hold\" during market volatility in late 2025, it remains a notable ticker for investors seeking exposure to the humanoid and robotics thematic trends.",
     "summary_cn": "作者将 $RR 视为机器人领域的关键标的，认为其是当前AI基础设施建设热潮之后的“下一个前沿”投资机会。尽管在2025年底的市场波动中该股一直被评为“持有”，但它仍是投资者寻求人形机器人和机器人主题趋势敞口的重要关注对象。"
@@ -1042,7 +1042,7 @@ const summariesData = {
   "$DGXX": {
     "ticker": "$DGXX",
     "company_name": "Digihost Technology Inc.",
-    "mention_count": 5,
+    "mention_count": 1,
     "date_range": "2025-10-29 ~ 2026-05-15",
     "summary_en": "The author identifies $DGXX as a compelling, undervalued small-cap opportunity within the \"Neocloud\" and AI infrastructure sector, frequently grouping it with peers like $NBIS, $IREN, and $CIFR. The core investment thesis centers on \"megawatt valuation arbitrage,\" where the company is positioned to convert power capacity into high-value AI hosting, benefiting from the sustained GPU server demand driving stocks like $SMCI.\n\nFrom a fundamental standpoint, $DGXX is highlighted for its attractive valuation metrics, trading at a 2.76x P/S ratio compared to the sector average of roughly 20x. The author notes the company possesses a strong balance sheet with no debt and cash comprising one-fifth of its market cap, alongside ownership of power assets and a target of 200MW capacity within a year. However, the author explicitly flags the need to verify these community-sourced data points.\n\nWhile the broader macro view suggests aggressive positioning into rate cuts and AI growth, $DGXX remains on the author's radar as a potential high-asymmetry play. The primary risks involve execution in a competitive landscape and the necessity for due diligence to confirm the reported financial and operational metrics.",
     "summary_cn": "作者将 $DGXX 视为“新云”和 AI 基础设施领域中一个极具吸引力且被低估的小盘股机会，常将其与 $NBIS、$IREN 和 $CIFR 等同行归为一类。核心投资论点围绕“兆瓦估值套利”，即该公司有望将电力容量转化为高价值的 AI 托管服务，从而受益于推动 $SMCI 等股票的持续 GPU 服务器需求。\n\n从基本面来看，$DGXX 因其诱人的估值指标而备受关注，其市销率为 2.76 倍，远低于行业约 20 倍的平均水平。作者指出，该公司资产负债表强劲，无债务且现金占市值的五分之一，同时拥有电力资产并计划在一年内实现 200MW 的容量。然而，作者也明确指出需要核实这些来自社区的数据。\n\n尽管宏观大环境建议积极布局降息和 AI 增长题材，但 $DGXX 仍是作者关注名单上的潜在高非对称收益标的。主要风险包括竞争环境中的执行风险，以及必须进行的尽职调查以确认所报告的财务和运营指标。"
@@ -1050,7 +1050,7 @@ const summariesData = {
   "$VST": {
     "ticker": "$VST",
     "company_name": "Vistra Corp.",
-    "mention_count": 5,
+    "mention_count": 4,
     "date_range": "2025-11-25 ~ 2026-02-21",
     "summary_en": "The core investment thesis for $VST revolves around the \"AI Power Bottleneck,\" positing that exponential growth in data center energy consumption will transform the utility sector into a high-growth opportunity. The author argues that 2026 marks a historic inflection point where AI inference and buildout require massive power capacity, creating a \"desperation premium\" for independent power producers. With grid capacity sold out, tech giants like $AMZN and $META are paying extreme premiums to secure electricity, directly benefiting companies like $VST and $CEG.\n\nThis structural demand surge coincides with a favorable macroeconomic backdrop of falling interest rates, which historically drives valuation multiple expansion for utilities ($XLU). The author predicts a dual catalyst: rate cuts making utility dividends attractive, and an infrastructure supercycle where hyperscaler capital expenditures—projected to reach $800B+ by 2027—fuel compounding earnings growth. Consequently, the author views $VST as a primary beneficiary of what may be a once-in-a-generation shift in power demand.\n\nTo capitalize on this, the author recommends long OTM leaps on $XLU, citing the ETF's heavy weighting in $VST and historically low implied volatility (~14%) as a strategic entry point. This trade is further supported by geopolitical urgency, as OpenAI has warned Congress that U.S. energy expansion is critical to maintaining AI dominance against China. However, the author acknowledges risks, noting that options magnify downside and that projections rely on personal models that exceed current government estimates.",
     "summary_cn": "关于 $VST 的核心投资论点主要基于“AI电力瓶颈”，即数据中心能源消耗的指数级增长将把公用事业部门转变为高增长机会。作者认为，2026年是一个历史性的拐点，AI推理和建设需要巨大的电力产能，从而为独立发电商创造了“极度溢价”。随着电网容量售罄，$AMZN 和 $META 等科技巨头正在支付极高的溢价以确保电力供应，这直接利好 $VST 和 $CEG 等公司。\n\n这种结构性的需求激增与降息的有利宏观背景相吻合，历史上降息会推动公用事业（$XLU）的估值倍数扩张。作者预测将出现双重催化剂：降息使公用事业股息具有吸引力，以及超大规模企业的资本支出（预计到2027年将超过8000亿美元）推动盈利复合增长的基建超级周期。因此，作者认为 $VST 是这一代人可能仅见的电力需求转变的主要受益者。\n\n为了利用这一机会，作者建议买入 $XLU 的长期价外LEAPS期权，理由是该ETF重仓 $VST，且历史低隐含波动率（约14%）提供了战略入场点。地缘政治的紧迫性进一步支持了这一交易，OpenAI曾警告国会，美国能源扩张对于保持对中国的AI主导地位至关重要。然而，作者也承认存在风险，指出期权会放大下行风险，且预测依赖于超出当前政府预估的个人模型。"
@@ -1082,7 +1082,7 @@ const summariesData = {
   "$MPWR": {
     "ticker": "$MPWR",
     "company_name": "Monolithic Power Systems",
-    "mention_count": 5,
+    "mention_count": 2,
     "date_range": "2025-12-02 ~ 2026-02-12",
     "summary_en": "The investment thesis for $MPWR centers on its role as a critical power management supplier in the AI semiconductor supply chain, specifically within Google's TPU v7 \"Ironwood\" ecosystem. The author identifies $MPWR as a potential replacement for $VICR in Google's TPU power delivery architecture, though this position is noted as speculative based on earnings commentary. Power delivery innovation, including SiC, GaN PMICs, and rack-level power architectures, is highlighted as one of five key bottleneck areas in the semiconductor value chain.\n\nThe author includes $MPWR as a 2.5% allocation in an \"ideal AI portfolio\" designed for the LLM + TPU/GPU ramp, rating it as a \"Buy\" following the Fed's 25bps rate cut in December 2025. The thesis is grounded in the broader theme that data center infrastructure, particularly power delivery, represents a \"hidden limiter\" to semiconductor revenue realization, positioning midstream players like $MPWR as pricing power beneficiaries.\n\nKey risks include the speculative nature of the $VICR replacement thesis, dependence on TPU adoption scaling from customers like Anthropic, Meta, and Apple, and competitive uncertainty around vendor share allocation. The author notes that while $MPWR benefits from the TPU v7 ecosystem buildout, the investment case depends on how adoption, vendor shares, and competitive responses ultimately play out.",
     "summary_cn": "$MPWR的投资逻辑主要围绕其作为AI半导体供应链中关键电源管理供应商的角色，特别是在谷歌TPU v7 \"Ironwood\"生态系统中。作者指出$MPWR可能取代$VICR成为谷歌TPU电源交付架构的供应商，尽管这一判断基于财报信息并带有推测性质。电源交付创新（包括SiC、GaN PMIC和机架级电源架构）被列为半导体价值链五大瓶颈领域之一。\n\n作者将$MPWR纳入\"理想AI投资组合\"，配置比例为2.5%，该组合专为LLM + TPU/GPU扩产周期设计。在2025年12月美联储降息25个基点后，作者给予其\"买入\"评级。这一投资逻辑基于更广泛的主题：数据中心基础设施（尤其是电源交付）是半导体收入实现的\"隐形限制因素\"，使$MPWR等中游参与者拥有定价权优势。\n\n主要风险包括：取代$VICR的判断具有推测性质；投资回报依赖于Anthropic、Meta和Apple等客户对TPU的采用规模；供应商份额分配和竞争格局存在不确定性。作者指出，虽然$MPWR受益于TPU v7生态系统建设，但投资前景最终取决于实际采用情况、供应商份额和竞争态势的演变。"
@@ -1114,7 +1114,7 @@ const summariesData = {
   "$POWL": {
     "ticker": "$POWL",
     "company_name": "Powell Industries",
-    "mention_count": 5,
+    "mention_count": 8,
     "date_range": "2026-04-09 ~ 2026-04-27",
     "summary_en": "The investment thesis for $POWL centers on its role as a critical domestic solution to the severe bottleneck in electrical infrastructure, specifically regarding switchgear and substations for data centers. The author highlights that these components are sold out for the next 2-5 years, causing widespread delays, which creates strong structural demand and backlog visibility. $POWL is positioned as a key US alternative to Hammond for switchgear needs, directly benefiting from the surge in AI hyperscaler demand.\n\nA major catalyst identified is the President's invocation of the 'Defense Production Act' to address national energy emergencies and supply chain shortages. $POWL is explicitly listed as an implicit beneficiary under the substation and high-voltage circuit breaker categories. The author anticipates that this executive action will likely result in Department of Energy (DOE) contracts for the company within the next 3-6 months, further bolstering its outlook.\n\nWhile the author personally favored $HPS.A for its specific exposure to dry transformers, they acknowledge $POWL as a strong 'switchgear long.' In a tracked basket of 30 stocks, $POWL delivered a +9.26% return over two weeks. The primary risk noted is not operational but rather stock selection, as the author initially passed on the name in favor of other transformer plays before including it in a broader portfolio context.",
     "summary_cn": "对 $POWL 的投资逻辑主要集中在其作为国内电气基础设施瓶颈的关键解决方案上，特别是在数据中心的开关设备和变电站领域。作者指出，由于相关组件在未来2-5年内已售罄，导致项目普遍延期，这为 $POWL 提供了强劲的结构性需求和订单可见性。作为 Hammond 在开关设备领域的美国替代供应商，$POWL 直接受益于 AI 超大规模企业激增的需求。\n\n一个主要的催化剂是总统启动了“国防生产法”（DPA），以应对国家能源紧急状况和供应链短缺。$POWL 被明确列为变电站和高压断路器类别的潜在受益者。作者预计，该行政命令可能会在未来3-6个月内为公司带来美国能源部（DOE）的合同，从而进一步提振其前景。\n\n尽管作者因干式变压器的特定敞口而更倾向于 $HPS.A，但他们承认 $POWL 是一个强有力的“开关设备多头标的”。在追踪的30只股票组合中，$POWL 在两周内实现了 +9.26% 的回报。提及的主要风险并非运营方面，而是在选股层面，作者最初曾因偏好其他变压器标的而暂时忽略了该股票，但后来将其纳入了更广泛的投资组合中。"
@@ -1122,7 +1122,7 @@ const summariesData = {
   "$NET": {
     "ticker": "$NET",
     "company_name": "Cloudflare",
-    "mention_count": 5,
+    "mention_count": 1,
     "date_range": "2025-10-13 ~ 2026-02-27",
     "summary_en": "The author expresses a strongly bullish thesis on $NET, rating it 10/10 for AI disruption resistance. The core argument is that Cloudflare's infrastructure services are fundamentally insulated from AI disruption—the author states they \"don't see how AI would disrupt Cloudflare.\" Unlike content platforms that face generative AI threats, $NET provides essential network infrastructure that remains critical regardless of how software evolves. The stock traded at $169.5 (down 13.55% YTD as of February 2026) and was previously at $192.99 (down 15.23% over 5 days in November 2025).\n\nFrom a fundamental perspective, $NET is highlighted as having approximately $2.2B+ in ARR with 22% Y/Y growth. The company is positioned in the cybersecurity industry with high gross margins (~80%) and trades at premium multiples comparable to peers like $CRWD. The author notes $NET's diversified client base including major enterprises like Goldman Sachs, Pepsi, and Accenture. Additionally, $NET is mentioned as a customer of Clickhouse (a Nebius subsidiary), connecting it to the broader AI infrastructure ecosystem.\n\nThe primary risk identified is market-wide volatility rather than company-specific issues. During November 2025, $NET experienced a 15.23% decline alongside other growth stocks like $RKLB (-19.35%) and $IREN (-28.74%). The author attributes this selloff to mechanical hedging, cascading margin liquidations, and macro concerns rather than deteriorating fundamentals. The author views such drawdowns as buying opportunities, characterizing them as \"the great reset\" where weak hands sell to long-term investors. The main caution is $NET's high valuation multiple, typical of the cybersecurity sector.",
     "summary_cn": "作者对$NET表达了强烈的看涨观点，在AI抗颠覆能力方面给予10/10的评级。核心论点是Cloudflare的基础设施服务在根本上不受AI颠覆影响——作者表示\"看不出AI会如何颠覆Cloudflare\"。与面临生成式AI威胁的内容平台不同，$NET提供的是关键网络基础设施服务，无论软件如何演进都保持重要性。该股在2026年2月交易价格为$169.5（年初至今下跌13.55%），此前在2025年11月为$192.99（5天内下跌15.23%）。\n\n从基本面角度看，$NET拥有约$2.2B+的ARR，年增长率22%。公司定位在网络安全行业，毛利率高（约80%），估值倍数与$CRWD等同行相当。作者指出$NET拥有多元化的客户群，包括高盛、百事公司、埃森哲等大型企业。此外，$NET被提及为Clickhouse（Nebius子公司）的客户，将其与更广泛的AI基础设施生态系统联系起来。\n\n识别的主要风险是市场整体波动而非公司特定问题。2025年11月期间，$NET下跌15.23%，与$RKLB（-19.35%）和$IREN（-28.74%）等其他成长股一同下跌。作者将此抛售归因于机械对冲、连锁保证金清算和宏观担忧，而非基本面恶化。作者认为此类下跌是买入机会，将其描述为\"大洗牌\"，弱势投资者将筹码转移给长期投资者。主要警示是$NET的高估值倍数，这在网络安全行业较为典型。"
@@ -1130,7 +1130,7 @@ const summariesData = {
   "$VNP": {
     "ticker": "$VNP",
     "company_name": "5N Plus",
-    "mention_count": 5,
+    "mention_count": 6,
     "date_range": "2026-01-19 ~ 2026-03-28",
     "summary_en": "The core investment thesis for $VNP (5N Plus) positions it as a critical Western supplier of specialty metals—specifically gallium, germanium, indium, bismuth, and tellurium. The author characterizes $VNP as the \"Western $AXTI,\" serving as a strategic counterbalance to Chinese supply chain dominance. These materials are deemed essential for advanced applications including LEO solar cells, photonics substrates, and advanced sensors.\n\nAmidst Chinese export controls on critical minerals, $VNP is identified as a primary beneficiary and a \"safer\" play compared to high-beta moonshots like $SIVE. The author emphasizes that the company is genuinely one of the most important in Western supply chains, offering exposure to the structural metallurgy and robotics sectors. It is highlighted as a top pick for investors looking to go long on Western rare earth and specialty metal suppliers.\n\nWhile the author advises caution regarding full exposure to high-beta stocks in the current macro environment, $VNP is distinguished as a favorite long-term holding for Western supply chain security. The investment case rests on the premise that critical bottlenecks in semiconductor packaging and defense materials will drive funding and revenue growth, making it a vital asset in a geopolitical hedge strategy.",
     "summary_cn": "$VNP (5N Plus) 的核心投资逻辑在于其作为西方关键特种金属供应商的战略地位，主要产品包括镓、锗、铟、铋和碲。作者将 $VNP 比作“西方的 $AXTI”，认为其是对抗中国供应链主导地位的重要制衡力量。这些材料对于低地球轨道（LEO）太阳能电池、光电子衬底和先进传感器等高端应用至关重要。\n\n在中国对关键矿产实施出口管制的背景下，$VNP 被视为主要受益者，也是比 $SIVE 等高贝塔（high-beta）投机股“更安全”的投资选择。作者强调，该公司是西方供应链中最重要的企业之一，为结构冶金和机器人领域提供了投资敞口。对于寻求做多西方稀土和特种金属供应商的投资者而言，这是首选标的。\n\n尽管作者建议在当前的宏观环境下对高贝塔股票保持谨慎，但 $VNP 被视为西方供应链安全领域的首选长期持仓。该投资案例基于半导体封装和国防材料领域的关键瓶颈将推动资金流入和收入增长的前提，使其成为地缘政治对冲策略中的重要资产。"
@@ -1138,7 +1138,7 @@ const summariesData = {
   "$DJT": {
     "ticker": "$DJT",
     "company_name": "Trump Media & Technology Group",
-    "mention_count": 4,
+    "mention_count": 1,
     "date_range": "2025-07-28 ~ 2026-01-02",
     "summary_en": "The author upgrades $DJT to a \"Buy\" primarily due to its merger with nuclear fusion leader TAE, viewing the company as a potential tech giant benefiting from political connections and regulatory speed-running. Previously, the investment thesis focused on $DJT's pivot to crypto, including a $2B Bitcoin reserve and stablecoin launch, though the author notes that valuing the company remains a complex challenge.",
     "summary_cn": "作者将 $DJT 的评级上调为“买入”，主要归功于其与核聚变领军企业 TAE 的合并，认为这利用政治关系加速监管审批，使其有望转型为科技巨头。此前的投资逻辑侧重于 $DJT 向加密货币领域的转型，包括建立 20 亿美元的比特币储备和推出稳定币，尽管作者承认对该公司的估值仍然是一个复杂的难题。"
@@ -1162,7 +1162,7 @@ const summariesData = {
   "$CEG": {
     "ticker": "$CEG",
     "company_name": "Constellation Energy Corporation",
-    "mention_count": 4,
+    "mention_count": 6,
     "date_range": "2026-02-15 ~ 2026-04-09",
     "summary_en": "The investment thesis for $CEG revolves around its critical role as a Tier-1 energy provider necessary to power the massive electricity demands of AI data centers, a bottleneck highlighted by OpenAI as a deciding factor in the global AI race. Authors identify $CEG as a key beneficiary within the $XLU utilities sector, expecting growth from multi-year power agreements with hyperscalers like $AMZN and $GOOGL, alongside macro tailwinds from potential rate cuts and historically low option volatility.",
     "summary_cn": "$CEG 的投资逻辑主要围绕其作为一级能源供应商的关键地位，以满足 AI 数据中心巨大的电力需求，OpenAI 曾指出能源产能是决定全球 AI 竞赛胜负的关键瓶颈。作者认为 $CEG 是 $XLU 公用事业板块的核心受益者，不仅将从 $AMZN 和 $GOOGL 等超大规模企业签订的多年期电力协议中获利，还将受益于潜在的降息周期及历史低位的期权波动率。"
@@ -1186,7 +1186,7 @@ const summariesData = {
   "$MOD": {
     "ticker": "$MOD",
     "company_name": "Modine Manufacturing Co",
-    "mention_count": 4,
+    "mention_count": 2,
     "date_range": "2025-12-02 ~ 2026-02-12",
     "summary_en": "$MOD is identified as a speculative beneficiary in the thermal management sector of the AI supply chain, potentially supplying chillers and air handling units for Google's $GOOGL TPU v7 buildout. The stock has exhibited high volatility, suffering a sharp drop of nearly 15% in December 2025 before rallying as a component of the \"Bottleneck ETF\" framework in February 2026.",
     "summary_cn": "$MOD 被视为 AI 供应链热管理领域的潜在受益者，推测其为 $GOOGL TPU v7 项目提供冷却器和空气处理机组。该股波动性较大，在 2025 年 12 月经历近 15% 的暴跌后，于 2026 年 2 月作为“瓶颈 ETF”框架的一部分出现反弹。"
@@ -1194,7 +1194,7 @@ const summariesData = {
   "$PLAB": {
     "ticker": "$PLAB",
     "company_name": "Photronics, Inc.",
-    "mention_count": 4,
+    "mention_count": 5,
     "date_range": "2026-01-19 ~ 2026-04-12",
     "summary_en": "The author identifies $PLAB as a key \"US Sleeper\" pick for the HBM4 and Memory supercycle, functioning as a vital lithography photomask supplier within the Western supply chain alongside majors like $MU. Following its inclusion in a community-driven \"Parabolic Growth ETF,\" the stock demonstrated strong momentum with a +9.86% return in the first week.",
     "summary_cn": "作者将 $PLAB 视为HBM4及内存超级周期的关键“美国潜力股”，指出其作为西方供应链中关键的光刻掩膜版供应商，与 $MU 等行业巨头协同发展。在被纳入社区驱动的“抛物线增长ETF”后，该股首周表现强劲，回报率达+9.86%。"
@@ -1210,7 +1210,7 @@ const summariesData = {
   "$FISV": {
     "ticker": "$FISV",
     "company_name": "Fiserv",
-    "mention_count": 4,
+    "mention_count": 3,
     "date_range": "2025-11-19 ~ 2026-05-09",
     "summary_en": "The author initially viewed $FISV as an attractive value investment with a low forward P/E in late 2025, later suggesting it as a recovery play following a sharp post-earnings drop. However, citing a massive 72% year-over-year decline, the author ultimately criticized the stock as a prime example of the risks associated with \"value/dividend\" strategies compared to high-growth names like $NVDA.",
     "summary_cn": "作者最初在2025年底将 $FISV 视为具有吸引力的价值投资，随后在其财报后暴跌时建议作为反弹标的。然而，鉴于该股一年内暴跌72%，作者最终将其作为反面教材，批评“价值/股息”投资策略远不如 $NVDA 等成长型股票。"
@@ -1218,7 +1218,7 @@ const summariesData = {
   "$GME": {
     "ticker": "$GME",
     "company_name": "GameStop",
-    "mention_count": 4,
+    "mention_count": 1,
     "date_range": "2025-07-07 ~ 2026-02-19",
     "summary_en": "The author views $GME primarily as a benchmark for \"meme stock\" volatility and short squeeze potential, contrasting it with fundamentally driven companies like $HIMS and $RPI. While the author bought $GME during a dip at $23.00, they criticize its passive capital management compared to the active deployment strategies seen in names like $NBIS.",
     "summary_cn": "作者主要将 $GME 视为“模因股”波动性和逼空潜力的基准，并将其与 $HIMS 和 $RPI 等基本面驱动的公司进行对比。尽管作者曾在 $GME 股价下跌至 23.00 美元时买入，但他们批评其资本管理过于被动，不如 $NBIS 等股票的主动部署策略。"
@@ -1226,7 +1226,7 @@ const summariesData = {
   "$CSCO": {
     "ticker": "$CSCO",
     "company_name": "Cisco Systems",
-    "mention_count": 4,
+    "mention_count": 6,
     "date_range": "2026-01-01 ~ 2026-04-02",
     "summary_en": "The author views $CSCO as a mature beneficiary of the \"Photonic Supercycle\" and Co-Packaged Optics (CPO) adoption, specifically within the Digital Coherent Optics (DCO) segment, though it lags behind higher-alpha bottleneck plays like $AAOI or $LITE. Additionally, $CSCO is noted as an evolutionary player in LLM cybersecurity and a potential key customer driving demand for silicon photonics test equipment suppliers like $AEHR.",
     "summary_cn": "作者将 $CSCO 视为“光子超级周期”和共封装光学（CPO）采用的成熟受益者，特别是在数字相干光学（DCO）领域，尽管其表现落后于 $AAOI 或 $LITE 等具有更高超额收益的瓶颈概念股。此外，$CSCO 被认为是 LLM 网络安全领域的进化型参与者，也是推动 $AEHR 等硅光子测试设备供应商需求的关键潜在客户。"
@@ -1258,7 +1258,7 @@ const summariesData = {
   "$USAR": {
     "ticker": "$USAR",
     "company_name": "USA Rare Earth",
-    "mention_count": 4,
+    "mention_count": 5,
     "date_range": "2026-01-26 ~ 2026-03-30",
     "summary_en": "The author views $USAR as a strategic national security asset that processes heavy rare earth elements and manufactures sintered NdFeB magnets, positioning it as a primary beneficiary of the US government's $1.6B funding initiative to secure supply chain sovereignty. Despite recent market volatility and media criticism regarding its \"unproven\" status, the investment thesis rests on the urgent need to establish Western independence from Chinese and Russian critical mineral supply chains.",
     "summary_cn": "作者将 $USAR 视为具有战略意义的国家安全资产，该公司处理重稀土元素并制造烧结钕铁硼磁体，使其成为美国政府16亿美元资金计划下确保供应链主权的主要受益者。尽管近期市场存在波动且媒体对其“未经证实”的地位有所批评，但投资逻辑立足于建立西方独立于中国和俄罗斯关键矿产供应链的迫切需求。"
@@ -1266,7 +1266,7 @@ const summariesData = {
   "$WMT": {
     "ticker": "$WMT",
     "company_name": "Walmart Inc.",
-    "mention_count": 4,
+    "mention_count": 2,
     "date_range": "2025-11-19 ~ 2026-02-09",
     "summary_en": "The author consistently advises avoiding $WMT, arguing that the stock is significantly overvalued with a P/E ratio of 40-46 despite growing only 3-4% annually. It is frequently cited as a negative example of valuation disconnect when compared to high-growth tech names like $RDDT.",
     "summary_cn": "作者一贯建议避免投资 $WMT，认为该股估值过高，市盈率高达40-46倍，但年增长率仅为3-4%。在与 $RDDT 等高增长科技股进行比较时，$WMT 常被作为估值脱节的反面案例。"
@@ -1274,7 +1274,7 @@ const summariesData = {
   "$AMSC": {
     "ticker": "$AMSC",
     "company_name": "American Superconductor",
-    "mention_count": 4,
+    "mention_count": 5,
     "date_range": "2026-04-23 ~ 2026-05-06",
     "summary_en": "The investment thesis for $AMSC centers on its role as a critical domestic supplier of HTS wires and advanced conductors, positioning it as a primary beneficiary of the President's recent invocation of the \"Defense Production Act\" to address severe grid infrastructure shortages. The author views $AMSC alongside peers like $HPS.A and $PLPC as essential compounders for American national security and AI energy capacity, anticipating potential DOE contracts and citing strong peer earnings as validation of sector demand.",
     "summary_cn": "对 $AMSC 的投资逻辑主要基于其作为高温超导导线和先进导体的重要国内供应商地位，这使其成为总统近期为解决电网基础设施严重短缺而援引《国防生产法》的主要受益者。作者将 $AMSC 与 $HPS.A 和 $PLPC 等同行视为对美国国家安全和AI能源产能至关重要的“复利增长股”，预期未来将获得能源部合同，并引用同行强劲财报作为板块需求的验证。"
@@ -1290,7 +1290,7 @@ const summariesData = {
   "$KRUS": {
     "ticker": "$KRUS",
     "company_name": "Kura Sushi",
-    "mention_count": 4,
+    "mention_count": 2,
     "date_range": "2025-11-19 ~ 2026-05-21",
     "summary_en": "The author views $KRUS as a reliable swing trade opportunity based on a 5-year chart pattern where the stock consistently bounces from current bottom levels, stating \"this never fails\" at these support zones. The thesis is purely technical, while the author also humorously notes Donald Trump's apparent large ownership stake in the ~$600M market cap sushi chain, suggesting the President could own approximately 0.8% if he purchased $5M worth.",
     "summary_cn": "作者将 $KRUS 视为可靠的波段交易机会，基于5年图表形态显示该股在当前底部水平持续反弹，作者称在这些支撑位\"从未失败\"。投资逻辑纯属技术性，同时作者幽默地评论了唐纳德·特朗普对这家市值约6亿美元的寿司连锁店的明显大额持股，暗示如购买500万美元将拥有约0.8%的股份。"
@@ -1354,7 +1354,7 @@ const summariesData = {
   "$NOC": {
     "ticker": "$NOC",
     "company_name": "Northrop Grumman Corporation",
-    "mention_count": 4,
+    "mention_count": 5,
     "date_range": "2026-01-13 ~ 2026-03-26",
     "summary_en": "The author views $NOC as a major defense contractor positioned to benefit from US military interventions, particularly in Iran, citing its bunker bomb capabilities (GBU-57A/B MOPs) and minehunting systems (AN/AQS-24B/C). Unlike smaller drone companies that struggled during the Iran conflict, $NOC is identified as a primary beneficiary of large-scale military operations alongside contractors like L3 Harris, as the war focused on larger defense players. In extreme scenarios like oil prices surging 5x, $NOC is considered one of the few potential winners alongside contractors like $LMT.",
     "summary_cn": "作者将 $NOC 视为主要国防承包商，有望从美国军事干预中受益，特别是在伊朗冲突中，并指出其掩体炸弹（GBU-57A/B MOPs）和扫雷系统（AN/AQS-24B/C）的能力。与在伊朗冲突中表现不佳的小型无人机公司不同，$NOC 被认定为大规模军事行动的主要受益者，与 L3 Harris 等大型国防企业并列。在油价飙升5倍等极端情况下，$NOC 与 $LMT 等承包商被视为少数潜在赢家。"
@@ -1378,7 +1378,7 @@ const summariesData = {
   "$ANET": {
     "ticker": "$ANET",
     "company_name": "Arista Networks",
-    "mention_count": 3,
+    "mention_count": 2,
     "date_range": "2025-12-02 ~ 2026-02-05",
     "summary_en": "The author views $ANET as a primary beneficiary of the accelerating AI infrastructure buildout, citing massive capital expenditures from hyperscalers like $GOOGL and $META that flow directly into networking and photonics. Specifically, $ANET is positioned to gain from the increasing demand for high-speed interconnects (800G to 3.2T) and the expansion of Google's TPU v7 ecosystem, which relies on advanced networking partners to scale.",
     "summary_cn": "作者将 $ANET 视为 AI 基础设施加速建设的主要受益者，并引用了 $GOOGL 和 $META 等超大规模企业直接流入网络和光通信领域的大量资本支出。具体而言，$ANET 有望从高速互连（800G 至 3.2T）日益增长的需求及谷歌 TPU v7 生态系统的扩展中获益，该生态系统的扩展依赖于先进的网络合作伙伴。"
@@ -1394,7 +1394,7 @@ const summariesData = {
   "$LMT": {
     "ticker": "$LMT",
     "company_name": "Lockheed Martin",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-01-30 ~ 2026-03-27",
     "summary_en": "$LMT is mentioned in three contexts across the tweets. First, as a potential beneficiary in an extreme oil price shock scenario where oil prices increase 5x, positioning defense contractors like $LMT and $NOC among the few potential 'longs' alongside crude oil and domestic US energy producers. Second, as a customer of $CPSH, using their AlSiC materials for missile heat-shielding components, radar system housings, and thermal management materials. Third, in a sarcastic reference during a market downturn ($SPY down -5% YTD), where $LMT and $CVX are described as 'Oil and War executives and companies that bring positivity and joy to the common people' - implying defense stocks might perform relatively well during broader market declines.",
     "summary_cn": "$LMT在三条推文中被提及。首先，在极端油价上涨5倍的情景中，$LMT和$NOC等国防承包商被定位为少数潜在的'多头'，与原油和美国国内能源生产商并列。其次，作为$CPSH的客户，使用其AlSiC材料用于导弹隔热组件、雷达系统外壳和热管理材料。第三，在市场低迷期间（$SPY年初至今下跌-5%）的讽刺性提及中，$LMT和$CVX被描述为'石油和战争高管，为普通民众带来积极性和快乐的公司'——暗示国防股可能在更广泛的市场下跌期间表现相对较好。"
@@ -1418,7 +1418,7 @@ const summariesData = {
   "$FLKR": {
     "ticker": "$FLKR",
     "company_name": "Franklin FTSE South Korea ETF",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-01-13 ~ 2026-02-03",
     "summary_en": "The author is mega bullish on the Korean memory and foundry mega cycle, highlighting SK Hynix and Samsung Electronics as undervalued critical players for the AI buildout with low forward P/E ratios. For investors without direct access to Korean markets, $FLKR is recommended for share exposure due to its low expense ratio, while $EWY is suggested for options strategies.",
     "summary_cn": "作者非常看好韩国存储和晶圆代工的超级周期，强调 SK海力士和三星电子是人工智能建设中被低估的关键参与者，且远期市盈率较低。对于无法直接进入韩国市场的投资者，建议使用 $FLKR 进行股票投资（因其费率低），或使用 $EWY 进行期权交易。"
@@ -1426,7 +1426,7 @@ const summariesData = {
   "$BKSY": {
     "ticker": "$BKSY",
     "company_name": "BlackSky Technology",
-    "mention_count": 3,
+    "mention_count": 1,
     "date_range": "2025-07-03 ~ 2026-03-24",
     "summary_en": "The author identifies $BKSY as a participant in the 'Space Satellite MegaCycle' following $PL, though they argue that the hype surrounding space applications is less defensible than AI-driven growth stories like photonics. Previously, the author advised selling $BKSY due to a disconnect between its market capitalization and fundamentals, despite having held a position in the stock earlier as a microcap play.",
     "summary_cn": "作者将 $BKSY 视为跟随 $PL 引发的“太空卫星大周期”的股票之一，但认为该板块的炒作不如 AI 驱动的光子学周期那样具有防御性。此前，作者因估值与基本面脱节而建议卖出 $BKSY，尽管曾在早期作为小盘股持有过该头寸。"
@@ -1458,7 +1458,7 @@ const summariesData = {
   "$POWI": {
     "ticker": "$POWI",
     "company_name": "Power Integrations",
-    "mention_count": 3,
+    "mention_count": 7,
     "date_range": "2026-05-27 ~ 2026-06-01",
     "summary_en": "Although the tweets focus primarily on $XFAB, the author identifies $POWI as a key beneficiary of the $NVDA-driven shift toward >800 VDC power semiconductors. $POWI is highlighted as an explicit $NVDA partner that utilizes $XFAB as a foundry, positioning it alongside $NVTS and $WOLF to capitalize on the sector's growth.",
     "summary_cn": "尽管推文主要关注 $XFAB，但作者指出 $POWI 是 $NVDA 推动 >800 VDC 功率半导体趋势的主要受益者。$POWI 被强调为 $NVDA 的明确合作伙伴，并使用 $XFAB 作为代工厂，这使其与 $NVTS 和 $WOLF 一道，有望利用该行业的增长机遇。"
@@ -1466,7 +1466,7 @@ const summariesData = {
   "$SLV": {
     "ticker": "$SLV",
     "company_name": "iShares Silver Trust",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-01-26 ~ 2026-01-31",
     "summary_en": "The author attributes the massive crash in $SLV to a \"paper game\" failure caused by CME margin hikes and a liquidity trap in Chinese markets, rather than a loss of fundamental value. Additionally, $SLV was highlighted alongside critical mineral tickers like $ALM and $TECK as assets to watch amidst geopolitical export controls.",
     "summary_cn": "作者将 $SLV 的大幅暴跌归因于CME保证金上调和中国市场流动性陷阱导致的“纸面游戏”失败，而非基本面价值的丧失。此外，在地缘政治出口管制的背景下，$SLV 与 $ALM 和 $TECK 等关键矿物股票一起被视为值得关注的资产。"
@@ -1522,7 +1522,7 @@ const summariesData = {
   "$BRK": {
     "ticker": "$BRK",
     "company_name": "Berkshire Hathaway",
-    "mention_count": 3,
+    "mention_count": 1,
     "date_range": "2026-02-02 ~ 2026-06-02",
     "summary_en": "Recent tweets highlight $BRK as a key financial backer of the AI infrastructure buildout, with the firm reportedly funding hyperscalers like $GOOGL through various offerings. Furthermore, $BRK is projected to be a top global earner by 2027 and is identified as a major beneficiary of high interest rates due to its massive cash pile relative to market cap.",
     "summary_cn": "最近的推文强调 $BRK 是 AI 基础设施建设的关键资金支持者，据报道该公司正通过各种发行方式为 $GOOGL 等超大规模企业提供资金。此外，预计 $BRK 将在 2027 年成为全球顶级盈利企业之一，并因其相对于市值的巨额现金储备而被视为高利率环境下的主要受益者。"
@@ -1538,7 +1538,7 @@ const summariesData = {
   "$NEE": {
     "ticker": "$NEE",
     "company_name": "NextEra Energy",
-    "mention_count": 3,
+    "mention_count": 5,
     "date_range": "2026-02-15 ~ 2026-04-09",
     "summary_en": "$NEE is positioned as a Tier-1 Energy Provider expected to benefit from the AI-driven power demand surge, with OpenAI emphasizing to Congress that 'whoever generates the most power wins the AI race.' However, the investment thesis faces headwinds as utilities carrying heavy debt loads like $NEE would be negatively impacted if JPM's projection of zero rate cuts in 2026 materializes, making it a potential loser in a high-rate environment alongside other utilities in $XLU.",
     "summary_cn": "$NEE 被定位为一级能源供应商，有望从AI驱动的电力需求激增中受益，OpenAI 向国会强调'谁能产生最多电力谁就能赢得AI竞赛'。然而，该投资论点面临阻力，因为如果摩根大通预测的2026年零降息成为现实，像 $NEE 这样背负重债的公用事业公司将受到负面影响，与 $XLU 中的其他公用事业公司一样成为高利率环境下的潜在输家。"
@@ -1546,7 +1546,7 @@ const summariesData = {
   "$YSS": {
     "ticker": "$YSS",
     "company_name": "YSS",
-    "mention_count": 3,
+    "mention_count": 5,
     "date_range": "2026-05-01 ~ 2026-05-28",
     "summary_en": "The author views $YSS as a critical component of the \"Golden Dome\" space defense initiative, noting its acquisition of $SIVE's allspace lead partner to integrate Sivers' technology into defense primes. This strategic move positions $YSS alongside major contractors like $RTX and $ERIC within the expanding space and defense supply chain.",
     "summary_cn": "作者将 $YSS 视为“金穹”（Golden Dome）太空防御计划的关键组成部分，并指出其收购了 $SIVE 的 allspace 主要合作伙伴，旨在将 Sivers 的技术整合进国防主承包商中。这一战略举措使 $YSS 与 $RTX 和 $ERIC 等主要承包商一道，立足于不断扩张的太空与国防供应链中。"
@@ -1554,7 +1554,7 @@ const summariesData = {
   "$SHOP": {
     "ticker": "$SHOP",
     "company_name": "Shopify Inc.",
-    "mention_count": 3,
+    "mention_count": 1,
     "date_range": "2025-11-18 ~ 2025-12-06",
     "summary_en": "The provided tweets focus primarily on the investment thesis for $NBIS, identifying $SHOP as a significant enterprise client utilizing its AI infrastructure and Toloka subsidiary for AI model training. Authors cite $SHOP's partnership alongside major tech firms like $META and $MSFT as evidence of $NBIS's revenue diversification and strong market positioning.",
     "summary_cn": "推文主要关注 $NBIS 的投资论点，指出 $SHOP 是其 AI 基础设施及子公司 Toloka 的关键企业客户，用于 AI 模型训练。作者将 $SHOP 与 $META 和 $MSFT 等科技巨头并列，以此证明 $NBIS 的收入多元化及强大的市场地位。"
@@ -1578,7 +1578,7 @@ const summariesData = {
   "$EOS": {
     "ticker": "$EOS",
     "company_name": "Electro Optic Systems",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The author identifies $EOS.AX as a primary beneficiary of the optical ground infrastructure bottleneck essential for orbital laser communications, citing its operations equipped with adaptive optics. Additionally, the stock was included in a follower-selected \"Parabolic Growth ETF\" basket, where it posted a modest +3.11% gain in the first week, underperforming the basket's weighted average return of +12.39%.",
     "summary_cn": "作者将 $EOS.AX 视为轨道激光通信所必需的光学地面基础设施瓶颈的主要受益者，并提到其运营的站点配备了自适应光学技术。此外，该股被纳入粉丝精选的“抛物线增长ETF”组合，首周涨幅为+3.11%，表现不及该组合+12.39%的加权平均回报率。"
@@ -1586,7 +1586,7 @@ const summariesData = {
   "$NKE": {
     "ticker": "$NKE",
     "company_name": "Nike, Inc.",
-    "mention_count": 3,
+    "mention_count": 2,
     "date_range": "2025-10-11 ~ 2026-04-24",
     "summary_en": "The author expresses a bearish outlook on $NKE, citing the loss of brand relevance to competitors like $LULU and Oncloud while noting the brand's presence is increasingly relegated to discount retailers. Additionally, $NKE is flagged as having material revenue exposure to China, making it vulnerable to tariff-related macro shocks.",
     "summary_cn": "作者对 $NKE 持看跌观点，指出其品牌影响力已输给 $LULU 和 Oncloud 等竞争对手，且产品主要出现在折扣店中。此外，$NKE 因对中国收入有实质性敞口，在关税相关的市场冲击中被视为面临较大风险。"
@@ -1594,7 +1594,7 @@ const summariesData = {
   "$CRM": {
     "ticker": "$CRM",
     "company_name": "Salesforce, Inc.",
-    "mention_count": 3,
+    "mention_count": 2,
     "date_range": "2025-09-30 ~ 2026-05-30",
     "summary_en": "The author initially rated $CRM as a \"Buy\" in September 2025 based on technical bottoming and unchanged fundamentals, but subsequently reported a ~30% loss due to a failed swing trade involving short-dated options and a missed earnings date. By May 2026, the author's sentiment turned skeptical, mocking the stock's minor recovery relative to the massive gains in AI names like $SNDK and $AAOI.",
     "summary_cn": "作者在2025年9月基于技术面触底和基本面未变将 $CRM 评级为“买入”，但随后因短期期权交易失误及错过财报日期导致约30%的亏损。至2026年5月，作者态度转为怀疑，将 $CRM 的微弱反弹与 $SNDK 和 $AAOI 等AI股票的巨大涨幅形成鲜明对比。"
@@ -1602,7 +1602,7 @@ const summariesData = {
   "$ASPI": {
     "ticker": "$ASPI",
     "company_name": "ASPI",
-    "mention_count": 3,
+    "mention_count": 5,
     "date_range": "2026-04-03 ~ 2026-05-31",
     "summary_en": "The author included $ASPI in a crowdsourced \"Parabolic Growth ETF\" based on followers' high conviction that the ticker has the potential to 10x in value. During the first week of tracking, $ASPI posted a modest gain of 6.67%, underperforming the ETF's weighted average return of 12.39%.",
     "summary_cn": "作者根据粉丝的高确信度推荐，将 $ASPI 纳入了一个众包的“抛物线增长ETF”，认为其具有10倍回报的潜力。在追踪的第一周内，$ASPI 录得6.67%的温和涨幅，表现逊于该ETF 12.39%的加权平均回报。"
@@ -1626,7 +1626,7 @@ const summariesData = {
   "$ON": {
     "ticker": "$ON",
     "company_name": "ON Semiconductor",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-02-07 ~ 2026-06-01",
     "summary_en": "$ON is identified as a key vertically integrated player in the SiC/GaN power semiconductor sector, distinguishing it from foundry models and positioning it as crucial for power delivery innovation. The author notes its strong performance in a \"Bottleneck ETF\" basket, viewing it as a critical supply chain component alongside peers like $IFNNY.",
     "summary_cn": "$ON 被认定为 SiC/GaN 功率半导体领域的关键垂直整合厂商，这使其区别于代工模式，并在功率传输创新中占据关键地位。作者指出其在“瓶颈ETF”篮子中表现强劲，将其视为与 $IFNNY 等同行一样的关键供应链组成部分。"
@@ -1634,7 +1634,7 @@ const summariesData = {
   "$DRAM": {
     "ticker": "$DRAM",
     "company_name": "Roundhill MEM ETF",
-    "mention_count": 3,
+    "mention_count": 5,
     "date_range": "2026-04-03 ~ 2026-04-24",
     "summary_en": "The author endorses $DRAM as a high-quality ETF for gaining diversified exposure to the memory sector, specifically highlighting its utility for investors who lack access to major foreign players like Samsung and SK Hynix. In a recent portfolio performance update, the author noted the ticker gained +12.29% over two weeks, reinforcing their bullish stance on the sector.",
     "summary_cn": "作者推荐 $DRAM 作为投资内存板块的优质 ETF，特别指出它让无法直接交易外国股票的投资者能够接触到三星和 SK Hynix 等行业巨头。在最近的投资组合表现回顾中，作者提到该标的在两周内上涨了 +12.29%，进一步验证了其对内存板块的看好。"
@@ -1650,7 +1650,7 @@ const summariesData = {
   "$MTRN": {
     "ticker": "$MTRN",
     "company_name": "Materion Corporation",
-    "mention_count": 3,
+    "mention_count": 5,
     "date_range": "2026-01-19 ~ 2026-03-23",
     "summary_en": "The author characterizes $MTRN as a stable investment with decent upside potential, citing its ownership of the Spor Mountain which accounts for approximately 65% of the world's Beryllium supply. It is positioned as a critical bottleneck in the western supply chain for structural metallurgy used in robotics and defense, offering a safer profile compared to more volatile small-caps like $LPKFF or restructuring plays like $WOLF.",
     "summary_cn": "作者将 $MTRN 描述为一个稳健的投资标的，具有不错的上涨潜力，理由是其拥有的 Spor Mountain 供应了全球约65%的铍。作为机器人和国防领域结构冶金西方供应链中的关键瓶颈，$MTRN 相比 $LPKFF 等波动较大的小盘股或 $WOLF 等重组股，提供了更安全的投资概况。"
@@ -1666,7 +1666,7 @@ const summariesData = {
   "$KTOS": {
     "ticker": "$KTOS",
     "company_name": "Kratos Defense & Security Solutions",
-    "mention_count": 3,
+    "mention_count": 2,
     "date_range": "2025-10-29 ~ 2026-01-20",
     "summary_en": "The author identifies $KTOS as a strategic \"National Security\" and \"Department of War\" play, highlighting its Valkyrie drones for potential conflicts like Iran and its resilience during geopolitical tensions such as the Greenland tariff dispute. The investment thesis suggests buying $KTOS on panic-driven dips, arguing that defense stocks are fundamentally strong beneficiaries of US national security priorities and are often mispriced by fearful foreign investors.",
     "summary_cn": "作者将 $KTOS 视为“国家安全”与“战争板块”的战略性标的，强调其 Valkyrie 无人机在伊朗等潜在冲突中的战术价值，以及在地缘政治紧张局势（如格陵兰关税争端）中的抗跌属性。投资逻辑建议在市场恐慌导致的下跌中逢低买入 $KTOS，认为国防股是美国国家安全优先事项的根本受益者，且常被恐慌的外国投资者错误定价。"
@@ -1698,7 +1698,7 @@ const summariesData = {
   "$PLPC": {
     "ticker": "$PLPC",
     "company_name": "Plymouth Industrial REIT",
-    "mention_count": 3,
+    "mention_count": 4,
     "date_range": "2026-04-23 ~ 2026-05-06",
     "summary_en": "The investment thesis for $PLPC centers on its identification as a critical beneficiary of the \"Defense Production Act,\" which targets severe shortages in domestic grid infrastructure components like advanced conductors and power electronics. The author groups $PLPC with peers such as $AMSC and $HPS.A, viewing them as essential infrastructure compounders poised for growth through potential DOE contracts and strong industry backlogs.",
     "summary_cn": "$PLPC 的投资论点主要基于其被认定为“国防生产法”的关键受益者，该法案旨在解决国内电网基础设施中先进导体和电力电子产品的严重短缺问题。作者将 $PLPC 与 $AMSC 和 $HPS.A 等同行归为一类，视其为基础设施工复利增长股，预计将受益于潜在的 DOE 合同和强劲的行业积压订单。"
@@ -1706,7 +1706,7 @@ const summariesData = {
   "$STM": {
     "ticker": "$STM",
     "company_name": "STMicroelectronics",
-    "mention_count": 3,
+    "mention_count": 6,
     "date_range": "2026-02-07 ~ 2026-05-31",
     "summary_en": "$STM is positioned as a key supply chain partner for $NVDA, specifically cited in the push for 800V DC infrastructure and listed among major beneficiaries of Nvidia's growth trajectory. Additionally, the company is speculated to be a potential supplier for $TSLA's Optimus humanoid robot, specifically for IMUs and GPS components, highlighting its exposure to both AI data center and robotics trends.",
     "summary_cn": "$STM 被定位为 $NVDA 的关键供应链合作伙伴，特别是在推动 800V 直流基础设施方面被明确提及，并被视为英伟达增长的主要受益者之一。此外，市场推测 $STM 可能是 $TSLA Optimus 人形机器人的潜在供应商，主要提供 IMU 和 GPS 组件，这凸显了其在 AI 数据中心和机器人趋势中的双重布局。"
@@ -1714,7 +1714,7 @@ const summariesData = {
   "$CDNS": {
     "ticker": "$CDNS",
     "company_name": "Cadence Design Systems",
-    "mention_count": 3,
+    "mention_count": 2,
     "date_range": "2025-10-11 ~ 2026-05-14",
     "summary_en": "The author highlights $CDNS as a key player in the photonics ecosystem and notes the CEO's extremely bullish outlook on robotics as a potential $25 trillion market. However, the investment thesis carries significant geopolitical risk, as the author points out that $CDNS has material revenue exposure to China, which led to losses during a recent tariff shock and software export restrictions.",
     "summary_cn": "作者强调 $CDNS 是光子生态系统中的关键参与者，并指出其CEO对机器人技术持极度看涨态度，视其为潜在的25万亿美元市场。然而，该投资论点存在显著的地缘政治风险，作者指出 $CDNS 在中国有实质性收入敞口，这在近期的关税冲击和软件出口限制期间导致了亏损。"
@@ -1730,7 +1730,7 @@ const summariesData = {
   "$SMTOY": {
     "ticker": "$SMTOY",
     "company_name": "Sumitomo Electric Industries",
-    "mention_count": 3,
+    "mention_count": 6,
     "date_range": "2025-12-26 ~ 2025-12-29",
     "summary_en": "The investment thesis centers on $SMTOY as a critical bottleneck in the AI infrastructure buildout. Along with $AXTI, $SMTOY controls 60-70%+ of the global InP (Indium Phosphide) substrate market, which is essential for photonics-based optical interconnects. As AI hyperscalers like $NVDA, $GOOGL, $META, and $MSFT shift toward photonics to overcome copper's physical limits, InP substrates become indispensable for lasers, transceivers, and optical modules in next-generation GPU/ASIC clusters.\n\nThe author warns that 2026 will see InP substrates become the primary constraint for AI scaling, following GPU shortages in 2024 and HBM constraints in 2025. Industry data shows transceiver demand already exceeds supply by nearly 2x, with McKinsey projecting 40-60% shortfalls for 800G modules. Companies like $COHR and $LITE are explicitly supply-constrained by InP laser availability.\n\nA deeper risk emerges from the 'bottleneck within a bottleneck': approximately 78% of laser-grade InP feedstock production is located in China, with $AXTI controlling ~25% and being the only vertically integrated player from raw materials to substrate output. This creates significant geopolitical risk for Western AI infrastructure. The author predicts price spikes, direct stockpiling by hyperscalers, and potential acquisition of substrate manufacturers as strategic responses to this chokepoint.",
     "summary_cn": "投资论点围绕 $SMTOY 作为 AI 基础设施建设中的关键瓶颈展开。$SMTOY 与 $AXTI 共同控制全球 60-70% 以上的 InP（磷化铟）衬底市场，这对光子学光学互连至关重要。随着 $NVDA、$GOOGL、$META 和 $MSFT 等 AI 超大规模企业转向光子学以突破铜的物理极限，InP 衬底成为下一代 GPU/ASIC 集群中激光器、收发器和光模块不可或缺的材料。\n\n作者警告称，继 2024 年 GPU 短缺和 2025 年 HBM 限制之后，2026 年 InP 衬底将成为 AI 扩展的主要约束。行业数据显示收发器需求已超过供应近 2 倍，麦肯锡预测 800G 模块将出现 40-60% 的缺口。$COHR 和 $LITE 等公司明确表示受 InP 激光器供应限制。\n\n更深层的风险来自'瓶颈中的瓶颈'：约 78% 的激光级 InP 原料产能位于中国，$AXTI 控制约 25%，且是唯一从原材料到衬底输出垂直整合的企业。这为西方 AI 基础设施带来重大地缘政治风险。作者预测价格将飙升，超大规模企业将直接囤积材料，并可能收购衬底制造商作为应对这一战略瓶颈的措施。"
@@ -1762,7 +1762,7 @@ const summariesData = {
   "$DOWA": {
     "ticker": "$DOWA",
     "company_name": "DOWA Holdings",
-    "mention_count": 3,
+    "mention_count": 1,
     "date_range": "2025-12-29 ~ 2026-01-03",
     "summary_en": "$DOWA is positioned as a critical supplier in the Indium Phosphide (InP) supply chain, controlling approximately 12% of global laser-grade InP feedstock capacity. As a Japanese company with deep mining roots (Akita Zinc), $DOWA serves as the primary \"source\" for Japanese substrate manufacturers like Sumitomo and JX, making it one of the few non-Chinese suppliers in this strategic bottleneck for AI infrastructure. With the AI industry facing severe InP substrate and feedstock shortages as hyperscalers scale GPU clusters beyond 100,000 units requiring optical interconnects, $DOWA stands to benefit from potential price surges and strategic supply agreements, though the investment thesis carries significant geopolitical risks given Chinese dominance over 78% of global InP feedstock capacity.",
     "summary_cn": "$DOWA 在磷化铟(InP)供应链中占据关键供应商地位，控制着全球约12%的激光级InP原料产能。作为一家拥有深厚采矿根基(秋田锌业)的日本公司，$DOWA 是日本衬底制造商如住友和JX的主要\"来源\"，使其成为AI基础设施这一战略瓶颈中少数非中国供应商之一。随着AI行业面临严重的InP衬底和原料短缺，超大规模企业在扩展超过10万个GPU集群需要光学互连时，$DOWA 有望从潜在的价格飙升和战略供应协议中受益，但考虑到中国控制着全球78%的InP原料产能，该投资论点存在显著的地缘政治风险。"
@@ -1778,7 +1778,7 @@ const summariesData = {
   "$VIX": {
     "ticker": "$VIX",
     "company_name": "CBOE Volatility Index",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-10-01 ~ 2026-02-08",
     "summary_en": "The author views $VIX primarily as an asymmetrical hedging instrument to manage risk during periods of macroeconomic uncertainty, such as a potential government shutdown. Rather than directional trades, $VIX is recommended alongside $QQQ puts to protect a portfolio heavily focused on long-term growth themes like the AI supercycle and semiconductors.",
     "summary_cn": "作者主要将 $VIX 视为一种非对称对冲工具，用于在宏观经济不确定性（如政府停摆）期间管理风险。作者建议将 $VIX 与 $QQQ 看跌期权结合使用，以保护专注于人工智能超级周期和半导体等长期增长主题的投资组合，而非进行方向性投机。"
@@ -1834,7 +1834,7 @@ const summariesData = {
   "$SPOT": {
     "ticker": "$SPOT",
     "company_name": "Spotify Technology S.A.",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-07-28 ~ 2026-02-27",
     "summary_en": "The author rates $SPOT a 9/10, arguing that the platform is insulated from AI disruption due to its licensing infrastructure and the enduring value of human artists, noting the stock is down 15.2% YTD. Additionally, $SPOT is mentioned alongside $GOOGL and $NVDA as a key holding expected to benefit from a broader tech rally.",
     "summary_cn": "作者将 $SPOT 评级为 9/10，认为其版权基础设施和人类艺术家的持久价值使其能够免受 AI 颠覆，尽管该股年初至今下跌了 15.2%。此外，$SPOT 与 $GOOGL 和 $NVDA 一同被提及，被视为有望从更广泛的科技股反弹中受益的关键持仓。"
@@ -1882,7 +1882,7 @@ const summariesData = {
   "$ENVX": {
     "ticker": "$ENVX",
     "company_name": "Enovix Corporation",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The author included $ENVX in a community-selected \"Parabolic Growth ETF\" designed for high-conviction 10x potential, despite admitting unfamiliarity with some constituents. In the first week of tracking, $ENVX delivered a strong return of 21.30%, moving from $5.07 to $6.15, helping the basket beat annual index returns in just one week.",
     "summary_cn": "作者将 $ENVX 纳入了一个由社区精选的“抛物线增长ETF”中，该组合旨在追求10倍回报潜力，尽管作者承认对部分成分股并不熟悉。在首周跟踪期间，$ENVX 表现强劲，录得 21.30% 的涨幅（从 $5.07 升至 $6.15），助力该组合在一周内跑赢年度指数回报。"
@@ -1898,7 +1898,7 @@ const summariesData = {
   "$RMBS": {
     "ticker": "$RMBS",
     "company_name": "Rambus Inc.",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-12-15 ~ 2026-01-23",
     "summary_en": "The author identifies $RMBS as a potential 'sleeper' beneficiary of the HBM4 and memory supercycle, specifically citing its Memory IP exposure as a catalyst that the market may not have fully priced in. Previously, $RMBS was noted for a sharp 11% decline during a broader semiconductor sell-off, raising the question of whether the stock represents a falling knife or a dip-buying opportunity.",
     "summary_cn": "作者将 $RMBS 视为 HBM4 和内存超级周期的潜在“潜力股”受益者，特别指出其内存 IP 业务尚未被市场充分定价。此前 $RMBS 曾在半导体板块普跌中单日重挫 11%，市场对其是下跌风险还是抄底机会存在分歧。"
@@ -1906,7 +1906,7 @@ const summariesData = {
   "$WATT": {
     "ticker": "$WATT",
     "company_name": "Energous Corporation",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The author included $WATT in a follower-selected 'Parabolic Growth ETF,' expressing strong conviction in the basket's potential for 10x returns despite limited familiarity with some names. Following the first week of tracking, $WATT posted a 14.81% gain, moving from $15.8 to $18.14, helping the portfolio beat annual index returns in just one week.",
     "summary_cn": "作者将 $WATT 纳入了一个由粉丝选出的“抛物线增长ETF”中，尽管对部分股票不熟悉，但对该组合实现10倍回报的潜力表示了强烈信心。在首周表现中，$WATT 上涨了14.81%（从 $15.8 涨至 $18.14），助推该投资组合仅用一周时间便跑赢了年度指数回报。"
@@ -1914,7 +1914,7 @@ const summariesData = {
   "$TRT": {
     "ticker": "$TRT",
     "company_name": "TRT",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The author launched a 'Parabolic Growth ETF' comprised of follower-selected stocks, including $TRT, expressing strong trust in the community's ability to identify 10x opportunities despite lacking familiarity with some picks. During the first week, the portfolio gained 12.39%, with $TRT specifically rising 8.33% to $6.37, helping the basket beat annual index returns in just seven days.",
     "summary_cn": "作者推出了一只由粉丝精选股票组成的“抛物线增长 ETF”，其中包括 $TRT，尽管对部分标的并不熟悉，但作者对社区发掘 10 倍股的能力表示了高度信任。首周该组合上涨 12.39%，其中 $TRT 上涨 8.33% 至 $6.37，助推该组合在短短七天内跑赢了年度指数回报。"
@@ -1938,7 +1938,7 @@ const summariesData = {
   "$QUBT": {
     "ticker": "$QUBT",
     "company_name": "Quantum Computing Inc.",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-10-12 ~ 2026-03-24",
     "summary_en": "The author notes that $QUBT secured a direct Department of Commerce (DoC)/NIST contract for TFLN PICs, positioning it as a strategic asset for US national security within the CHIPS Act framework. However, the analyst previously assigned a \"Strong Sell\" rating to $QUBT, arguing that its market capitalization is disconnected from its fundamental valuation.",
     "summary_cn": "作者指出 $QUBT 获得了美国商务部（DoC）/NIST 关于 TFLN PICs 的直接合同，使其成为 CHIPS 法案框架下美国国家安全的战略资产。然而，该分析师此前对 $QUBT 给予了“强烈卖出”评级，认为其市值与基本面估值严重脱节。"
@@ -1946,7 +1946,7 @@ const summariesData = {
   "$GLD": {
     "ticker": "$GLD",
     "company_name": "SPDR Gold Shares",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-10-17 ~ 2026-03-28",
     "summary_en": "The author views $GLD primarily as a \"safe hedge\" within a barbell investment strategy, serving to balance exposure against high-beta tech and AI plays. While noting that $GLD was hitting all-time highs due to complexities surrounding the USD, the author positions it as a defensive asset rather than a primary growth driver compared to sectors like AI buildout and semiconductors.",
     "summary_cn": "作者主要将 $GLD 视为杠铃投资策略中的“安全对冲”工具，用于平衡高贝塔科技股和人工智能股票的风险敞口。尽管作者指出 $GLD 因美元相关问题创下历史新高，但与人工智能建设和半导体等领域相比，作者将其定位为防御性资产，而非主要增长驱动力。"
@@ -1978,7 +1978,7 @@ const summariesData = {
   "$QURE": {
     "ticker": "$QURE",
     "company_name": "uniQure N.V.",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$QURE was included in a crowd-sourced 'Parabolic Growth ETF' created by the author based on followers' high-conviction picks for potential 10x returns. However, during the first week of tracking, $QURE was one of the worst performers in the basket, declining 9.94% from $17.21 to $15.50, while the overall portfolio gained 12.39%.",
     "summary_cn": "$QURE 被纳入作者基于粉丝高确信度选股而创建的“抛物线增长ETF”中，旨在寻求10倍回报。然而，在首周追踪期内，$QURE 表现不佳，下跌 9.94% 至 $15.50，而整体投资组合则上涨了 12.39%。"
@@ -1986,7 +1986,7 @@ const summariesData = {
   "$APP": {
     "ticker": "$APP",
     "company_name": "AppLovin Corporation",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-09-09 ~ 2026-02-13",
     "summary_en": "The author characterizes $APP as a high-beta stock that rallied during a period of retail fear in September 2025, yet experienced a sharp 19.7% drop during a broader market decline in February 2026. These observations highlight the stock's significant volatility and the author's frustration with market irrationality favoring low-growth names over high-beta tech stocks.",
     "summary_cn": "作者将 $APP 描述为高贝塔股票，指出其在 2025 年 9 月散户恐慌期间反弹，但在 2026 年 2 月更广泛的市场下跌中暴跌 19.7%。这些观察凸显了该股的巨大波动性，以及作者对市场偏向低增长股票而非高贝塔科技股这种非理性行为的不满。"
@@ -2002,7 +2002,7 @@ const summariesData = {
   "$CRWD": {
     "ticker": "$CRWD",
     "company_name": "CrowdStrike Holdings",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-10-13 ~ 2026-01-01",
     "summary_en": "The author views $CRWD as an established cybersecurity leader, frequently using it as a valuation benchmark for high-multiple peers like $RBRK. Additionally, $CRWD is positioned as a key player in the 'LLM Cybersecurity' evolution alongside $CSCO and $MSFT, leveraging AI for advanced vulnerability defense and compliance automation.",
     "summary_cn": "作者将 $CRWD 视为网络安全领域的成熟领导者，常将其作为 $RBRK 等高估值同行的基准。此外，$CRWD 与 $CSCO 和 $MSFT 一道被定位为“LLM 网络安全”演进中的关键参与者，利用 AI 推动高级漏洞防御和合规自动化。"
@@ -2018,7 +2018,7 @@ const summariesData = {
   "$NFLX": {
     "ticker": "$NFLX",
     "company_name": "Netflix",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-12-11 ~ 2026-02-27",
     "summary_en": "The author views $NFLX as resilient against AI disruption, rating it 9/10 and arguing that viewers will continue using the platform for premium licensed content like Squid Games and anime, regardless of AI advancements. Following a 16% price drop, the author upgraded $NFLX to \"Buy,\" believing the decline was unwarranted given the company's acquisition strategy.",
     "summary_cn": "作者认为 $NFLX 对 AI 颠覆具有韧性，给予其 9/10 的评级，认为无论 AI 如何发展，观众仍会继续使用该平台观看《鱿鱼游戏》和动漫等优质授权内容。在股价下跌 16% 后，作者将 $NFLX 升级为\"买入\"，认为考虑到公司的收购策略，此次下跌是不合理的。"
@@ -2034,7 +2034,7 @@ const summariesData = {
   "$ENAFF": {
     "ticker": "$ENAFF",
     "company_name": "ENAFF",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The author included $ENAFF in a follower-selected 'Parabolic Growth ETF,' expressing high conviction in the community's stock picks. During the first week of performance tracking, $ENAFF delivered a notable return of +31.58%, rising from $1.71 to $2.25, contributing to the portfolio's success in beating annual index returns in a short timeframe.",
     "summary_cn": "作者将 $ENAFF 纳入了由粉丝选出的“抛物线增长ETF”中，并表示对该社区的选股充满信心。在首周业绩追踪中，$ENAFF 录得 +31.58% 的显著涨幅，股价从 $1.71 升至 $2.25，助力该投资组合在短时间内跑赢了年度指数回报。"
@@ -2042,7 +2042,7 @@ const summariesData = {
   "$ALCJ": {
     "ticker": "$ALCJ",
     "company_name": "ALCJ",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$ALCJ was included in a follower-curated \"Parabolic Growth ETF\" basket, where the author expressed high conviction in the group's potential for 10x returns based on community sentiment. However, during the first week of performance tracking, $ALCJ underperformed the basket with a -3.41% loss, contrasting with the overall group's strong average gain of +12.39%.",
     "summary_cn": "$ALCJ 被纳入一个由粉丝策划的“抛物线增长ETF”投资组合中，作者基于社区情绪对该组合实现10倍回报的潜力表示高度信心。然而，在首周表现追踪中，$ALCJ 录得3.41%的亏损，表现不及整体组合+12.39%的平均涨幅。"
@@ -2074,7 +2074,7 @@ const summariesData = {
   "$UAMY": {
     "ticker": "$UAMY",
     "company_name": "U.S. Antimony",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-26 ~ 2026-01-29",
     "summary_en": "$UAMY is highlighted as a key Western beneficiary for Antimony within the context of Chinese critical mineral export controls. The author views the recent 17% price drop following a disputed Reuters article as a potential buying opportunity, citing the company's rebuttal and ongoing U.S. government relationships.",
     "summary_cn": "$UAMY 被列为中国关键矿产出口管制背景下锑的主要西方受益者。作者认为，继路透社一篇争议性报道导致股价下跌 17% 后，公司对该报道的有力反驳以及确认与美国政府机构的合同依然有效，可能提供了一个买入机会。"
@@ -2082,7 +2082,7 @@ const summariesData = {
   "$NBCLF": {
     "ticker": "$NBCLF",
     "company_name": "Nitto Boseki",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-23 ~ 2026-01-26",
     "summary_en": "The author highlights $NBCLF (Nitto Boseki) as a top foreign investment due to its near-monopoly on high-end T-glass, a critical bottleneck for AI semiconductor packaging demanded by giants like $NVDA, $APPL, and $TSM. With supply sold out through 2026 and an 80-90% market share, the author views this Japanese company as an indispensable beneficiary of the AI buildout.",
     "summary_cn": "作者将 $NBCLF（日东纺）列为首选外国投资标的，因其在高端T-Glass领域拥有近乎垄断的地位，这是 $NVDA、$APPL 和 $TSM 等巨头急需的AI半导体封装关键瓶颈。鉴于供应已售罄至2026年且市场份额高达80-90%，作者视该公司为AI建设浪潮中不可或缺的受益者。"
@@ -2114,7 +2114,7 @@ const summariesData = {
   "$TTMI": {
     "ticker": "$TTMI",
     "company_name": "TTM Technologies",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-12-02 ~ 2026-03-26",
     "summary_en": "$TTMI is identified as a key US beneficiary of optical transceiver PCB bottlenecks and supply chain reshoring trends, while also serving as a medium-impact interconnect supplier for Google's TPU v7 buildout. Despite these tailwinds, the author views laser supply chain chokepoints as more compelling investment opportunities and currently holds no position in $TTMI.",
     "summary_cn": "$TTMI 被视为光收发器 PCB 瓶颈及供应链回流趋势的主要美国受益者，同时也是谷歌 TPU v7 建设的中等影响力互连供应商。尽管存在这些利好因素，作者认为激光供应链瓶颈更具投资吸引力，目前并未持有 $TTMI 头寸。"
@@ -2130,7 +2130,7 @@ const summariesData = {
   "$ADUR": {
     "ticker": "$ADUR",
     "company_name": "ADUR",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$ADUR was included in a community-driven \"Parabolic Growth ETF\" at a price of $10.37, selected based on high follower conviction for potential 10x returns. However, during the first week of tracking, the stock underperformed the basket's average gain of 12.39%, posting a slight loss of 0.29%.",
     "summary_cn": "$ADUR 因社区对其具有10倍增长潜力的高度信心，被纳入“抛物线增长ETF”组合，入选价格为 $10.37。在首周表现追踪中，该股票微跌 0.29%，表现不及该投资组合 12.39% 的平均涨幅。"
@@ -2146,7 +2146,7 @@ const summariesData = {
   "$EONR": {
     "ticker": "$EONR",
     "company_name": "EONR",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$EONR was included in a follower-curated \"Parabolic Growth ETF\" targeting 10x returns, relying on community conviction despite the author's lack of familiarity with the stock. In the subsequent performance update, $EONR underperformed the basket significantly, recording a 20% loss while the weighted average of the portfolio gained 12.39%.",
     "summary_cn": "$EONR 被纳入由粉丝策划的“抛物线增长ETF”中以追求10倍回报，尽管作者对该股票并不熟悉，但仍依赖社区的确信度。在随后的业绩更新中，$EONR 表现显著逊色，录得20%的亏损，而投资组合的加权平均涨幅为12.39%。"
@@ -2186,7 +2186,7 @@ const summariesData = {
   "$ATKR": {
     "ticker": "$ATKR",
     "company_name": "Atkore Inc.",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-23 ~ 2026-04-27",
     "summary_en": "The author identifies $ATKR as a key beneficiary of the President's recent invocation of the \"Defense Production Act,\" which aims to address severe shortages in domestic grid infrastructure, specifically highlighting the company's role in transmission components. This executive action authorizes federal funding and expedited manufacturing expansion, positioning companies like $ATKR, $AMSC, and $POWL for potential DOE contracts and increased demand driven by the broader AI energy bottleneck.",
     "summary_cn": "作者将 $ATKR 视为总统近期启动“国防生产法”的主要受益者之一，该法案旨在解决国内电网基础设施（特别是输电组件）的严重短缺问题。这项行政行动授权联邦资金并加速制造业扩张，使 $ATKR、$AMSC 和 $POWL 等公司有望获得能源部合同，并受益于 AI 带来的广泛能源需求增长。"
@@ -2210,7 +2210,7 @@ const summariesData = {
   "$TECK": {
     "ticker": "$TECK",
     "company_name": "Teck Resources",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-26 ~ 2026-03-23",
     "summary_en": "The author identifies $TECK as a primary Western beneficiary of Chinese export controls on critical minerals, highlighting it as the most significant producer of Germanium outside of China and a key supplier of Indium. The investment thesis centers on geopolitical supply chain shifts, where $TECK serves as a strategic hedge against import reliance and potential funding influxes for critical materials.",
     "summary_cn": "作者将 $TECK 确定为中国关键矿产出口管制的主要西方受益者，强调其是中国以外最重要的锗生产商和铟的关键供应商。投资论点侧重于地缘政治供应链的转变，$TECK 被视为应对进口依赖和关键材料潜在资金流入的战略对冲工具。"
@@ -2226,7 +2226,7 @@ const summariesData = {
   "$AA": {
     "ticker": "$AA",
     "company_name": "Alcoa Corporation",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-26 ~ 2026-03-29",
     "summary_en": "The author identifies $AA as a strategic investment serving as a Western beneficiary of Chinese Gallium export controls and a pure-play opportunity to capitalize on rising aluminum prices following geopolitical disruptions in the UAE. The thesis highlights $AA's integrated \"mine-to-smelter\" model as a key advantage for profiting from supply shocks and critical mineral chokepoints.",
     "summary_cn": "作者将 $AA 视为一项战略性投资，认为其既是中方镓出口管制的西方受益者，也是地缘政治供应中断后铝价上涨的主要受益标的。该投资论点强调 $AA 涵盖了从铝土矿开采到冶炼的完整产业链，使其成为从供应冲击和关键矿产瓶颈中获利的关键优势股。"
@@ -2250,7 +2250,7 @@ const summariesData = {
   "$MITK": {
     "ticker": "$MITK",
     "company_name": "Mitek Systems",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$MITK was selected as a component of a community-driven 'Parabolic Growth ETF' based on high follower conviction for potential 10x returns, despite the author admitting unfamiliarity with many of the chosen names. In the first week of tracking, $MITK underperformed the basket's average gain of 12.39%, posting a decline of 2.52% as the price dropped from $13.9 to $13.55.",
     "summary_cn": "$MITK 基于粉丝的高信念被选入一个旨在实现 10 倍回报的社区驱动型“抛物线增长 ETF”，尽管作者承认对其中许多股票并不熟悉。在追踪的第一周，$MITK 表现逊于该组合 12.39% 的平均涨幅，股价下跌 2.52%，从 13.9 美元跌至 13.55 美元。"
@@ -2258,7 +2258,7 @@ const summariesData = {
   "$FCX": {
     "ticker": "$FCX",
     "company_name": "Freeport-McMoRan Inc.",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-26 ~ 2026-03-23",
     "summary_en": "The author identifies $FCX as a strategic investment due to its status as the world's largest Molybdenum producer and a major Copper supplier, positioning it as a primary Western beneficiary of Chinese export controls on critical minerals. The investment thesis highlights $FCX's essential role in future robotics and humanoid supply chains, specifically providing Molybdenum for structural steel in planetary roller screws and Copper for humanoid production.",
     "summary_cn": "作者将 $FCX 视为一项战略投资，因为它是世界上最大的钼生产商和主要的铜供应商，这使其成为中国关键矿产出口管制的主要西方受益者。该投资逻辑强调了 $FCX 在未来机器人和人形机器人供应链中的关键作用，特别是为行星滚柱丝杠的结构钢提供钼，以及为人形机器人提供铜。"
@@ -2266,7 +2266,7 @@ const summariesData = {
   "$HGRAF": {
     "ticker": "$HGRAF",
     "company_name": "HGRAF",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$HGRAF was included in a community-curated \"Parabolic Growth ETF\" at a price of $4.49, selected based on followers' high conviction for potential 10x returns. During the first week of performance tracking, the stock posted a strong gain of 14.48%, contributing to the basket's overall success in beating typical yearly index returns in just one week.",
     "summary_cn": "$HGRAF 因社区对其具有10倍增长潜力的高度信心，被选入“抛物线增长ETF”，入选价为 $4.49。在首周追踪中，该股表现强劲，上涨 14.48%，助力该投资组合在仅一周内跑赢了典型的年度指数回报。"
@@ -2290,7 +2290,7 @@ const summariesData = {
   "$EQR": {
     "ticker": "$EQR",
     "company_name": "Equatorial Resources",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "The provided tweets identify $EQR.AX as a constituent of a crowdsourced \"Parabolic Growth ETF,\" selected by the author's followers for its potential to achieve 10x returns. During the first week of tracking, the stock posted a solid gain of 7.94%, rising from 0.315 AUD to 0.34 AUD, contributing to the basket's overall weighted average return of 12.39%.",
     "summary_cn": "提供的推文将 $EQR.AX 确定为众包“抛物线增长ETF”的成分股，该股因具有10倍回报潜力而被作者的关注者选中。在追踪的第一周，该股上涨7.94%，价格从0.315澳元升至0.34澳元，助力该投资组合实现12.39%的加权平均回报。"
@@ -2298,7 +2298,7 @@ const summariesData = {
   "$ALM": {
     "ticker": "$ALM",
     "company_name": "Almonty Industries",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-01-26 ~ 2026-04-05",
     "summary_en": "The author identifies $ALM as a primary beneficiary of Chinese export controls on Tungsten, listing it as a top critical mineral 'chokepoint' investment. This thesis was validated when $ALM surged 75% over three months as Tungsten prices soared 557% due to Middle East tensions, reinforcing the strategy of targeting Western suppliers during supply chain panics.",
     "summary_cn": "作者将 $ALM 视为中国钨出口管制的主要受益者，并将其列为关键矿物“瓶颈”领域的首选投资标的。随着中东局势紧张导致钨价飙升557%，$ALM 在三个月内上涨了75%，这一表现验证了在供应链恐慌期间瞄准西方供应商的投资策略。"
@@ -2306,7 +2306,7 @@ const summariesData = {
   "$TEM": {
     "ticker": "$TEM",
     "company_name": "Tempus AI",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-09-15 ~ 2026-03-29",
     "summary_en": "The primary investment thesis for $TEM highlights its critical role in personalized AI medicine, citing a high-profile case where the GitLab CEO utilized $TEM for RNA sequencing to identify novel treatments for terminal cancer. One author suggests that combining $TEM’s technology with $HIMS’ distribution network could unlock immense value, though recent activity shows Cathie Wood's ARK funds selling their $TEM position.",
     "summary_cn": "$TEM 的核心投资逻辑突显了其在个性化 AI 医疗领域的关键作用，推文引用了 GitLab 首席执行官利用 $TEM 进行 RNA 测序以寻找晚期癌症新疗法的案例。一位作者认为将 $TEM 的技术与 $HIMS 的分销网络结合将释放巨大价值，但近期数据显示 Cathie Wood 的 ARK 基金正在卖出 $TEM 持仓。"
@@ -2314,7 +2314,7 @@ const summariesData = {
   "$RVI": {
     "ticker": "$RVI",
     "company_name": "Robinhood Ventures",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-02-18 ~ 2026-03-07",
     "summary_en": "The author expresses a strong bearish thesis on $RVI, labeling it a major red flag due to its concentration in late-stage firms like Stripe and Revolut at inflated valuations, while public fintech peers such as $HOOD are declining. Following $RVI's 16% drop upon its market launch, the author warns that investors are essentially acting as exit liquidity for insiders cashing out at unsustainably high prices.",
     "summary_cn": "作者对 $RVI 持强烈看空态度，认为其是一个重大危险信号，因为该基金集中在估值过高的后期公司（如 Stripe 和 Revolut），而 $HOOD 等上市金融科技同行股价正在下跌。在 $RVI 上市首日下跌 16% 后，作者警告称投资者实际上正沦为内部人士在不可持续的高位套现的退出流动性。"
@@ -2330,7 +2330,7 @@ const summariesData = {
   "$STX": {
     "ticker": "$STX",
     "company_name": "Seagate Technology",
-    "mention_count": 2,
+    "mention_count": 1,
     "date_range": "2025-11-25 ~ 2026-02-16",
     "summary_en": "The investment thesis for $STX positions it as a key beneficiary of the AI inference boom, specifically driven by the rollout of $NVDA's Vera Rubin servers which require massive storage density and high-capacity Enterprise SSDs. Amidst exponential AI capital expenditure from tech giants like $GOOGL and $META, the outlook remains bullish with structural memory demand, while the 'Chinese supply glut' bear case is dismissed due to strong domestic consumption.",
     "summary_cn": "$STX 的投资逻辑将其定位为AI推理热潮的主要受益者，特别是 $NVDA Vera Rubin 服务器的推出将带来对高容量企业级SSD和数据中心存储密度的巨大需求。随着 $GOOGL 和 $META 等科技巨头的AI资本支出呈指数级增长，存储需求具备结构性支撑，而关于“中国供应过剩”的看空观点则因国内强劲消费而被推翻。"
@@ -2354,7 +2354,7 @@ const summariesData = {
   "$TMC": {
     "ticker": "$TMC",
     "company_name": "TMC",
-    "mention_count": 2,
+    "mention_count": 3,
     "date_range": "2026-04-03 ~ 2026-04-12",
     "summary_en": "$TMC was included in a follower-selected \"Parabolic Growth ETF\" basket based on high conviction for potential 10x growth. However, it underperformed the basket's average gain of 12.39% during the first week, declining 5.01% from $4.59 to $4.36.",
     "summary_cn": "$TMC 被纳入一个由粉丝精选的“抛物线增长ETF”篮子，基于对潜在10倍增长的高度信心。然而，该股在第一周表现不及大盘平均涨幅12.39%，下跌5.01%，价格从 $4.59 跌至 $4.36。"
@@ -2394,7 +2394,7 @@ const summariesData = {
   "$LPKFF": {
     "ticker": "$LPKFF",
     "company_name": "LPKF Laser & Electronics",
-    "mention_count": 2,
+    "mention_count": 4,
     "date_range": "2026-01-19 ~ 2026-01-19",
     "summary_en": "The author identifies $LPKFF as a high-upside opportunity with potential 10x returns due to its proprietary laser-induced deep etching technology for glass substrates and its $169m market cap. It is highlighted alongside other Western supply chain bottleneck stocks like $WOLF and $MTRN, though the author cautions that many small-caps in this sector suffer from poor fundamentals.",
     "summary_cn": "作者认为 $LPKFF 是一个具有高上涨空间的机会，凭借其在玻璃基板激光诱导深度蚀刻技术的专有技术和1.69亿美元的市值，可能带来10倍的回报。该股与 $WOLF 和 $MTRN 等其他西方供应链瓶颈股票一同被提及，但作者警告该板块的许多小盘股基本面较差。"
@@ -2418,7 +2418,7 @@ const summariesData = {
   "$SPCX": {
     "ticker": "$SPCX",
     "company_name": "SPCX",
-    "mention_count": 2,
+    "mention_count": 4,
     "date_range": "2026-05-26 ~ 2026-05-31",
     "summary_en": "The author draws a sci-fi analogy placing $SPCX alongside $RKLB and $PL as core components of future space infrastructure, likening them to the 'Death Star'. Additionally, the tweets highlight that $SPCX is a target for retail investors seeking exposure to a potential SpaceX IPO, contrasting it with the frequently mistaken ticker $SPCE.",
     "summary_cn": "作者通过科幻类比，将 $SPCX 与 $RKLB 和 $PL 一同列为未来太空基础设施的核心组成部分。此外，推文强调 $SPCX 是散户寻求 SpaceX IPO 曝光的目标，并指出投资者常将其与 $SPCE 混淆。"
@@ -2578,7 +2578,7 @@ const summariesData = {
   "$TXN": {
     "ticker": "$TXN",
     "company_name": "Texas Instruments",
-    "mention_count": 1,
+    "mention_count": 3,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "A recent tweet highlights $NVDA's active push towards an 800V direct current (DC) infrastructure, evidenced by new discussions with South Korean power equipment companies regarding DC system design. $TXN is named as a partner in this initiative alongside $STM and $NVTS, positioning the company within NVIDIA's strategic drive to establish high-voltage DC standards.",
     "summary_cn": "一条推文强调了 $NVDA 积极推动 800V 直流 (DC) 基础设施的发展，其与韩国电力设备公司关于直流系统设计的讨论即为佐证。$TXN 与 $STM 和 $NVTS 一同被列为该计划的合作伙伴，这使其处于 NVIDIA 建立高压直流标准的有利位置。"
@@ -2618,7 +2618,7 @@ const summariesData = {
   "$KORU": {
     "ticker": "$KORU",
     "company_name": "Direxion Daily KOREA 3X Bull ETF",
-    "mention_count": 1,
+    "mention_count": 4,
     "date_range": "2026-02-13 ~ 2026-02-13",
     "summary_en": "The author proposes a volatility arbitrage trade on $EWY instead of $KORU, arguing that the Korean index options are mispriced relative to the high volatility of major components like Samsung and SK Hynix. They believe market makers are anchoring on low historical averages from the past 5-10 years, failing to price in the new memory supercycle, which creates an opportunity for vega expansion in $EWY that $KORU does not offer.",
     "summary_cn": "作者建议针对 $EWY 而非 $KORU 进行波动率套利交易，理由是韩国指数期权相对于三星和 SK Hynix 等主要成分股的实际高波动率存在定价错误。他们认为做市商受限于过去5-10年的低历史波动率数据，未能计入新的内存超级周期，从而为 $EWY 创造了 $KORU 无法提供的波动率扩张机会。"
@@ -2674,7 +2674,7 @@ const summariesData = {
   "$LPKK": {
     "ticker": "$LPKK",
     "company_name": "LPKF Laser & Electronics",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-21 ~ 2026-04-21",
     "summary_en": "The author presents a bullish long-term thesis for $LPKK, identifying it as a critical \"chokepoint\" for glass core substrates via LIDE technology with over 80% market share among major players like $INTC and $ONTO. Citing a clean balance sheet with low debt and attractive forward P/E ratios for 2027-2028, the author predicts significant upside potential as glass core roadmaps accelerate.",
     "summary_cn": "作者对 $LPKK 提出了看好的长期投资论点，认为其凭借 LIDE 技术成为玻璃核心基板的关键“咽喉”，在 $INTC 和 $ONTO 等主要参与者中拥有超过 80% 的市场份额。鉴于其资产负债表稳健且 2027-2028 年预期市盈率具有吸引力，随着玻璃核心路线图的加速，作者认为该股具有巨大的上涨潜力。"
@@ -2810,7 +2810,7 @@ const summariesData = {
   "$SPXC": {
     "ticker": "$SPXC",
     "company_name": "SPX Corporation",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author identifies $SPXC as an implicit beneficiary of the President's recent invocation of the 'Defense Production Act' to address a national energy emergency, specifically citing its role in manufacturing power transformers. This executive action is expected to authorize federal funding and expedite manufacturing for the domestic grid supply chain, potentially leading to DOE contracts for companies like $SPXC, $HPS.A, and $POWL within the next 3-6 months.",
     "summary_cn": "作者认为 $SPXC 是总统近期援引“国防生产法”应对国家能源紧急状态的潜在受益者，特别指出了其在电力变压器制造领域的地位。预计这项行政行动将授权联邦资金并加速国内电网供应链的制造，可能会在未来3-6个月内为 $SPXC、$HPS.A 和 $POWL 等公司带来能源部合同。"
@@ -3122,7 +3122,7 @@ const summariesData = {
   "$AEIS": {
     "ticker": "$AEIS",
     "company_name": "Advanced Energy Industries, Inc.",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author identifies $AEIS as a potential beneficiary of the President's recent invocation of the \"Defense Production Act\" aimed at expanding domestic grid infrastructure, categorizing the company under power control electronics. While the author anticipates that federal funding and DOE contracts will likely flow to the sector in the next 3-6 months, they personally favor other tickers like $AMSC and $CLF for their own \"mini ETF\" and have not included $AEIS in their current holdings.",
     "summary_cn": "作者指出 $AEIS 是总统近期援引《国防生产法》以扩大国内电网基础设施建设的潜在受益者，将其归类为电力控制电子领域。尽管作者预计未来3-6个月内该行业将获得联邦资金和能源部合同，但他们个人更青睐 $AMSC 和 $CLF 等股票来构建自己的“迷你ETF”，目前并未持有 $AEIS。"
@@ -3154,7 +3154,7 @@ const summariesData = {
   "$COST": {
     "ticker": "$COST",
     "company_name": "Costco Wholesale Corporation",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-03-08 ~ 2026-03-08",
     "summary_en": "The author mentions $COST only in passing as a hypothetical victim of a global macroeconomic shock and inflation resulting from an extreme oil price spike (3x-5x). The analysis primarily argues that energy cost fears are overblown for high-margin Korean semiconductor equities, but acknowledges that such a severe macroeconomic scenario would impact every major company, including $COST.",
     "summary_cn": "作者仅在极端油价飙升（3-5倍）导致全球宏观经济冲击和通胀的假设场景中，顺带提及 $COST 为受影响的公司之一。该分析主要认为能源成本恐慌对高利润的韩国半导体股票影响被夸大，但也承认严重的宏观经济冲击将影响包括 $COST 在内的所有主要公司。"
@@ -3498,7 +3498,7 @@ const summariesData = {
   "$SPCE": {
     "ticker": "$SPCE",
     "company_name": "Virgin Galactic",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-05-31 ~ 2026-05-31",
     "summary_en": "An investor reports a costly error involving a fully leveraged position in $SPCE (Virgin Galactic), mistakenly purchased instead of the intended $SPCX (SpaceX). The tweet highlights significant retail demand for the anticipated SpaceX IPO, contrasting the situation with the recent success of $RDDT.",
     "summary_cn": "一位投资者报告了一个代价高昂的错误，误将全杠杆资金投入了 $SPCE (维珍银河)，而非原本打算买入的 $SPCX (SpaceX)。该推文突显了散户对 SpaceX 预期 IPO 的巨大需求，并将此情况与 $RDDT 近期的成功进行了对比。"
@@ -3618,7 +3618,7 @@ const summariesData = {
   "$CLF": {
     "ticker": "$CLF",
     "company_name": "Cleveland-Cliffs Inc.",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author identifies $CLF as a primary beneficiary of the President's recent invocation of the Defense Production Act to expand domestic grid infrastructure, noting it as potentially the only producer of electrical steel in America. Consequently, the author has included $CLF in a personal \"mini ETF\" alongside $AMSC, $PLPC, and $HPS.A to capitalize on expected federal funding and DOE contracts.",
     "summary_cn": "作者指出 $CLF 是总统近期启动《国防生产法》以扩大国内电网基础设施的主要受益者，并指出其可能是美国唯一的电工钢生产商。因此，作者将 $CLF 与 $AMSC、$PLPC 和 $HPS.A 一起纳入个人的“迷你 ETF”组合，以期利用预期的联邦资金和能源部合同获利。"
@@ -3802,7 +3802,7 @@ const summariesData = {
   "$VMI": {
     "ticker": "$VMI",
     "company_name": "Valmont Industries",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author identifies $VMI as an implicit beneficiary of the President's recent invocation of the 'Defense Production Act' aimed at expanding domestic infrastructure, categorizing the company under transmission and grid components. While the author predicts a wave of DOE contracts for the sector in the next 3-6 months, they note that their personal 'mini ETF' does not currently include $VMI.",
     "summary_cn": "作者将 $VMI 视为总统近期援引“国防生产法”以扩大国内基础设施建设的潜在受益者，具体将其归类于传输和电网组件领域。尽管作者预计未来3-6个月该行业将迎来一波能源部合同，但其个人构建的“迷你ETF”目前并未包含 $VMI。"
@@ -3826,7 +3826,7 @@ const summariesData = {
   "$AZZ": {
     "ticker": "$AZZ",
     "company_name": "AZZ Inc.",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author identifies $AZZ as an implicit beneficiary of the President's recent invocation of the \"Defense Production Act\" to expand domestic grid infrastructure, specifically categorizing the company under substations. While the investment thesis suggests potential upside from federal funding and DOE contracts in the coming months, the author personally holds a \"mini ETF\" of other sector plays like $AMSC and $CLF rather than $AZZ.",
     "summary_cn": "作者指出，总统近期启动“国防生产法”以扩大国内电网基础设施，$AZZ 作为变电站领域的参与者被列为隐性受益者。虽然投资逻辑认为未来几个月联邦资金和 DOE 合同将带来潜在上涨空间，但作者个人持有的是 $AMSC 和 $CLF 等其他板块股票的“迷你 ETF”，而非 $AZZ。"
@@ -3842,7 +3842,7 @@ const summariesData = {
   "$SHMD": {
     "ticker": "$SHMD",
     "company_name": "SHMD",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-21 ~ 2026-04-21",
     "summary_en": "The author presents a bullish investment thesis for $LPKK regarding its dominance in LIDE technology for glass core substrates, while using $SHMD as a negative comparison regarding capital structure. Specifically, the tweet highlights that $LPKK has a clean, asset-light balance sheet without the \"dilution overhang\" associated with $SHMD. The analysis emphasizes $LPKK's strong partnerships with major players like $ONTO and $INTC as a key driver for future upside.",
     "summary_cn": "作者阐述了看好 $LPKK 在玻璃芯基板 LIDE 技术领域主导地位的投资逻辑，并以其资产负债表为例，反面引用 $SHMD 作为对比。推文特别指出 $LPKK 拥有清洁的轻资产资产负债表，不存在像 $SHMD 那样的“股权稀释悬顶”风险。该分析强调 $LPKK 与 $ONTO 和 $INTC 等主要玩家的合作关系是其未来上涨的关键动力。"
@@ -4274,7 +4274,7 @@ const summariesData = {
   "$SYAAF": {
     "ticker": "$SYAAF",
     "company_name": "Syrah Resources",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-01-26 ~ 2026-01-26",
     "summary_en": "The author positions $SYAAF as a primary Western beneficiary for Graphite, including it in a list of critical minerals subject to Chinese export controls. This suggests a strong investment thesis based on geopolitical supply constraints and government policy signals.",
     "summary_cn": "作者将 $SYAAF 定位为石墨领域的主要西方受益者，将其列入受中国出口管制的关键矿产名单。这表明其投资逻辑主要基于地缘政治供应限制和政府政策信号。"
@@ -4370,7 +4370,7 @@ const summariesData = {
   "$VSH": {
     "ticker": "$VSH",
     "company_name": "Vishay Intertechnology, Inc.",
-    "mention_count": 1,
+    "mention_count": 2,
     "date_range": "2026-04-23 ~ 2026-04-23",
     "summary_en": "The author highlights that the President's recent invocation of the 'Defense Production Act' to address a national energy emergency creates a bullish thesis for domestic grid infrastructure suppliers. $VSH is specifically identified as a beneficiary in the capacitor banks segment, with the author anticipating potential DOE contracts for listed companies in the next 3-6 months.",
     "summary_cn": "作者强调，总统近期援引“国防生产法”以应对国家能源紧急状态，为国内电网基础设施供应商创造了看涨理由。$VSH 被具体认定为电容器组领域的受益者，作者预计未来3-6个月内相关公司可能会获得能源部（DOE）的合同。"
