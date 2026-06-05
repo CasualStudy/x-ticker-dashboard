@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Ticker 详细总结</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Summaries Data -->
+    <script src="ticker_summaries_data.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #0f111a;
+            --primary-color: #6366f1;
+            --secondary-color: #ec4899;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --font-sans: 'Inter', sans-serif;
+            --font-display: 'Outfit', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        nav {
+            margin-bottom: 2rem;
+        }
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 2rem;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .filter-container {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .filter-btn {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-primary);
+            padding: 0.8rem 1.5rem;
+            border-radius: 99px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .filter-btn.active {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .summary-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(99, 102, 241, 0.5);
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .ticker-name {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.2rem;
+        }
+
+        .company-name {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .mention-badge {
+            background: rgba(245, 158, 11, 0.2);
+            color: #FBBF24;
+            padding: 0.3rem 0.8rem;
+            border-radius: 99px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+
+        .summary-text {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #D1D5DB;
+            flex-grow: 1;
+        }
+
+        .date-range {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 0.8rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">&larr; 返回概览大屏</a>
+        </nav>
+
+        <div class="glass-card" style="margin-bottom: 2rem;">
+            <h1 class="header-title">Ticker 详细总结情报</h1>
+            <p style="color: var(--text-secondary);">所有被提及 Ticker 的深度分析总结。通过提及频次进行筛选，洞察博主最关注的核心资产。</p>
+        </div>
+
+        <div class="filter-container" id="filterContainer">
+            <button class="filter-btn active" data-filter="all">全部 (${Object.keys(typeof summariesData !== 'undefined' ? summariesData : {}).length})</button>
+            <button class="filter-btn" data-filter="high">高频提及 (>10次)</button>
+            <button class="filter-btn" data-filter="medium">中频提及 (5-10次)</button>
+            <button class="filter-btn" data-filter="low">低频提及 (<5次)</button>
+        </div>
+
+        <div class="grid-container" id="summariesGrid">
+            <!-- Cards generated by JS -->
+        </div>
+    </div>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); font-size: 0.9rem;">
+        <p>© 2026 CasualStudy 随意研究. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof summariesData === 'undefined') {
+                document.getElementById('summariesGrid').innerHTML = '<p style="color:red;">未找到总结数据，请确保已生成 ticker_summaries_data.js</p>';
+                return;
+            }
+
+            const dataArray = Object.values(summariesData);
+            // Sort by mention count descending
+            dataArray.sort((a, b) => (b.mention_count || 0) - (a.mention_count || 0));
+
+            // Setup filter counts dynamically
+            const highCount = dataArray.filter(d => d.mention_count > 10).length;
+            const mediumCount = dataArray.filter(d => d.mention_count >= 5 && d.mention_count <= 10).length;
+            const lowCount = dataArray.filter(d => d.mention_count < 5).length;
+
+            const btns = document.querySelectorAll('.filter-btn');
+            btns[0].innerText = `全部 (${dataArray.length})`;
+            btns[1].innerText = `高频提及 >10次 (${highCount})`;
+            btns[2].innerText = `中频提及 5-10次 (${mediumCount})`;
+            btns[3].innerText = `低频提及 <5次 (${lowCount})`;
+
+            const renderCards = (filterType) => {
+                const grid = document.getElementById('summariesGrid');
+                grid.innerHTML = '';
+
+                dataArray.forEach(d => {
+                    const count = d.mention_count || 0;
+                    if (filterType === 'high' && count <= 10) return;
+                    if (filterType === 'medium' && (count < 5 || count > 10)) return;
+                    if (filterType === 'low' && count >= 5) return;
+
+                    const summaryContent = d.summary_cn ? d.summary_cn.replace(/\n/g, '<br><br>') : '暂无中文总结';
+
+                    const card = document.createElement('div');
+                    card.className = 'summary-card fade-in-up';
+                    card.innerHTML = `
+                        <div class="card-header">
+                            <div>
+                                <div class="ticker-name">${d.ticker}</div>
+                                <div class="company-name">${d.company_name || ''}</div>
+                            </div>
+                            <div class="mention-badge">${count} 次提及</div>
+                        </div>
+                        <div class="summary-text">${summaryContent}</div>
+                        <div class="date-range">提及时间跨度: ${d.date_range || '未知'}</div>
+                    `;
+                    grid.appendChild(card);
+                });
+            };
+
+            // Initial render
+            renderCards('all');
+
+            // Filter logic
+            btns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelector('.filter-btn.active').classList.remove('active');
+                    btn.classList.add('active');
+                    renderCards(btn.getAttribute('data-filter'));
+                });
+            });
+        });
+    </script>
+</body>
+</html>
