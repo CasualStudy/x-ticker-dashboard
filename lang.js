@@ -1,0 +1,107 @@
+const dict = {
+    // index.html
+    "CasualStudy 随意研究": "CasualStudy",
+    "Serenity@aleabitoreddit Ticker 提及分析": "Serenity@aleabitoreddit Ticker Mention Analysis",
+    "基于推文数据 (2025年7月 - 2026年6月初) 的 Ticker 提及频率与全景分布统计，探索核心关注赛道。": "Based on tweet data (July 2025 - June 2026), analyzing ticker mention frequencies and panoramic distribution to explore core focus sectors.",
+    "提及总数": "Total Mentions",
+    "AI/半导体/算力/电力相关": "AI / Semi / Compute / Power",
+    "其他/未分类领域": "Other / Uncategorized",
+    "核心赛道分布比例": "Core Sectors Distribution",
+    "非美股与美股提及数量占比": "Non-US vs US Tickers Ratio",
+    "非美股与美股提及次数占比": "Non-US vs US Mentions Ratio",
+    "总结大本营": "Summaries Hub",
+    "查看博主对每个Ticker的核心逻辑总结": "View core investment thesis summaries for each ticker",
+    "表现追踪": "Performance Tracking",
+    "追踪所有被提及标的的市场表现及频率": "Track market performance and frequency of all mentioned tickers",
+    "查看所有总结信息 &rarr;": "View All Summaries &rarr;",
+    "查看标的表现追踪 &rarr;": "View Performance Tracking &rarr;",
+    "© 2026 CasualStudy 随意研究. All rights reserved.": "© 2026 CasualStudy. All rights reserved.",
+
+    // summaries.html
+    "Ticker 详细总结情报": "Ticker Detailed Summaries",
+    "所有被提及 Ticker 的深度分析总结。通过提及频次进行筛选，洞察博主最关注的核心资产。": "In-depth analysis and summaries of all mentioned tickers. Filter by mention frequency to discover core assets.",
+    "&larr; 返回概览大屏": "&larr; Back to Dashboard",
+    "极高频 (>100次)": "Ultra High (>100)",
+    "高频 (20-100次)": "High (20-100)",
+    "中频 (5-20次)": "Medium (5-20)",
+    "低频 (<5次)": "Low (<5)",
+    "全部": "All",
+    "次提及": " Mentions",
+    "提及时间跨度": "Mention Timespan",
+    "暂无中文总结": "No summary available",
+
+    // performance.html
+    "Ticker 详细表现追踪": "Ticker Performance Tracking",
+    "所有被提及标的的市值及表现追踪 (按首字母排序)": "Market cap and performance tracking of all mentioned tickers",
+    "首次提及市值": "Initial Market Cap",
+    "当前市值": "Current Market Cap",
+    "提及次数": "Mention Count",
+    "公司名称": "Company Name",
+    "板块分类": "Sector"
+};
+
+class Translator {
+    constructor() {
+        this.lang = localStorage.getItem('lang') || 'zh';
+        this.initSwitch();
+        if (this.lang === 'en') {
+            this.translatePage();
+        }
+    }
+
+    initSwitch() {
+        const btn = document.createElement('button');
+        btn.innerHTML = this.lang === 'en' ? '中' : 'EN';
+        btn.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 99px;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            transition: all 0.3s;
+        `;
+        btn.onmouseover = () => btn.style.background = 'rgba(255,255,255,0.2)';
+        btn.onmouseout = () => btn.style.background = 'rgba(255,255,255,0.1)';
+        btn.onclick = () => {
+            this.lang = this.lang === 'zh' ? 'en' : 'zh';
+            localStorage.setItem('lang', this.lang);
+            location.reload();
+        };
+        document.body.appendChild(btn);
+    }
+
+    translatePage() {
+        // Walk DOM and replace exact text nodes
+        const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+        let node;
+        while (node = walker.nextNode()) {
+            let text = node.nodeValue.trim();
+            if (dict[text]) {
+                node.nodeValue = node.nodeValue.replace(text, dict[text]);
+            }
+        }
+        
+        // Replace innerHTML for elements that might contain HTML entities like &rarr;
+        const elements = document.querySelectorAll('*');
+        elements.forEach(el => {
+            if (el.children.length === 0) { // only leaves to avoid destroying structure
+                let html = el.innerHTML.trim();
+                if (dict[html]) {
+                    el.innerHTML = dict[html];
+                }
+            }
+        });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    window.appTranslator = new Translator();
+});

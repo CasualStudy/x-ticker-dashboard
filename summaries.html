@@ -180,6 +180,7 @@
         }
 
     </style>
+    <script src="lang.js"></script>
 </head>
 <body>
     <div class="container">
@@ -244,7 +245,13 @@
                     if (filterType === 'medium' && (count < 5 || count > 20)) return;
                     if (filterType === 'low' && count >= 5) return;
 
-                    const summaryContent = d.summary_cn ? d.summary_cn.replace(/\n/g, '<br><br>') : '暂无中文总结';
+                    const lang = localStorage.getItem('lang') || 'zh';
+                    let summaryContent = '';
+                    if (lang === 'en') {
+                        summaryContent = d.summary_en ? d.summary_en.replace(/\n/g, '<br><br>') : 'No English summary available';
+                    } else {
+                        summaryContent = d.summary_cn ? d.summary_cn.replace(/\n/g, '<br><br>') : '暂无中文总结';
+                    }
 
                     const card = document.createElement('div');
                     card.className = 'summary-card fade-in-up';
