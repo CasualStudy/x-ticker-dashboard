@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X 博主 Ticker 深度分析数据中心</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        :root {
+            --bg-main: #0B0E14;
+            --bg-card: rgba(17, 24, 39, 0.4);
+            --bg-card-hover: rgba(26, 36, 57, 0.6);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(255, 255, 255, 0.15);
+            
+            --color-primary: #3B82F6;
+            --color-accent: #8B5CF6;
+            --color-success: #10B981;
+            --color-warning: #F59E0B;
+            --color-danger: #EF4444;
+
+            --text-primary: #F3F4F6;
+            --text-secondary: #9CA3AF;
+            --text-muted: #6B7280;
+
+            --font-display: 'Outfit', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Ambient Glow Background */
+        .ambient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .glow {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.15;
+            animation: float 10s infinite ease-in-out alternate;
+        }
+
+        .glow-1 {
+            top: -10%;
+            left: -10%;
+            width: 50vw;
+            height: 50vw;
+            background: var(--color-primary);
+        }
+
+        .glow-2 {
+            bottom: -10%;
+            right: -10%;
+            width: 40vw;
+            height: 40vw;
+            background: var(--color-accent);
+            animation-delay: -5s;
+        }
+
+        @keyframes float {
+            0% { transform: translate(0, 0) scale(1); }
+            100% { transform: translate(20px, 40px) scale(1.1); }
+        }
+
+        header {
+            padding: 2rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(11, 14, 20, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff, var(--text-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(139, 92, 246, 0.4);
+        }
+
+        main {
+            flex: 1;
+            padding: 4rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+            animation: fadeInDown 0.8s ease-out forwards;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .tagline {
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: #60A5FA;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #ffffff, #9ca3af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+        }
+
+        .glass-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 2rem;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--border-hover);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: var(--bg-card-hover);
+        }
+
+        /* Stats Cards */
+        .stats-container {
+            grid-column: span 12;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .stat-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .icon-total { background: rgba(59, 130, 246, 0.15); color: #60A5FA; border: 1px solid rgba(59, 130, 246, 0.2); }
+        .icon-related { background: rgba(16, 185, 129, 0.15); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.2); }
+        .icon-unrelated { background: rgba(245, 158, 11, 0.15); color: #FBBF24; border: 1px solid rgba(245, 158, 11, 0.2); }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1;
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+        }
+
+        .stat-suffix {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        /* Chart Section */
+        .chart-section {
+            grid-column: span 12;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 450px;
+        }
+
+        .chart-header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .chart-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .chart-container {
+            width: 100%;
+            max-width: 500px;
+            aspect-ratio: 1 / 1;
+            position: relative;
+        }
+
+        footer {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Animations */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+
+        @keyframes fadeInUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ambient-bg">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <span class="logo-icon"></span>
+            Ticker Intelligence
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="tagline">Data Analytics Dashboard</div>
+            <h1 class="title">X 博主 Ticker 深度分析</h1>
+            <p class="subtitle">全景展示该博主提及的所有股票代码，洞察 AI、半导体、算力与电力相关核心标的。</p>
+        </section>
+
+        <div class="dashboard-grid">
+            <div class="stats-container">
+                <div class="glass-card stat-card fade-in-up delay-1">
+                    <div class="stat-icon icon-total">
+                        📊
+                    </div>
+                    <div class="stat-label">提及总数</div>
+                    <div class="stat-value" id="count-total">
+                        0
+                        <span class="stat-suffix">Tickers</span>
+                    </div>
+                </div>
+
+                <div class="glass-card stat-card fade-in-up delay-2">
+                    <div class="stat-icon icon-related">
+                        ⚡
+                    </div>
+                    <div class="stat-label">AI/半导体/算力/电力相关</div>
+                    <div class="stat-value" id="count-related">
+                        0
+                        <span class="stat-suffix">Tickers</span>
+                    </div>
+                </div>
+
+                <div class="glass-card stat-card fade-in-up delay-3">
+                    <div class="stat-icon icon-unrelated">
+                        🔍
+                    </div>
+                    <div class="stat-label">其他/未分类领域</div>
+                    <div class="stat-value" id="count-unrelated">
+                        0
+                        <span class="stat-suffix">Tickers</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card chart-section fade-in-up delay-3">
+                <div class="chart-header">
+                    <h2 class="chart-title">核心赛道分布比例</h2>
+                </div>
+                <div class="chart-container">
+                    <canvas id="tickerChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Ticker Intelligence. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Data Configuration
+        const tickerData = {
+            related: 317,
+            unrelated: 253
+        };
+        const total = tickerData.related + tickerData.unrelated;
+
+        // Number Counter Animation
+        function animateValue(id, start, end, duration) {
+            const obj = document.getElementById(id);
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                // easeOutQuart
+                const easeProgress = 1 - Math.pow(1 - progress, 4);
+                obj.innerHTML = Math.floor(easeProgress * (end - start) + start) + '<span class="stat-suffix">Tickers</span>';
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Initialize Counters
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                animateValue("count-total", 0, total, 2000);
+                animateValue("count-related", 0, tickerData.related, 2000);
+                animateValue("count-unrelated", 0, tickerData.unrelated, 2000);
+            }, 300);
+
+            // Initialize Chart
+            initChart();
+        });
+
+        function initChart() {
+            const ctx = document.getElementById('tickerChart').getContext('2d');
+            
+            // Custom plugin to draw text in center of doughnut
+            const centerTextPlugin = {
+                id: 'centerText',
+                beforeDraw: function(chart) {
+                    if (chart.config.type !== 'doughnut') return;
+                    
+                    const width = chart.width;
+                    const height = chart.height;
+                    const ctx = chart.ctx;
+                    
+                    ctx.restore();
+                    const fontSize = (height / 150).toFixed(2);
+                    ctx.font = '800 ' + fontSize + 'em Outfit, sans-serif';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillStyle = '#FFFFFF';
+                    
+                    const text = '55.6%'; // related percentage
+                    const textX = Math.round((width - ctx.measureText(text).width) / 2);
+                    const textY = height / 2;
+                    
+                    ctx.fillText(text, textX, textY);
+                    
+                    // Draw subtext
+                    ctx.font = '500 ' + (fontSize * 0.4).toFixed(2) + 'em Inter, sans-serif';
+                    ctx.fillStyle = '#9CA3AF';
+                    const subtext = '相关度';
+                    const subtextX = Math.round((width - ctx.measureText(subtext).width) / 2);
+                    ctx.fillText(subtext, subtextX, textY + 30);
+                    
+                    ctx.save();
+                }
+            };
+
+            Chart.register(centerTextPlugin);
+
+            // Gradient for Related
+            const gradientRelated = ctx.createLinearGradient(0, 0, 0, 400);
+            gradientRelated.addColorStop(0, '#3B82F6');
+            gradientRelated.addColorStop(1, '#8B5CF6');
+
+            // Gradient for Unrelated
+            const gradientUnrelated = ctx.createLinearGradient(0, 0, 0, 400);
+            gradientUnrelated.addColorStop(0, 'rgba(255, 255, 255, 0.1)');
+            gradientUnrelated.addColorStop(1, 'rgba(255, 255, 255, 0.05)');
+
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['AI/半导体/算力/电力相关', '其他领域'],
+                    datasets: [{
+                        data: [tickerData.related, tickerData.unrelated],
+                        backgroundColor: [
+                            gradientRelated,
+                            gradientUnrelated
+                        ],
+                        borderWidth: 1,
+                        borderColor: 'rgba(255,255,255,0.1)',
+                        hoverOffset: 4,
+                        cutout: '75%'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 30,
+                                color: '#9CA3AF',
+                                font: {
+                                    family: "'Inter', sans-serif",
+                                    size: 14,
+                                    weight: '500'
+                                },
+                                usePointStyle: true,
+                                pointStyle: 'circle'
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(17, 24, 39, 0.9)',
+                            titleColor: '#fff',
+                            bodyColor: '#fff',
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1,
+                            padding: 15,
+                            cornerRadius: 12,
+                            displayColors: true,
+                            boxPadding: 6,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += context.parsed + ' Tickers (' + Math.round((context.parsed/total)*100) + '%)';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true,
+                        duration: 2000,
+                        easing: 'easeOutQuart'
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
