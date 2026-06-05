@@ -245,7 +245,10 @@
                     if (filterType === 'medium' && (count < 5 || count > 20)) return;
                     if (filterType === 'low' && count >= 5) return;
 
-                    const lang = localStorage.getItem('lang') || 'zh';
+                    let lang = 'zh';
+                    try {
+                        lang = localStorage.getItem('lang') || 'zh';
+                    } catch(e) {}
                     let summaryContent = '';
                     if (lang === 'en') {
                         summaryContent = d.summary_en ? d.summary_en.replace(/\n/g, '<br><br>') : 'No English summary available';

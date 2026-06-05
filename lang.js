@@ -56,7 +56,11 @@ const dict = {
 
 class Translator {
     constructor() {
-        this.lang = localStorage.getItem('lang') || 'zh';
+        try {
+            this.lang = localStorage.getItem('lang') || 'zh';
+        } catch (e) {
+            this.lang = 'zh';
+        }
         this.initSwitch();
         if (this.lang === 'en') {
             this.translatePage();
@@ -86,7 +90,11 @@ class Translator {
         btn.onmouseout = () => btn.style.background = 'rgba(255,255,255,0.1)';
         btn.onclick = () => {
             this.lang = this.lang === 'zh' ? 'en' : 'zh';
-            localStorage.setItem('lang', this.lang);
+            try {
+                localStorage.setItem('lang', this.lang);
+            } catch (e) {
+                console.warn('localStorage not available', e);
+            }
             location.reload();
         };
         document.body.appendChild(btn);
@@ -117,9 +125,11 @@ class Translator {
 }
 
 window.t = function(text) {
-    if (localStorage.getItem('lang') === 'en' && dict[text]) {
-        return dict[text];
-    }
+    try {
+        if (localStorage.getItem('lang') === 'en' && dict[text]) {
+            return dict[text];
+        }
+    } catch (e) {}
     return text;
 };
 
