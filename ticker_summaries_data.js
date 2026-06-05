@@ -4446,5 +4446,77 @@ const summariesData = {
     "date_range": "2026-01-02 ~ 2026-03-26",
     "summary_en": "The author rates $AIRO as a 'Strong Buy' and a recovery play for 2026, citing its strong cash position (approximately 1/6th of the balance sheet) and the drone sector's growth driven by accelerated government investments. It is held as a small-cap 'moonshot' position (1.5% weighting) with attractive valuation metrics compared to peers like $ONDS, purchased alongside defense stocks like $LPTH and $OSS following geopolitical catalysts.",
     "summary_cn": "作者将 $AIRO 评为“强力买入”和2026年的复苏股，理由是其强劲的现金状况（约占资产负债表的1/6）以及政府加速投资推动的无人机行业增长。该股作为小盘“投机股”持有（仓位占比1.5%），估值指标较 $ONDS 等同行更具吸引力，是在地缘政治催化剂出现后与 $LPTH 和 $OSS 等国防股一同买入的标的。"
+  },
+  "$SIVE": {
+    "ticker": "$SIVE",
+    "company_name": "Sivers Semiconductors",
+    "mention_count": 324,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The author presents $SIVE as the absolute crown jewel and the ultimate 'chokepoint' in the photonics supercycle. Operating as a critical supplier of specialized Indium Phosphide (InP) CW DFB lasers, $SIVE is positioned as the indispensable 'light source' for next-generation Co-Packaged Optics (CPO) and Silicon Photonics (SiPh). The thesis argues that as hyperscalers hit interconnect limits, they must transition to optical solutions, and $SIVE is uniquely validated by partners like Ayar Labs, $POET, and $GFS. The author considers $SIVE the highest conviction asymmetry play, capable of exponential returns as it captures the structural transition in AI hardware.",
+    "summary_cn": "作者将 $SIVE 视为光子学超级周期中绝对的“皇冠明珠”和终极“瓶颈”。作为专用磷化铟 (InP) CW DFB 激光器的关键供应商，$SIVE 被定位为下一代共封装光学 (CPO) 和硅光子 (SiPh) 不可或缺的“光源”。该论点认为，随着超大规模云计算厂商触及互连极限，它们必须转向光学解决方案，而 $SIVE 得到了 Ayar Labs、$POET 和 $GFS 等合作伙伴的独特验证。作者认为 $SIVE 是最高确信度的不对称投资机会，随着它抓住 AI 硬件的结构性转型，能够带来指数级的回报。"
+  },
+  "$LITE": {
+    "ticker": "$LITE",
+    "company_name": "Lumentum",
+    "mention_count": 248,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The author identifies $LITE as a Tier-1 incumbent in the optical components market, heavily integrated into the AI data center buildout. As a primary supplier for hyperscalers and giants like $NVDA, $LITE is described as being 'fully allocated,' meaning their manufacturing capacity is maxed out by insatiable demand for optical interconnects. While viewed as a safer, established play compared to small caps, the author emphasizes $LITE's critical role in validating the broader photonics supercycle thesis.",
+    "summary_cn": "作者将 $LITE 视为光学组件市场的第一梯队在位企业，深度融入了 AI 数据中心的建设。作为超大规模厂商和 $NVDA 等巨头的主要供应商，$LITE 被描述为“产能全满”，这意味着他们被对光互连贪得无厌的需求占满了制造能力。虽然与小市值股票相比，$LITE 被视为一种更安全、更成熟的投资，但作者强调了其在验证更广泛的光子学超级周期论点中的关键作用。"
+  },
+  "$NVDA": {
+    "ticker": "$NVDA",
+    "company_name": "Nvidia",
+    "mention_count": 234,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "Nvidia ($NVDA) serves as the foundational anchor of the author's macro AI thesis. While not heavily traded as a speculative play due to its massive size, $NVDA's roadmap—particularly its insatiable demand for network bandwidth and transition toward Co-Packaged Optics—dictates the entire supply chain downstream. The author views $NVDA's capital expenditures and architectural shifts as the primary catalyst driving the explosive growth in optical suppliers like $SIVE and $LITE.",
+    "summary_cn": "英伟达 ($NVDA) 是作者宏观 AI 论点的基础锚点。虽然由于其庞大的体量而不被作为投机标的大量交易，但 $NVDA 的路线图——特别是其对网络带宽永无止境的需求以及向共封装光学的过渡——决定了下游的整个供应链。作者将 $NVDA 的资本支出和架构转变视为推动 $SIVE 和 $LITE 等光学供应商爆发式增长的主要催化剂。"
+  },
+  "$AXTI": {
+    "ticker": "$AXTI",
+    "company_name": "AXT Inc.",
+    "mention_count": 227,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The investment thesis for $AXTI is built entirely around 'upstream chokepoints.' $AXTI is highlighted as one of the very few Western-aligned suppliers of Indium Phosphide (InP) substrates, the foundational raw material required to manufacture the lasers used in AI data centers. The author argues that without $AXTI's substrates, the downstream photonics ecosystem ($LITE, $COHR, $SIVE) cannot function, giving the company massive pricing power and strategic geopolitical importance.",
+    "summary_cn": "关于 $AXTI 的投资论点完全围绕“上游瓶颈”展开。$AXTI 被强调为极少数与西方结盟的磷化铟 (InP) 衬底供应商之一，这是制造 AI 数据中心所用激光器所需的基础原材料。作者认为，如果没有 $AXTI 的衬底，下游的光子学生态系统（$LITE、$COHR、$SIVE）就无法运转，这赋予了该公司巨大的定价权和地缘政治战略重要性。"
+  },
+  "$AAOI": {
+    "ticker": "$AAOI",
+    "company_name": "Applied Optoelectronics",
+    "mention_count": 193,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The author frequently cites $AAOI as a primary example of the 'photonics leapfrog' effect. Positioned as a direct beneficiary of hyperscalers moving away from traditional copper connectivity to optical solutions, $AAOI is praised for its explosive upside potential. The stock is often mentioned alongside $SIVE as part of the author's high-conviction 'optical basket' that generates triple-digit returns by front-running institutional discovery of the optical supercycle.",
+    "summary_cn": "作者经常将 $AAOI 引用为“光子学跨越”效应的主要例子。作为超大规模厂商从传统铜互连转向光学解决方案的直接受益者，$AAOI 因其爆炸性的上涨潜力而受到赞誉。该股票经常与 $SIVE 一起被提及，作为作者高确信度的“光学篮子”的一部分，通过在机构发现光学超级周期之前抢先布局来产生三位数的回报。"
+  },
+  "$COHR": {
+    "ticker": "$COHR",
+    "company_name": "Coherent",
+    "mention_count": 133,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "Similar to $LITE, $COHR is characterized as a fundamental Tier-1 titan in the optical transceiver and laser component space. The author views $COHR's fully booked capacity as the definitive proof that the AI data center buildout is straining existing optical infrastructure. This supply constraint at the top tier ($COHR) is the primary reason why hyperscalers are forced to qualify smaller, specialized suppliers, thereby validating the author's broader asymmetrical investment strategy.",
+    "summary_cn": "与 $LITE 类似，$COHR 被描绘为光收发器和激光组件领域基础的第一梯队巨头。作者将 $COHR 产能爆满视为 AI 数据中心建设正在使现有光学基础设施不堪重负的决定性证据。顶层 ($COHR) 的这种供应限制正是超大规模厂商被迫去认证较小的专业供应商的主要原因，从而验证了作者更广泛的不对称投资策略。"
+  },
+  "$MRVL": {
+    "ticker": "$MRVL",
+    "company_name": "Marvell Technology",
+    "mention_count": 115,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The author views $MRVL as an essential architect of the AI infrastructure layer, dominating the DSP (Digital Signal Processor) and custom ASIC markets. As hyperscalers seek to build their own custom silicon to reduce dependence on $NVDA, $MRVL serves as their primary partner. The stock is considered a foundational, high-conviction holding that benefits universally from the escalating bandwidth requirements and the transition to Co-Packaged Optics.",
+    "summary_cn": "作者将 $MRVL 视为 AI 基础设施层不可或缺的架构师，主导着 DSP（数字信号处理器）和定制 ASIC 市场。由于超大规模厂商寻求构建自己的定制芯片以减少对 $NVDA 的依赖，$MRVL 成为他们的主要合作伙伴。该股票被视为基础性、高确信度的持仓，普遍受益于不断升级的带宽需求和向共封装光学的过渡。"
+  },
+  "$GOOGL": {
+    "ticker": "$GOOGL",
+    "company_name": "Alphabet (Google)",
+    "mention_count": 105,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "Google is frequently referenced not as a stock to trade, but as the ultimate 'Hyperscaler Whale' driving the demand side of the equation. The author tracks $GOOGL's massive capital expenditure announcements and their aggressive push into custom silicon (TPUs) and optical networks to map out which downstream component suppliers ($SIVE, $POET) will secure multi-billion dollar contracts.",
+    "summary_cn": "谷歌经常被提及，不是作为交易的股票，而是作为推动需求端的终极“超大规模巨头”。作者追踪 $GOOGL 庞大的资本支出公告及其在定制芯片（TPU）和光网络方面的激进扩张，以描绘出哪些下游组件供应商（$SIVE、$POET）将获得数十亿美元的合同。"
+  },
+  "$TSM": {
+    "ticker": "$TSM",
+    "company_name": "Taiwan Semiconductor",
+    "mention_count": 102,
+    "date_range": "2025-07 ~ 2026-06",
+    "summary_en": "The author acknowledges $TSM as the absolute physical bottleneck of the entire AI revolution. As the exclusive foundry capable of manufacturing the most advanced nodes for $NVDA, $AMD, and $AAPL, $TSM's CoWoS packaging capacity constraints dictate the pace of global AI deployment. However, the author implies the most lucrative returns are found in the smaller, undiscovered optical chokepoints rather than the well-known foundry giant.",
+    "summary_cn": "作者承认 $TSM 是整个 AI 革命中绝对的物理瓶颈。作为唯一能够为 $NVDA、$AMD 和 $AAPL 制造最先进节点的代工厂，$TSM 的 CoWoS 封装产能限制决定了全球 AI 部署的步伐。然而，作者暗示最丰厚的回报存在于那些较小、未被发现的光学瓶颈中，而不是这家众所周知的代工巨头。"
   }
 };
