@@ -211,12 +211,12 @@
                 type: 'pie',
                 data: {
                     labels: [
-                        '超大盘 (>$200B)', 
-                        '大盘 ($10B-$200B)', 
-                        '中盘 ($2B-$10B)', 
-                        '小盘 ($300M-$2B)', 
-                        '微盘 (<$300M)', 
-                        '未知'
+                        window.t('超大盘 (>$200B)'), 
+                        window.t('大盘 ($10B-$200B)'), 
+                        window.t('中盘 ($2B-$10B)'), 
+                        window.t('小盘 ($300M-$2B)'), 
+                        window.t('微盘 (<$300M)'), 
+                        window.t('未知')
                     ],
                     datasets: [{
                         data: [mega, large, mid, small, micro, unknown],
@@ -307,7 +307,7 @@
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
                     <td style="font-weight: 700; color: #fff;">${d.Ticker}</td>
-                    <td style="color: #FBBF24; font-weight: 600;">${d.Frequency || 1} 次</td>
+                    <td style="color: #FBBF24; font-weight: 600;">${d.Frequency || 1} ${window.t('次')}</td>
                     <td style="color: #9CA3AF; font-size: 0.9rem;">${d.FirstMention}</td>
                     <td style="font-family: var(--font-display);">$${parseFloat(d.InitialPrice).toFixed(2)}</td>
                     <td style="font-family: var(--font-display); color: #D1D5DB;">${formatMcap(d.InitialMarketCap)}</td>

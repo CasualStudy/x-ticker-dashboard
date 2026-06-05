@@ -37,7 +37,21 @@ const dict = {
     "当前市值": "Current Market Cap",
     "提及次数": "Mention Count",
     "公司名称": "Company Name",
-    "板块分类": "Sector"
+    "板块分类": "Sector",
+
+    // Dynamic partials
+    "次": "Mentions",
+    "未知": "Unknown",
+    "美股": "US",
+    "非美股": "Non-US",
+    "美股上市 (US)": "US Listed (US)",
+    "非美股上市 (Non-US)": "Non-US Listed (Non-US)",
+    "未上市/未知": "Unlisted / Unknown",
+    "超大盘 (>$200B)": "Mega (>$200B)",
+    "大盘 ($10B-$200B)": "Large ($10B-$200B)",
+    "中盘 ($2B-$10B)": "Mid ($2B-$10B)",
+    "小盘 ($300M-$2B)": "Small ($300M-$2B)",
+    "微盘 (<$300M)": "Micro (<$300M)"
 };
 
 class Translator {
@@ -101,6 +115,13 @@ class Translator {
         });
     }
 }
+
+window.t = function(text) {
+    if (localStorage.getItem('lang') === 'en' && dict[text]) {
+        return dict[text];
+    }
+    return text;
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     window.appTranslator = new Translator();

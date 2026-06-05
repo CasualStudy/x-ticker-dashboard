@@ -228,11 +228,11 @@
             const lowCount = dataArray.filter(d => d.mention_count < 5).length;
 
             const btns = document.querySelectorAll('.filter-btn');
-            btns[0].innerText = `全部 (${dataArray.length})`;
-            btns[1].innerText = `极高频 >100次 (${ultraCount})`;
-            btns[2].innerText = `高频 20-100次 (${highCount})`;
-            btns[3].innerText = `中频 5-20次 (${mediumCount})`;
-            btns[4].innerText = `低频 <5次 (${lowCount})`;
+            btns[0].innerText = window.t('全部') + ` (${dataArray.length})`;
+            btns[1].innerText = window.t('极高频 (>100次)') + ` (${ultraCount})`;
+            btns[2].innerText = window.t('高频 (20-100次)') + ` (${highCount})`;
+            btns[3].innerText = window.t('中频 (5-20次)') + ` (${mediumCount})`;
+            btns[4].innerText = window.t('低频 (<5次)') + ` (${lowCount})`;
 
             const renderCards = (filterType) => {
                 const grid = document.getElementById('summariesGrid');
@@ -261,10 +261,10 @@
                                 <div class="ticker-name">${d.ticker}</div>
                                 <div class="company-name">${d.company_name || ''}</div>
                             </div>
-                            <div class="mention-badge">${count} 次提及</div>
+                            <div class="mention-badge">${count} ${window.t('次提及')}</div>
                         </div>
                         <div class="summary-text">${summaryContent}</div>
-                        <div class="date-range">提及时间跨度: ${d.date_range || '未知'}</div>
+                        <div class="date-range">${window.t('提及时间跨度')}: ${d.date_range || '未知'}</div>
                     `;
                     grid.appendChild(card);
                 });

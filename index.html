@@ -564,7 +564,7 @@
             new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['AI/半导体/算力/电力相关', '其他领域'],
+                    labels: [window.t('AI/半导体/算力/电力相关'), window.t('其他/未分类领域')],
                     datasets: [{
                         data: [tickerData.related, tickerData.unrelated],
                         backgroundColor: [
@@ -668,9 +668,9 @@
                 const tr = document.createElement('tr');
                 
                 let badgeClass = 'badge-unknown';
-                let regionLabel = '未知';
-                if (detail.region === 'US') { badgeClass = 'badge-us'; regionLabel = '美股'; }
-                else if (detail.region === 'Non-US') { badgeClass = 'badge-non-us'; regionLabel = '非美股'; }
+                let regionLabel = window.t('未知');
+                if (detail.region === 'US') { badgeClass = 'badge-us'; regionLabel = window.t('美股'); }
+                else if (detail.region === 'Non-US') { badgeClass = 'badge-non-us'; regionLabel = window.t('非美股'); }
 
                 tr.innerHTML = `
                     <td><span class="region-badge ${badgeClass}">${regionLabel}</span></td>
@@ -686,7 +686,7 @@
             new Chart(ctx, {
                 type: 'doughnut',
                 data: {
-                    labels: ['美股上市 (US)', '非美股上市 (Non-US)', '未上市/未知'],
+                    labels: [window.t('美股上市 (US)'), window.t('非美股上市 (Non-US)'), window.t('未上市/未知')],
                     datasets: [{
                         data: [usCount, nonUsCount, unknownCount],
                         backgroundColor: [
