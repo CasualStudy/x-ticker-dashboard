@@ -12,6 +12,8 @@
     
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Exchange Data -->
+    <script src="exchange_data.js"></script>
 
     <style>
         :root {
@@ -275,12 +277,18 @@
 
         /* Chart Section */
         .chart-section {
-            grid-column: span 12;
+            grid-column: span 6;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             min-height: 450px;
+        }
+
+        @media (max-width: 1024px) {
+            .chart-section {
+                grid-column: span 12;
+            }
         }
 
         .chart-header {
@@ -399,6 +407,15 @@
                     <canvas id="tickerChart"></canvas>
                 </div>
             </div>
+
+            <div class="glass-card chart-section fade-in-up delay-3">
+                <div class="chart-header">
+                    <h2 class="chart-title">相关标的交易所分布</h2>
+                </div>
+                <div class="chart-container">
+                    <canvas id="exchangeChart"></canvas>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -441,6 +458,7 @@
 
             // Initialize Chart
             initChart();
+            initExchangeChart();
         });
 
         function initChart() {
@@ -543,6 +561,93 @@
                                     }
                                     if (context.parsed !== null) {
                                         label += context.parsed + ' Tickers (' + Math.round((context.parsed/total)*100) + '%)';
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    animation: {
+                        animateScale: true,
+                        animateRotate: true,
+                        duration: 2000,
+                        easing: 'easeOutQuart'
+                    }
+                }
+            });
+        }
+
+        function initExchangeChart() {
+            const ctx = document.getElementById('exchangeChart').getContext('2d');
+            
+            // Generate labels and data
+            const labels = Object.keys(exchangeData);
+            const data = Object.values(exchangeData);
+            
+            // Create some vibrant colors for the pie
+            const bgColors = [
+                'rgba(59, 130, 246, 0.8)',   // Blue
+                'rgba(139, 92, 246, 0.8)',   // Purple
+                'rgba(16, 185, 129, 0.8)',   // Emerald
+                'rgba(245, 158, 11, 0.8)',   // Amber
+                'rgba(239, 68, 68, 0.8)',    // Red
+                'rgba(236, 72, 153, 0.8)',   // Pink
+                'rgba(20, 184, 166, 0.8)',   // Teal
+                'rgba(6, 182, 212, 0.8)',    // Cyan
+                'rgba(99, 102, 241, 0.8)',   // Indigo
+                'rgba(132, 204, 22, 0.8)',   // Lime
+                'rgba(255, 255, 255, 0.1)'   // Other
+            ];
+            
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: data,
+                        backgroundColor: bgColors,
+                        borderWidth: 1,
+                        borderColor: 'rgba(255,255,255,0.1)',
+                        hoverOffset: 4,
+                        cutout: '65%'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                            labels: {
+                                padding: 15,
+                                color: '#9CA3AF',
+                                font: {
+                                    family: "'Inter', sans-serif",
+                                    size: 12,
+                                    weight: '500'
+                                },
+                                usePointStyle: true,
+                                pointStyle: 'circle'
+                            }
+                        },
+                        tooltip: {
+                            backgroundColor: 'rgba(17, 24, 39, 0.9)',
+                            titleColor: '#fff',
+                            bodyColor: '#fff',
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1,
+                            padding: 15,
+                            cornerRadius: 12,
+                            displayColors: true,
+                            boxPadding: 6,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed !== null) {
+                                        label += context.parsed + ' Tickers';
                                     }
                                     return label;
                                 }
