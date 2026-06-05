@@ -5,8 +5,9 @@ const performanceData = [
     "InitialPrice": 15.37,
     "CurrentPrice": 105.99,
     "ChangePct": 589.59,
-    "InitialMarketCap": 1005554338.0799999,
-    "CurrentMarketCap": 6934203272.16
+    "InitialMarketCap": 1005554338.08,
+    "CurrentMarketCap": 6934203272.16,
+    "Frequency": 227
   },
   {
     "Ticker": "SIVEF",
@@ -15,7 +16,8 @@ const performanceData = [
     "CurrentPrice": 9.29,
     "ChangePct": 580.59,
     "InitialMarketCap": 403246303.005,
-    "CurrentMarketCap": 2744438208.7299995
+    "CurrentMarketCap": 2744438208.7299995,
+    "Frequency": 15
   },
   {
     "Ticker": "MXL",
@@ -24,7 +26,8 @@ const performanceData = [
     "CurrentPrice": 94.21,
     "ChangePct": 460.44,
     "InitialMarketCap": 1505267570.79,
-    "CurrentMarketCap": 8436124797.389999
+    "CurrentMarketCap": 8436124797.389999,
+    "Frequency": 3
   },
   {
     "Ticker": "NBCLF",
@@ -32,8 +35,9 @@ const performanceData = [
     "InitialPrice": 26.1543,
     "CurrentPrice": 137.95,
     "ChangePct": 427.45,
-    "InitialMarketCap": 952150430.0159999,
-    "CurrentMarketCap": 5022086304.0
+    "InitialMarketCap": 952150430.016,
+    "CurrentMarketCap": 5022086304.0,
+    "Frequency": 3
   },
   {
     "Ticker": "AAOI",
@@ -42,7 +46,8 @@ const performanceData = [
     "CurrentPrice": 184.07,
     "ChangePct": 352.93,
     "InitialMarketCap": 3261066050.88,
-    "CurrentMarketCap": 14770286121.689999
+    "CurrentMarketCap": 14770286121.69,
+    "Frequency": 193
   },
   {
     "Ticker": "AEHR",
@@ -51,7 +56,8 @@ const performanceData = [
     "CurrentPrice": 116.58,
     "ChangePct": 304.65,
     "InitialMarketCap": 906168247.74,
-    "CurrentMarketCap": 3666820351.32
+    "CurrentMarketCap": 3666820351.32,
+    "Frequency": 60
   },
   {
     "Ticker": "SLOIF",
@@ -60,7 +66,8 @@ const performanceData = [
     "CurrentPrice": 189.79,
     "ChangePct": 271.92,
     "InitialMarketCap": 1822790987.64,
-    "CurrentMarketCap": 6779296522.5199995
+    "CurrentMarketCap": 6779296522.5199995,
+    "Frequency": 11
   },
   {
     "Ticker": "SNDK",
@@ -69,7 +76,8 @@ const performanceData = [
     "CurrentPrice": 1831.5,
     "ChangePct": 265.36,
     "InitialMarketCap": 74235914787.82,
-    "CurrentMarketCap": 271226391777.0
+    "CurrentMarketCap": 271226391777.0,
+    "Frequency": 106
   },
   {
     "Ticker": "MRVL",
@@ -78,7 +86,8 @@ const performanceData = [
     "CurrentPrice": 316.43,
     "ChangePct": 254.42,
     "InitialMarketCap": 78170262838.613,
-    "CurrentMarketCap": 277051290532.39
+    "CurrentMarketCap": 277051290532.39,
+    "Frequency": 115
   },
   {
     "Ticker": "DELL",
@@ -87,7 +96,8 @@ const performanceData = [
     "CurrentPrice": 421.08,
     "ChangePct": 253.32,
     "InitialMarketCap": 38736989464.3016,
-    "CurrentMarketCap": 136865395883.04
+    "CurrentMarketCap": 136865395883.04,
+    "Frequency": 3
   },
   {
     "Ticker": "NVTS",
@@ -96,7 +106,8 @@ const performanceData = [
     "CurrentPrice": 30.84,
     "ChangePct": 232.33,
     "InitialMarketCap": 2199272805.12,
-    "CurrentMarketCap": 7308790227.36
+    "CurrentMarketCap": 7308790227.36,
+    "Frequency": 19
   },
   {
     "Ticker": "MU",
@@ -105,7 +116,8 @@ const performanceData = [
     "CurrentPrice": 996.0,
     "ChangePct": 215.9,
     "InitialMarketCap": 355560562378.0676,
-    "CurrentMarketCap": 1123223114796.0
+    "CurrentMarketCap": 1123223114796.0,
+    "Frequency": 94
   },
   {
     "Ticker": "MRAM",
@@ -113,8 +125,9 @@ const performanceData = [
     "InitialPrice": 9.29,
     "CurrentPrice": 28.57,
     "ChangePct": 207.53,
-    "InitialMarketCap": 217827990.32999998,
-    "CurrentMarketCap": 669897274.89
+    "InitialMarketCap": 217827990.33,
+    "CurrentMarketCap": 669897274.89,
+    "Frequency": 2
   },
   {
     "Ticker": "LPKFF",
@@ -123,7 +136,8 @@ const performanceData = [
     "CurrentPrice": 25.11,
     "ChangePct": 202.53,
     "InitialMarketCap": 203321331.8,
-    "CurrentMarketCap": 615108270.06
+    "CurrentMarketCap": 615108270.06,
+    "Frequency": 4
   },
   {
     "Ticker": "WOLF",
@@ -132,7 +146,8 @@ const performanceData = [
     "CurrentPrice": 61.67,
     "ChangePct": 200.83,
     "InitialMarketCap": 990951160.5,
-    "CurrentMarketCap": 2981071125.27
+    "CurrentMarketCap": 2981071125.27,
+    "Frequency": 14
   },
   {
     "Ticker": "INTC",
@@ -141,7 +156,8 @@ const performanceData = [
     "CurrentPrice": 111.78,
     "ChangePct": 183.85,
     "InitialMarketCap": 197923880000.0,
-    "CurrentMarketCap": 561806280000.0
+    "CurrentMarketCap": 561806280000.0,
+    "Frequency": 80
   },
   {
     "Ticker": "OSS",
@@ -150,7 +166,8 @@ const performanceData = [
     "CurrentPrice": 19.02,
     "ChangePct": 179.71,
     "InitialMarketCap": 168429315.6,
-    "CurrentMarketCap": 471106703.34
+    "CurrentMarketCap": 471106703.34,
+    "Frequency": 17
   },
   {
     "Ticker": "NBIS",
@@ -158,8 +175,9 @@ const performanceData = [
     "InitialPrice": 90.54,
     "CurrentPrice": 251.68,
     "ChangePct": 177.98,
-    "InitialMarketCap": 19955587397.940002,
-    "CurrentMarketCap": 55471860352.48
+    "InitialMarketCap": 19955587397.94,
+    "CurrentMarketCap": 55471860352.48,
+    "Frequency": 74
   },
   {
     "Ticker": "VPG",
@@ -168,7 +186,8 @@ const performanceData = [
     "CurrentPrice": 128.24,
     "ChangePct": 173.96,
     "InitialMarketCap": 574738469.53,
-    "CurrentMarketCap": 1574545211.1200001
+    "CurrentMarketCap": 1574545211.12,
+    "Frequency": 31
   },
   {
     "Ticker": "KORU",
@@ -177,7 +196,8 @@ const performanceData = [
     "CurrentPrice": 1196.72,
     "ChangePct": 167.51,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 4
   },
   {
     "Ticker": "ARM",
@@ -186,7 +206,8 @@ const performanceData = [
     "CurrentPrice": 411.83,
     "ChangePct": 162.2,
     "InitialMarketCap": 167763130833.19998,
-    "CurrentMarketCap": 439866875730.8
+    "CurrentMarketCap": 439866875730.8,
+    "Frequency": 34
   },
   {
     "Ticker": "HUT",
@@ -195,7 +216,8 @@ const performanceData = [
     "CurrentPrice": 131.29,
     "ChangePct": 156.08,
     "InitialMarketCap": 5772700122.240001,
-    "CurrentMarketCap": 14782480964.48
+    "CurrentMarketCap": 14782480964.48,
+    "Frequency": 2
   },
   {
     "Ticker": "HIMX",
@@ -204,7 +226,8 @@ const performanceData = [
     "CurrentPrice": 23.93,
     "ChangePct": 150.31,
     "InitialMarketCap": 1667511737.8400002,
-    "CurrentMarketCap": 4174012122.02
+    "CurrentMarketCap": 4174012122.02,
+    "Frequency": 8
   },
   {
     "Ticker": "STM",
@@ -213,7 +236,8 @@ const performanceData = [
     "CurrentPrice": 78.36,
     "ChangePct": 141.72,
     "InitialMarketCap": 28812572588.688,
-    "CurrentMarketCap": 69645908026.8
+    "CurrentMarketCap": 69645908026.8,
+    "Frequency": 6
   },
   {
     "Ticker": "LITE",
@@ -222,7 +246,8 @@ const performanceData = [
     "CurrentPrice": 938.0,
     "ChangePct": 140.59,
     "InitialMarketCap": 30332664000.0,
-    "CurrentMarketCap": 72976400000.0
+    "CurrentMarketCap": 72976400000.0,
+    "Frequency": 248
   },
   {
     "Ticker": "DRAM",
@@ -231,7 +256,8 @@ const performanceData = [
     "CurrentPrice": 69.71,
     "ChangePct": 139.06,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 5
   },
   {
     "Ticker": "AMD",
@@ -240,7 +266,8 @@ const performanceData = [
     "CurrentPrice": 523.2,
     "ChangePct": 134.13,
     "InitialMarketCap": 364390324797.33,
-    "CurrentMarketCap": 853130254324.8
+    "CurrentMarketCap": 853130254324.8,
+    "Frequency": 53
   },
   {
     "Ticker": "VSH",
@@ -249,7 +276,8 @@ const performanceData = [
     "CurrentPrice": 63.67,
     "ChangePct": 132.97,
     "InitialMarketCap": 3389157197.0699997,
-    "CurrentMarketCap": 7895632591.93
+    "CurrentMarketCap": 7895632591.93,
+    "Frequency": 2
   },
   {
     "Ticker": "MEI",
@@ -258,7 +286,8 @@ const performanceData = [
     "CurrentPrice": 12.72,
     "ChangePct": 132.92,
     "InitialMarketCap": 193485529.081,
-    "CurrentMarketCap": 450674955.12
+    "CurrentMarketCap": 450674955.12,
+    "Frequency": 1
   },
   {
     "Ticker": "SIMO",
@@ -267,7 +296,8 @@ const performanceData = [
     "CurrentPrice": 294.67,
     "ChangePct": 124.78,
     "InitialMarketCap": 4445042515.0365,
-    "CurrentMarketCap": 9991621739.45
+    "CurrentMarketCap": 9991621739.45,
+    "Frequency": 7
   },
   {
     "Ticker": "STX",
@@ -276,7 +306,8 @@ const performanceData = [
     "CurrentPrice": 925.99,
     "ChangePct": 123.01,
     "InitialMarketCap": 93103397873.5744,
-    "CurrentMarketCap": 207633804302.08002
+    "CurrentMarketCap": 207633804302.08,
+    "Frequency": 1
   },
   {
     "Ticker": "COHR",
@@ -285,7 +316,8 @@ const performanceData = [
     "CurrentPrice": 421.9,
     "ChangePct": 120.91,
     "InitialMarketCap": 37363197524.579994,
-    "CurrentMarketCap": 82540229529.9
+    "CurrentMarketCap": 82540229529.9,
+    "Frequency": 133
   },
   {
     "Ticker": "UMC",
@@ -294,7 +326,8 @@ const performanceData = [
     "CurrentPrice": 20.79,
     "ChangePct": 118.38,
     "InitialMarketCap": 23888410088.48,
-    "CurrentMarketCap": 52168072031.46
+    "CurrentMarketCap": 52168072031.46,
+    "Frequency": 3
   },
   {
     "Ticker": "WULF",
@@ -303,7 +336,8 @@ const performanceData = [
     "CurrentPrice": 26.19,
     "ChangePct": 118.25,
     "InitialMarketCap": 5946391740.0,
-    "CurrentMarketCap": 12977999972.550001
+    "CurrentMarketCap": 12977999972.55,
+    "Frequency": 4
   },
   {
     "Ticker": "POET",
@@ -312,7 +346,8 @@ const performanceData = [
     "CurrentPrice": 15.48,
     "ChangePct": 116.2,
     "InitialMarketCap": 1235783106.96,
-    "CurrentMarketCap": 2671776884.88
+    "CurrentMarketCap": 2671776884.88,
+    "Frequency": 69
   },
   {
     "Ticker": "SMTOY",
@@ -321,7 +356,8 @@ const performanceData = [
     "CurrentPrice": 86.69,
     "ChangePct": 115.65,
     "InitialMarketCap": 31352778975.000004,
-    "CurrentMarketCap": 67611253963.75
+    "CurrentMarketCap": 67611253963.75,
+    "Frequency": 6
   },
   {
     "Ticker": "SANM",
@@ -330,7 +366,8 @@ const performanceData = [
     "CurrentPrice": 280.13,
     "ChangePct": 113.89,
     "InitialMarketCap": 7019695352.95,
-    "CurrentMarketCap": 15014333505.55
+    "CurrentMarketCap": 15014333505.55,
+    "Frequency": 2
   },
   {
     "Ticker": "TRT",
@@ -339,7 +376,8 @@ const performanceData = [
     "CurrentPrice": 12.67,
     "ChangePct": 110.47,
     "InitialMarketCap": 60877845.98,
-    "CurrentMarketCap": 128126629.33
+    "CurrentMarketCap": 128126629.33,
+    "Frequency": 3
   },
   {
     "Ticker": "SMTC",
@@ -348,7 +386,8 @@ const performanceData = [
     "CurrentPrice": 169.35,
     "ChangePct": 110.32,
     "InitialMarketCap": 7500532047.36,
-    "CurrentMarketCap": 15775150300.8
+    "CurrentMarketCap": 15775150300.8,
+    "Frequency": 8
   },
   {
     "Ticker": "VICR",
@@ -357,7 +396,8 @@ const performanceData = [
     "CurrentPrice": 306.12,
     "ChangePct": 104.24,
     "InitialMarketCap": 5075489707.32,
-    "CurrentMarketCap": 10366352476.68
+    "CurrentMarketCap": 10366352476.68,
+    "Frequency": 9
   },
   {
     "Ticker": "WDC",
@@ -366,7 +406,8 @@ const performanceData = [
     "CurrentPrice": 575.5,
     "ChangePct": 102.66,
     "InitialMarketCap": 97880797936.80711,
-    "CurrentMarketCap": 198364566390.5
+    "CurrentMarketCap": 198364566390.5,
+    "Frequency": 3
   },
   {
     "Ticker": "ON",
@@ -375,7 +416,8 @@ const performanceData = [
     "CurrentPrice": 131.82,
     "ChangePct": 102.49,
     "InitialMarketCap": 25311087734.1,
-    "CurrentMarketCap": 51252036637.619995
+    "CurrentMarketCap": 51252036637.619995,
+    "Frequency": 4
   },
   {
     "Ticker": "ALAB",
@@ -384,7 +426,8 @@ const performanceData = [
     "CurrentPrice": 363.54,
     "ChangePct": 102.46,
     "InitialMarketCap": 30778009526.84,
-    "CurrentMarketCap": 62313642144.060005
+    "CurrentMarketCap": 62313642144.060005,
+    "Frequency": 5
   },
   {
     "Ticker": "IFNNY",
@@ -393,7 +436,8 @@ const performanceData = [
     "CurrentPrice": 99.09,
     "ChangePct": 100.11,
     "InitialMarketCap": 64349143914.2256,
-    "CurrentMarketCap": 128767421210.31
+    "CurrentMarketCap": 128767421210.31,
+    "Frequency": 2
   },
   {
     "Ticker": "BE",
@@ -402,7 +446,8 @@ const performanceData = [
     "CurrentPrice": 287.32,
     "ChangePct": 97.72,
     "InitialMarketCap": 41335382897.759995,
-    "CurrentMarketCap": 81726412153.76
+    "CurrentMarketCap": 81726412153.76,
+    "Frequency": 3
   },
   {
     "Ticker": "MTSI",
@@ -411,7 +456,8 @@ const performanceData = [
     "CurrentPrice": 390.34,
     "ChangePct": 97.59,
     "InitialMarketCap": 15072230153.7,
-    "CurrentMarketCap": 29781292423.16
+    "CurrentMarketCap": 29781292423.16,
+    "Frequency": 45
   },
   {
     "Ticker": "GFS",
@@ -420,7 +466,8 @@ const performanceData = [
     "CurrentPrice": 85.99,
     "ChangePct": 97.13,
     "InitialMarketCap": 23921925112.8,
-    "CurrentMarketCap": 47158329675.6
+    "CurrentMarketCap": 47158329675.6,
+    "Frequency": 27
   },
   {
     "Ticker": "VECO",
@@ -429,7 +476,8 @@ const performanceData = [
     "CurrentPrice": 63.66,
     "ChangePct": 96.79,
     "InitialMarketCap": 1974433239.75,
-    "CurrentMarketCap": 3885391655.1
+    "CurrentMarketCap": 3885391655.1,
+    "Frequency": 5
   },
   {
     "Ticker": "INTT",
@@ -438,7 +486,8 @@ const performanceData = [
     "CurrentPrice": 17.21,
     "ChangePct": 96.24,
     "InitialMarketCap": 110192041.89,
-    "CurrentMarketCap": 216237746.97
+    "CurrentMarketCap": 216237746.97,
+    "Frequency": 1
   },
   {
     "Ticker": "APLD",
@@ -447,7 +496,8 @@ const performanceData = [
     "CurrentPrice": 44.71,
     "ChangePct": 95.75,
     "InitialMarketCap": 6526976270.76,
-    "CurrentMarketCap": 12776756088.69
+    "CurrentMarketCap": 12776756088.69,
+    "Frequency": 2
   },
   {
     "Ticker": "AEVA",
@@ -456,7 +506,8 @@ const performanceData = [
     "CurrentPrice": 25.31,
     "ChangePct": 95.6,
     "InitialMarketCap": 815748223.74,
-    "CurrentMarketCap": 1595563179.51
+    "CurrentMarketCap": 1595563179.51,
+    "Frequency": 12
   },
   {
     "Ticker": "FLKR",
@@ -465,7 +516,8 @@ const performanceData = [
     "CurrentPrice": 68.72,
     "ChangePct": 95.23,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 4
   },
   {
     "Ticker": "TSEM",
@@ -474,7 +526,8 @@ const performanceData = [
     "CurrentPrice": 261.31,
     "ChangePct": 94.37,
     "InitialMarketCap": 15168185471.36,
-    "CurrentMarketCap": 29482286116.64
+    "CurrentMarketCap": 29482286116.64,
+    "Frequency": 82
   },
   {
     "Ticker": "ASX",
@@ -483,7 +536,8 @@ const performanceData = [
     "CurrentPrice": 38.4,
     "ChangePct": 93.65,
     "InitialMarketCap": 43505944995.869995,
-    "CurrentMarketCap": 84247518297.59999
+    "CurrentMarketCap": 84247518297.59999,
+    "Frequency": 9
   },
   {
     "Ticker": "TTMI",
@@ -492,7 +546,8 @@ const performanceData = [
     "CurrentPrice": 184.84,
     "ChangePct": 92.68,
     "InitialMarketCap": 9962336159.87,
-    "CurrentMarketCap": 19195644905.56
+    "CurrentMarketCap": 19195644905.56,
+    "Frequency": 1
   },
   {
     "Ticker": "NOK",
@@ -501,7 +556,8 @@ const performanceData = [
     "CurrentPrice": 16.62,
     "ChangePct": 92.14,
     "InitialMarketCap": 48288920579.15,
-    "CurrentMarketCap": 92781717922.02
+    "CurrentMarketCap": 92781717922.02,
+    "Frequency": 20
   },
   {
     "Ticker": "QCOM",
@@ -510,7 +566,8 @@ const performanceData = [
     "CurrentPrice": 242.57,
     "ChangePct": 91.6,
     "InitialMarketCap": 133438929600.0,
-    "CurrentMarketCap": 255668780000.0
+    "CurrentMarketCap": 255668780000.0,
+    "Frequency": 1
   },
   {
     "Ticker": "EWY",
@@ -519,7 +576,8 @@ const performanceData = [
     "CurrentPrice": 203.97,
     "ChangePct": 89.67,
     "InitialMarketCap": 8130024000.0,
-    "CurrentMarketCap": 15420132000.0
+    "CurrentMarketCap": 15420132000.0,
+    "Frequency": 68
   },
   {
     "Ticker": "ATOM",
@@ -528,7 +586,8 @@ const performanceData = [
     "CurrentPrice": 9.1,
     "ChangePct": 88.8,
     "InitialMarketCap": 186611120.0,
-    "CurrentMarketCap": 352315600.0
+    "CurrentMarketCap": 352315600.0,
+    "Frequency": 2
   },
   {
     "Ticker": "TSSI",
@@ -536,8 +595,9 @@ const performanceData = [
     "InitialPrice": 7.69,
     "CurrentPrice": 14.49,
     "ChangePct": 88.43,
-    "InitialMarketCap": 215888721.64000002,
-    "CurrentMarketCap": 406791622.44
+    "InitialMarketCap": 215888721.64,
+    "CurrentMarketCap": 406791622.44,
+    "Frequency": 1
   },
   {
     "Ticker": "AKAM",
@@ -546,7 +606,8 @@ const performanceData = [
     "CurrentPrice": 158.98,
     "ChangePct": 86.82,
     "InitialMarketCap": 12372301880.099998,
-    "CurrentMarketCap": 23113378999.98
+    "CurrentMarketCap": 23113378999.98,
+    "Frequency": 1
   },
   {
     "Ticker": "VRT",
@@ -555,7 +616,8 @@ const performanceData = [
     "CurrentPrice": 331.44,
     "ChangePct": 86.51,
     "InitialMarketCap": 68259094241.0832,
-    "CurrentMarketCap": 127309025975.04
+    "CurrentMarketCap": 127309025975.04,
+    "Frequency": 10
   },
   {
     "Ticker": "NRGV",
@@ -564,7 +626,8 @@ const performanceData = [
     "CurrentPrice": 5.86,
     "ChangePct": 86.03,
     "InitialMarketCap": 561475523.6999999,
-    "CurrentMarketCap": 1044522720.2800001
+    "CurrentMarketCap": 1044522720.28,
+    "Frequency": 1
   },
   {
     "Ticker": "LSCC",
@@ -572,8 +635,9 @@ const performanceData = [
     "InitialPrice": 83.1,
     "CurrentPrice": 151.92,
     "ChangePct": 82.82,
-    "InitialMarketCap": 11385352916.699999,
-    "CurrentMarketCap": 20814233635.44
+    "InitialMarketCap": 11385352916.7,
+    "CurrentMarketCap": 20814233635.44,
+    "Frequency": 3
   },
   {
     "Ticker": "CIFR",
@@ -582,7 +646,8 @@ const performanceData = [
     "CurrentPrice": 26.24,
     "ChangePct": 79.97,
     "InitialMarketCap": 5963937292.26,
-    "CurrentMarketCap": 10733450929.279999
+    "CurrentMarketCap": 10733450929.28,
+    "Frequency": 10
   },
   {
     "Ticker": "NTAP",
@@ -591,7 +656,8 @@ const performanceData = [
     "CurrentPrice": 178.87,
     "ChangePct": 77.88,
     "InitialMarketCap": 19842538638.96,
-    "CurrentMarketCap": 35296488648.0
+    "CurrentMarketCap": 35296488648.0,
+    "Frequency": 1
   },
   {
     "Ticker": "TER",
@@ -600,7 +666,8 @@ const performanceData = [
     "CurrentPrice": 406.86,
     "ChangePct": 77.67,
     "InitialMarketCap": 35847795051.027405,
-    "CurrentMarketCap": 63690744031.32
+    "CurrentMarketCap": 63690744031.32,
+    "Frequency": 11
   },
   {
     "Ticker": "ACLS",
@@ -609,7 +676,8 @@ const performanceData = [
     "CurrentPrice": 161.87,
     "ChangePct": 77.64,
     "InitialMarketCap": 2800472694.6400003,
-    "CurrentMarketCap": 4974895907.39
+    "CurrentMarketCap": 4974895907.39,
+    "Frequency": 2
   },
   {
     "Ticker": "LASR",
@@ -618,7 +686,8 @@ const performanceData = [
     "CurrentPrice": 76.39,
     "ChangePct": 75.29,
     "InitialMarketCap": 2458291538.22,
-    "CurrentMarketCap": 4309061280.51
+    "CurrentMarketCap": 4309061280.51,
+    "Frequency": 14
   },
   {
     "Ticker": "FORM",
@@ -627,7 +696,8 @@ const performanceData = [
     "CurrentPrice": 126.61,
     "ChangePct": 72.96,
     "InitialMarketCap": 5706289310.400001,
-    "CurrentMarketCap": 9869853682.92
+    "CurrentMarketCap": 9869853682.92,
+    "Frequency": 11
   },
   {
     "Ticker": "VIAV",
@@ -636,7 +706,8 @@ const performanceData = [
     "CurrentPrice": 53.21,
     "ChangePct": 72.54,
     "InitialMarketCap": 7607785353.48,
-    "CurrentMarketCap": 13126143276.87
+    "CurrentMarketCap": 13126143276.87,
+    "Frequency": 3
   },
   {
     "Ticker": "AMKR",
@@ -645,7 +716,8 @@ const performanceData = [
     "CurrentPrice": 73.82,
     "ChangePct": 72.52,
     "InitialMarketCap": 10606415470.7164,
-    "CurrentMarketCap": 18297949278.76
+    "CurrentMarketCap": 18297949278.76,
+    "Frequency": 17
   },
   {
     "Ticker": "ALM",
@@ -654,7 +726,8 @@ const performanceData = [
     "CurrentPrice": 19.96,
     "ChangePct": 72.37,
     "InitialMarketCap": 3285730611.42,
-    "CurrentMarketCap": 5663487306.04
+    "CurrentMarketCap": 5663487306.04,
+    "Frequency": 3
   },
   {
     "Ticker": "CSCO",
@@ -663,7 +736,8 @@ const performanceData = [
     "CurrentPrice": 130.0,
     "ChangePct": 71.89,
     "InitialMarketCap": 298091492000.883,
-    "CurrentMarketCap": 512386506450.0
+    "CurrentMarketCap": 512386506450.0,
+    "Frequency": 6
   },
   {
     "Ticker": "ADEA",
@@ -672,7 +746,8 @@ const performanceData = [
     "CurrentPrice": 32.36,
     "ChangePct": 68.18,
     "InitialMarketCap": 2122239230.1333,
-    "CurrentMarketCap": 3569105717.64
+    "CurrentMarketCap": 3569105717.64,
+    "Frequency": 1
   },
   {
     "Ticker": "BESIY",
@@ -680,8 +755,9 @@ const performanceData = [
     "InitialPrice": 198.8919,
     "CurrentPrice": 332.7,
     "ChangePct": 67.28,
-    "InitialMarketCap": 15755162986.497599,
-    "CurrentMarketCap": 26354732020.8
+    "InitialMarketCap": 15755162986.4976,
+    "CurrentMarketCap": 26354732020.8,
+    "Frequency": 2
   },
   {
     "Ticker": "OUST",
@@ -689,8 +765,9 @@ const performanceData = [
     "InitialPrice": 26.36,
     "CurrentPrice": 43.96,
     "ChangePct": 66.77,
-    "InitialMarketCap": 1678418935.6399999,
-    "CurrentMarketCap": 2799062838.04
+    "InitialMarketCap": 1678418935.64,
+    "CurrentMarketCap": 2799062838.04,
+    "Frequency": 3
   },
   {
     "Ticker": "WYFI",
@@ -699,7 +776,8 @@ const performanceData = [
     "CurrentPrice": 28.03,
     "ChangePct": 66.25,
     "InitialMarketCap": 651035681.76,
-    "CurrentMarketCap": 1082356474.48
+    "CurrentMarketCap": 1082356474.48,
+    "Frequency": 1
   },
   {
     "Ticker": "RELL",
@@ -708,7 +786,8 @@ const performanceData = [
     "CurrentPrice": 17.22,
     "ChangePct": 65.58,
     "InitialMarketCap": 130206854.3247,
-    "CurrentMarketCap": 215598722.22
+    "CurrentMarketCap": 215598722.22,
+    "Frequency": 1
   },
   {
     "Ticker": "CRWD",
@@ -716,8 +795,9 @@ const performanceData = [
     "InitialPrice": 453.58,
     "CurrentPrice": 747.61,
     "ChangePct": 64.82,
-    "InitialMarketCap": 115465511055.59999,
-    "CurrentMarketCap": 190315205080.2
+    "InitialMarketCap": 115465511055.6,
+    "CurrentMarketCap": 190315205080.2,
+    "Frequency": 1
   },
   {
     "Ticker": "EAF",
@@ -726,7 +806,8 @@ const performanceData = [
     "CurrentPrice": 9.92,
     "ChangePct": 64.78,
     "InitialMarketCap": 156808261.67999998,
-    "CurrentMarketCap": 258395009.28
+    "CurrentMarketCap": 258395009.28,
+    "Frequency": 1
   },
   {
     "Ticker": "CLSK",
@@ -735,7 +816,8 @@ const performanceData = [
     "CurrentPrice": 17.61,
     "ChangePct": 62.9,
     "InitialMarketCap": 2773939030.86,
-    "CurrentMarketCap": 4518877551.66
+    "CurrentMarketCap": 4518877551.66,
+    "Frequency": 1
   },
   {
     "Ticker": "LWLG",
@@ -744,7 +826,8 @@ const performanceData = [
     "CurrentPrice": 12.18,
     "ChangePct": 59.84,
     "InitialMarketCap": 1174086795.84,
-    "CurrentMarketCap": 1876689917.76
+    "CurrentMarketCap": 1876689917.76,
+    "Frequency": 15
   },
   {
     "Ticker": "ALGM",
@@ -753,7 +836,8 @@ const performanceData = [
     "CurrentPrice": 53.11,
     "ChangePct": 59.25,
     "InitialMarketCap": 6210517240.1,
-    "CurrentMarketCap": 9890271982.66
+    "CurrentMarketCap": 9890271982.66,
+    "Frequency": 1
   },
   {
     "Ticker": "CLF",
@@ -762,7 +846,8 @@ const performanceData = [
     "CurrentPrice": 14.43,
     "ChangePct": 58.75,
     "InitialMarketCap": 5185069232.13,
-    "CurrentMarketCap": 8231083500.51
+    "CurrentMarketCap": 8231083500.51,
+    "Frequency": 2
   },
   {
     "Ticker": "PDFS",
@@ -770,8 +855,9 @@ const performanceData = [
     "InitialPrice": 35.63,
     "CurrentPrice": 56.39,
     "ChangePct": 58.27,
-    "InitialMarketCap": 1491746863.6000001,
-    "CurrentMarketCap": 2360920730.8
+    "InitialMarketCap": 1491746863.6,
+    "CurrentMarketCap": 2360920730.8,
+    "Frequency": 2
   },
   {
     "Ticker": "CORZ",
@@ -780,7 +866,8 @@ const performanceData = [
     "CurrentPrice": 28.93,
     "ChangePct": 57.57,
     "InitialMarketCap": 5836373961.12,
-    "CurrentMarketCap": 9196421497.56
+    "CurrentMarketCap": 9196421497.56,
+    "Frequency": 1
   },
   {
     "Ticker": "AMAT",
@@ -789,7 +876,8 @@ const performanceData = [
     "CurrentPrice": 501.7,
     "ChangePct": 57.44,
     "InitialMarketCap": 253007796324.437,
-    "CurrentMarketCap": 398329446031.0
+    "CurrentMarketCap": 398329446031.0,
+    "Frequency": 5
   },
   {
     "Ticker": "IONQ",
@@ -798,7 +886,8 @@ const performanceData = [
     "CurrentPrice": 68.23,
     "ChangePct": 57.32,
     "InitialMarketCap": 16188717644.759998,
-    "CurrentMarketCap": 25468208552.04
+    "CurrentMarketCap": 25468208552.04,
+    "Frequency": 2
   },
   {
     "Ticker": "MKSI",
@@ -807,7 +896,8 @@ const performanceData = [
     "CurrentPrice": 330.23,
     "ChangePct": 57.03,
     "InitialMarketCap": 14204401994.8549,
-    "CurrentMarketCap": 22305097719.670002
+    "CurrentMarketCap": 22305097719.67,
+    "Frequency": 2
   },
   {
     "Ticker": "MTRN",
@@ -816,7 +906,8 @@ const performanceData = [
     "CurrentPrice": 227.44,
     "ChangePct": 56.49,
     "InitialMarketCap": 3023327352.7215004,
-    "CurrentMarketCap": 4731089748.4
+    "CurrentMarketCap": 4731089748.4,
+    "Frequency": 5
   },
   {
     "Ticker": "BMM",
@@ -825,7 +916,8 @@ const performanceData = [
     "CurrentPrice": 7.74,
     "ChangePct": 55.42,
     "InitialMarketCap": 522126561.18000007,
-    "CurrentMarketCap": 811497908.34
+    "CurrentMarketCap": 811497908.34,
+    "Frequency": 1
   },
   {
     "Ticker": "NVT",
@@ -834,7 +926,8 @@ const performanceData = [
     "CurrentPrice": 176.39,
     "ChangePct": 54.12,
     "InitialMarketCap": 18509132140.032803,
-    "CurrentMarketCap": 28525870528.28
+    "CurrentMarketCap": 28525870528.28,
+    "Frequency": 1
   },
   {
     "Ticker": "NET",
@@ -843,7 +936,8 @@ const performanceData = [
     "CurrentPrice": 265.33,
     "ChangePct": 54.09,
     "InitialMarketCap": 55019586586.5,
-    "CurrentMarketCap": 84780457105.5
+    "CurrentMarketCap": 84780457105.5,
+    "Frequency": 1
   },
   {
     "Ticker": "RIOT",
@@ -852,7 +946,8 @@ const performanceData = [
     "CurrentPrice": 27.65,
     "ChangePct": 52.76,
     "InitialMarketCap": 6844537263.000001,
-    "CurrentMarketCap": 10455881509.5
+    "CurrentMarketCap": 10455881509.5,
+    "Frequency": 1
   },
   {
     "Ticker": "PENG",
@@ -861,7 +956,8 @@ const performanceData = [
     "CurrentPrice": 71.41,
     "ChangePct": 52.52,
     "InitialMarketCap": 2375998324.56,
-    "CurrentMarketCap": 3623879546.2799997
+    "CurrentMarketCap": 3623879546.28,
+    "Frequency": 4
   },
   {
     "Ticker": "SKYT",
@@ -870,7 +966,8 @@ const performanceData = [
     "CurrentPrice": 38.37,
     "ChangePct": 52.5,
     "InitialMarketCap": 1237987786.32,
-    "CurrentMarketCap": 1887980578.7399998
+    "CurrentMarketCap": 1887980578.74,
+    "Frequency": 3
   },
   {
     "Ticker": "TSM",
@@ -879,7 +976,8 @@ const performanceData = [
     "CurrentPrice": 444.92,
     "ChangePct": 52.13,
     "InitialMarketCap": 1516814925298.5266,
-    "CurrentMarketCap": 2307566017863.96
+    "CurrentMarketCap": 2307566017863.96,
+    "Frequency": 102
   },
   {
     "Ticker": "SMCI",
@@ -888,7 +986,8 @@ const performanceData = [
     "CurrentPrice": 46.9,
     "ChangePct": 51.49,
     "InitialMarketCap": 18619916202.72,
-    "CurrentMarketCap": 28206526805.8
+    "CurrentMarketCap": 28206526805.8,
+    "Frequency": 11
   },
   {
     "Ticker": "GLW",
@@ -896,8 +995,9 @@ const performanceData = [
     "InitialPrice": 130.9445,
     "CurrentPrice": 197.7,
     "ChangePct": 50.98,
-    "InitialMarketCap": 112695789675.71251,
-    "CurrentMarketCap": 170148098002.5
+    "InitialMarketCap": 112695789675.71252,
+    "CurrentMarketCap": 170148098002.5,
+    "Frequency": 12
   },
   {
     "Ticker": "QUBT",
@@ -906,7 +1006,8 @@ const performanceData = [
     "CurrentPrice": 11.2,
     "ChangePct": 50.34,
     "InitialMarketCap": 1680235653.15,
-    "CurrentMarketCap": 2525991854.3999996
+    "CurrentMarketCap": 2525991854.3999996,
+    "Frequency": 1
   },
   {
     "Ticker": "CRDO",
@@ -915,7 +1016,8 @@ const performanceData = [
     "CurrentPrice": 214.6,
     "ChangePct": 49.84,
     "InitialMarketCap": 26416920406.8,
-    "CurrentMarketCap": 39582957124.0
+    "CurrentMarketCap": 39582957124.0,
+    "Frequency": 12
   },
   {
     "Ticker": "SMH",
@@ -924,7 +1026,8 @@ const performanceData = [
     "CurrentPrice": 627.53,
     "ChangePct": 48.38,
     "InitialMarketCap": 4935857028.0,
-    "CurrentMarketCap": 7323839877.0
+    "CurrentMarketCap": 7323839877.0,
+    "Frequency": 1
   },
   {
     "Ticker": "KLIC",
@@ -933,7 +1036,8 @@ const performanceData = [
     "CurrentPrice": 107.52,
     "ChangePct": 48.26,
     "InitialMarketCap": 3795342471.9587,
-    "CurrentMarketCap": 5626830935.04
+    "CurrentMarketCap": 5626830935.04,
+    "Frequency": 3
   },
   {
     "Ticker": "CRWV",
@@ -941,8 +1045,9 @@ const performanceData = [
     "InitialPrice": 74.9,
     "CurrentPrice": 110.93,
     "ChangePct": 48.1,
-    "InitialMarketCap": 33523288031.100002,
-    "CurrentMarketCap": 49649377053.270004
+    "InitialMarketCap": 33523288031.1,
+    "CurrentMarketCap": 49649377053.27,
+    "Frequency": 14
   },
   {
     "Ticker": "RMBS",
@@ -951,7 +1056,8 @@ const performanceData = [
     "CurrentPrice": 169.35,
     "ChangePct": 46.86,
     "InitialMarketCap": 12469273664.77,
-    "CurrentMarketCap": 18312995361.45
+    "CurrentMarketCap": 18312995361.45,
+    "Frequency": 1
   },
   {
     "Ticker": "CPSH",
@@ -960,7 +1066,8 @@ const performanceData = [
     "CurrentPrice": 7.78,
     "ChangePct": 45.15,
     "InitialMarketCap": 103278881.28,
-    "CurrentMarketCap": 149908525.44
+    "CurrentMarketCap": 149908525.44,
+    "Frequency": 4
   },
   {
     "Ticker": "CIEN",
@@ -969,7 +1076,8 @@ const performanceData = [
     "CurrentPrice": 535.63,
     "ChangePct": 44.75,
     "InitialMarketCap": 52398173377.5,
-    "CurrentMarketCap": 75843895706.5
+    "CurrentMarketCap": 75843895706.5,
+    "Frequency": 3
   },
   {
     "Ticker": "CVV",
@@ -978,7 +1086,8 @@ const performanceData = [
     "CurrentPrice": 6.02,
     "ChangePct": 44.02,
     "InitialMarketCap": 29011327.619999997,
-    "CurrentMarketCap": 41781864.18
+    "CurrentMarketCap": 41781864.18,
+    "Frequency": 1
   },
   {
     "Ticker": "OXINF",
@@ -986,8 +1095,9 @@ const performanceData = [
     "InitialPrice": 30.4505,
     "CurrentPrice": 43.8,
     "ChangePct": 43.84,
-    "InitialMarketCap": 1681148993.0705001,
-    "CurrentMarketCap": 2418164755.7999997
+    "InitialMarketCap": 1681148993.0705,
+    "CurrentMarketCap": 2418164755.7999997,
+    "Frequency": 1
   },
   {
     "Ticker": "ALNT",
@@ -996,7 +1106,8 @@ const performanceData = [
     "CurrentPrice": 89.8,
     "ChangePct": 43.75,
     "InitialMarketCap": 1061780602.896,
-    "CurrentMarketCap": 1526286777.6
+    "CurrentMarketCap": 1526286777.6,
+    "Frequency": 1
   },
   {
     "Ticker": "ASGLY",
@@ -1005,7 +1116,8 @@ const performanceData = [
     "CurrentPrice": 10.16,
     "ChangePct": 42.1,
     "InitialMarketCap": 7593078099.75,
-    "CurrentMarketCap": 10789604684.4
+    "CurrentMarketCap": 10789604684.4,
+    "Frequency": 1
   },
   {
     "Ticker": "KLAC",
@@ -1014,7 +1126,8 @@ const performanceData = [
     "CurrentPrice": 2131.1001,
     "ChangePct": 41.24,
     "InitialMarketCap": 197102690789.211,
-    "CurrentMarketCap": 278380323065.8521
+    "CurrentMarketCap": 278380323065.8521,
+    "Frequency": 6
   },
   {
     "Ticker": "JBL",
@@ -1023,7 +1136,8 @@ const performanceData = [
     "CurrentPrice": 373.82,
     "ChangePct": 40.93,
     "InitialMarketCap": 27984581035.762196,
-    "CurrentMarketCap": 39438990156.04
+    "CurrentMarketCap": 39438990156.04,
+    "Frequency": 71
   },
   {
     "Ticker": "TE",
@@ -1032,7 +1146,8 @@ const performanceData = [
     "CurrentPrice": 11.5,
     "ChangePct": 40.24,
     "InitialMarketCap": 2290025316.0,
-    "CurrentMarketCap": 3211620870.0
+    "CurrentMarketCap": 3211620870.0,
+    "Frequency": 3
   },
   {
     "Ticker": "PWR",
@@ -1041,7 +1156,8 @@ const performanceData = [
     "CurrentPrice": 719.17,
     "ChangePct": 39.79,
     "InitialMarketCap": 77199779188.3761,
-    "CurrentMarketCap": 107918757356.32999
+    "CurrentMarketCap": 107918757356.33,
+    "Frequency": 2
   },
   {
     "Ticker": "FLNC",
@@ -1050,7 +1166,8 @@ const performanceData = [
     "CurrentPrice": 24.85,
     "ChangePct": 39.76,
     "InitialMarketCap": 2361388292.2000003,
-    "CurrentMarketCap": 3300365526.5
+    "CurrentMarketCap": 3300365526.5,
+    "Frequency": 9
   },
   {
     "Ticker": "NEO",
@@ -1059,7 +1176,8 @@ const performanceData = [
     "CurrentPrice": 11.31,
     "ChangePct": 39.63,
     "InitialMarketCap": 1054715418.0,
-    "CurrentMarketCap": 1472695231.8
+    "CurrentMarketCap": 1472695231.8,
+    "Frequency": 3
   },
   {
     "Ticker": "FSLR",
@@ -1068,7 +1186,8 @@ const performanceData = [
     "CurrentPrice": 314.95,
     "ChangePct": 39.33,
     "InitialMarketCap": 24289832706.15,
-    "CurrentMarketCap": 33842436676.85
+    "CurrentMarketCap": 33842436676.85,
+    "Frequency": 1
   },
   {
     "Ticker": "EOSE",
@@ -1076,8 +1195,9 @@ const performanceData = [
     "InitialPrice": 5.9,
     "CurrentPrice": 8.2,
     "ChangePct": 38.98,
-    "InitialMarketCap": 2003132759.3000002,
-    "CurrentMarketCap": 2784015021.3999996
+    "InitialMarketCap": 2003132759.3,
+    "CurrentMarketCap": 2784015021.3999996,
+    "Frequency": 1
   },
   {
     "Ticker": "AA",
@@ -1086,7 +1206,8 @@ const performanceData = [
     "CurrentPrice": 80.86,
     "ChangePct": 38.55,
     "InitialMarketCap": 15400850605.8875,
-    "CurrentMarketCap": 21338135292.5
+    "CurrentMarketCap": 21338135292.5,
+    "Frequency": 3
   },
   {
     "Ticker": "BOT",
@@ -1095,7 +1216,8 @@ const performanceData = [
     "CurrentPrice": 28.97,
     "ChangePct": 37.89,
     "InitialMarketCap": 425960269.68,
-    "CurrentMarketCap": 587342646.9599999
+    "CurrentMarketCap": 587342646.9599999,
+    "Frequency": 4
   },
   {
     "Ticker": "MOD",
@@ -1104,7 +1226,8 @@ const performanceData = [
     "CurrentPrice": 301.21,
     "ChangePct": 37.46,
     "InitialMarketCap": 11573522967.05,
-    "CurrentMarketCap": 15908642599.849998
+    "CurrentMarketCap": 15908642599.849998,
+    "Frequency": 2
   },
   {
     "Ticker": "MPWR",
@@ -1113,7 +1236,8 @@ const performanceData = [
     "CurrentPrice": 1652.6,
     "ChangePct": 37.28,
     "InitialMarketCap": 59141382229.0,
-    "CurrentMarketCap": 81192238000.0
+    "CurrentMarketCap": 81192238000.0,
+    "Frequency": 2
   },
   {
     "Ticker": "IREN",
@@ -1122,7 +1246,8 @@ const performanceData = [
     "CurrentPrice": 65.48,
     "ChangePct": 34.04,
     "InitialMarketCap": 17457948224.9,
-    "CurrentMarketCap": 23401155573.52
+    "CurrentMarketCap": 23401155573.52,
+    "Frequency": 61
   },
   {
     "Ticker": "RRX",
@@ -1131,7 +1256,8 @@ const performanceData = [
     "CurrentPrice": 213.86,
     "ChangePct": 33.83,
     "InitialMarketCap": 10637518202.3215,
-    "CurrentMarketCap": 14236568881.78
+    "CurrentMarketCap": 14236568881.78,
+    "Frequency": 1
   },
   {
     "Ticker": "LPTH",
@@ -1140,7 +1266,8 @@ const performanceData = [
     "CurrentPrice": 17.62,
     "ChangePct": 33.79,
     "InitialMarketCap": 826936490.1899999,
-    "CurrentMarketCap": 1106349351.3400002
+    "CurrentMarketCap": 1106349351.3400002,
+    "Frequency": 22
   },
   {
     "Ticker": "PKE",
@@ -1149,7 +1276,8 @@ const performanceData = [
     "CurrentPrice": 32.92,
     "ChangePct": 32.16,
     "InitialMarketCap": 520054940.9746,
-    "CurrentMarketCap": 687299118.2800001
+    "CurrentMarketCap": 687299118.2800001,
+    "Frequency": 1
   },
   {
     "Ticker": "ONTO",
@@ -1158,7 +1286,8 @@ const performanceData = [
     "CurrentPrice": 279.98,
     "ChangePct": 32.14,
     "InitialMarketCap": 10539666975.96,
-    "CurrentMarketCap": 13927203888.660002
+    "CurrentMarketCap": 13927203888.660002,
+    "Frequency": 12
   },
   {
     "Ticker": "CRS",
@@ -1167,7 +1296,8 @@ const performanceData = [
     "CurrentPrice": 492.62,
     "ChangePct": 32.06,
     "InitialMarketCap": 18533518308.6696,
-    "CurrentMarketCap": 24476126183.44
+    "CurrentMarketCap": 24476126183.44,
+    "Frequency": 1
   },
   {
     "Ticker": "LRCX",
@@ -1176,7 +1306,8 @@ const performanceData = [
     "CurrentPrice": 336.41,
     "ChangePct": 30.46,
     "InitialMarketCap": 322472238060.0,
-    "CurrentMarketCap": 420704590110.00006
+    "CurrentMarketCap": 420704590110.00006,
+    "Frequency": 2
   },
   {
     "Ticker": "ALMU",
@@ -1185,7 +1316,8 @@ const performanceData = [
     "CurrentPrice": 26.8,
     "ChangePct": 30.41,
     "InitialMarketCap": 376174634.25,
-    "CurrentMarketCap": 490582978.0
+    "CurrentMarketCap": 490582978.0,
+    "Frequency": 4
   },
   {
     "Ticker": "POWL",
@@ -1194,7 +1326,8 @@ const performanceData = [
     "CurrentPrice": 300.06,
     "ChangePct": 30.05,
     "InitialMarketCap": 8405896232.7594,
-    "CurrentMarketCap": 10931680598.94
+    "CurrentMarketCap": 10931680598.94,
+    "Frequency": 8
   },
   {
     "Ticker": "VLN",
@@ -1203,7 +1336,8 @@ const performanceData = [
     "CurrentPrice": 3.22,
     "ChangePct": 29.84,
     "InitialMarketCap": 262191584.24,
-    "CurrentMarketCap": 340426169.86
+    "CurrentMarketCap": 340426169.86,
+    "Frequency": 12
   },
   {
     "Ticker": "FEIM",
@@ -1212,7 +1346,8 @@ const performanceData = [
     "CurrentPrice": 72.42,
     "ChangePct": 28.91,
     "InitialMarketCap": 552919458.86,
-    "CurrentMarketCap": 712752353.34
+    "CurrentMarketCap": 712752353.34,
+    "Frequency": 1
   },
   {
     "Ticker": "ANET",
@@ -1221,7 +1356,8 @@ const performanceData = [
     "CurrentPrice": 174.37,
     "ChangePct": 27.89,
     "InitialMarketCap": 171675161176.92,
-    "CurrentMarketCap": 219561374904.06
+    "CurrentMarketCap": 219561374904.06,
+    "Frequency": 2
   },
   {
     "Ticker": "SHMN",
@@ -1230,7 +1366,8 @@ const performanceData = [
     "CurrentPrice": 0.0012,
     "ChangePct": 27.78,
     "InitialMarketCap": 2606049.8918999997,
-    "CurrentMarketCap": 3474733.1892
+    "CurrentMarketCap": 3474733.1892,
+    "Frequency": 1
   },
   {
     "Ticker": "PL",
@@ -1239,7 +1376,8 @@ const performanceData = [
     "CurrentPrice": 43.13,
     "ChangePct": 27.53,
     "InitialMarketCap": 11258657708.0,
-    "CurrentMarketCap": 14357951122.0
+    "CurrentMarketCap": 14357951122.0,
+    "Frequency": 4
   },
   {
     "Ticker": "ATEYY",
@@ -1248,7 +1386,8 @@ const performanceData = [
     "CurrentPrice": 177.0,
     "ChangePct": 27.38,
     "InitialMarketCap": 100792395399.15,
-    "CurrentMarketCap": 128393335629.0
+    "CurrentMarketCap": 128393335629.0,
+    "Frequency": 3
   },
   {
     "Ticker": "KOPN",
@@ -1257,7 +1396,8 @@ const performanceData = [
     "CurrentPrice": 6.39,
     "ChangePct": 26.53,
     "InitialMarketCap": 923747565.5,
-    "CurrentMarketCap": 1168860780.8999999
+    "CurrentMarketCap": 1168860780.9,
+    "Frequency": 1
   },
   {
     "Ticker": "CDNS",
@@ -1266,7 +1406,8 @@ const performanceData = [
     "CurrentPrice": 411.68,
     "ChangePct": 26.34,
     "InitialMarketCap": 89871885440.0,
-    "CurrentMarketCap": 113547930880.0
+    "CurrentMarketCap": 113547930880.0,
+    "Frequency": 2
   },
   {
     "Ticker": "ACMR",
@@ -1275,7 +1416,8 @@ const performanceData = [
     "CurrentPrice": 88.86,
     "ChangePct": 25.72,
     "InitialMarketCap": 4531837551.72,
-    "CurrentMarketCap": 5697496955.94
+    "CurrentMarketCap": 5697496955.94,
+    "Frequency": 1
   },
   {
     "Ticker": "SEIGY",
@@ -1284,7 +1426,8 @@ const performanceData = [
     "CurrentPrice": 4.745,
     "ChangePct": 25.53,
     "InitialMarketCap": 311070322.08,
-    "CurrentMarketCap": 390483777.32
+    "CurrentMarketCap": 390483777.32,
+    "Frequency": 1
   },
   {
     "Ticker": "NB",
@@ -1293,7 +1436,8 @@ const performanceData = [
     "CurrentPrice": 5.8,
     "ChangePct": 24.2,
     "InitialMarketCap": 679891514.16,
-    "CurrentMarketCap": 844404878.4
+    "CurrentMarketCap": 844404878.4,
+    "Frequency": 1
   },
   {
     "Ticker": "ATI",
@@ -1302,7 +1446,8 @@ const performanceData = [
     "CurrentPrice": 181.1,
     "ChangePct": 23.72,
     "InitialMarketCap": 19976541104.26,
-    "CurrentMarketCap": 24714794329.7
+    "CurrentMarketCap": 24714794329.7,
+    "Frequency": 1
   },
   {
     "Ticker": "IMSR",
@@ -1311,7 +1456,8 @@ const performanceData = [
     "CurrentPrice": 8.77,
     "ChangePct": 23.17,
     "InitialMarketCap": 588956197.04,
-    "CurrentMarketCap": 725441832.5899999
+    "CurrentMarketCap": 725441832.5899999,
+    "Frequency": 1
   },
   {
     "Ticker": "TECK",
@@ -1320,7 +1466,8 @@ const performanceData = [
     "CurrentPrice": 67.28,
     "ChangePct": 23.1,
     "InitialMarketCap": 26341871612.110703,
-    "CurrentMarketCap": 32427942928.24
+    "CurrentMarketCap": 32427942928.24,
+    "Frequency": 3
   },
   {
     "Ticker": "AVGO",
@@ -1329,7 +1476,8 @@ const performanceData = [
     "CurrentPrice": 418.91,
     "ChangePct": 22.94,
     "InitialMarketCap": 1613268584075.695,
-    "CurrentMarketCap": 1983399848959.4402
+    "CurrentMarketCap": 1983399848959.44,
+    "Frequency": 88
   },
   {
     "Ticker": "NOVT",
@@ -1338,7 +1486,8 @@ const performanceData = [
     "CurrentPrice": 165.1,
     "ChangePct": 22.69,
     "InitialMarketCap": 4792287731.059999,
-    "CurrentMarketCap": 5879517755.8
+    "CurrentMarketCap": 5879517755.8,
+    "Frequency": 2
   },
   {
     "Ticker": "UURAF",
@@ -1346,8 +1495,9 @@ const performanceData = [
     "InitialPrice": 3.63,
     "CurrentPrice": 4.44,
     "ChangePct": 22.31,
-    "InitialMarketCap": 422669192.21999997,
-    "CurrentMarketCap": 516983805.3600001
+    "InitialMarketCap": 422669192.22,
+    "CurrentMarketCap": 516983805.3600001,
+    "Frequency": 1
   },
   {
     "Ticker": "KEYS",
@@ -1356,7 +1506,8 @@ const performanceData = [
     "CurrentPrice": 350.48,
     "ChangePct": 21.96,
     "InitialMarketCap": 49066828693.1,
-    "CurrentMarketCap": 59840427727.600006
+    "CurrentMarketCap": 59840427727.600006,
+    "Frequency": 6
   },
   {
     "Ticker": "ASML",
@@ -1365,7 +1516,8 @@ const performanceData = [
     "CurrentPrice": 1757.47,
     "ChangePct": 21.42,
     "InitialMarketCap": 557853027278.0355,
-    "CurrentMarketCap": 677359983707.55
+    "CurrentMarketCap": 677359983707.55,
+    "Frequency": 10
   },
   {
     "Ticker": "ENTG",
@@ -1374,7 +1526,8 @@ const performanceData = [
     "CurrentPrice": 139.88,
     "ChangePct": 21.16,
     "InitialMarketCap": 17583659430.0,
-    "CurrentMarketCap": 21303724000.0
+    "CurrentMarketCap": 21303724000.0,
+    "Frequency": 1
   },
   {
     "Ticker": "CAMT",
@@ -1383,7 +1536,8 @@ const performanceData = [
     "CurrentPrice": 181.16,
     "ChangePct": 20.42,
     "InitialMarketCap": 6926931119.88,
-    "CurrentMarketCap": 8341417453.32
+    "CurrentMarketCap": 8341417453.32,
+    "Frequency": 7
   },
   {
     "Ticker": "GOOGL",
@@ -1392,7 +1546,8 @@ const performanceData = [
     "CurrentPrice": 372.19,
     "ChangePct": 20.23,
     "InitialMarketCap": 1810667356869.204,
-    "CurrentMarketCap": 2176985760056.38
+    "CurrentMarketCap": 2176985760056.38,
+    "Frequency": 105
   },
   {
     "Ticker": "KULR",
@@ -1401,7 +1556,8 @@ const performanceData = [
     "CurrentPrice": 4.55,
     "ChangePct": 20.05,
     "InitialMarketCap": 175314655.35,
-    "CurrentMarketCap": 210470100.75
+    "CurrentMarketCap": 210470100.75,
+    "Frequency": 1
   },
   {
     "Ticker": "GEV",
@@ -1409,8 +1565,9 @@ const performanceData = [
     "InitialPrice": 801.0556,
     "CurrentPrice": 959.36,
     "ChangePct": 19.76,
-    "InitialMarketCap": 215259656826.72202,
-    "CurrentMarketCap": 257799214403.2
+    "InitialMarketCap": 215259656826.722,
+    "CurrentMarketCap": 257799214403.2,
+    "Frequency": 2
   },
   {
     "Ticker": "NVDA",
@@ -1419,7 +1576,8 @@ const performanceData = [
     "CurrentPrice": 218.66,
     "ChangePct": 19.18,
     "InitialMarketCap": 4443734830200.0,
-    "CurrentMarketCap": 5296163860000.0
+    "CurrentMarketCap": 5296163860000.0,
+    "Frequency": 234
   },
   {
     "Ticker": "ALOY",
@@ -1428,7 +1586,8 @@ const performanceData = [
     "CurrentPrice": 13.8,
     "ChangePct": 19.17,
     "InitialMarketCap": 708852306.84,
-    "CurrentMarketCap": 844746272.4000001
+    "CurrentMarketCap": 844746272.4000001,
+    "Frequency": 1
   },
   {
     "Ticker": "ATKR",
@@ -1437,7 +1596,8 @@ const performanceData = [
     "CurrentPrice": 85.02,
     "ChangePct": 18.49,
     "InitialMarketCap": 2422828349.3128,
-    "CurrentMarketCap": 2870892955.3199997
+    "CurrentMarketCap": 2870892955.3199997,
+    "Frequency": 3
   },
   {
     "Ticker": "INFQ",
@@ -1446,7 +1606,8 @@ const performanceData = [
     "CurrentPrice": 17.41,
     "ChangePct": 18.35,
     "InitialMarketCap": 3209676266.61,
-    "CurrentMarketCap": 3798807872.31
+    "CurrentMarketCap": 3798807872.31,
+    "Frequency": 3
   },
   {
     "Ticker": "ERIC",
@@ -1455,7 +1616,8 @@ const performanceData = [
     "CurrentPrice": 13.35,
     "ChangePct": 18.21,
     "InitialMarketCap": 34573383317.9586,
-    "CurrentMarketCap": 40867607052.9
+    "CurrentMarketCap": 40867607052.9,
+    "Frequency": 5
   },
   {
     "Ticker": "AAPL",
@@ -1463,8 +1625,9 @@ const performanceData = [
     "InitialPrice": 264.1067,
     "CurrentPrice": 311.23,
     "ChangePct": 17.84,
-    "InitialMarketCap": 3879029124885.1997,
-    "CurrentMarketCap": 4571145807880.0
+    "InitialMarketCap": 3879029124885.2,
+    "CurrentMarketCap": 4571145807880.0,
+    "Frequency": 32
   },
   {
     "Ticker": "AMBQ",
@@ -1473,7 +1636,8 @@ const performanceData = [
     "CurrentPrice": 82.8,
     "ChangePct": 16.15,
     "InitialMarketCap": 1523877502.66,
-    "CurrentMarketCap": 1769912431.2
+    "CurrentMarketCap": 1769912431.2,
+    "Frequency": 1
   },
   {
     "Ticker": "FN",
@@ -1482,7 +1646,8 @@ const performanceData = [
     "CurrentPrice": 714.78,
     "ChangePct": 16.04,
     "InitialMarketCap": 22070761542.6,
-    "CurrentMarketCap": 25610381557.2
+    "CurrentMarketCap": 25610381557.2,
+    "Frequency": 26
   },
   {
     "Ticker": "PLPC",
@@ -1490,8 +1655,9 @@ const performanceData = [
     "InitialPrice": 328.8,
     "CurrentPrice": 376.3,
     "ChangePct": 14.45,
-    "InitialMarketCap": 1607178345.6000001,
-    "CurrentMarketCap": 1839358915.6000001
+    "InitialMarketCap": 1607178345.6,
+    "CurrentMarketCap": 1839358915.6,
+    "Frequency": 4
   },
   {
     "Ticker": "FCX",
@@ -1500,7 +1666,8 @@ const performanceData = [
     "CurrentPrice": 69.69,
     "ChangePct": 14.18,
     "InitialMarketCap": 87742328896.194,
-    "CurrentMarketCap": 100183546991.84999
+    "CurrentMarketCap": 100183546991.85,
+    "Frequency": 3
   },
   {
     "Ticker": "TEM",
@@ -1509,7 +1676,8 @@ const performanceData = [
     "CurrentPrice": 47.51,
     "ChangePct": 12.13,
     "InitialMarketCap": 7394453837.86,
-    "CurrentMarketCap": 8291491664.78
+    "CurrentMarketCap": 8291491664.78,
+    "Frequency": 1
   },
   {
     "Ticker": "LIT",
@@ -1518,7 +1686,8 @@ const performanceData = [
     "CurrentPrice": 83.28,
     "ChangePct": 11.82,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ETN",
@@ -1527,7 +1696,8 @@ const performanceData = [
     "CurrentPrice": 418.61,
     "ChangePct": 11.67,
     "InitialMarketCap": 145555031600.0,
-    "CurrentMarketCap": 162546263000.0
+    "CurrentMarketCap": 162546263000.0,
+    "Frequency": 7
   },
   {
     "Ticker": "AMZN",
@@ -1536,7 +1706,8 @@ const performanceData = [
     "CurrentPrice": 253.79,
     "ChangePct": 11.1,
     "InitialMarketCap": 2457246508465.48,
-    "CurrentMarketCap": 2730046803762.44
+    "CurrentMarketCap": 2730046803762.44,
+    "Frequency": 98
   },
   {
     "Ticker": "EOS",
@@ -1545,7 +1716,8 @@ const performanceData = [
     "CurrentPrice": 22.73,
     "ChangePct": 10.61,
     "InitialMarketCap": 1095601455.438,
-    "CurrentMarketCap": 1211873020.95
+    "CurrentMarketCap": 1211873020.95,
+    "Frequency": 4
   },
   {
     "Ticker": "VMI",
@@ -1554,7 +1726,8 @@ const performanceData = [
     "CurrentPrice": 544.88,
     "ChangePct": 10.2,
     "InitialMarketCap": 9598885600.44,
-    "CurrentMarketCap": 10578110156.88
+    "CurrentMarketCap": 10578110156.88,
+    "Frequency": 2
   },
   {
     "Ticker": "HLIT",
@@ -1563,7 +1736,8 @@ const performanceData = [
     "CurrentPrice": 14.61,
     "ChangePct": 9.44,
     "InitialMarketCap": 1448427420.6,
-    "CurrentMarketCap": 1585132929.96
+    "CurrentMarketCap": 1585132929.96,
+    "Frequency": 1
   },
   {
     "Ticker": "HON",
@@ -1572,7 +1746,8 @@ const performanceData = [
     "CurrentPrice": 217.64,
     "ChangePct": 9.37,
     "InitialMarketCap": 126098808275.0451,
-    "CurrentMarketCap": 137908264819.16
+    "CurrentMarketCap": 137908264819.16,
+    "Frequency": 1
   },
   {
     "Ticker": "TDY",
@@ -1581,7 +1756,8 @@ const performanceData = [
     "CurrentPrice": 618.59,
     "ChangePct": 9.25,
     "InitialMarketCap": 26232947809.74,
-    "CurrentMarketCap": 28658741475.420002
+    "CurrentMarketCap": 28658741475.42,
+    "Frequency": 3
   },
   {
     "Ticker": "TXN",
@@ -1590,7 +1766,8 @@ const performanceData = [
     "CurrentPrice": 305.37,
     "ChangePct": 8.75,
     "InitialMarketCap": 255556968009.7312,
-    "CurrentMarketCap": 277915035587.67
+    "CurrentMarketCap": 277915035587.67,
+    "Frequency": 3
   },
   {
     "Ticker": "SBGSY",
@@ -1599,7 +1776,8 @@ const performanceData = [
     "CurrentPrice": 65.8,
     "ChangePct": 8.63,
     "InitialMarketCap": 170403952157.86002,
-    "CurrentMarketCap": 185111603579.0
+    "CurrentMarketCap": 185111603579.0,
+    "Frequency": 2
   },
   {
     "Ticker": "TEL",
@@ -1608,7 +1786,8 @@ const performanceData = [
     "CurrentPrice": 220.75,
     "ChangePct": 8.45,
     "InitialMarketCap": 59416323953.0068,
-    "CurrentMarketCap": 64435997629.25
+    "CurrentMarketCap": 64435997629.25,
+    "Frequency": 2
   },
   {
     "Ticker": "INDI",
@@ -1617,7 +1796,8 @@ const performanceData = [
     "CurrentPrice": 4.88,
     "ChangePct": 8.2,
     "InitialMarketCap": 952911545.41,
-    "CurrentMarketCap": 1031088324.0799999
+    "CurrentMarketCap": 1031088324.08,
+    "Frequency": 1
   },
   {
     "Ticker": "PSTG",
@@ -1626,7 +1806,8 @@ const performanceData = [
     "CurrentPrice": 78.51,
     "ChangePct": 8.01,
     "InitialMarketCap": 24021205001.7,
-    "CurrentMarketCap": 25944487614.300003
+    "CurrentMarketCap": 25944487614.300003,
+    "Frequency": 1
   },
   {
     "Ticker": "ORCL",
@@ -1635,7 +1816,8 @@ const performanceData = [
     "CurrentPrice": 236.34,
     "ChangePct": 7.85,
     "InitialMarketCap": 630266211391.8,
-    "CurrentMarketCap": 679724711640.0
+    "CurrentMarketCap": 679724711640.0,
+    "Frequency": 24
   },
   {
     "Ticker": "AMBA",
@@ -1644,7 +1826,8 @@ const performanceData = [
     "CurrentPrice": 73.8,
     "ChangePct": 7.38,
     "InitialMarketCap": 3015060355.05,
-    "CurrentMarketCap": 3237472053.0
+    "CurrentMarketCap": 3237472053.0,
+    "Frequency": 4
   },
   {
     "Ticker": "ARBE",
@@ -1653,7 +1836,8 @@ const performanceData = [
     "CurrentPrice": 1.08,
     "ChangePct": 6.93,
     "InitialMarketCap": 123876240.43,
-    "CurrentMarketCap": 132461722.44000001
+    "CurrentMarketCap": 132461722.44,
+    "Frequency": 1
   },
   {
     "Ticker": "SAFRY",
@@ -1662,7 +1846,8 @@ const performanceData = [
     "CurrentPrice": 87.33,
     "ChangePct": 6.04,
     "InitialMarketCap": 136857839768.4816,
-    "CurrentMarketCap": 145123374552.48
+    "CurrentMarketCap": 145123374552.48,
+    "Frequency": 1
   },
   {
     "Ticker": "SNPS",
@@ -1671,7 +1856,8 @@ const performanceData = [
     "CurrentPrice": 494.48,
     "ChangePct": 5.75,
     "InitialMarketCap": 89531902783.5,
-    "CurrentMarketCap": 94682696626.0
+    "CurrentMarketCap": 94682696626.0,
+    "Frequency": 1
   },
   {
     "Ticker": "SPXC",
@@ -1680,7 +1866,8 @@ const performanceData = [
     "CurrentPrice": 236.14,
     "ChangePct": 5.44,
     "InitialMarketCap": 11212521342.44,
-    "CurrentMarketCap": 11822311081.46
+    "CurrentMarketCap": 11822311081.46,
+    "Frequency": 2
   },
   {
     "Ticker": "USAR",
@@ -1689,7 +1876,8 @@ const performanceData = [
     "CurrentPrice": 27.98,
     "ChangePct": 4.72,
     "InitialMarketCap": 6537294545.44,
-    "CurrentMarketCap": 6845565171.46
+    "CurrentMarketCap": 6845565171.46,
+    "Frequency": 5
   },
   {
     "Ticker": "XPEV",
@@ -1698,7 +1886,8 @@ const performanceData = [
     "CurrentPrice": 17.46,
     "ChangePct": 4.68,
     "InitialMarketCap": 13033694637.48,
-    "CurrentMarketCap": 13643183955.060001
+    "CurrentMarketCap": 13643183955.06,
+    "Frequency": 1
   },
   {
     "Ticker": "META",
@@ -1707,7 +1896,8 @@ const performanceData = [
     "CurrentPrice": 622.98,
     "ChangePct": 4.41,
     "InitialMarketCap": 1310363053599.4548,
-    "CurrentMarketCap": 1368092480412.24
+    "CurrentMarketCap": 1368092480412.24,
+    "Frequency": 88
   },
   {
     "Ticker": "AKTS",
@@ -1715,8 +1905,9 @@ const performanceData = [
     "InitialPrice": 18.63,
     "CurrentPrice": 19.37,
     "ChangePct": 3.97,
-    "InitialMarketCap": 994928033.3399999,
-    "CurrentMarketCap": 1034447450.6600001
+    "InitialMarketCap": 994928033.34,
+    "CurrentMarketCap": 1034447450.66,
+    "Frequency": 1
   },
   {
     "Ticker": "SHMD",
@@ -1725,7 +1916,8 @@ const performanceData = [
     "CurrentPrice": 6.42,
     "ChangePct": 3.72,
     "InitialMarketCap": 357787348.16,
-    "CurrentMarketCap": 371081546.88
+    "CurrentMarketCap": 371081546.88,
+    "Frequency": 2
   },
   {
     "Ticker": "D",
@@ -1734,7 +1926,8 @@ const performanceData = [
     "CurrentPrice": 66.5,
     "ChangePct": 3.4,
     "InitialMarketCap": 56564789993.4792,
-    "CurrentMarketCap": 58487580186.0
+    "CurrentMarketCap": 58487580186.0,
+    "Frequency": 1
   },
   {
     "Ticker": "COPX",
@@ -1743,7 +1936,8 @@ const performanceData = [
     "CurrentPrice": 90.22,
     "ChangePct": 2.43,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 3
   },
   {
     "Ticker": "RGTI",
@@ -1752,7 +1946,8 @@ const performanceData = [
     "CurrentPrice": 24.095,
     "ChangePct": 2.1,
     "InitialMarketCap": 7844611845.200001,
-    "CurrentMarketCap": 8009149254.665
+    "CurrentMarketCap": 8009149254.665,
+    "Frequency": 6
   },
   {
     "Ticker": "MBLY",
@@ -1761,7 +1956,8 @@ const performanceData = [
     "CurrentPrice": 10.74,
     "ChangePct": 1.99,
     "InitialMarketCap": 2573722866.7799997,
-    "CurrentMarketCap": 2625050673.2400002
+    "CurrentMarketCap": 2625050673.24,
+    "Frequency": 1
   },
   {
     "Ticker": "APH",
@@ -1770,7 +1966,8 @@ const performanceData = [
     "CurrentPrice": 146.77,
     "ChangePct": 1.98,
     "InitialMarketCap": 177049928292.842,
-    "CurrentMarketCap": 180561509492.65002
+    "CurrentMarketCap": 180561509492.65,
+    "Frequency": 6
   },
   {
     "Ticker": "CGNX",
@@ -1778,8 +1975,9 @@ const performanceData = [
     "InitialPrice": 63.5546,
     "CurrentPrice": 64.67,
     "ChangePct": 1.75,
-    "InitialMarketCap": 10576721640.524601,
-    "CurrentMarketCap": 10762345896.17
+    "InitialMarketCap": 10576721640.5246,
+    "CurrentMarketCap": 10762345896.17,
+    "Frequency": 1
   },
   {
     "Ticker": "WMB",
@@ -1788,7 +1986,8 @@ const performanceData = [
     "CurrentPrice": 72.43,
     "ChangePct": 1.38,
     "InitialMarketCap": 87378456341.0165,
-    "CurrentMarketCap": 88581764333.95001
+    "CurrentMarketCap": 88581764333.95001,
+    "Frequency": 1
   },
   {
     "Ticker": "DGXX",
@@ -1797,7 +1996,8 @@ const performanceData = [
     "CurrentPrice": 7.62,
     "ChangePct": 1.06,
     "InitialMarketCap": 681773012.96,
-    "CurrentMarketCap": 689006678.88
+    "CurrentMarketCap": 689006678.88,
+    "Frequency": 1
   },
   {
     "Ticker": "U",
@@ -1806,7 +2006,8 @@ const performanceData = [
     "CurrentPrice": 29.22,
     "ChangePct": 0.55,
     "InitialMarketCap": 12685707012.82,
-    "CurrentMarketCap": 12755552612.34
+    "CurrentMarketCap": 12755552612.34,
+    "Frequency": 3
   },
   {
     "Ticker": "AMSC",
@@ -1815,7 +2016,8 @@ const performanceData = [
     "CurrentPrice": 46.4,
     "ChangePct": 0.54,
     "InitialMarketCap": 2201098636.75,
-    "CurrentMarketCap": 2213022248.0
+    "CurrentMarketCap": 2213022248.0,
+    "Frequency": 5
   },
   {
     "Ticker": "KMI",
@@ -1824,7 +2026,8 @@ const performanceData = [
     "CurrentPrice": 31.7,
     "ChangePct": -0.43,
     "InitialMarketCap": 70828885352.1249,
-    "CurrentMarketCap": 70526976496.9
+    "CurrentMarketCap": 70526976496.9,
+    "Frequency": 1
   },
   {
     "Ticker": "ZBRA",
@@ -1833,7 +2036,8 @@ const performanceData = [
     "CurrentPrice": 245.48,
     "ChangePct": -0.52,
     "InitialMarketCap": 11754015809.92,
-    "CurrentMarketCap": 11693045068.16
+    "CurrentMarketCap": 11693045068.16,
+    "Frequency": 1
   },
   {
     "Ticker": "POWI",
@@ -1842,7 +2046,8 @@ const performanceData = [
     "CurrentPrice": 85.3,
     "ChangePct": -1.6,
     "InitialMarketCap": 4830109101.0336,
-    "CurrentMarketCap": 4752914635.2
+    "CurrentMarketCap": 4752914635.2,
+    "Frequency": 7
   },
   {
     "Ticker": "BSL",
@@ -1851,7 +2056,8 @@ const performanceData = [
     "CurrentPrice": 12.89,
     "ChangePct": -1.79,
     "InitialMarketCap": 170890592.23139998,
-    "CurrentMarketCap": 167827000.82
+    "CurrentMarketCap": 167827000.82,
+    "Frequency": 1
   },
   {
     "Ticker": "QBTS",
@@ -1859,8 +2065,9 @@ const performanceData = [
     "InitialPrice": 28.13,
     "CurrentPrice": 27.55,
     "ChangePct": -2.06,
-    "InitialMarketCap": 10331279051.619999,
-    "CurrentMarketCap": 10118262988.7
+    "InitialMarketCap": 10331279051.62,
+    "CurrentMarketCap": 10118262988.7,
+    "Frequency": 2
   },
   {
     "Ticker": "TLN",
@@ -1869,7 +2076,8 @@ const performanceData = [
     "CurrentPrice": 379.59,
     "ChangePct": -2.24,
     "InitialMarketCap": 17625973317.96,
-    "CurrentMarketCap": 17231490707.129997
+    "CurrentMarketCap": 17231490707.129997,
+    "Frequency": 1
   },
   {
     "Ticker": "UUUU",
@@ -1878,7 +2086,8 @@ const performanceData = [
     "CurrentPrice": 17.37,
     "ChangePct": -2.36,
     "InitialMarketCap": 4445133930.0,
-    "CurrentMarketCap": 4340189790.0
+    "CurrentMarketCap": 4340189790.0,
+    "Frequency": 1
   },
   {
     "Ticker": "LYSDY",
@@ -1887,7 +2096,8 @@ const performanceData = [
     "CurrentPrice": 13.33,
     "ChangePct": -2.42,
     "InitialMarketCap": 13748830980.0,
-    "CurrentMarketCap": 13416684990.0
+    "CurrentMarketCap": 13416684990.0,
+    "Frequency": 1
   },
   {
     "Ticker": "DUK",
@@ -1895,8 +2105,9 @@ const performanceData = [
     "InitialPrice": 126.249,
     "CurrentPrice": 121.82,
     "ChangePct": -3.51,
-    "InitialMarketCap": 98423242800.03299,
-    "CurrentMarketCap": 94970411154.93999
+    "InitialMarketCap": 98423242800.033,
+    "CurrentMarketCap": 94970411154.94,
+    "Frequency": 1
   },
   {
     "Ticker": "BZAI",
@@ -1904,8 +2115,9 @@ const performanceData = [
     "InitialPrice": 1.87,
     "CurrentPrice": 1.79,
     "ChangePct": -4.28,
-    "InitialMarketCap": 266099992.07000002,
-    "CurrentMarketCap": 254716035.19
+    "InitialMarketCap": 266099992.07,
+    "CurrentMarketCap": 254716035.19,
+    "Frequency": 3
   },
   {
     "Ticker": "RR",
@@ -1914,7 +2126,8 @@ const performanceData = [
     "CurrentPrice": 2.695,
     "ChangePct": -4.43,
     "InitialMarketCap": 517924378.14,
-    "CurrentMarketCap": 494966737.265
+    "CurrentMarketCap": 494966737.265,
+    "Frequency": 1
   },
   {
     "Ticker": "BAM",
@@ -1923,7 +2136,8 @@ const performanceData = [
     "CurrentPrice": 45.25,
     "ChangePct": -4.44,
     "InitialMarketCap": 75606830089.25,
-    "CurrentMarketCap": 72253623263.75
+    "CurrentMarketCap": 72253623263.75,
+    "Frequency": 1
   },
   {
     "Ticker": "TSLA",
@@ -1932,7 +2146,8 @@ const performanceData = [
     "CurrentPrice": 418.45,
     "ChangePct": -4.48,
     "InitialMarketCap": 1645269956168.97,
-    "CurrentMarketCap": 1571582653819.95
+    "CurrentMarketCap": 1571582653819.95,
+    "Frequency": 34
   },
   {
     "Ticker": "XLU",
@@ -1941,7 +2156,8 @@ const performanceData = [
     "CurrentPrice": 43.94,
     "ChangePct": -4.5,
     "InitialMarketCap": 7511959174.2,
-    "CurrentMarketCap": 7174259560.0
+    "CurrentMarketCap": 7174259560.0,
+    "Frequency": 16
   },
   {
     "Ticker": "SERV",
@@ -1950,7 +2166,8 @@ const performanceData = [
     "CurrentPrice": 8.24,
     "ChangePct": -4.52,
     "InitialMarketCap": 734328693.5300001,
-    "CurrentMarketCap": 701143503.44
+    "CurrentMarketCap": 701143503.44,
+    "Frequency": 1
   },
   {
     "Ticker": "YSS",
@@ -1958,8 +2175,9 @@ const performanceData = [
     "InitialPrice": 31.97,
     "CurrentPrice": 30.44,
     "ChangePct": -4.79,
-    "InitialMarketCap": 4146331822.2599998,
-    "CurrentMarketCap": 3947899301.52
+    "InitialMarketCap": 4146331822.26,
+    "CurrentMarketCap": 3947899301.52,
+    "Frequency": 5
   },
   {
     "Ticker": "AZZ",
@@ -1968,7 +2186,8 @@ const performanceData = [
     "CurrentPrice": 138.48,
     "ChangePct": -5.53,
     "InitialMarketCap": 4400136032.62,
-    "CurrentMarketCap": 4156701260.64
+    "CurrentMarketCap": 4156701260.64,
+    "Frequency": 2
   },
   {
     "Ticker": "DOW",
@@ -1977,7 +2196,8 @@ const performanceData = [
     "CurrentPrice": 35.4,
     "ChangePct": -6.14,
     "InitialMarketCap": 27183844446.327003,
-    "CurrentMarketCap": 25514246905.2
+    "CurrentMarketCap": 25514246905.2,
+    "Frequency": 1
   },
   {
     "Ticker": "NEE",
@@ -1985,8 +2205,9 @@ const performanceData = [
     "InitialPrice": 92.0821,
     "CurrentPrice": 85.68,
     "ChangePct": -6.95,
-    "InitialMarketCap": 192046921135.89178,
-    "CurrentMarketCap": 178694667073.44
+    "InitialMarketCap": 192046921135.89175,
+    "CurrentMarketCap": 178694667073.44,
+    "Frequency": 5
   },
   {
     "Ticker": "NTTYY",
@@ -1995,7 +2216,8 @@ const performanceData = [
     "CurrentPrice": 22.96,
     "ChangePct": -7.04,
     "InitialMarketCap": 80446541351.8,
-    "CurrentMarketCap": 74779457062.24
+    "CurrentMarketCap": 74779457062.24,
+    "Frequency": 1
   },
   {
     "Ticker": "HSYDF",
@@ -2004,7 +2226,8 @@ const performanceData = [
     "CurrentPrice": 43.992,
     "ChangePct": -7.25,
     "InitialMarketCap": 4490045802.2699995,
-    "CurrentMarketCap": 4164581381.6879997
+    "CurrentMarketCap": 4164581381.688,
+    "Frequency": 1
   },
   {
     "Ticker": "DSCSY",
@@ -2013,7 +2236,8 @@ const performanceData = [
     "CurrentPrice": 43.27,
     "ChangePct": -8.13,
     "InitialMarketCap": 51085613775.0,
-    "CurrentMarketCap": 46931518217.5
+    "CurrentMarketCap": 46931518217.5,
+    "Frequency": 1
   },
   {
     "Ticker": "PLAB",
@@ -2022,7 +2246,8 @@ const performanceData = [
     "CurrentPrice": 31.52,
     "ChangePct": -8.48,
     "InitialMarketCap": 2030802609.36,
-    "CurrentMarketCap": 1858620738.8799999
+    "CurrentMarketCap": 1858620738.88,
+    "Frequency": 5
   },
   {
     "Ticker": "UAMY",
@@ -2031,7 +2256,8 @@ const performanceData = [
     "CurrentPrice": 8.65,
     "ChangePct": -8.95,
     "InitialMarketCap": 1407763409.0,
-    "CurrentMarketCap": 1281805630.3
+    "CurrentMarketCap": 1281805630.3,
+    "Frequency": 3
   },
   {
     "Ticker": "VST",
@@ -2040,7 +2266,8 @@ const performanceData = [
     "CurrentPrice": 153.8,
     "ChangePct": -11.33,
     "InitialMarketCap": 58482073670.311195,
-    "CurrentMarketCap": 51858663578.4
+    "CurrentMarketCap": 51858663578.4,
+    "Frequency": 4
   },
   {
     "Ticker": "BEPC",
@@ -2049,7 +2276,8 @@ const performanceData = [
     "CurrentPrice": 38.57,
     "ChangePct": -11.38,
     "InitialMarketCap": 6426689134.838,
-    "CurrentMarketCap": 5695319714.42
+    "CurrentMarketCap": 5695319714.42,
+    "Frequency": 1
   },
   {
     "Ticker": "CEG",
@@ -2058,7 +2286,8 @@ const performanceData = [
     "CurrentPrice": 267.24,
     "ChangePct": -11.55,
     "InitialMarketCap": 107893053616.4967,
-    "CurrentMarketCap": 95431943023.08
+    "CurrentMarketCap": 95431943023.08,
+    "Frequency": 6
   },
   {
     "Ticker": "MSFT",
@@ -2066,8 +2295,9 @@ const performanceData = [
     "InitialPrice": 490.6824,
     "CurrentPrice": 428.05,
     "ChangePct": -12.76,
-    "InitialMarketCap": 3645002168802.0093,
-    "CurrentMarketCap": 3179741475047.2
+    "InitialMarketCap": 3645002168802.01,
+    "CurrentMarketCap": 3179741475047.2,
+    "Frequency": 97
   },
   {
     "Ticker": "KDK",
@@ -2076,7 +2306,8 @@ const performanceData = [
     "CurrentPrice": 6.89,
     "ChangePct": -13.77,
     "InitialMarketCap": 1543273789.38,
-    "CurrentMarketCap": 1330808061.1799998
+    "CurrentMarketCap": 1330808061.1799998,
+    "Frequency": 1
   },
   {
     "Ticker": "SYM",
@@ -2085,7 +2316,8 @@ const performanceData = [
     "CurrentPrice": 47.21,
     "ChangePct": -14.66,
     "InitialMarketCap": 7037556536.52,
-    "CurrentMarketCap": 6005839553.31
+    "CurrentMarketCap": 6005839553.31,
+    "Frequency": 2
   },
   {
     "Ticker": "PLTR",
@@ -2094,7 +2326,8 @@ const performanceData = [
     "CurrentPrice": 142.2,
     "ChangePct": -15.29,
     "InitialMarketCap": 385418534125.24005,
-    "CurrentMarketCap": 326501343694.8
+    "CurrentMarketCap": 326501343694.8,
+    "Frequency": 14
   },
   {
     "Ticker": "AEIS",
@@ -2103,7 +2336,8 @@ const performanceData = [
     "CurrentPrice": 320.92,
     "ChangePct": -16.07,
     "InitialMarketCap": 15298150724.1983,
-    "CurrentMarketCap": 12840220044.44
+    "CurrentMarketCap": 12840220044.44,
+    "Frequency": 2
   },
   {
     "Ticker": "AUR",
@@ -2112,7 +2346,8 @@ const performanceData = [
     "CurrentPrice": 6.95,
     "ChangePct": -17.26,
     "InitialMarketCap": 13892456810.400002,
-    "CurrentMarketCap": 11494354146.7
+    "CurrentMarketCap": 11494354146.7,
+    "Frequency": 1
   },
   {
     "Ticker": "AXIA",
@@ -2120,8 +2355,9 @@ const performanceData = [
     "InitialPrice": 12.13,
     "CurrentPrice": 9.98,
     "ChangePct": -17.72,
-    "InitialMarketCap": 23972588990.100002,
-    "CurrentMarketCap": 19723531584.600002
+    "InitialMarketCap": 23972588990.1,
+    "CurrentMarketCap": 19723531584.6,
+    "Frequency": 1
   },
   {
     "Ticker": "GSM",
@@ -2130,7 +2366,8 @@ const performanceData = [
     "CurrentPrice": 4.1,
     "ChangePct": -18.65,
     "InitialMarketCap": 941720947.5249,
-    "CurrentMarketCap": 766128119.6999999
+    "CurrentMarketCap": 766128119.6999999,
+    "Frequency": 1
   },
   {
     "Ticker": "OPXS",
@@ -2138,8 +2375,9 @@ const performanceData = [
     "InitialPrice": 14.81,
     "CurrentPrice": 11.99,
     "ChangePct": -19.04,
-    "InitialMarketCap": 103075719.13000001,
-    "CurrentMarketCap": 83448877.27
+    "InitialMarketCap": 103075719.13,
+    "CurrentMarketCap": 83448877.27,
+    "Frequency": 1
   },
   {
     "Ticker": "MSR",
@@ -2148,7 +2386,8 @@ const performanceData = [
     "CurrentPrice": 18.74,
     "ChangePct": -20.79,
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "SKY",
@@ -2157,7 +2396,8 @@ const performanceData = [
     "CurrentPrice": 74.58,
     "ChangePct": -20.8,
     "InitialMarketCap": 5169354231.18,
-    "CurrentMarketCap": 4093983631.3199997
+    "CurrentMarketCap": 4093983631.32,
+    "Frequency": 1
   },
   {
     "Ticker": "SLNH",
@@ -2166,7 +2406,8 @@ const performanceData = [
     "CurrentPrice": 1.51,
     "ChangePct": -22.16,
     "InitialMarketCap": 306029866.76,
-    "CurrentMarketCap": 238198504.54
+    "CurrentMarketCap": 238198504.54,
+    "Frequency": 3
   },
   {
     "Ticker": "NRG",
@@ -2175,7 +2416,8 @@ const performanceData = [
     "CurrentPrice": 133.39,
     "ChangePct": -22.86,
     "InitialMarketCap": 36483864786.988,
-    "CurrentMarketCap": 28143485233.299995
+    "CurrentMarketCap": 28143485233.299995,
+    "Frequency": 1
   },
   {
     "Ticker": "CBRS",
@@ -2184,7 +2426,8 @@ const performanceData = [
     "CurrentPrice": 214.94,
     "ChangePct": -23.16,
     "InitialMarketCap": 9650340000.0,
-    "CurrentMarketCap": 7415430000.0
+    "CurrentMarketCap": 7415430000.0,
+    "Frequency": 1
   },
   {
     "Ticker": "BABA",
@@ -2193,7 +2436,8 @@ const performanceData = [
     "CurrentPrice": 127.21,
     "ChangePct": -24.46,
     "InitialMarketCap": 403990173418.05,
-    "CurrentMarketCap": 305193835503.95
+    "CurrentMarketCap": 305193835503.95,
+    "Frequency": 2
   },
   {
     "Ticker": "PESI",
@@ -2202,7 +2446,8 @@ const performanceData = [
     "CurrentPrice": 10.24,
     "ChangePct": -25.31,
     "InitialMarketCap": 290591017.92,
-    "CurrentMarketCap": 217042452.48000002
+    "CurrentMarketCap": 217042452.48,
+    "Frequency": 1
   },
   {
     "Ticker": "PATH",
@@ -2211,7 +2456,8 @@ const performanceData = [
     "CurrentPrice": 11.67,
     "ChangePct": -26.51,
     "InitialMarketCap": 7237352733.08,
-    "CurrentMarketCap": 5318633903.97
+    "CurrentMarketCap": 5318633903.97,
+    "Frequency": 1
   },
   {
     "Ticker": "LEU",
@@ -2220,7 +2466,8 @@ const performanceData = [
     "CurrentPrice": 186.69,
     "ChangePct": -38.08,
     "InitialMarketCap": 5714508591.0,
-    "CurrentMarketCap": 3538446463.86
+    "CurrentMarketCap": 3538446463.86,
+    "Frequency": 1
   },
   {
     "Ticker": "SYAAF",
@@ -2229,7 +2476,8 @@ const performanceData = [
     "CurrentPrice": 0.094,
     "ChangePct": -58.41,
     "InitialMarketCap": 520960598.14,
-    "CurrentMarketCap": 216682726.66
+    "CurrentMarketCap": 216682726.66,
+    "Frequency": 2
   },
   {
     "Ticker": "SIVE",
@@ -2238,7 +2486,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 324
   },
   {
     "Ticker": "SOI",
@@ -2247,7 +2496,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 131
   },
   {
     "Ticker": "IQE",
@@ -2256,7 +2506,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 98
   },
   {
     "Ticker": "RPI",
@@ -2265,7 +2516,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 47
   },
   {
     "Ticker": "LPK",
@@ -2274,7 +2526,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 38
   },
   {
     "Ticker": "XFAB",
@@ -2283,7 +2536,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 32
   },
   {
     "Ticker": "ALRIB",
@@ -2292,7 +2546,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 26
   },
   {
     "Ticker": "APPL",
@@ -2301,7 +2556,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 12
   },
   {
     "Ticker": "VNP",
@@ -2310,7 +2566,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 6
   },
   {
     "Ticker": "QLCM",
@@ -2319,7 +2576,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 5
   },
   {
     "Ticker": "TOWA",
@@ -2328,7 +2586,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 3
   },
   {
     "Ticker": "AIXA",
@@ -2337,7 +2596,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 3
   },
   {
     "Ticker": "BESI",
@@ -2346,7 +2606,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 3
   },
   {
     "Ticker": "KOSPI",
@@ -2355,7 +2616,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "ASE",
@@ -2364,7 +2626,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "LPKK",
@@ -2373,7 +2636,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "LPKF",
@@ -2382,7 +2646,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "KLA",
@@ -2391,7 +2656,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "SMHN",
@@ -2400,7 +2666,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 2
   },
   {
     "Ticker": "XBOT",
@@ -2409,7 +2676,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "SLVC",
@@ -2418,7 +2686,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "TPU",
@@ -2427,7 +2696,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "SMHSF",
@@ -2436,7 +2706,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "SYSS",
@@ -2445,7 +2716,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "SYR",
@@ -2454,7 +2726,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "CATL",
@@ -2463,7 +2736,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "EDP",
@@ -2472,7 +2746,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "DOWA",
@@ -2481,7 +2756,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "BLG",
@@ -2490,7 +2766,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "PDY",
@@ -2499,7 +2776,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "AMSL",
@@ -2508,7 +2786,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ACUVI",
@@ -2517,7 +2796,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ABB",
@@ -2526,7 +2806,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ARA",
@@ -2535,7 +2816,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "AXT",
@@ -2544,7 +2826,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "BITF",
@@ -2553,7 +2836,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "AYAR",
@@ -2562,7 +2846,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "MVL",
@@ -2571,7 +2856,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "MKA",
@@ -2580,7 +2866,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "LG",
@@ -2589,7 +2876,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ONET",
@@ -2598,7 +2886,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "NTU",
@@ -2607,7 +2896,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "NIDGY",
@@ -2616,7 +2906,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "LCRX",
@@ -2625,7 +2916,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "FOCI",
@@ -2634,7 +2926,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "FIT",
@@ -2643,7 +2936,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "HALEU",
@@ -2652,7 +2946,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "INFN",
@@ -2661,7 +2956,8 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   },
   {
     "Ticker": "ILU",
@@ -2670,6 +2966,7 @@ const performanceData = [
     "CurrentPrice": "",
     "ChangePct": "",
     "InitialMarketCap": "",
-    "CurrentMarketCap": ""
+    "CurrentMarketCap": "",
+    "Frequency": 1
   }
 ];
