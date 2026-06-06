@@ -384,10 +384,10 @@
             }
         }
 
-        /* 免责声明横幅 */
+        /* 免责声明横幅 - 底部固定 */
         .disclaimer-banner {
             position: fixed;
-            top: 0;
+            bottom: 0;
             left: 0;
             right: 0;
             z-index: 9999;
@@ -401,12 +401,12 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.5;
-            box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
-            animation: slideDown 0.5s ease-out;
+            box-shadow: 0 -4px 20px rgba(220, 38, 38, 0.4);
+            animation: slideUp 0.5s ease-out;
         }
 
-        @keyframes slideDown {
-            from { transform: translateY(-100%); }
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
             to { transform: translateY(0); }
         }
 
@@ -442,14 +442,6 @@
 
         .disclaimer-close:hover {
             background: rgba(255,255,255,0.3);
-        }
-
-        body {
-            padding-top: 60px;
-        }
-
-        header {
-            top: 60px;
         }
     </style>
     <script src="lang.js"></script>
