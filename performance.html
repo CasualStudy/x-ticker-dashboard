@@ -113,6 +113,24 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
+        .exchange-table th.sortable {
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.3s;
+        }
+        .exchange-table th.sortable:hover {
+            color: #fff;
+        }
+        .sort-icon {
+            margin-left: 4px;
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+        .exchange-table th.sortable:hover .sort-icon {
+            opacity: 1;
+        }
+        .exchange-table th.sort-asc .sort-icon::after { content: '↑'; }
+        .exchange-table th.sort-desc .sort-icon::after { content: '↓'; }
         .exchange-table tr:hover td {
             background: rgba(255,255,255,0.02);
         }
@@ -231,7 +249,9 @@
                             <th class="i18n-th-init-mcap">当时市值</th>
                             <th class="i18n-th-cur-price">当前股价</th>
                             <th class="i18n-th-cur-mcap">当前市值</th>
-                            <th class="i18n-th-change">涨跌幅</th>
+                            <th class="i18n-th-change sortable" id="sort-change" onclick="sortTable('change')">
+                                涨跌幅 <span class="sort-icon">↑</span>
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -247,6 +267,9 @@
     </footer>
 
     <script>
+        let currentSortOrder = 'asc'; // 默认升序（亏损到涨幅）
+        let tableData = [];
+
         document.addEventListener('DOMContentLoaded', () => {
             initMcapChart();
             initPerformanceTable();
@@ -259,6 +282,80 @@
             if (val >= 1e9) return "$" + (val / 1e9).toFixed(2) + "B";
             if (val >= 1e6) return "$" + (val / 1e6).toFixed(2) + "M";
             return "$" + val.toLocaleString();
+        }
+
+        function sortTable(column) {
+            if (column === 'change') {
+                // 切换排序顺序
+                currentSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
+
+                // 更新排序图标
+                const sortHeader = document.getElementById('sort-change');
+                sortHeader.classList.remove('sort-asc', 'sort-desc');
+                sortHeader.classList.add(currentSortOrder === 'asc' ? 'sort-asc' : 'sort-desc');
+                sortHeader.querySelector('.sort-icon').textContent = currentSortOrder === 'asc' ? '↑' : '↓';
+
+                renderTable();
+            }
+        }
+
+        function renderTable() {
+            const tbody = document.querySelector('#performanceTable tbody');
+            tbody.innerHTML = '';
+
+            // 按涨跌幅排序
+            const sortedData = [...tableData].sort((a, b) => {
+                const changeA = parseFloat(a.ChangePct) || 0;
+                const changeB = parseFloat(b.ChangePct) || 0;
+                return currentSortOrder === 'asc' ? changeA - changeB : changeB - changeA;
+            });
+
+            let winCount = 0;
+            let totalChange = 0;
+
+            sortedData.forEach(d => {
+                const change = parseFloat(d.ChangePct);
+                if (change > 0) winCount++;
+                totalChange += change;
+
+                let changeColor = '#9CA3AF';
+                let changeText = '-';
+                if (change > 0) {
+                    changeColor = '#34D399';
+                    changeText = `+${change.toFixed(2)}%`;
+                } else if (change < 0) {
+                    changeColor = '#EF4444';
+                    changeText = `${change.toFixed(2)}%`;
+                } else {
+                    changeText = `0.00%`;
+                }
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td style="font-weight: 700; color: #fff;">${d.Ticker}</td>
+                    <td style="color: #FBBF24; font-weight: 600;">${d.Frequency || 1} ${window.t('次')}</td>
+                    <td style="color: #9CA3AF; font-size: 0.9rem;">${d.FirstMention}</td>
+                    <td style="font-family: var(--font-display);">$${parseFloat(d.InitialPrice).toFixed(2)}</td>
+                    <td style="font-family: var(--font-display); color: #D1D5DB;">${formatMcap(d.InitialMarketCap)}</td>
+                    <td style="font-family: var(--font-display);">$${parseFloat(d.CurrentPrice).toFixed(2)}</td>
+                    <td style="font-family: var(--font-display); color: #D1D5DB;">${formatMcap(d.CurrentMarketCap)}</td>
+                    <td style="font-family: var(--font-display); font-weight: 700; color: ${changeColor};">${changeText}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+
+            const winRate = (winCount / sortedData.length) * 100;
+            const avgChange = totalChange / sortedData.length;
+
+            const winRateEl = document.getElementById('winRate');
+            const avgChangeEl = document.getElementById('avgChange');
+
+            winRateEl.innerText = `${winRate.toFixed(2)}%`;
+            avgChangeEl.innerText = avgChange > 0 ? `+${avgChange.toFixed(2)}%` : `${avgChange.toFixed(2)}%`;
+
+            if (avgChange > 0) avgChangeEl.style.color = '#34D399';
+            else if (avgChange < 0) avgChangeEl.style.color = '#EF4444';
+            else avgChangeEl.style.color = '#9CA3AF';
         }
 
         function initMcapChart() {
@@ -353,58 +450,15 @@
 
         function initPerformanceTable() {
             if (typeof performanceData === 'undefined') return;
-            
-            const validData = performanceData.filter(d => d.ChangePct !== "" && d.ChangePct !== null);
-            if (validData.length === 0) return;
-            
-            let winCount = 0;
-            let totalChange = 0;
-            
-            const tbody = document.querySelector('#performanceTable tbody');
-            
-            validData.forEach(d => {
-                const change = parseFloat(d.ChangePct);
-                if (change > 0) winCount++;
-                totalChange += change;
-                
-                let changeColor = '#9CA3AF';
-                let changeText = '-';
-                if (change > 0) {
-                    changeColor = '#34D399';
-                    changeText = `+${change.toFixed(2)}%`;
-                } else if (change < 0) {
-                    changeColor = '#EF4444';
-                    changeText = `${change.toFixed(2)}%`;
-                } else {
-                    changeText = `0.00%`;
-                }
-                
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td style="font-weight: 700; color: #fff;">${d.Ticker}</td>
-                    <td style="color: #FBBF24; font-weight: 600;">${d.Frequency || 1} ${window.t('次')}</td>
-                    <td style="color: #9CA3AF; font-size: 0.9rem;">${d.FirstMention}</td>
-                    <td style="font-family: var(--font-display);">$${parseFloat(d.InitialPrice).toFixed(2)}</td>
-                    <td style="font-family: var(--font-display); color: #D1D5DB;">${formatMcap(d.InitialMarketCap)}</td>
-                    <td style="font-family: var(--font-display);">$${parseFloat(d.CurrentPrice).toFixed(2)}</td>
-                    <td style="font-family: var(--font-display); color: #D1D5DB;">${formatMcap(d.CurrentMarketCap)}</td>
-                    <td style="font-family: var(--font-display); font-weight: 700; color: ${changeColor};">${changeText}</td>
-                `;
-                tbody.appendChild(tr);
-            });
-            
-            const winRate = (winCount / validData.length) * 100;
-            const avgChange = totalChange / validData.length;
-            
-            const winRateEl = document.getElementById('winRate');
-            const avgChangeEl = document.getElementById('avgChange');
-            
-            winRateEl.innerText = `${winRate.toFixed(2)}%`;
-            avgChangeEl.innerText = avgChange > 0 ? `+${avgChange.toFixed(2)}%` : `${avgChange.toFixed(2)}%`;
-            
-            if (avgChange > 0) avgChangeEl.style.color = '#34D399';
-            else if (avgChange < 0) avgChangeEl.style.color = '#EF4444';
-            else avgChangeEl.style.color = '#9CA3AF';
+
+            tableData = performanceData.filter(d => d.ChangePct !== "" && d.ChangePct !== null);
+            if (tableData.length === 0) return;
+
+            // 设置初始排序图标状态
+            const sortHeader = document.getElementById('sort-change');
+            sortHeader.classList.add('sort-asc');
+
+            renderTable();
         }
     </script>
 </body>
