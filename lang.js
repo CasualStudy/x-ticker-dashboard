@@ -55,6 +55,7 @@ const dict = {
     "Ticker 详细表现追踪": "Ticker Performance Tracking",
     "博主提及标的表现追踪": "Mentioned Tickers Performance Tracking",
     "从首次提及至今的股价追踪与回报率测算。请注意：此数据仅供分析，不构成投资建议。": "Stock price tracking and return calculation since first mention. Note: This data is for analysis only, not investment advice.",
+    "💡 默认按亏损到涨幅排列，避免因看到涨幅而产生 FOMO 情绪。点击表头可切换排序。": "💡 Default sort: loss to gain, to avoid FOMO from seeing gains first. Click headers to change sort order.",
     "首次提及时市值分布": "Market Cap Distribution at First Mention",
     "首次提到时间": "First Mention Date",
     "当时股价": "Initial Price",
