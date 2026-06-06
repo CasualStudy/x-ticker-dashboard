@@ -104,7 +104,7 @@ class Translator {
         btn.innerHTML = this.lang === 'en' ? '中' : 'EN';
         btn.style.cssText = `
             position: fixed;
-            top: 20px;
+            top: 70px;
             right: 20px;
             z-index: 1000;
             background: rgba(255,255,255,0.1);
