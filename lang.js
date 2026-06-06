@@ -142,10 +142,6 @@ class Translator {
             document.body.appendChild(btn);
         }
     }
-            location.reload();
-        };
-        document.body.appendChild(btn);
-    }
 
     translatePage() {
         // Walk DOM and replace exact text nodes
