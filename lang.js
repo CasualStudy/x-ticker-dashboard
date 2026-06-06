@@ -102,11 +102,15 @@ class Translator {
     initSwitch() {
         const btn = document.createElement('button');
         btn.innerHTML = this.lang === 'en' ? '中' : 'EN';
+        btn.id = 'lang-switch-btn';
+        // 根据免责声明是否显示来决定位置
+        const disclaimer = document.querySelector('.disclaimer-banner');
+        const topPosition = disclaimer && disclaimer.style.display !== 'none' ? '65px' : '20px';
         btn.style.cssText = `
             position: fixed;
-            top: 70px;
+            top: ${topPosition};
             right: 20px;
-            z-index: 1000;
+            z-index: 9998;
             background: rgba(255,255,255,0.1);
             border: 1px solid rgba(255,255,255,0.2);
             color: #fff;
