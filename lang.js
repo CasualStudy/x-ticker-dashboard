@@ -102,15 +102,7 @@ class Translator {
     initSwitch() {
         const btn = document.createElement('button');
         btn.innerHTML = this.lang === 'en' ? '中' : 'EN';
-        btn.id = 'lang-switch-btn';
-        // 根据免责声明是否显示来决定位置
-        const disclaimer = document.querySelector('.disclaimer-banner');
-        const topPosition = disclaimer && disclaimer.style.display !== 'none' ? '65px' : '20px';
         btn.style.cssText = `
-            position: fixed;
-            top: ${topPosition};
-            right: 20px;
-            z-index: 9998;
             background: rgba(255,255,255,0.1);
             border: 1px solid rgba(255,255,255,0.2);
             color: #fff;
@@ -120,6 +112,7 @@ class Translator {
             backdrop-filter: blur(10px);
             font-family: 'Inter', sans-serif;
             font-weight: 600;
+            font-size: 14px;
             transition: all 0.3s;
         `;
         btn.onmouseover = () => btn.style.background = 'rgba(255,255,255,0.2)';
@@ -131,6 +124,24 @@ class Translator {
             } catch (e) {
                 console.warn('localStorage not available', e);
             }
+            location.reload();
+        };
+
+        // 尝试插入到容器中
+        const container = document.getElementById('lang-switch-container');
+        if (container) {
+            container.appendChild(btn);
+        } else {
+            // 如果没有容器，则固定定位
+            btn.style.cssText += `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                z-index: 9998;
+            `;
+            document.body.appendChild(btn);
+        }
+    }
             location.reload();
         };
         document.body.appendChild(btn);
