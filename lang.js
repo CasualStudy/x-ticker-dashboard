@@ -3,7 +3,7 @@ const dict = {
     "本网页仅对博主提及的股票进行数据分析，不代表任何观点，不构成投资建议或跟单喊单，亦不代表对博主的支持或批判。部分股票风险巨大，部分股票利润丰厚，请独立判断。": "This page provides data analysis on stocks mentioned by the blogger only, representing no opinions. It does not constitute investment advice or trading signals, nor does it imply support or criticism of the blogger. Some stocks carry significant risks, while others may offer substantial returns. Please make independent judgments.",
 
     // index.html
-    "CasualStudy 随意研究": "CasualStudy",
+    "CasualStudy 随意研究 (@l4wd023)": "CasualStudy (@l4wd023)",
     "Serenity@aleabitoreddit Ticker 提及分析": "Serenity@aleabitoreddit Ticker Mention Analysis",
     "基于推文数据 (2025年7月 - 2026年6月初) 的 Ticker 提及频率与全景分布统计，探索核心关注赛道。": "Based on tweet data (July 2025 - June 2026), analyzing ticker mention frequencies and panoramic distribution to explore core focus sectors.",
     "提及总数": "Total Mentions",
