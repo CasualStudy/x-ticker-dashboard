@@ -457,7 +457,7 @@
 
             <div class="glass-card chart-section fade-in-up delay-3">
                 <div class="chart-header">
-                    <h2 class="chart-title">美股与非美股比例</h2>
+                    <h2 class="chart-title" id="us-non-us-title">美股与非美股比例</h2>
                 </div>
                 <div class="chart-container">
                     <canvas id="exchangeChart"></canvas>
@@ -467,7 +467,7 @@
 
             <div class="glass-card fade-in-up delay-3" style="grid-column: span 12; margin-top: 1rem;">
                 <div class="chart-header">
-                    <h2 class="chart-title">交易所详细分布</h2>
+                    <h2 class="chart-title" id="exchange-detail-title">交易所详细分布</h2>
                 </div>
                 <div class="table-container">
                     <table class="exchange-table" id="exchangeTable">
@@ -490,15 +490,15 @@
             <div style="grid-column: span 12; margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem;">
                 
                 <div class="glass-card fade-in-up delay-4" style="text-align: center; padding: 3rem;">
-                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;">Ticker 详细总结情报</h2>
-                    <p style="color: var(--text-secondary); margin-bottom: 2rem; min-height: 48px;">分梯队浏览每个被提及 Ticker 的深度分析总结，快速洞察博主的核心观点。</p>
-                    <a href="summaries.html" style="display: inline-block; padding: 0.8rem 2rem; background: var(--secondary-color); color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1rem; transition: background 0.3s; box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);">查看总结大本营 &rarr;</a>
+                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;" class="i18n-title">Ticker 详细总结情报</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; min-height: 48px;" class="i18n-desc">分梯队浏览每个被提及 Ticker 的深度分析总结，快速洞察博主的核心观点。</p>
+                    <a href="summaries.html" style="display: inline-block; padding: 0.8rem 2rem; background: var(--secondary-color); color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1rem; transition: background 0.3s; box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);"><span class="i18n-btn">查看总结大本营 &rarr;</span></a>
                 </div>
 
                 <div class="glass-card fade-in-up delay-4" style="text-align: center; padding: 3rem;">
-                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;">详细表现追踪</h2>
-                    <p style="color: var(--text-secondary); margin-bottom: 2rem; min-height: 48px;">查看 Serenity 提到的每个 Ticker 从首次提及至今的股价表现、胜率及平均涨跌幅。</p>
-                    <a href="performance.html" style="display: inline-block; padding: 0.8rem 2rem; background: var(--primary-color); color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1rem; transition: background 0.3s; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);">查看标的表现追踪 &rarr;</a>
+                    <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #fff;" class="i18n-title2">详细表现追踪</h2>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; min-height: 48px;" class="i18n-desc2">查看 Serenity 提到的每个 Ticker 从首次提及至今的股价表现、胜率及平均涨跌幅。</p>
+                    <a href="performance.html" style="display: inline-block; padding: 0.8rem 2rem; background: var(--primary-color); color: #fff; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1rem; transition: background 0.3s; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);"><span class="i18n-btn2">查看标的表现追踪 &rarr;</span></a>
                 </div>
 
             </div>

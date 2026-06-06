@@ -119,13 +119,13 @@
         </nav>
 
         <div class="glass-card" style="margin-bottom: 2rem;">
-            <h1 class="header-title">博主提及标的表现追踪</h1>
-            <p style="color: var(--text-secondary);">从首次提及至今的股价追踪与回报率测算。请注意：此数据仅供分析，不构成投资建议。</p>
+            <h1 class="header-title" class="i18n-header">博主提及标的表现追踪</h1>
+            <p style="color: var(--text-secondary);" class="i18n-desc">从首次提及至今的股价追踪与回报率测算。请注意：此数据仅供分析，不构成投资建议。</p>
         </div>
 
         <!-- Mcap Distribution Chart -->
         <div class="glass-card" style="margin-bottom: 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 400px;">
-            <h2 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">首次提及时市值分布</h2>
+            <h2 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;" class="i18n-mcap-title">首次提及时市值分布</h2>
             <div style="position: relative; width: 100%; max-width: 400px; height: 300px;">
                 <canvas id="mcapChart"></canvas>
             </div>
@@ -136,11 +136,11 @@
             <!-- Summary Metrics -->
             <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
                 <div style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; text-align: center;">
-                    <h3 style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 500;">整体提及胜率</h3>
+                    <h3 style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 500;" class="i18n-win-rate">整体提及胜率</h3>
                     <div id="winRate" style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; color: #10B981;">--%</div>
                 </div>
                 <div style="flex: 1; min-width: 200px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; text-align: center;">
-                    <h3 style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 500;">平均涨跌幅</h3>
+                    <h3 style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem; font-weight: 500;" class="i18n-avg-change">平均涨跌幅</h3>
                     <div id="avgChange" style="font-family: var(--font-display); font-size: 2.5rem; font-weight: 700; color: #3B82F6;">--%</div>
                 </div>
             </div>
@@ -149,14 +149,14 @@
                 <table class="exchange-table" id="performanceTable">
                     <thead>
                         <tr>
-                            <th>标的 (Ticker)</th>
-                            <th>提及次数</th>
-                            <th>首次提到时间</th>
-                            <th>当时股价</th>
-                            <th>当时市值</th>
-                            <th>当前股价</th>
-                            <th>当前市值</th>
-                            <th>涨跌幅</th>
+                            <th class="i18n-th-ticker">标的 (Ticker)</th>
+                            <th class="i18n-th-count">提及次数</th>
+                            <th class="i18n-th-date">首次提到时间</th>
+                            <th class="i18n-th-init-price">当时股价</th>
+                            <th class="i18n-th-init-mcap">当时市值</th>
+                            <th class="i18n-th-cur-price">当前股价</th>
+                            <th class="i18n-th-cur-mcap">当前市值</th>
+                            <th class="i18n-th-change">涨跌幅</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -267,7 +267,7 @@
                                     const count = context.parsed;
                                     const total = context.dataset.data.reduce((a,b) => a + b, 0);
                                     const pct = ((count / total) * 100).toFixed(1);
-                                    return label + count + ' 支 (' + pct + '%)';
+                                    return label + count + window.t(' 支 (') + pct + '%)';
                                 }
                             }
                         }
