@@ -21,6 +21,10 @@ const dict = {
     "查看所有总结信息 &rarr;": "View All Summaries &rarr;",
     "查看标的表现追踪 &rarr;": "View Performance Tracking &rarr;",
     "© 2026 CasualStudy 随意研究. All rights reserved.": "© 2026 CasualStudy. All rights reserved.",
+    "本站访问量": "Site Views",
+    "访客数": "Visitors",
+    "次": "times",
+    "人": "visitors",
 
     // index.html table headers
     "上市地区": "Region",
