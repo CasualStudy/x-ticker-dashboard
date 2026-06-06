@@ -26,12 +26,14 @@ const dict = {
     "中文全称": "Full Name (CN)",
     "标的数量": "Ticker Count",
 
-    // index.html navigation cards
+    // index.html navigation cards (使用实际箭头符号)
     "Ticker 详细总结情报": "Ticker Detailed Summaries",
     "分梯队浏览每个被提及 Ticker 的深度分析总结，快速洞察博主的核心观点。": "Browse in-depth analysis summaries of mentioned tickers by frequency tier.",
+    "查看总结大本营 →": "View Summaries Hub →",
     "查看总结大本营 &rarr;": "View Summaries Hub &rarr;",
     "详细表现追踪": "Detailed Performance Tracking",
     "查看 Serenity 提到的每个 Ticker 从首次提及至今的股价表现、胜率及平均涨跌幅。": "View stock performance, win rate, and average returns since first mention.",
+    "查看标的表现追踪 →": "View Performance Tracking →",
     "查看标的表现追踪 &rarr;": "View Performance Tracking &rarr;",
 
     // summaries.html
