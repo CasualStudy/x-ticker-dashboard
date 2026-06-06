@@ -386,6 +386,74 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* 免责声明横幅 */
+        .disclaimer-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+            background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+            color: #fff;
+            padding: 12px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.5;
+            box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+
+        .disclaimer-icon {
+            font-size: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .disclaimer-text {
+            flex: 1;
+            text-align: center;
+        }
+
+        .disclaimer-close {
+            background: rgba(255,255,255,0.2);
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .disclaimer-close:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        body {
+            padding-top: 60px;
+        }
+
+        header {
+            top: 60px;
+        }
     </style>
     <script src="lang.js"></script>
 </head>
@@ -394,6 +462,13 @@
     <div class="ambient-bg">
         <div class="glow glow-1"></div>
         <div class="glow glow-2"></div>
+    </div>
+
+    <!-- 免责声明横幅 -->
+    <div class="disclaimer-banner">
+        <span class="disclaimer-icon">⚠️</span>
+        <span class="disclaimer-text">本网页仅对博主提及的股票进行数据分析，不代表任何观点，不构成投资建议或跟单喊单，亦不代表对博主的支持或批判。部分股票风险巨大，部分股票利润丰厚，请独立判断。</span>
+        <button class="disclaimer-close" onclick="this.parentElement.style.display='none'">×</button>
     </div>
 
     <header>

@@ -1,4 +1,7 @@
 const dict = {
+    // 免责声明
+    "本网页仅对博主提及的股票进行数据分析，不代表任何观点，不构成投资建议或跟单喊单，亦不代表对博主的支持或批判。部分股票风险巨大，部分股票利润丰厚，请独立判断。": "This page provides data analysis on stocks mentioned by the blogger only, representing no opinions. It does not constitute investment advice or trading signals, nor does it imply support or criticism of the blogger. Some stocks carry significant risks, while others may offer substantial returns. Please make independent judgments.",
+
     // index.html
     "CasualStudy 随意研究": "CasualStudy",
     "Serenity@aleabitoreddit Ticker 提及分析": "Serenity@aleabitoreddit Ticker Mention Analysis",
@@ -150,6 +153,15 @@ class Translator {
                 }
             }
         });
+
+        // 处理免责声明
+        const disclaimerText = document.querySelector('.disclaimer-text');
+        if (disclaimerText) {
+            const text = disclaimerText.textContent;
+            if (dict[text]) {
+                disclaimerText.textContent = dict[text];
+            }
+        }
 
         // 处理返回按钮
         const navBack = document.getElementById('nav-back');
