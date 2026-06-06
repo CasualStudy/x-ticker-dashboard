@@ -228,11 +228,12 @@
             const lowCount = dataArray.filter(d => d.mention_count < 5).length;
 
             const btns = document.querySelectorAll('.filter-btn');
-            btns[0].innerText = window.t('全部') + ` (${dataArray.length})`;
-            btns[1].innerText = window.t('极高频 (>100次)') + ` (${ultraCount})`;
-            btns[2].innerText = window.t('高频 (20-100次)') + ` (${highCount})`;
-            btns[3].innerText = window.t('中频 (5-20次)') + ` (${mediumCount})`;
-            btns[4].innerText = window.t('低频 (<5次)') + ` (${lowCount})`;
+            btns[0].querySelector('.btn-text').textContent = window.t('全部');
+            btns[0].innerHTML = `<span class="btn-text">${window.t('全部')}</span> (${dataArray.length})`;
+            btns[1].innerHTML = `<span class="btn-text">${window.t('极高频 (>100次)')}</span> (${ultraCount})`;
+            btns[2].innerHTML = `<span class="btn-text">${window.t('高频 (20-100次)')}</span> (${highCount})`;
+            btns[3].innerHTML = `<span class="btn-text">${window.t('中频 (5-20次)')}</span> (${mediumCount})`;
+            btns[4].innerHTML = `<span class="btn-text">${window.t('低频 (<5次)')}</span> (${lowCount})`;
 
             const renderCards = (filterType) => {
                 const grid = document.getElementById('summariesGrid');
