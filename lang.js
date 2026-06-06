@@ -137,7 +137,7 @@ class Translator {
                 node.nodeValue = node.nodeValue.replace(text, dict[text]);
             }
         }
-        
+
         // Replace innerHTML for elements that might contain HTML entities like &rarr;
         const elements = document.querySelectorAll('*');
         elements.forEach(el => {
@@ -146,6 +146,20 @@ class Translator {
                 if (dict[html]) {
                     el.innerHTML = dict[html];
                 }
+            }
+        });
+
+        // 处理返回按钮
+        const navBack = document.getElementById('nav-back');
+        if (navBack) {
+            navBack.innerHTML = dict['&larr; 返回概览大屏'] || navBack.innerHTML;
+        }
+
+        // 处理筛选按钮文字
+        document.querySelectorAll('.btn-text').forEach(el => {
+            const text = el.textContent;
+            if (dict[text]) {
+                el.textContent = dict[text];
             }
         });
     }

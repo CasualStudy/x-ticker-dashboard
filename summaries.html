@@ -185,7 +185,7 @@
 <body>
     <div class="container">
         <nav>
-            <a href="index.html">&larr; 返回概览大屏</a>
+            <a href="index.html" id="nav-back">&larr; 返回概览大屏</a>
         </nav>
 
         <div class="glass-card" style="margin-bottom: 2rem;">
@@ -194,11 +194,11 @@
         </div>
 
         <div class="filter-container" id="filterContainer">
-            <button class="filter-btn active" data-filter="all">全部 (${Object.keys(typeof summariesData !== 'undefined' ? summariesData : {}).length})</button>
-            <button class="filter-btn" data-filter="ultra">极高频 (>100次)</button>
-            <button class="filter-btn" data-filter="high">高频 (20-100次)</button>
-            <button class="filter-btn" data-filter="medium">中频 (5-20次)</button>
-            <button class="filter-btn" data-filter="low">低频 (<5次)</button>
+            <button class="filter-btn active" data-filter="all"><span class="btn-text">全部</span> (${Object.keys(typeof summariesData !== 'undefined' ? summariesData : {}).length})</button>
+            <button class="filter-btn" data-filter="ultra"><span class="btn-text">极高频 (>100次)</span></button>
+            <button class="filter-btn" data-filter="high"><span class="btn-text">高频 (20-100次)</span></button>
+            <button class="filter-btn" data-filter="medium"><span class="btn-text">中频 (5-20次)</span></button>
+            <button class="filter-btn" data-filter="low"><span class="btn-text">低频 (<5次)</span></button>
         </div>
 
         <div class="grid-container" id="summariesGrid">
