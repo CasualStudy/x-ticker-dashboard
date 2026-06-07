@@ -45,6 +45,8 @@ const dict = {
 
     // summaries.html
     "所有被提及 Ticker 的深度分析总结。通过提及频次进行筛选，洞察博主最关注的核心资产。": "In-depth analysis and summaries of all mentioned tickers. Filter by mention frequency to discover core assets.",
+    "搜索 Ticker 或公司名称...": "Search Ticker or company name...",
+    "未找到匹配的 Ticker": "No matching tickers found",
     "&larr; 返回概览大屏": "&larr; Back to Dashboard",
     "极高频 (>100次)": "Ultra High (>100)",
     "高频 (20-100次)": "High (20-100)",

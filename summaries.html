@@ -268,6 +268,30 @@
             <p style="color: var(--text-secondary);">所有被提及 Ticker 的深度分析总结。通过提及频次进行筛选，洞察博主最关注的核心资产。</p>
         </div>
 
+        <!-- 搜索框 -->
+        <div class="search-container" style="margin-bottom: 1.5rem;">
+            <input type="text" id="tickerSearch" placeholder="搜索 Ticker 或公司名称..." style="
+                width: 100%;
+                padding: 12px 16px;
+                background: rgba(255,255,255,0.05);
+                border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 12px;
+                color: #fff;
+                font-size: 1rem;
+                outline: none;
+                transition: all 0.3s;
+            ">
+            <style>
+                #tickerSearch:focus {
+                    border-color: rgba(99, 102, 241, 0.5);
+                    background: rgba(255,255,255,0.08);
+                }
+                #tickerSearch::placeholder {
+                    color: var(--text-secondary);
+                }
+            </style>
+        </div>
+
         <div class="filter-container" id="filterContainer">
             <button class="filter-btn active" data-filter="all"><span class="btn-text">全部</span> (${Object.keys(typeof summariesData !== 'undefined' ? summariesData : {}).length})</button>
             <button class="filter-btn" data-filter="ultra"><span class="btn-text">极高频 (>100次)</span></button>
@@ -319,9 +343,16 @@
             btns[3].innerHTML = `<span class="btn-text">${window.t('中频 (5-20次)')}</span> (${mediumCount})`;
             btns[4].innerHTML = `<span class="btn-text">${window.t('低频 (<5次)')}</span> (${lowCount})`;
 
-            const renderCards = (filterType) => {
+            let currentFilter = 'all';
+            let currentSearch = '';
+
+            const renderCards = (filterType, searchTerm = '') => {
                 const grid = document.getElementById('summariesGrid');
                 grid.innerHTML = '';
+
+                const searchLower = searchTerm.toLowerCase().trim();
+
+                let matchCount = 0;
 
                 dataArray.forEach(d => {
                     const count = d.mention_count || 0;
@@ -329,6 +360,15 @@
                     if (filterType === 'high' && (count <= 20 || count > 100)) return;
                     if (filterType === 'medium' && (count < 5 || count > 20)) return;
                     if (filterType === 'low' && count >= 5) return;
+
+                    // 搜索过滤
+                    if (searchLower) {
+                        const tickerMatch = (d.ticker || '').toLowerCase().includes(searchLower);
+                        const companyMatch = (d.company_name || '').toLowerCase().includes(searchLower);
+                        if (!tickerMatch && !companyMatch) return;
+                    }
+
+                    matchCount++;
 
                     let lang = 'zh';
                     try {
@@ -356,6 +396,11 @@
                     `;
                     grid.appendChild(card);
                 });
+
+                // 显示无结果提示
+                if (matchCount === 0) {
+                    grid.innerHTML = `<p style="color: var(--text-secondary); text-align: center; padding: 3rem;">未找到匹配的 Ticker</p>`;
+                }
             };
 
             // Initial render
@@ -366,8 +411,16 @@
                 btn.addEventListener('click', () => {
                     document.querySelector('.filter-btn.active').classList.remove('active');
                     btn.classList.add('active');
-                    renderCards(btn.getAttribute('data-filter'));
+                    currentFilter = btn.getAttribute('data-filter');
+                    renderCards(currentFilter, currentSearch);
                 });
+            });
+
+            // Search logic
+            const searchInput = document.getElementById('tickerSearch');
+            searchInput.addEventListener('input', (e) => {
+                currentSearch = e.target.value;
+                renderCards(currentFilter, currentSearch);
             });
         });
     </script>
